@@ -2602,5 +2602,89 @@
         "target": "Voltage",
         "color": "Green",
         "type": "Genetically encoded voltage indicator (GEVI)"
+    },
+    {
+        "title": "Live-cell imaging unveils distinct R-loop populations with heterogeneous dynamics.",
+        "abstract": "We have developed RHINO, a genetically encoded sensor that selectively binds RNA:DNA hybrids enabling live-cell imaging of cellular R-loops. RHINO comprises a tandem array of three copies of the RNA:DNA hybrid binding domain of human RNase H1 connected by optimized linker segments and fused to a fluorescent protein. This tool allows the measurement of R-loop abundance and dynamics in live cells with high specificity and sensitivity. Using RHINO, we provide a kinetic framework for R-loops at nucleoli, telomeres and protein-coding genes. Our findings demonstrate that R-loop dynamics vary significantly across these regions, potentially reflecting the distinct roles R-loops play in different chromosomal contexts. RHINO is a powerful tool for investigating the role of R-loops in cellular processes and their contribution to disease development and progression.",
+        "doi": "https://doi.org/10.1093/nar/gkad812",
+        "journal": "Nucleic acids research",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "RHINO",
+        "target": "RNA:DNA hybrids",
+        "color": "Fluorescent",
+        "type": "Genetically encoded sensor"
+    },
+    {
+        "title": "Apollo-NADP<sup>+</sup> reveals in vivo adaptation of NADPH/NADP<sup>+</sup> metabolism in electrically activated pancreatic β cells.",
+        "abstract": "Several genetically encoded sensors have been developed to study live cell NADPH/NADP<sup>+</sup> dynamics, but their use has been predominantly in vitro. Here, we developed an in vivo assay using the Apollo-NADP<sup>+</sup> sensor and microfluidic devices to measure endogenous NADPH/NADP<sup>+</sup> dynamics in the pancreatic β cells of live zebrafish embryos. Flux through the pentose phosphate pathway, the main source of NADPH in many cell types, has been reported to be low in β cells. Thus, it is unclear how these cells compensate to meet NADPH demands. Using our assay, we show that pyruvate cycling is the main source of NADP<sup>+</sup> reduction in β cells, with contributions from folate cycling after acute electrical activation. INS1E β cells also showed a stress-induced increase in folate cycling and further suggested that this cycling requires both increased glycolytic intermediates and cytosolic NAD<sup>+</sup>. Overall, we show in vivo application of the Apollo-NADP<sup>+</sup> sensor and reveal that β cells are capable of adapting NADPH/NADP<sup>+</sup> redox during stress.",
+        "doi": "https://doi.org/10.1126/sciadv.adi8317",
+        "journal": "Science advances",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "Apollo-NADP<sup>+</sup>",
+        "target": "NADPH/NADP<sup>+</sup>",
+        "color": "Fluorescent",
+        "type": "Genetically Encoded Sensor"
+    },
+    {
+        "title": "High resolution spatial investigation of intracellular oxygen in muscle cells.",
+        "abstract": "Molecular oxygen (O <sub>2</sub> ) is one of the most functionally relevant metabolites. O <sub>2</sub> is essential for mito-chondrial aerobic respiration. Changes in O <sub>2</sub> affect muscle metabolism and play a critical role in the maintenance of skeletal muscle mass, with lack of sufficient O <sub>2</sub> resulting in detrimental loss of muscle mass and function. How exactly O <sub>2</sub> is used by muscle cells is less known, mainly due to the lack of tools to address O <sub>2</sub> dynamics at the cellular level. Here we discuss a new imaging method for the real time quantification of intracellular O <sub>2</sub> in muscle cells based on a genetically encoded O <sub>2</sub> -responsive sensor, Myoglobin-mCherry. We show that we can spatially resolve and quantify intracellular O <sub>2</sub> concentration in single muscle cells and that the spatiotemporal O <sub>2</sub> gradient measured by the sensor is linked to, and reflects, functional metabolic changes occurring during the process of muscle differentiation. Real time quantitation of intracellular oxygen with spatial resolutionIdentification of metabolically active sites in single cellsOxygen metabolism is linked to muscle differentiation.",
+        "doi": "https://doi.org/10.1101/2023.07.18.548845",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "Myoglobin-mCherry",
+        "target": "Oxygen",
+        "color": "Fluorescent",
+        "type": "Genetically Encoded Sensor"
+    },
+    {
+        "title": "Probing macromolecular crowding at the lipid membrane interface with genetically-encoded sensors.",
+        "abstract": "Biochemical processes within the living cell occur in a highly crowded environment, where macromolecules, first of all proteins and nucleic acids, occupy up to 30% of the volume. The phenomenon of macromolecular crowding is not an exclusive feature of the cytoplasm and can be observed in the densely protein-packed, nonhomogeneous cellular membranes and at the membrane interfaces. Crowding affects diffusional and conformational dynamics of proteins within the lipid bilayer, alters kinetic and thermodynamic properties of biochemical reactions, and modulates the membrane organization. Despite its importance, the non-invasive quantification of the membrane crowding is not trivial. Here, we developed a genetically-encoded fluorescence-based sensor for probing the macromolecular crowding at the membrane interfaces. Two sensor variants, both composed of fluorescent proteins and a membrane anchor, but differing by flexible linker domains were characterized in vitro, and the procedures for the membrane reconstitution were established. Steric pressure induced by membrane-tethered synthetic and protein crowders altered the sensors' conformation, causing increase in the intramolecular Förster's resonance energy transfer. Notably, the effect of protein crowders only weakly correlated with their molecular weight, suggesting that other factors, such as shape and charge contribute to the crowding via the quinary interactions. Finally, measurements performed in inner membrane vesicles of Escherichia coli validated the crowding-dependent dynamics of the sensors in the physiologically relevant environment. The sensors offer broad opportunities to study interfacial crowding in a complex environment of native membranes, and thus add to the toolbox of methods for studying membrane dynamics and proteostasis.",
+        "doi": "https://doi.org/10.1002/pro.4797",
+        "journal": "Protein science : a publication of the Protein Society",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "Genetically-encoded fluorescence-based sensor",
+        "target": "Macromolecular crowding at the membrane interfaces",
+        "color": "Fluorescent",
+        "type": "Fluorescence-based sensor"
+    },
+    {
+        "title": "Distinct sub-second dopamine signaling in dorsolateral striatum measured by a genetically-encoded fluorescent sensor.",
+        "abstract": "The development of genetically encoded dopamine sensors such as dLight has provided a new approach to measuring slow and fast dopamine dynamics both in brain slices and in vivo, possibly enabling dopamine measurements in areas like the dorsolateral striatum (DLS) where previously such recordings with fast-scan cyclic voltammetry (FSCV) were difficult. To test this, we first evaluated dLight photometry in mouse brain slices with simultaneous FSCV and found that both techniques yielded comparable results, but notable differences in responses to dopamine transporter inhibitors, including cocaine. We then used in vivo fiber photometry with dLight in mice to examine responses to cocaine in DLS. We also compared dopamine responses during Pavlovian conditioning across the striatum. We show that dopamine increases were readily detectable in DLS and describe transient dopamine kinetics, as well as slowly developing signals during conditioning. Overall, our findings indicate that dLight photometry is well suited to measuring dopamine dynamics in DLS.",
+        "doi": "https://doi.org/10.1038/s41467-023-41581-3",
+        "journal": "Nature communications",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "dLight",
+        "target": "dopamine",
+        "color": "fluorescent",
+        "type": "genetically encoded fluorescent sensor"
+    },
+    {
+        "title": "A genetically-encoded biosensor for direct detection of perfluorooctanoic acid.",
+        "abstract": "Determination of per- and polyfluoroalkyl substances (PFAS) in drinking water at the low levels set by regulatory officials has been a major focus for sensor developing researchers. However, it is becoming more apparent that detection of these contaminants in soils, foods and consumer products is relevant and necessary at part per billion and even part per million levels. Here, a fluorescent biosensor for the rapid detection of PFOA was engineered based on human liver fatty acid binding protein (hLFABP). By conjugating circularly permuted green fluorescent protein (cp.GFP) to a split hLFABP construct, the biosensor was able to detect perfluorooctanoic acid PFOA in PBS as well as environmental water samples with LODs of 236 and 330 ppb respectively. Furthermore, E. coli cells cytosolically expressing the protein-based sensor were demonstrated to quickly detect PFOA, demonstrating feasibility of whole-cell sensing. Overall, this work demonstrates a platform technology utilizing a circularly permuted GFP and split hLFABP conjugate as a label-free optical biosensor for PFOA.",
+        "doi": "https://doi.org/10.1038/s41598-023-41953-1",
+        "journal": "Scientific reports",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "Fluorescent biosensor for PFOA",
+        "target": "Perfluorooctanoic acid (PFOA)",
+        "color": "Green",
+        "type": "Genetically-encoded fluorescent biosensor"
+    },
+    {
+        "title": "Genetically Encoded RNA Sensors for Ratiometric and Multiplexed Imaging of Small Molecules in Living Cells.",
+        "abstract": "Genetically encoded sensors afford powerful tools for studying small molecules and metabolites in live cells. However, genetically encoded sensors with a general design remain to be developed. Here we develop genetically encoded RNA sensors with a modular design for ratiometric and multiplexed imaging of small molecules in live cells. The sensor utilizes aptazyme as a recognition module and the light-up RNA aptamer as a signal reporter. The conformation of light-up aptamers is abrogated by a blocking sequence, and aptazyme-mediated cleavage restores the correct conformation, delivering activated fluorescence for small molecule imaging. We first developed a genetically encoded ratiometric sensor using Mango aptamer as a reference and SRB2 as a reporter. It is shown that the sensor allows quantitative imaging and detection of theophylline in live cells. The generality of the design is further demonstrated for imaging other small molecules by replacing the aptazymes. Its ability for multiplexed imaging of small molecules is further explored via the integration of different small-molecule responsive aptazymes and light-up RNA aptamers. This modular design could offer a versatile platform for imaging diverse molecules in living cells.",
+        "doi": "https://doi.org/10.1021/acs.analchem.3c03027",
+        "journal": "Analytical chemistry",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "Genetically encoded RNA sensors",
+        "target": "Small molecules",
+        "color": "Fluorescent",
+        "type": "Ratiometric and multiplexed imaging"
     }
 ]
