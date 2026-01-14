@@ -5746,5 +5746,53 @@
         "target": "cysteine",
         "color": "fluorescent",
         "type": "genetically encoded nanosensor"
+    },
+    {
+        "title": "Covalently Tethered Rhodamine Voltage Reporters for High Speed Functional Imaging in Brain Tissue.",
+        "abstract": "Voltage-sensitive fluorophores enable the direct visualization of membrane potential changes in living systems. To pair the speed and sensitivity of chemically synthesized fluorescent indicators with cell-type specific genetic methods, we here develop Rhodamine-based Voltage Reporters (RhoVR) that can be covalently tethered to genetically encoded, self-labeling enzymes. These chemical-genetic hybrids feature a photoinduced electron transfer triggered RhoVR voltage-sensitive indicator coupled to a chloroalkane HaloTag ligand through a long, water-soluble polyethylene glycol linker (RhoVR-Halo). When applied to cells, RhoVR-Halo dyes selectively and covalently bind to surface-expressed HaloTag enzyme on genetically modified cells. RhoVR-Halo dyes maintain high voltage sensitivities-up to 34% Δ<i>F</i>/<i>F</i> per 100 mV-and fast response times typical of untargeted RhoVRs, while gaining the selectivity of genetically encodable voltage indicators. We show that RhoVR-Halos can record action potentials in single trials from cultured rat hippocampal neurons and can be used in concert with green-fluorescent Ca<sup>2+</sup> indicators like GCaMP to provide simultaneous voltage and Ca<sup>2+</sup> imaging. In a brain slice, RhoVR-Halos provide exquisite labeling of defined cells and can be imaged using epifluorescence, confocal, or two-photon microscopy. Using high-speed epifluorescence microscopy, RhoVR-Halos provide a read-out of action potentials from labeled cortical neurons in a rat brain slice, without the need for trial averaging. These results demonstrate the potential of hybrid chemical-genetic voltage indicators to combine the optical performance of small-molecule chromophores with the inherent selectivity of genetically encodable systems, permitting imaging modalities inaccessible to either technique individually.",
+        "doi": "https://doi.org/10.1021/jacs.9b12265",
+        "journal": "Journal of the American Chemical Society",
+        "date": "2020",
+        "is_new": true,
+        "probe_name": "RhoVR-Halo",
+        "target": "Genetically encoded, self-labeling enzymes (HaloTag)",
+        "color": "Rhodamine-based",
+        "type": "Voltage-sensitive fluorophore"
+    },
+    {
+        "title": "Human induced pluripotent stem cell line with genetically encoded fluorescent voltage indicator generated via CRISPR for action potential assessment post-cardiogenesis.",
+        "abstract": "Genetically encoded fluorescent voltage indicators, such as ArcLight, have been used to report action potentials (APs) in human induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs). However, the ArcLight expression, in all cases, relied on a high number of lentiviral vector-mediated random genome integrations (8-12 copy/cell), raising concerns such as gene disruption and alteration of global and local gene expression, as well as loss or silencing of reporter genes after differentiation. Here, we report the use of clustered regularly interspaced short palindromic repeats (CRISPR)/Cas9 nuclease technique to develop a hiPSC line stably expressing ArcLight from the AAVS1 safe harbor locus. The hiPSC line retained proliferative ability with a growth rate similar to its parental strain. Optical recording with conventional epifluorescence microscopy allowed the detection of APs as early as 21 days postdifferentiation, and could be repeatedly monitored for at least 5 months. Moreover, quantification and analysis of the APs of ArcLight-CMs identified two distinctive subtypes: a group with high frequency of spontaneous APs of small amplitudes that were pacemaker-like CMs and a group with low frequency of automaticity and large amplitudes that resembled the working CMs. Compared with FluoVolt voltage-sensitive dye, although dimmer, the ArcLight reporter exhibited better optical performance in terms of phototoxicity and photostability with comparable sensitivities and signal-to-noise ratios. The hiPSC line with targeted ArcLight engineering design represents a useful tool for studying cardiac development or hiPSC-derived cardiac disease models and drug testing.",
+        "doi": "https://doi.org/10.1002/stem.3085",
+        "journal": "Stem cells (Dayton, Ohio)",
+        "date": "2020",
+        "is_new": true,
+        "probe_name": "ArcLight",
+        "target": "Action Potentials",
+        "color": "Fluorescent",
+        "type": "Genetically Encoded Voltage Indicator"
+    },
+    {
+        "title": "CLARITY analysis of the Cl/pH sensor expression in the brain of transgenic mice.",
+        "abstract": "Genetically encoded biosensors are widely used in cell biology for the non-invasive imaging of concentrations of ions or the activity of enzymes, to evaluate the distribution of small molecules, proteins and organelles, and to image protein interactions in living cells. These fluorescent molecules can be used either by transient expression in cultured cells or in entire organisms or through stable expression by producing transgenic animals characterized by genetically encoded and heritable biosensors. Using the mouse Thy1 mini-promoter, we generated a line of transgenic mice expressing a genetically encoded sensor for the simultaneous measurements of intracellular Cl<sup>-</sup> and pH. This construct, called ClopHensor, consists of a H<sup>+</sup>- and Cl<sup>-</sup>-sensitive variant of the enhanced green fluorescent protein (E<sup>2</sup>GFP) fused with a red fluorescent protein (DsRedm). Stimulation of hippocampal Schaffer collaterals proved that the sensor is functionally active. To reveal the expression pattern of ClopHensor across the brain of Thy1::ClopHensor mice, we obtained transparent brain samples using the CLARITY method and imaged them with confocal and light-sheet microscopy. We then developed a semi-quantitative approach to identify brain structures with high intrinsic sensor fluorescence. This approach allowed us to assess cell morphology and track axonal projection, as well as to confirm E<sup>2</sup>GFP and DsRedm fluorescence colocalization. This analysis also provides a map of the brain areas suitable for non-invasive monitoring of intracellular Cl<sup>-</sup>/pH in normal and pathological conditions. This article is part of a Special Issue entitled: Honoring Ricardo Miledi - outstanding neuroscientist of XX-XXI centuries.",
+        "doi": "https://doi.org/10.1016/j.neuroscience.2019.07.010",
+        "journal": "Neuroscience",
+        "date": "2020",
+        "is_new": true,
+        "probe_name": "ClopHensor",
+        "target": "Intracellular Cl<sup>-</sup> and pH",
+        "color": "Green and Red",
+        "type": "Genetically encoded biosensor"
+    },
+    {
+        "title": "Confocal and multiphoton calcium imaging of the enteric nervous system in anesthetized mice.",
+        "abstract": "Most imaging studies of the enteric nervous system (ENS) that regulates the function of the gastrointestinal tract are so far performed using preparations isolated from animals, thus hindering the understanding of the ENS function in vivo. Here we report a method for imaging the ENS cellular network activity in living mice using a new transgenic mouse line that co-expresses G-CaMP6 and mCherry in the ENS combined with the suction-mediated stabilization of intestinal movements. With confocal or two-photon imaging, our method can visualize spontaneous and pharmacologically-evoked ENS network activity in living animals at cellular and subcellular resolutions, demonstrating the potential usefulness for studies of the ENS function in health and disease.",
+        "doi": "https://doi.org/10.1016/j.neures.2019.02.004",
+        "journal": "Neuroscience research",
+        "date": "2020",
+        "is_new": true,
+        "probe_name": "G-CaMP6",
+        "target": "Calcium",
+        "color": "Fluorescent",
+        "type": "Genetically Encoded Fluorescent Sensor"
     }
 ]
