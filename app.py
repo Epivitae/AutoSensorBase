@@ -3,6 +3,7 @@ import pandas as pd
 import json
 import os
 import datetime
+import time
 import requests
 from github import Github
 from Bio import Entrez
@@ -18,11 +19,11 @@ st.set_page_config(
 GITHUB_TOKEN = st.secrets.get("GITHUB_TOKEN")
 REPO_NAME = st.secrets.get("GITHUB_REPO")
 ADMIN_PWD = st.secrets.get("ADMIN_PASSWORD")
-ZHIPU_API_KEY = st.secrets.get("ZHIPU_API_KEY") # 新增
+ZHIPU_API_KEY = st.secrets.get("ZHIPU_API_KEY") 
 DATA_FILE = "processed_probes.json"
 
 # 初始化 Biopython
-Entrez.email = "wangk@ion.ac.cn" # 建议换成你的邮箱
+Entrez.email = "wangk@ion.ac.cn" 
 
 # ================= 2. 核心功能函数 =================
 
@@ -59,6 +60,9 @@ def fetch_pubmed_metadata(doi):
         data = Entrez.read(fetch_handle)
         fetch_handle.close()
         
+        if not data['PubmedArticle']:
+             return None, "No article details found."
+
         article = data['PubmedArticle'][0]['MedlineCitation']['Article']
         
         # 提取字段
@@ -69,26 +73,30 @@ def fetch_pubmed_metadata(doi):
         abstract_list = article.get('Abstract', {}).get('AbstractText', [])
         abstract = " ".join(abstract_list) if isinstance(abstract_list, list) else str(abstract_list)
         
+        # === 🔧 修复点：自动补全 DOI 链接 ===
+        final_doi = doi.strip()
+        if not final_doi.startswith("http"):
+            final_doi = f"https://doi.org/{final_doi}"
+
         return {
             "title": title,
             "journal": journal,
             "date": year,
             "abstract": abstract,
-            "doi": doi  # 保持输入的 DOI
+            "doi": final_doi # 现在是完整的 URL
         }, None
         
     except Exception as e:
         return None, str(e)
 
 def ai_extract_attributes(abstract):
-    """强制 AI 从摘要中提取属性 (不判断真伪，只提取)"""
+    """强制 AI 从摘要中提取属性"""
     if not ZHIPU_API_KEY:
         return {"target": "Manual", "color": "Other", "type": "Manual"}
 
     url = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
     headers = {"Authorization": f"Bearer {ZHIPU_API_KEY}", "Content-Type": "application/json"}
     
-    # 提示词：假设它就是探针，只管提取
     prompt = f"""
     Read this abstract and extract the fluorescent sensor's attributes.
     Abstract: {abstract}
@@ -200,7 +208,7 @@ def extract_years(data):
     except:
         return "2021", datetime.datetime.now().year
 
-# ================= 5. 增强版管理员面板 (核心修改) =================
+# ================= 5. 管理员面板 (Smart Add) =================
 def render_admin_panel(current_data):
     with st.sidebar:
         st.markdown("---")
@@ -208,7 +216,6 @@ def render_admin_panel(current_data):
         
         with st.expander("✨ Smart Add Probe", expanded=True):
             with st.form("smart_add_form"):
-                # 输入区
                 input_doi = st.text_input("1. DOI (Required)", placeholder="e.g. 10.1038/s41592-024-02202-x")
                 input_name = st.text_input("2. Probe Name (Required)", placeholder="e.g. GCaMP8")
                 
@@ -230,15 +237,15 @@ def render_admin_panel(current_data):
                         else:
                             status_msg.info("🧠 AI Extracting Attributes...")
                             
-                            # 2. AI 提取属性 (Target/Color/Type)
+                            # 2. AI 提取属性
                             ai_attrs = ai_extract_attributes(meta_data['abstract'])
                             
                             # 3. 合并数据
                             new_entry = {
                                 "probe_name": input_name,
-                                "is_new": True,  # 手动添加的默认为 New
-                                **meta_data,     # 包含 title, journal, date, abstract, doi
-                                **ai_attrs       # 包含 target, color, type
+                                "is_new": True,
+                                **meta_data,
+                                **ai_attrs
                             }
                             
                             # 4. 保存
