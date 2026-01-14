@@ -1,5 +1,17 @@
 [
     {
+        "probe_name": "CaBLAM",
+        "is_new": true,
+        "title": "CaBLAM: a high-contrast bioluminescent Ca<sup>2+</sup> indicator derived from an engineered Oplophorus gracilirostris luciferase.",
+        "journal": "Nature methods",
+        "date": "2026",
+        "abstract": "Monitoring intracellular calcium is central to understanding cell signaling across nearly all cell types and organisms. Fluorescent genetically encoded calcium indicators (GECIs) remain the standard tools for in vivo calcium imaging, but require intense excitation light, leading to photobleaching, background autofluorescence and phototoxicity. Bioluminescent GECIs, which generate light enzymatically, eliminate these artifacts but have been constrained by low dynamic range and suboptimal calcium affinities. Here we show that CaBLAM ('calcium bioluminescence activity monitor'), an engineered bioluminescent calcium indicator, achieves an order-of-magnitude improvement in signal contrast and a tunable affinity matched to physiological cytosolic calcium. CaBLAM enables single-cell and subcellular activity imaging at video frame rates in cultured neurons and sustained imaging over hours in awake, behaving animals. These capabilities establish CaBLAM as a robust and general alternative to fluorescent GECIs, extending calcium imaging to regimes where excitation light is undesirable or infeasible.",
+        "doi": "10.1038/s41592-025-02972-0",
+        "target": "Calcium",
+        "color": "Unknown",
+        "type": "Bioluminescent GECI"
+    },
+    {
         "probe_name": "GEMcppu",
         "target": "cppu",
         "color": "Green",
