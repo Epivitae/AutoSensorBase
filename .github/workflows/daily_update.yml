@@ -1,0 +1,37 @@
+name: Daily Auto-Update
+
+on:
+  schedule:
+    - cron: '0 22 * * *' # 每天 UTC 22:00 (北京时间早上 6:00) 运行
+  workflow_dispatch: # 允许你手动点击按钮运行
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # 必须给写权限，否则无法提交 json
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run update script
+        env:
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+        run: python update_daily.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "GitHub Action Bot"
+          git config --global user.email "action@github.com"
+          git add processed_probes.json
+          # 如果文件没变，就不提交，防止报错
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update: New probes found" && git push)
