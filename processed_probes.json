@@ -4174,5 +4174,17 @@
         "target": "Ca<sup>++</sup>",
         "color": "Not specified",
         "type": "Bioluminescent GECI"
+    },
+    {
+        "title": "A fluorescent sensor for spatiotemporally resolved imaging of endocannabinoid dynamics in vivo.",
+        "abstract": "Endocannabinoids (eCBs) are retrograde neuromodulators with important functions in a wide range of physiological processes, but their in vivo dynamics remain largely uncharacterized. Here we developed a genetically encoded eCB sensor called GRAB<sub>eCB2.0</sub>. GRAB<sub>eCB2.0</sub> consists of a circular-permutated EGFP and the human CB1 cannabinoid receptor, providing cell membrane trafficking, second-resolution kinetics with high specificity for eCBs, and shows a robust fluorescence response at physiological eCB concentrations. Using GRAB<sub>eCB2.0</sub>, we monitored evoked and spontaneous changes in eCB dynamics in cultured neurons and acute brain slices. We observed spontaneous compartmentalized eCB transients in cultured neurons and eCB transients from single axonal boutons in acute brain slices, suggesting constrained, localized eCB signaling. When GRAB<sub>eCB2.0</sub> was expressed in the mouse brain, we observed foot shock-elicited and running-triggered eCB signaling in the basolateral amygdala and hippocampus, respectively. In a mouse model of epilepsy, we observed a spreading wave of eCB release that followed a Ca<sup>2+</sup> wave through the hippocampus. GRAB<sub>eCB2.0</sub> is a robust probe for eCB release in vivo.",
+        "doi": "https://doi.org/10.1038/s41587-021-01074-4",
+        "journal": "Nature biotechnology",
+        "date": "2022",
+        "is_new": true,
+        "probe_name": "GRAB<sub>eCB2.0</sub>",
+        "target": "Endocannabinoids (eCBs)",
+        "color": "Fluorescent (EGFP)",
+        "type": "Genetically encoded fluorescent sensor"
     }
 ]
