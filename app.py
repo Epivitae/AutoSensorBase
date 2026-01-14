@@ -12,7 +12,7 @@ st.set_page_config(
     layout="wide"
 )
 
-# 读取 Secrets (云端配置)
+# 读取 Secrets
 GITHUB_TOKEN = st.secrets.get("GITHUB_TOKEN")
 REPO_NAME = st.secrets.get("GITHUB_REPO")
 ADMIN_PWD = st.secrets.get("ADMIN_PASSWORD")
@@ -157,15 +157,13 @@ def render_admin_panel(current_data):
                     if update_github_data(current_data):
                         st.success("Added!"); st.rerun()
 
-# ================= 7. 渲染组件 =================
+# ================= 7. 渲染组件 (修复了重复ID问题) =================
 
-def render_sidebar(data, theme):
+def render_sidebar_content(data, theme):
+    """
+    这里只渲染除了标题和Toggle之外的内容
+    """
     with st.sidebar:
-        st.title("Auto Sensor Base")
-        st.caption("Automated Tracking System")
-        
-        # 模式切换
-        is_light = st.toggle("🌞 Light Mode / 🌜 Dark", value=False)
         st.markdown("<br>", unsafe_allow_html=True)
 
         if data:
@@ -196,7 +194,7 @@ def render_sidebar(data, theme):
         </div>
         """, unsafe_allow_html=True)
         
-        # === 🔐 管理员登录 (最关键的部分) ===
+        # === 🔐 管理员登录 ===
         st.markdown("<br>", unsafe_allow_html=True)
         is_admin = False
         with st.expander("🔐 Admin Login"):
@@ -205,7 +203,7 @@ def render_sidebar(data, theme):
                 is_admin = True
                 st.success("Mode: Admin")
         
-        # 底部品牌 Footer
+        # 底部 Footer
         st.markdown(f"""
         <div style='margin-top: 40px; padding-top: 20px; border-top: 1px solid {theme['border_color']}; text-align: center;'>
             <div style='font-weight: 600; font-size: 0.9rem; margin-bottom: 4px; color: {theme['text_sidebar']};'>Chimera Nano Sensor Team</div>
@@ -216,7 +214,7 @@ def render_sidebar(data, theme):
         </div>
         """, unsafe_allow_html=True)
         
-        return is_light, filtered, is_admin
+        return filtered, is_admin
 
 def render_main_feed(data, theme, is_admin):
     st.header("🚀 Latest Probes")
@@ -225,7 +223,6 @@ def render_main_feed(data, theme, is_admin):
         st.info("No data available.")
         return
 
-    # 简单排序
     data.sort(key=lambda x: str(x.get('date', '0')), reverse=True)
 
     for index, row in enumerate(data):
@@ -252,10 +249,9 @@ def render_main_feed(data, theme, is_admin):
             with c3:
                 st.markdown("<div style='height: 6px'></div>", unsafe_allow_html=True)
                 
-                # === 按钮逻辑：管理员显示删除，普通人显示阅读 ===
                 if is_admin:
                     if st.button("🗑️ Delete", key=f"del_{index}", type="primary", use_container_width=True):
-                        data.pop(index) # 删除该条
+                        data.pop(index)
                         if update_github_data(data):
                             st.success("Deleted!"); st.rerun()
                 else:
@@ -272,30 +268,27 @@ def main():
     # 1. 加载数据
     data_list = load_data()
     
-    # 2. 渲染 Sidebar 并获取状态 (包括是否管理员)
-    # 我们先临时获取 theme 来渲染 sidebar
-    temp_theme = get_theme_config(False) 
-    
-    # 重新组织：为了让 toggle 决定 theme，我们需要先渲染 toggle
-    # 但 sidebar 的其他内容需要 theme。
-    # 解决方案：分两步渲染 Sidebar
-    
+    # 2. 先在 Main 里渲染 Sidebar 的头部 (标题和开关)
+    # 这样可以尽早拿到 is_light 状态来配置 CSS
     with st.sidebar:
-        # Step 1: 只有 Toggle
-        is_light = st.toggle("🌞 Light Mode / 🌜 Dark", value=False)
-    
-    # 获取真实 Theme
+        st.title("Auto Sensor Base")
+        st.caption("Automated Tracking System")
+        # 加上 key 也是个好习惯，防止任何潜在ID冲突
+        is_light = st.toggle("🌞 Light Mode / 🌜 Dark", value=False, key="theme_toggle")
+
+    # 3. 配置主题
     theme_config = get_theme_config(is_light)
     inject_custom_css(theme_config)
     
-    # Step 2: 渲染 Sidebar 剩余部分 (Filters, Stats, Admin, Footer)
-    _, filtered_data, is_admin = render_sidebar(data_list, theme_config)
+    # 4. 渲染 Sidebar 剩余部分 (筛选器、管理员登录、Footer)
+    # 注意：这里调用的是 render_sidebar_content，不再包含 toggle
+    filtered_data, is_admin = render_sidebar_content(data_list, theme_config)
     
-    # 3. 如果是管理员，额外显示添加面板
+    # 5. 如果是管理员，显示添加面板
     if is_admin:
         render_admin_panel(data_list)
     
-    # 4. 渲染主列表
+    # 6. 渲染主列表
     render_main_feed(filtered_data, theme_config, is_admin)
 
 if __name__ == "__main__":
