@@ -1,15 +1,15 @@
 [
     {
-        "title": "[Development of fluorescence lifetime imaging-based biosensors for quantitative visualization].",
-        "abstract": "Fluorescent biosensors have become essential tools in life sciences, enabling the visualization of the spatiotemporal dynamics of signaling molecules at the cellular level. In particular, intensity-based sensors-where changes in the concentrations of signaling molecules are detected as changes in fluorescence intensity-are widely used due to their versatility. However, such sensors are often affected by several factors, including variations in biosensor concentration, photobleaching, optical path settings, and focus drift, which hamper quantitative analysis. To overcome these challenges, we have been developing fluorescence lifetime imaging microscopy (FLIM)-based biosensors that utilize fluorescence lifetime-a parameter independent of probe concentration and imaging conditions-as a robust and reliable readout. Our research has focused on the quantitative visualization of physiological parameters, particularly those relevant to skeletal muscle homeostasis and ion channel activity. One example is a small-molecule fluorescent temperature sensor designed to quantify temperature changes in subcellular compartments. This sensor, based on an organic dye, enables targeting to organelle membranes and provides high spatial resolution, allowing precise detection of local heat production, such as that occurring in the mitochondria of brown adipocytes. In parallel, we have developed genetically encoded fluorescent protein-based sensors that correlate fluorescence lifetime values with the concentrations of signaling molecules such as ATP. These sensors have enabled the quantitative imaging of ATP dynamics in various cell types and multicellular systems. Furthermore, we are constructing a flexible sensor development platform, paving the way for the creation of diverse biosensors that can contribute to comprehensive studies in muscle physiology.",
-        "doi": "https://doi.org/10.1254/fpj.25044",
-        "journal": "Nihon yakurigaku zasshi. Folia pharmacologica Japonica",
+        "title": "CaBLAM: a high-contrast bioluminescent Ca<sup>2+</sup> indicator derived from an engineered Oplophorus gracilirostris luciferase.",
+        "abstract": "Monitoring intracellular calcium is central to understanding cell signaling across nearly all cell types and organisms. Fluorescent genetically encoded calcium indicators (GECIs) remain the standard tools for in vivo calcium imaging, but require intense excitation light, leading to photobleaching, background autofluorescence and phototoxicity. Bioluminescent GECIs, which generate light enzymatically, eliminate these artifacts but have been constrained by low dynamic range and suboptimal calcium affinities. Here we show that CaBLAM ('calcium bioluminescence activity monitor'), an engineered bioluminescent calcium indicator, achieves an order-of-magnitude improvement in signal contrast and a tunable affinity matched to physiological cytosolic calcium. CaBLAM enables single-cell and subcellular activity imaging at video frame rates in cultured neurons and sustained imaging over hours in awake, behaving animals. These capabilities establish CaBLAM as a robust and general alternative to fluorescent GECIs, extending calcium imaging to regimes where excitation light is undesirable or infeasible.",
+        "doi": "https://doi.org/10.1038/s41592-025-02972-0",
+        "journal": "Nature methods",
         "date": "2026",
         "is_new": true,
-        "probe_name": "Genetically Encoded Fluorescent Protein Sensor",
-        "target": "ATP",
-        "color": "Fluorescent",
-        "type": "Genetically Encoded"
+        "probe_name": "CaBLAM",
+        "target": "Calcium",
+        "color": "Bioluminescent",
+        "type": "Bioluminescent GECI"
     },
     {
         "title": "Mitochondrial calcium shapes B cell signaling and mitochondrial function.",
@@ -94,18 +94,6 @@
         "target": "mitochondrial oxidative stress",
         "color": "Fluorescent",
         "type": "Fluorogenic probe"
-    },
-    {
-        "title": "CaBLAM: a high-contrast bioluminescent Ca<sup>2+</sup> indicator derived from an engineered Oplophorus gracilirostris luciferase.",
-        "abstract": "Monitoring intracellular calcium is central to understanding cell signaling across nearly all cell types and organisms. Fluorescent genetically encoded calcium indicators (GECIs) remain the standard tools for in vivo calcium imaging, but require intense excitation light, leading to photobleaching, background autofluorescence and phototoxicity. Bioluminescent GECIs, which generate light enzymatically, eliminate these artifacts but have been constrained by low dynamic range and suboptimal calcium affinities. Here we show that CaBLAM ('calcium bioluminescence activity monitor'), an engineered bioluminescent calcium indicator, achieves an order-of-magnitude improvement in signal contrast and a tunable affinity matched to physiological cytosolic calcium. CaBLAM enables single-cell and subcellular activity imaging at video frame rates in cultured neurons and sustained imaging over hours in awake, behaving animals. These capabilities establish CaBLAM as a robust and general alternative to fluorescent GECIs, extending calcium imaging to regimes where excitation light is undesirable or infeasible.",
-        "doi": "https://doi.org/10.1038/s41592-025-02972-0",
-        "journal": "Nature methods",
-        "date": "2026",
-        "is_new": true,
-        "probe_name": "CaBLAM",
-        "target": "Calcium",
-        "color": "Bioluminescent",
-        "type": "Bioluminescent GECI"
     },
     {
         "title": "From Plankton to Primates: How VSP Sequence Diversity Shapes Voltage Sensing.",
@@ -1236,30 +1224,6 @@
         "type": "genetically encoded"
     },
     {
-        "title": "Directed Evolution of a Genetically Encoded Indicator for Chloride.",
-        "abstract": "Inarguably, the green fluorescent protein (GFP) family is an exemplary model for protein engineering, accessing a range of unparalleled functions and utility in biology. The first variant to recognize and provide an optical output of chloride in living cells was serendipitously uncovered more than 25 years ago. Since then, researchers have actively expanded the potential of GFP indicators for chloride through site-directed and combinatorial site-saturation mutagenesis, along with chimeragenesis. However, to date, the power of directed evolution has yet to be unleashed. As a proof-of-concept, here, we use random mutagenesis paired with anion walking to engineer a chloride-insensitive fluorescent protein named OFPxm into a functional indicator named ChlorOFF. The sampled mutational landscape unveils an evolutionary convergent solution at one position in the anion binding pocket and nine other mutations across eight positions, of which only one has been previously linked to chloride sensing potential in the GFP family.",
-        "doi": "https://doi.org/10.1101/2024.11.25.624492",
-        "journal": "bioRxiv : the preprint server for biology",
-        "date": "2024",
-        "is_new": true,
-        "probe_name": "ChlorOFF",
-        "target": "Chloride",
-        "color": "Fluorescent",
-        "type": "Genetically Encoded Sensor"
-    },
-    {
-        "title": "Calcium Indicators with Fluorescence Lifetime-Based Signal Readout: A Structure-Function Study.",
-        "abstract": "The calcium cation is a crucial signaling molecule involved in numerous cellular pathways. Beyond its role as a messenger or modulator in intracellular cascades, calcium's function in excitable cells, including nerve impulse transmission, is remarkable. The central role of calcium in nervous activity has driven the rapid development of fluorescent techniques for monitoring this cation in living cells. Specifically, genetically encoded calcium indicators (GECIs) are the most in-demand molecular tools in their class. In this work, we address two issues of calcium imaging by designing indicators based on the successful GCaMP6 backbone and the fluorescent protein BrUSLEE. The first indicator variant (GCaMP6s-BrUS), with a reduced, calcium-insensitive fluorescence lifetime, has potential in monitoring calcium dynamics with a high temporal resolution in combination with advanced microscopy techniques, such as light beads microscopy, where the fluorescence lifetime limits acquisition speed. Conversely, the second variant (GCaMP6s-BrUS-145), with a flexible, calcium-sensitive fluorescence lifetime, is relevant for static measurements, particularly for determining absolute calcium concentration values using fluorescence lifetime imaging microscopy (FLIM). To identify the structural determinants of calcium sensitivity in these indicator variants, we determine their spatial structures. A comparative structural analysis allowed the optimization of the GCaMP6s-BrUS construct, resulting in an indicator variant combining calcium-sensitive behavior in the time domain and enhanced molecular brightness. Our data may serve as a starting point for further engineering efforts towards improved GECI variants with fine-tuned fluorescence lifetimes.",
-        "doi": "https://doi.org/10.3390/ijms252312493",
-        "journal": "International journal of molecular sciences",
-        "date": "2024",
-        "is_new": true,
-        "probe_name": "GCaMP6s-BrUS",
-        "target": "Calcium",
-        "color": "Unknown",
-        "type": "Fluorescence Lifetime-Based"
-    },
-    {
         "title": "Optogenetic stimulation and simultaneous optical mapping of membrane potential and calcium transients in human engineered cardiac spheroids.",
         "abstract": "Optogenetic stimulation combined with optical mapping of membrane potential (Vm) and calcium transients (CaT) is a powerful electrophysiological tool. We developed a novel experimental platform in which tissue is stimulated optogenetically while Vm and CaT are imaged simultaneously. The Vm indicator is an organic dye, while the CaT indicator is genetically encoded. We used cardiac spheroids containing cardiomyocytes and fibroblasts differentiated from human induced pluripotent stem cells as model tissue. The spheroids were genetically encoded with an optogenetic actuator, CheRiff, and the calcium indicator jRCaMP1b. The Vm indicator was the organic dye RH237. CheRiff was excited using blue light (450 nm), and both RH237 and jRCaMP1b were excited using a single band of green light (either 525-575 nm or 558-575 nm). Fluorescence emission was split and imaged by two cameras (CaT: 595-665 nm; Vm: >700 nm). The spheroids were successfully stimulated optogenetically and Vm and CaT were recorded simultaneously without cross-talk using both excitation light bands. The 525-575 nm band produced higher signal-to-noise ratios than the 558-575 nm band, but caused a slight increase in tissue excitability because of CheRiff activation. The optogenetic actuator and CaT indicator are genetically encoded and can be expressed in engineered tissue constructs. In contrast, the Vm indicator is an organic dye that can stain any tissue. This system is well-suited for studying coupling between engineered tissue grafts and host tissue because the two tissue types can be stimulated independently, and tissue activation can be unambiguously attributed to either graft or host.",
         "doi": "https://doi.org/10.1016/j.yjmcc.2024.12.003",
@@ -1284,6 +1248,102 @@
         "type": "Calcium sensor"
     },
     {
+        "title": "Genetically encoded bioluminescent glucose indicator for biological research.",
+        "abstract": "Glucose is an essential energy source in living cells and is involved in various phenomena. To understand the roles of glucose, measuring cellular glucose levels is important. Here, we developed a bioluminescent glucose indicator called LOTUS-Glc. Unlike fluorescence, bioluminescence doesn't require excitation light when imaging. Using LOTUS-Glc, we demonstrated drug effect evaluation, concurrent use with the optogenetic tool in HEK293T cells, and the measurement of light-dependent glucose fluctuations in plant-derived protoplasts. LOTUS-Glc would be a useful tool for understanding the roles of glucose in living organisms.",
+        "doi": "https://doi.org/10.1016/j.bbrc.2024.151092",
+        "journal": "Biochemical and biophysical research communications",
+        "date": "2025",
+        "is_new": true,
+        "probe_name": "LOTUS-Glc",
+        "target": "Glucose",
+        "color": "Bioluminescent",
+        "type": "Bioluminescent Glucose Indicator"
+    },
+    {
+        "title": "GlutaR: A High-Performance Fluorescent Protein-Based Sensor for Spatiotemporal Monitoring of Glutamine Dynamics In Vivo.",
+        "abstract": "Glutamine is the most abundant amino acid in human blood and muscle, and is integral to a wide variety of functions in cancer cells. However, the inability to monitor the subcellular distribution of glutamine in real-time has obscured understanding of glutamine metabolism under physiological and pathological conditions. Here, we report the development of a genetically encoded fluorescent sensor and demonstrate how this GlnBP-cpYFP fusion \"GlutaR sensor\" undergoes glutamine-induced conformational changes reflected in detectable fluorescence responses. Obtained after iterative screening of approximately 1,600 variants, GlutaR exhibits a ratiometric readout, fast response kinetics, and high responsivity (R<sub>488/405</sub> of ~1000 %), and we demonstrate its selectivity for monitoring glutamine fluctuations in multiple cell types. Additionally, using digitonin permeabilization of GlutaR HeLa cells, we generated a calibration curve and performed in situ titration to quantify free glutamine concentrations in subcellular compartments (cytosol, nucleus, mitochondria). Subsequently, we applied GlutaR to investigate how chemical and genetic inhibition of glutamine synthetase (GS) and glutaminase (GLS) differentially alter glutamine levels in subcellular compartments. Finally, we demonstrate GlutaR's ability to monitor dynamic glutamine levels in muscle and liver tissues of diabetic mice in vivo. These findings collectively demonstrate GlutaR as a versatile tool for the spatiotemporal characterization of glutamine metabolism in living cells and tissues.",
+        "doi": "https://doi.org/10.1002/anie.202416608",
+        "journal": "Angewandte Chemie (International ed. in English)",
+        "date": "2025",
+        "is_new": true,
+        "probe_name": "GlutaR",
+        "target": "Glutamine",
+        "color": "Fluorescent",
+        "type": "Fluorescent Protein-Based"
+    },
+    {
+        "title": "Quantitative dynamics of intracellular NMN by genetically encoded biosensor.",
+        "abstract": "Nicotinamide mononucleotide (NMN) is the direct precursor and a major booster of NAD<sup>+</sup> with increasing applications in NAD<sup>+</sup>- and aging-related pathologies. However, measuring live cell NMN dynamics was not possible, leaving key questions in NMN uptake and intracellular regulation unanswered. Here we developed genetically encoded bioluminescent and fluorescent sensors to quantify subcellular NMN in live cells by engineering specific NMN-responsive protein scaffolds fused to luciferase and fluorescent proteins. The sensor dissected the multimechanistic uptake of exogenous NMN and nicotinamide riboside (NR) in live cells and further measured the NMN levels across different subcellular compartments, as well as the perturbed NMN/NAD<sup>+</sup> ratios by external supplements. Moreover, we measured the NMN regulation by NAD(H) hydrolase Nudts and peroxisomal carrier Pxmp2 and identified Slc25a45 as a potential mitochondrial NMN regulator for its unique fingerprint on the local NMN/NAD<sup>+</sup> ratio. Collectively, the genetically encoded sensors provide a useful tool for visualizing NMN metabolism.",
+        "doi": "https://doi.org/10.1016/j.bios.2024.116842",
+        "journal": "Biosensors & bioelectronics",
+        "date": "2025",
+        "is_new": true,
+        "probe_name": "NMN biosensor",
+        "target": "Nicotinamide mononucleotide (NMN)",
+        "color": "Bioluminescent and fluorescent",
+        "type": "Genetically encoded protein scaffold-based"
+    },
+    {
+        "title": "Methods for Imaging Intracellular Calcium Signals in the Mouse Mammary Epithelium in Two and Three Dimensions.",
+        "abstract": "The mammary gland has a central role in optimal mammalian development and survival. Contractions of smooth muscle-like basal (or myoepithelial) cells in the functionally mature mammary gland in response to oxytocin are essential for milk ejection and are tightly regulated by intracellular calcium (Ca<sup>2+</sup>). Using mice expressing a genetically encoded Ca<sup>2+</sup> indicator (GCaMP6f), we present in this chapter a method to visualize at high spatiotemporal resolution changes in intracellular Ca<sup>2+</sup> in mammary epithelial cells, both in vitro (2D) and ex vivo (3D). The procedure to optimally prepare mammary tissue and primary cells is presented in detail.",
+        "doi": "https://doi.org/10.1007/978-1-0716-4164-4_15",
+        "journal": "Methods in molecular biology (Clifton, N.J.)",
+        "date": "2025",
+        "is_new": true,
+        "probe_name": "GCaMP6f",
+        "target": "Calcium",
+        "color": "Green",
+        "type": "Genetically Encoded Calcium Indicator"
+    },
+    {
+        "title": "Viral Vector Eluting Lenses for Single-Step Targeted Expression of Genetically-Encoded Activity Sensors for in Vivo Microendoscopic Calcium Imaging.",
+        "abstract": "Optical methods for studying the brain offer powerful approaches for understanding how neural activity underlies complex behavior. These methods typically rely on genetically encoded sensors and actuators to monitor and control neural activity. For microendoscopic calcium imaging, injection of a virus followed by implantation of a lens probe is required to express a calcium sensor and enable optical access to the target brain region. This two-step process poses several challenges, chief among them being the risks associated with mistargeting and/or misalignment between virus expression zone, lens probe and target brain region. Here, an adeno-associated virus (AAV)-eluting polymer coating is engineered for gradient refractive index (GRIN) lenses enabling the expression of a genetically encoded calcium indicator (GCaMP) directly within the brain region of interest upon implantation of the lens. This approach requires only one surgical step and guarantees alignment between GCaMP expression and lens in the brain. Additionally, the slow virus release from these coatings increases the working time for surgical implantation, expanding the brain regions and species amenable to this approach. These enhanced capabilities should accelerate neuroscience research utilizing optical methods and advance the understanding of the neural circuit mechanisms underlying brain function and behavior in health and disease.",
+        "doi": "https://doi.org/10.1002/mabi.202400359",
+        "journal": "Macromolecular bioscience",
+        "date": "2025",
+        "is_new": true,
+        "probe_name": "GCaMP",
+        "target": "Calcium",
+        "color": "Green",
+        "type": "Genetically Encoded Calcium Indicator"
+    },
+    {
+        "title": "CaBLAM! A high-contrast bioluminescent Ca<sup>2+</sup> indicator derived from an engineered <i>Oplophorus gracilirostris</i> luciferase.",
+        "abstract": "Measuring ongoing cellular activity is essential to understanding the dynamic functions of biological organisms. The most popular current approach is imaging fluorescence-based genetically encoded Ca<sup>2+</sup> indicators (GECIs). While fluorescent probes are useful in many contexts, bioluminescence-based GECIs-probes that generate light through oxidation of a small-molecule by a luciferase or photoprotein-have several distinct advantages. Because bioluminescent (BL) GECIs do not use the bright extrinsic excitation light required for fluorescence, BL GECIs do not photobleach, do not suffer from nonspecific autofluorescent background, and do not cause phototoxicity. Further, BL GECIs can be applied in contexts where directly shining photons on an imaging target is not possible. Despite these advantages, the use of BL GECIs has to date been limited by their small changes in bioluminescence intensity, high baseline signal at resting Ca<sup>2+</sup> concentrations, and suboptimal Ca<sup>2+</sup> affinities. Here, we describe a new BL GECI, CaBLAM (Ca<sup>2+</sup> BioLuminescence Activity Monitor), that displays much higher dynamic range than previous BL GECIs and has a Ca<sup>2+</sup> affinity suitable for capturing physiological changes in cytosolic Ca<sup>2+</sup> concentration. With these improvements, CaBLAM captures single-cell and subcellular resolution activity at high frame rates in cultured neurons and <i>in vivo</i>, and allows multi-hour recordings in mice and behaving zebrafish. This new advance provides a robust alternative to traditional fluorescent GECIs that can enable or enhance imaging across many experimental conditions.",
+        "doi": "https://doi.org/10.1101/2023.06.25.546478",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2025",
+        "is_new": true,
+        "probe_name": "CaBLAM",
+        "target": "Calcium",
+        "color": "Bioluminescent",
+        "type": "Luciferase-based"
+    },
+    {
+        "title": "Directed Evolution of a Genetically Encoded Indicator for Chloride.",
+        "abstract": "Inarguably, the green fluorescent protein (GFP) family is an exemplary model for protein engineering, accessing a range of unparalleled functions and utility in biology. The first variant to recognize and provide an optical output of chloride in living cells was serendipitously uncovered more than 25 years ago. Since then, researchers have actively expanded the potential of GFP indicators for chloride through site-directed and combinatorial site-saturation mutagenesis, along with chimeragenesis. However, to date, the power of directed evolution has yet to be unleashed. As a proof-of-concept, here, we use random mutagenesis paired with anion walking to engineer a chloride-insensitive fluorescent protein named OFPxm into a functional indicator named ChlorOFF. The sampled mutational landscape unveils an evolutionary convergent solution at one position in the anion binding pocket and nine other mutations across eight positions, of which only one has been previously linked to chloride sensing potential in the GFP family.",
+        "doi": "https://doi.org/10.1101/2024.11.25.624492",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2024",
+        "is_new": true,
+        "probe_name": "ChlorOFF",
+        "target": "Chloride",
+        "color": "Fluorescent",
+        "type": "Genetically Encoded Sensor"
+    },
+    {
+        "title": "Calcium Indicators with Fluorescence Lifetime-Based Signal Readout: A Structure-Function Study.",
+        "abstract": "The calcium cation is a crucial signaling molecule involved in numerous cellular pathways. Beyond its role as a messenger or modulator in intracellular cascades, calcium's function in excitable cells, including nerve impulse transmission, is remarkable. The central role of calcium in nervous activity has driven the rapid development of fluorescent techniques for monitoring this cation in living cells. Specifically, genetically encoded calcium indicators (GECIs) are the most in-demand molecular tools in their class. In this work, we address two issues of calcium imaging by designing indicators based on the successful GCaMP6 backbone and the fluorescent protein BrUSLEE. The first indicator variant (GCaMP6s-BrUS), with a reduced, calcium-insensitive fluorescence lifetime, has potential in monitoring calcium dynamics with a high temporal resolution in combination with advanced microscopy techniques, such as light beads microscopy, where the fluorescence lifetime limits acquisition speed. Conversely, the second variant (GCaMP6s-BrUS-145), with a flexible, calcium-sensitive fluorescence lifetime, is relevant for static measurements, particularly for determining absolute calcium concentration values using fluorescence lifetime imaging microscopy (FLIM). To identify the structural determinants of calcium sensitivity in these indicator variants, we determine their spatial structures. A comparative structural analysis allowed the optimization of the GCaMP6s-BrUS construct, resulting in an indicator variant combining calcium-sensitive behavior in the time domain and enhanced molecular brightness. Our data may serve as a starting point for further engineering efforts towards improved GECI variants with fine-tuned fluorescence lifetimes.",
+        "doi": "https://doi.org/10.3390/ijms252312493",
+        "journal": "International journal of molecular sciences",
+        "date": "2024",
+        "is_new": true,
+        "probe_name": "GCaMP6s-BrUS",
+        "target": "Calcium",
+        "color": "Unknown",
+        "type": "Fluorescence Lifetime-Based"
+    },
+    {
         "title": "Noise induces Ca2+ signaling waves and Chop/S-Xbp1 expression in the hearing cochlea.",
         "abstract": "Exposure to loud noise is a common cause of acquired hearing loss. Disruption of subcellular calcium homeostasis and downstream stress pathways in the endoplasmic reticulum and mitochondria, including the unfolded protein response (UPR), have been implicated in the pathophysiology of noise-induced hearing loss. However, studies on the association between calcium homeostasis and stress pathways have been limited due to limited ability to measure calcium dynamics in mature-hearing, noise-exposed mice. We used a genetically encoded calcium indicator mouse model in which GCaMP6f is expressed specifically in hair cells or supporting cells under control of Myo15Cre or Sox2Cre, respectively. We performed live calcium imaging and UPR gene expression analysis in 8-week-old mice exposed to levels of noise that cause cochlear synaptopathy (98 db sound pressure level [SPL]) or permanent hearing loss (106 dB SPL). UPR activation occurred immediately after noise exposure, and the pattern of UPR activation was dependent on noise level, with the proapoptotic pathway upregulated only after 106 dB noise exposure. Spontaneous calcium transients in hair cells and intercellular calcium waves in supporting cells, which are present in neonatal cochleae, were quiescent in mature-hearing cochleae but reactivated upon noise exposure. Noise exposure of 106 dB was associated with more persistent and expansive intercellular Ca2+ signaling wave activity. These findings demonstrate a strong and dose-dependent association between noise exposure, UPR activation, and changes in calcium homeostasis in hair cells and supporting cells, suggesting that targeting these pathways may be effective to develop treatments for noise-induced hearing loss.",
         "doi": "https://doi.org/10.1172/jci.insight.181783",
@@ -1306,18 +1366,6 @@
         "target": "protein dimensions (R_g and R_e)",
         "color": "not applicable",
         "type": "SAXS-based"
-    },
-    {
-        "title": "Genetically encoded bioluminescent glucose indicator for biological research.",
-        "abstract": "Glucose is an essential energy source in living cells and is involved in various phenomena. To understand the roles of glucose, measuring cellular glucose levels is important. Here, we developed a bioluminescent glucose indicator called LOTUS-Glc. Unlike fluorescence, bioluminescence doesn't require excitation light when imaging. Using LOTUS-Glc, we demonstrated drug effect evaluation, concurrent use with the optogenetic tool in HEK293T cells, and the measurement of light-dependent glucose fluctuations in plant-derived protoplasts. LOTUS-Glc would be a useful tool for understanding the roles of glucose in living organisms.",
-        "doi": "https://doi.org/10.1016/j.bbrc.2024.151092",
-        "journal": "Biochemical and biophysical research communications",
-        "date": "2025",
-        "is_new": true,
-        "probe_name": "LOTUS-Glc",
-        "target": "Glucose",
-        "color": "Bioluminescent",
-        "type": "Bioluminescent Glucose Indicator"
     },
     {
         "title": "A novel rhodopsin-based voltage indicator for simultaneous two-photon optical recording with GCaMP in vivo.",
@@ -1380,18 +1428,6 @@
         "type": "GECI-based"
     },
     {
-        "title": "GlutaR: A High-Performance Fluorescent Protein-Based Sensor for Spatiotemporal Monitoring of Glutamine Dynamics In Vivo.",
-        "abstract": "Glutamine is the most abundant amino acid in human blood and muscle, and is integral to a wide variety of functions in cancer cells. However, the inability to monitor the subcellular distribution of glutamine in real-time has obscured understanding of glutamine metabolism under physiological and pathological conditions. Here, we report the development of a genetically encoded fluorescent sensor and demonstrate how this GlnBP-cpYFP fusion \"GlutaR sensor\" undergoes glutamine-induced conformational changes reflected in detectable fluorescence responses. Obtained after iterative screening of approximately 1,600 variants, GlutaR exhibits a ratiometric readout, fast response kinetics, and high responsivity (R<sub>488/405</sub> of ~1000 %), and we demonstrate its selectivity for monitoring glutamine fluctuations in multiple cell types. Additionally, using digitonin permeabilization of GlutaR HeLa cells, we generated a calibration curve and performed in situ titration to quantify free glutamine concentrations in subcellular compartments (cytosol, nucleus, mitochondria). Subsequently, we applied GlutaR to investigate how chemical and genetic inhibition of glutamine synthetase (GS) and glutaminase (GLS) differentially alter glutamine levels in subcellular compartments. Finally, we demonstrate GlutaR's ability to monitor dynamic glutamine levels in muscle and liver tissues of diabetic mice in vivo. These findings collectively demonstrate GlutaR as a versatile tool for the spatiotemporal characterization of glutamine metabolism in living cells and tissues.",
-        "doi": "https://doi.org/10.1002/anie.202416608",
-        "journal": "Angewandte Chemie (International ed. in English)",
-        "date": "2025",
-        "is_new": true,
-        "probe_name": "GlutaR",
-        "target": "Glutamine",
-        "color": "Fluorescent",
-        "type": "Fluorescent Protein-Based"
-    },
-    {
         "title": "Decoding Insulin Secretory Granule Maturation Using Genetically Encoded pH Sensors.",
         "abstract": "Insulin is a peptide hormone secreted from pancreatic beta cells to regulate blood glucose homeostasis. Maturation of active insulin occurs within insulin secretory granules (ISG) by acidification of the lumen and enzymatic cleavage of insulin before secretion. This process is dysregulated in diabetes, and many questions remain on how the cell controls insulin maturation. We address this gap in knowledge by designing two genetically encoded fluorescence pH sensors and a fluorescence lifetime imaging and analysis pipeline to monitor the pH of individual secretory ISGs within live cells at higher resolution and precision than previously possible. We observed different subpopulations of ISGs based on their pH and subcellular localization. Signals regulating metabolism vs membrane depolarization mobilize different subpopulations of ISGs for secretion, and we confirm that maturation signals acidify ISGs. We conclude that different signaling networks uniquely impact ISG mobilization and secretion. Future applications of these tools will be useful for exploring how these processes are dysregulated in diabetes and provide new paths for developing more effective treatments.",
         "doi": "https://doi.org/10.1021/acssensors.4c01885",
@@ -1440,18 +1476,6 @@
         "type": "FRET-based"
     },
     {
-        "title": "Quantitative dynamics of intracellular NMN by genetically encoded biosensor.",
-        "abstract": "Nicotinamide mononucleotide (NMN) is the direct precursor and a major booster of NAD<sup>+</sup> with increasing applications in NAD<sup>+</sup>- and aging-related pathologies. However, measuring live cell NMN dynamics was not possible, leaving key questions in NMN uptake and intracellular regulation unanswered. Here we developed genetically encoded bioluminescent and fluorescent sensors to quantify subcellular NMN in live cells by engineering specific NMN-responsive protein scaffolds fused to luciferase and fluorescent proteins. The sensor dissected the multimechanistic uptake of exogenous NMN and nicotinamide riboside (NR) in live cells and further measured the NMN levels across different subcellular compartments, as well as the perturbed NMN/NAD<sup>+</sup> ratios by external supplements. Moreover, we measured the NMN regulation by NAD(H) hydrolase Nudts and peroxisomal carrier Pxmp2 and identified Slc25a45 as a potential mitochondrial NMN regulator for its unique fingerprint on the local NMN/NAD<sup>+</sup> ratio. Collectively, the genetically encoded sensors provide a useful tool for visualizing NMN metabolism.",
-        "doi": "https://doi.org/10.1016/j.bios.2024.116842",
-        "journal": "Biosensors & bioelectronics",
-        "date": "2025",
-        "is_new": true,
-        "probe_name": "NMN biosensor",
-        "target": "Nicotinamide mononucleotide (NMN)",
-        "color": "Bioluminescent and fluorescent",
-        "type": "Genetically encoded protein scaffold-based"
-    },
-    {
         "title": "NeIle, a Genetically Encoded Indicator for Branched-Chain Amino Acids Based on mNeonGreen Fluorescent Protein and LIVBP Protein.",
         "abstract": "Branched-chain amino acids (BCAAs) play an important role in the functioning of mammalian cells and the central nervous system. However, available genetically encoded indicators for BCAAs are based on Förster resonance energy transfer and have a limited dynamic range. We developed a single fluorescent protein-based sensor for BCAAs, called NeIle, which is composed of circularly permutated mNeonGreen protein inserted into the leucine-isoleucine-valine binding protein (LIVBP) from <i>Escherichia coli</i> bacteria. In solution, the NeIle indicator displayed a positive fluorescence response to adding isoleucine, leucine, and valin amino acids with high Δ<i>F</i>/<i>F</i> dynamic ranges of 27-, 19-, and 11-fold and the corresponding affinity values of 5.0, 2.9, and 75 mM, respectively. The spectral and biochemical properties of the NeIle indicator were characterized in solution. We characterized the brightness of the NeIle indicator in living mammalian cells, including cultured neurons. Using the NeIle indicator, we successfully visualized the dynamics of isoleucine transients in different organelles of mammalian cells. We obtained and analyzed the X-ray crystal structure of the NeIle indicator in an isoleucine-bound state. Structure-guided directed mutagenesis of the NeIle indicator revealed the basis of its fluorescence response and selectivity to isoleucine.",
         "doi": "https://doi.org/10.1021/acssensors.4c01055",
@@ -1462,18 +1486,6 @@
         "target": "Branched-chain amino acids (BCAAs)",
         "color": "Fluorescent",
         "type": "Fluorescent protein-based"
-    },
-    {
-        "title": "Methods for Imaging Intracellular Calcium Signals in the Mouse Mammary Epithelium in Two and Three Dimensions.",
-        "abstract": "The mammary gland has a central role in optimal mammalian development and survival. Contractions of smooth muscle-like basal (or myoepithelial) cells in the functionally mature mammary gland in response to oxytocin are essential for milk ejection and are tightly regulated by intracellular calcium (Ca<sup>2+</sup>). Using mice expressing a genetically encoded Ca<sup>2+</sup> indicator (GCaMP6f), we present in this chapter a method to visualize at high spatiotemporal resolution changes in intracellular Ca<sup>2+</sup> in mammary epithelial cells, both in vitro (2D) and ex vivo (3D). The procedure to optimally prepare mammary tissue and primary cells is presented in detail.",
-        "doi": "https://doi.org/10.1007/978-1-0716-4164-4_15",
-        "journal": "Methods in molecular biology (Clifton, N.J.)",
-        "date": "2025",
-        "is_new": true,
-        "probe_name": "GCaMP6f",
-        "target": "Calcium",
-        "color": "Green",
-        "type": "Genetically Encoded Calcium Indicator"
     },
     {
         "title": "Genetically encoded epigenetic sensors for visualization of H3K9me3, H3K9ac and H3K4me1 histone modifications in living cells.",
@@ -1522,18 +1534,6 @@
         "target": "Pyruvate",
         "color": "Unknown",
         "type": "Genetically encoded"
-    },
-    {
-        "title": "Viral Vector Eluting Lenses for Single-Step Targeted Expression of Genetically-Encoded Activity Sensors for in Vivo Microendoscopic Calcium Imaging.",
-        "abstract": "Optical methods for studying the brain offer powerful approaches for understanding how neural activity underlies complex behavior. These methods typically rely on genetically encoded sensors and actuators to monitor and control neural activity. For microendoscopic calcium imaging, injection of a virus followed by implantation of a lens probe is required to express a calcium sensor and enable optical access to the target brain region. This two-step process poses several challenges, chief among them being the risks associated with mistargeting and/or misalignment between virus expression zone, lens probe and target brain region. Here, an adeno-associated virus (AAV)-eluting polymer coating is engineered for gradient refractive index (GRIN) lenses enabling the expression of a genetically encoded calcium indicator (GCaMP) directly within the brain region of interest upon implantation of the lens. This approach requires only one surgical step and guarantees alignment between GCaMP expression and lens in the brain. Additionally, the slow virus release from these coatings increases the working time for surgical implantation, expanding the brain regions and species amenable to this approach. These enhanced capabilities should accelerate neuroscience research utilizing optical methods and advance the understanding of the neural circuit mechanisms underlying brain function and behavior in health and disease.",
-        "doi": "https://doi.org/10.1002/mabi.202400359",
-        "journal": "Macromolecular bioscience",
-        "date": "2025",
-        "is_new": true,
-        "probe_name": "GCaMP",
-        "target": "Calcium",
-        "color": "Green",
-        "type": "Genetically Encoded Calcium Indicator"
     },
     {
         "title": "Decoding Arc transcription: a live-cell study of stimulation patterns and transcriptional output.",
@@ -2496,18 +2496,6 @@
         "type": "FRET-based"
     },
     {
-        "title": "CaBLAM! A high-contrast bioluminescent Ca<sup>2+</sup> indicator derived from an engineered <i>Oplophorus gracilirostris</i> luciferase.",
-        "abstract": "Measuring ongoing cellular activity is essential to understanding the dynamic functions of biological organisms. The most popular current approach is imaging fluorescence-based genetically encoded Ca<sup>2+</sup> indicators (GECIs). While fluorescent probes are useful in many contexts, bioluminescence-based GECIs-probes that generate light through oxidation of a small-molecule by a luciferase or photoprotein-have several distinct advantages. Because bioluminescent (BL) GECIs do not use the bright extrinsic excitation light required for fluorescence, BL GECIs do not photobleach, do not suffer from nonspecific autofluorescent background, and do not cause phototoxicity. Further, BL GECIs can be applied in contexts where directly shining photons on an imaging target is not possible. Despite these advantages, the use of BL GECIs has to date been limited by their small changes in bioluminescence intensity, high baseline signal at resting Ca<sup>2+</sup> concentrations, and suboptimal Ca<sup>2+</sup> affinities. Here, we describe a new BL GECI, CaBLAM (Ca<sup>2+</sup> BioLuminescence Activity Monitor), that displays much higher dynamic range than previous BL GECIs and has a Ca<sup>2+</sup> affinity suitable for capturing physiological changes in cytosolic Ca<sup>2+</sup> concentration. With these improvements, CaBLAM captures single-cell and subcellular resolution activity at high frame rates in cultured neurons and <i>in vivo</i>, and allows multi-hour recordings in mice and behaving zebrafish. This new advance provides a robust alternative to traditional fluorescent GECIs that can enable or enhance imaging across many experimental conditions.",
-        "doi": "https://doi.org/10.1101/2023.06.25.546478",
-        "journal": "bioRxiv : the preprint server for biology",
-        "date": "2025",
-        "is_new": true,
-        "probe_name": "CaBLAM",
-        "target": "Calcium",
-        "color": "Bioluminescent",
-        "type": "Luciferase-based"
-    },
-    {
         "title": "Development of a genetically encoded sensor for probing endogenous nociceptin opioid peptide release.",
         "abstract": "Nociceptin/orphanin-FQ (N/OFQ) is a recently appreciated critical opioid peptide with key regulatory functions in several central behavioral processes including motivation, stress, feeding, and sleep. The functional relevance of N/OFQ action in the mammalian brain remains unclear due to a lack of high-resolution approaches to detect this neuropeptide with appropriate spatial and temporal resolution. Here we develop and characterize NOPLight, a genetically encoded sensor that sensitively reports changes in endogenous N/OFQ release. We characterized the affinity, pharmacological profile, spectral properties, kinetics, ligand selectivity, and potential interaction with intracellular signal transducers of NOPLight <i>in vitro</i>. Its functionality was established in acute brain slices by exogeneous N/OFQ application and chemogenetic induction of endogenous N/OFQ release from PNOC neurons. <i>In vivo</i> studies with fibre photometry enabled direct recording of NOPLight binding to exogenous N/OFQ receptor ligands, as well as detection of endogenous N/OFQ release within the paranigral ventral tegmental area (pnVTA) during natural behaviors and chemogenetic activation of PNOC neurons. In summary, we show here that NOPLight can be used to detect N/OFQ opioid peptide signal dynamics in tissue and freely behaving animals.",
         "doi": "https://doi.org/10.1101/2023.05.26.542102",
@@ -3264,18 +3252,6 @@
         "type": "Fluorescent sensor"
     },
     {
-        "title": "Enhanced detection sensitivity of neuronal activity patterns using CaMPARI1 vs. CaMPARI2.",
-        "abstract": "Calcium-modulated photoactivatable ratiometric integrator (CaMPARI) is a calcium ion (Ca<sup>2+</sup>)- and light-dependent genetically encoded fluorescent activity integrator that can capture snapshots of neuronal activity through an irreversible process known as photoconversion. This unique property was previously used to label neurons based upon their tuning properties in order to map synaptic connectivity and to record large-scale neuronal activity in freely moving mice without attaching any mechanical device to them. The latest version of CaMPARI (CaMPARI2) was engineered to enhance the contrast generated by photoconverting the green protein to the activity-dependent red form and to reduce the Ca<sup>2+</sup>-independent photoconversion rate compared to the first generation of CaMPARI (CaMPARI1). However, here we show that this optimization process also resulted in reduced photoconversion efficiency of active neurons in the mouse cortex and hippocampus. Through side-by-side comparison of the two CaMPARI sensors under several experimental conditions, we show that CaMPARI1 exhibits a substantially higher red-to-green ratio in active cells than CaMPARI2. In addition, we show that CaMPARI1 also functions as a more sensitive traditional Ca<sup>2+</sup> sensor than CaMPARI2 by producing larger activity-driven dynamic fluorescence changes in the observed neurons. Therefore, we conclude that during the optimization process of CaMPARI2, some of the sensor's characteristics were not predicted properly by <i>in vitro</i> screening assays, and therefore <i>in vivo</i> screening and validation steps should be included in future optimization attempts to increase the predictability of screening pipelines.",
-        "doi": "https://doi.org/10.3389/fnins.2022.1055554",
-        "journal": "Frontiers in neuroscience",
-        "date": "2022",
-        "is_new": true,
-        "probe_name": "CaMPARI2",
-        "target": "Calcium ion (Ca<sup>2+</sup>)",
-        "color": "Red",
-        "type": "Genetically encoded fluorescent activity integrator"
-    },
-    {
         "title": "Construction of Genetically Encoded Biosensors to Monitor Subcellular Compartment-Specific Glutathione Response to Chemotherapeutic Drugs in Acute Myeloid Leukemia Cells.",
         "abstract": "Glutathione (GSH), the constituent of the redox buffer system, is a scavenger of reactive oxygen species (ROS), and its ratio to oxidized glutathione (GSSG) is a key indicator of oxidative stress in the cell. Acute myeloid leukemia (AML) is a highly aggressive hematopoietic malignancy characterized by aberrant levels of reduced and oxidized GSH due to oxidative stress. Therefore, the real-time, dynamic, and highly sensitive detection of GSH/GSSG in AML cells is of great interest for the clinical diagnosis and treatment of leukemia. The application of genetically encoded sensors to monitor GSH/GSSG levels in AML cells is not explored, and the underlying mechanism of how the drugs affect GSH/GSSG dynamics remains unclear. In this study, we developed subcellular compartment-specific sensors to monitor GSH/GSSG combined with high-resolution fluorescence microscopy that provides insights into basal GSH/GSSG levels in the cytosol, mitochondria, nucleus, and endoplasmic reticulum of AML cells, in a decreasing order, revealing substantial heterogeneity of GSH/GSSG level dynamics in different subcellular compartments. Further, we investigated the response of GSH/GSSG ratio in AML cells caused by Prussian blue and Fe<sub>3</sub>O<sub>4</sub> nanoparticles, separately and in combination with cytarabine, pointing to steep gradients. Moreover, cytarabine and doxorubicin downregulated the GSH/GSSG levels in different subcellular compartments. Similarly, live-cell imaging showed a compartment-specific decrease in response to various drugs, such as CB-839, parthenolide (PTL), and piperlongumine (PLM). The enzymatic activity assay revealed the mechanism underlying fluctuations in GSH/GSSG levels in different subcellular compartments mediated by these drugs in the GSH metabolic pathway, suggesting some potential therapeutic targets in AML cells.",
         "doi": "https://doi.org/10.1021/acs.analchem.2c04255",
@@ -3298,18 +3274,6 @@
         "target": "bacterial V<sub>m</sub>",
         "color": "fluorescent",
         "type": "genetically encoded"
-    },
-    {
-        "title": "TRPC1 channels underlie stretch-modulated sarcoplasmic reticulum calcium leak in cardiomyocytes.",
-        "abstract": "Transient receptor potential canonical 1 (TRPC1) channels are Ca<sup>2+</sup>-permeable ion channels expressed in cardiomyocytes. An involvement of TRPC1 channels in cardiac diseases is widely established. However, the physiological role of TRPC1 channels and the mechanisms through which they contribute to disease development are still under investigation. Our prior work suggested that TRPC1 forms Ca<sup>2+</sup> leak channels located in the sarcoplasmic reticulum (SR) membrane. Prior studies suggested that TRPC1 channels in the cell membrane are mechanosensitive, but this was not yet investigated in cardiomyocytes or for SR localized TRPC1 channels. We applied adenoviral transfection to overexpress or suppress TRPC1 expression in neonatal rat ventricular myocytes (NRVMs). Transfections were evaluated with RT-qPCR, western blot, and fluorescent imaging. Single-molecule localization microscopy revealed high colocalization of exogenously expressed TRPC1 and the sarco/endoplasmic reticulum Ca<sup>2+</sup> ATPase (SERCA2). To test our hypothesis that TRPC1 channels contribute to mechanosensitive Ca<sup>2+</sup> SR leak, we directly measured SR Ca<sup>2+</sup> concentration ([Ca<sup>2+</sup>]<sub>SR</sub>) using adenoviral transfection with a novel ratiometric genetically encoded SR-targeting Ca<sup>2+</sup> sensor. We performed fluorescence imaging to quantitatively assess [Ca<sup>2+</sup>]<sub>SR</sub> and leak through TRPC1 channels of NRVMs cultured on stretchable silicone membranes. [Ca<sup>2+</sup>]<sub>SR</sub> was increased in cells with suppressed TRPC1 expression vs. control and Transient receptor potential canonical 1-overexpressing cells. We also detected a significant reduction in [Ca<sup>2+</sup>]<sub>SR</sub> in cells with Transient receptor potential canonical 1 overexpression when 10% uniaxial stretch was applied. These findings indicate that TRPC1 channels underlie the mechanosensitive modulation of [Ca<sup>2+</sup>]<sub>SR</sub>. Our findings are critical for understanding the physiological role of TRPC1 channels and support the development of pharmacological therapies for cardiac diseases.",
-        "doi": "https://doi.org/10.3389/fphys.2022.1056657",
-        "journal": "Frontiers in physiology",
-        "date": "2022",
-        "is_new": true,
-        "probe_name": "ratiometric genetically encoded SR-targeting Ca<sup>2+</sup> sensor",
-        "target": "sarcoplasmic reticulum",
-        "color": "not specified",
-        "type": "Ca<sup>2+</sup> sensor"
     },
     {
         "title": "Robust and tunable performance of a cell-free biosensor encapsulated in lipid vesicles.",
@@ -3348,6 +3312,66 @@
         "type": "Genetically encoded imaging probe"
     },
     {
+        "title": "Generation of human induced pluripotent stem cell line encoding for a genetically encoded voltage indicator Arclight A242.",
+        "abstract": "Genetically encoded voltage indicators (GEVIs) allow for monitoring membrane potential changes in neurons and cardiomyocytes (CMs) as an alternative to patch-clamp techniques. GEVIs facilitate non-invasive, high throughput screening of electrophysiological properties of human induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs). A dual transgenic hiPSC line with Arclight A242 (GEVI) and an antibiotic resistance cardiac selection cassette was successfully generated from an earlier established hiPSC line MHHi001-A. After cardiac differentiation and selection, purified populations of CMs with constitutive GEVI expression can be utilized for studying cardiac development, disease modeling, and drug testing.",
+        "doi": "https://doi.org/10.1016/j.scr.2022.102981",
+        "journal": "Stem cell research",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "Arclight A242",
+        "target": "membrane potential",
+        "color": "fluorescent",
+        "type": "Genetically encoded voltage indicator (GEVI)"
+    },
+    {
+        "title": "Genetically encoded dual fluorophore reporters for graded oxygen-sensing in light microscopy.",
+        "abstract": "Hypoxia is an essential regulator of cell metabolism, affects cell migration and angiogenesis during development and contributes to a wide range of pathological conditions. Multiple techniques to assess hypoxia through oxygen-imaging have been developed. However, significant limitations include low spatiotemporal resolution, limited tissue penetration of exogenous probes and non-dynamic signals due to irreversible probe-chemistry. First genetically-encoded reporters only partly overcame these limitations as the green and red fluorescent proteins (GFP/RFP) families require molecular oxygen for fluorescence. For the herein presented ratiometric and FRET-FLIM reporters dUnORS and dUnOFLS, we exploited oxygen-dependent maturation in combination with the hypoxia-tolerant fluorescent-protein UnaG. For ratiometric measurements, UnaG was fused to the orange large Stokes Shift protein CyOFP1, allowing excitation with a single light-source, while fusion of UnaG with mOrange2 allowed FRET-FLIM analysis. Imaging live or fixed cultured cells for calibration, we applied both reporters in spheroid and tumor transplantation-models and obtained graded information on oxygen-availability at cellular resolution, establishing these sensors as promising tools for visualizing oxygen-gradients in-vivo.",
+        "doi": "https://doi.org/10.1016/j.bios.2022.114917",
+        "journal": "Biosensors & bioelectronics",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "dUnORS",
+        "target": "Molecule oxygen",
+        "color": "Orange",
+        "type": "Ratiometric"
+    },
+    {
+        "title": "In vivo imaging of calcium dynamics in zebrafish hepatocytes.",
+        "abstract": "Hepatocytes were the first cell type for which oscillations of cytoplasmic calcium levels in response to hormones were described. Since then, investigation of calcium dynamics in liver explants and culture has greatly increased our understanding of calcium signaling. A bottleneck, however, exists in observing calcium dynamics in a noninvasive manner because of the optical inaccessibility of the mammalian liver. Here, we aimed to take advantage of the transparency of the zebrafish larvae to image hepatocyte calcium dynamics in vivo at cellular resolution. We developed a transgenic model expressing a calcium sensor, GCaMP6s, specifically in zebrafish hepatocytes. Using this, we provide a quantitative assessment of intracellular calcium dynamics during multiple contexts, including growth, feeding, ethanol-induced stress, and cell ablation. Specifically, we show that synchronized calcium oscillations are present in vivo , which are lost upon starvation. Starvation induces lipid accumulation in the liver. Feeding recommences calcium waves in the liver, but in a spatially restricted manner, as well as resolves starvation-induced hepatic steatosis. By using a genetically encoded scavenger for calcium, we show that dampening of calcium signaling accelerates the accumulation of starvation-related lipid droplets in the liver. Furthermore, ethanol treatment, as well as cell ablation, induces calcium flux, but with different dynamics. The former causes asynchronous calcium oscillations, whereas the latter leads to a single calcium spike. We demonstrate the presence of oscillations, waves, and spikes in vivo . Calcium waves are present in response to nutrition and negatively regulate starvation-induced accumulation of lipid droplets.",
+        "doi": "https://doi.org/10.1002/hep.32663",
+        "journal": "Hepatology (Baltimore, Md.)",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "GCaMP6s",
+        "target": "Calcium",
+        "color": "Fluorescent",
+        "type": "Genetically encoded calcium sensor"
+    },
+    {
+        "title": "Enhanced detection sensitivity of neuronal activity patterns using CaMPARI1 vs. CaMPARI2.",
+        "abstract": "Calcium-modulated photoactivatable ratiometric integrator (CaMPARI) is a calcium ion (Ca<sup>2+</sup>)- and light-dependent genetically encoded fluorescent activity integrator that can capture snapshots of neuronal activity through an irreversible process known as photoconversion. This unique property was previously used to label neurons based upon their tuning properties in order to map synaptic connectivity and to record large-scale neuronal activity in freely moving mice without attaching any mechanical device to them. The latest version of CaMPARI (CaMPARI2) was engineered to enhance the contrast generated by photoconverting the green protein to the activity-dependent red form and to reduce the Ca<sup>2+</sup>-independent photoconversion rate compared to the first generation of CaMPARI (CaMPARI1). However, here we show that this optimization process also resulted in reduced photoconversion efficiency of active neurons in the mouse cortex and hippocampus. Through side-by-side comparison of the two CaMPARI sensors under several experimental conditions, we show that CaMPARI1 exhibits a substantially higher red-to-green ratio in active cells than CaMPARI2. In addition, we show that CaMPARI1 also functions as a more sensitive traditional Ca<sup>2+</sup> sensor than CaMPARI2 by producing larger activity-driven dynamic fluorescence changes in the observed neurons. Therefore, we conclude that during the optimization process of CaMPARI2, some of the sensor's characteristics were not predicted properly by <i>in vitro</i> screening assays, and therefore <i>in vivo</i> screening and validation steps should be included in future optimization attempts to increase the predictability of screening pipelines.",
+        "doi": "https://doi.org/10.3389/fnins.2022.1055554",
+        "journal": "Frontiers in neuroscience",
+        "date": "2022",
+        "is_new": true,
+        "probe_name": "CaMPARI2",
+        "target": "Calcium ion (Ca<sup>2+</sup>)",
+        "color": "Red",
+        "type": "Genetically encoded fluorescent activity integrator"
+    },
+    {
+        "title": "TRPC1 channels underlie stretch-modulated sarcoplasmic reticulum calcium leak in cardiomyocytes.",
+        "abstract": "Transient receptor potential canonical 1 (TRPC1) channels are Ca<sup>2+</sup>-permeable ion channels expressed in cardiomyocytes. An involvement of TRPC1 channels in cardiac diseases is widely established. However, the physiological role of TRPC1 channels and the mechanisms through which they contribute to disease development are still under investigation. Our prior work suggested that TRPC1 forms Ca<sup>2+</sup> leak channels located in the sarcoplasmic reticulum (SR) membrane. Prior studies suggested that TRPC1 channels in the cell membrane are mechanosensitive, but this was not yet investigated in cardiomyocytes or for SR localized TRPC1 channels. We applied adenoviral transfection to overexpress or suppress TRPC1 expression in neonatal rat ventricular myocytes (NRVMs). Transfections were evaluated with RT-qPCR, western blot, and fluorescent imaging. Single-molecule localization microscopy revealed high colocalization of exogenously expressed TRPC1 and the sarco/endoplasmic reticulum Ca<sup>2+</sup> ATPase (SERCA2). To test our hypothesis that TRPC1 channels contribute to mechanosensitive Ca<sup>2+</sup> SR leak, we directly measured SR Ca<sup>2+</sup> concentration ([Ca<sup>2+</sup>]<sub>SR</sub>) using adenoviral transfection with a novel ratiometric genetically encoded SR-targeting Ca<sup>2+</sup> sensor. We performed fluorescence imaging to quantitatively assess [Ca<sup>2+</sup>]<sub>SR</sub> and leak through TRPC1 channels of NRVMs cultured on stretchable silicone membranes. [Ca<sup>2+</sup>]<sub>SR</sub> was increased in cells with suppressed TRPC1 expression vs. control and Transient receptor potential canonical 1-overexpressing cells. We also detected a significant reduction in [Ca<sup>2+</sup>]<sub>SR</sub> in cells with Transient receptor potential canonical 1 overexpression when 10% uniaxial stretch was applied. These findings indicate that TRPC1 channels underlie the mechanosensitive modulation of [Ca<sup>2+</sup>]<sub>SR</sub>. Our findings are critical for understanding the physiological role of TRPC1 channels and support the development of pharmacological therapies for cardiac diseases.",
+        "doi": "https://doi.org/10.3389/fphys.2022.1056657",
+        "journal": "Frontiers in physiology",
+        "date": "2022",
+        "is_new": true,
+        "probe_name": "ratiometric genetically encoded SR-targeting Ca<sup>2+</sup> sensor",
+        "target": "sarcoplasmic reticulum",
+        "color": "not specified",
+        "type": "Ca<sup>2+</sup> sensor"
+    },
+    {
         "title": "A genetically encoded fluorescent sensor for manganese(II), engineered from lanmodulin.",
         "abstract": "The design of selective metal-binding sites is a challenge in both small-molecule and macromolecular chemistry. Selective recognition of manganese (II)-the first-row transition metal ion that tends to bind with the lowest affinity to ligands, as described by the Irving-Williams series-is particularly difficult. As a result, there is a dearth of chemical biology tools with which to study manganese physiology in live cells, which would advance understanding of photosynthesis, host-pathogen interactions, and neurobiology. Here we report the rational re-engineering of the lanthanide-binding protein, lanmodulin, into genetically encoded fluorescent sensors for Mn<sup>II</sup>, MnLaMP1 and MnLaMP2. These sensors with effective <i>K</i><sub>d</sub>(Mn<sup>II</sup>) of 29 and 7 µM, respectively, defy the Irving-Williams series to selectively detect Mn<sup>II</sup> in vitro and in vivo. We apply both sensors to visualize kinetics of bacterial labile manganese pools. Biophysical studies indicate the importance of coordinated solvent and hydrophobic interactions in the sensors' selectivity. Our results establish lanmodulin as a versatile scaffold for design of selective protein-based biosensors and chelators for metals beyond the f-block.",
         "doi": "https://doi.org/10.1073/pnas.2212723119",
@@ -3382,30 +3406,6 @@
         "target": "serotonin (5-HT)",
         "color": "fluorescent",
         "type": "genetically encoded fluorescent sensor"
-    },
-    {
-        "title": "Generation of human induced pluripotent stem cell line encoding for a genetically encoded voltage indicator Arclight A242.",
-        "abstract": "Genetically encoded voltage indicators (GEVIs) allow for monitoring membrane potential changes in neurons and cardiomyocytes (CMs) as an alternative to patch-clamp techniques. GEVIs facilitate non-invasive, high throughput screening of electrophysiological properties of human induced pluripotent stem cell-derived cardiomyocytes (hiPSC-CMs). A dual transgenic hiPSC line with Arclight A242 (GEVI) and an antibiotic resistance cardiac selection cassette was successfully generated from an earlier established hiPSC line MHHi001-A. After cardiac differentiation and selection, purified populations of CMs with constitutive GEVI expression can be utilized for studying cardiac development, disease modeling, and drug testing.",
-        "doi": "https://doi.org/10.1016/j.scr.2022.102981",
-        "journal": "Stem cell research",
-        "date": "2023",
-        "is_new": true,
-        "probe_name": "Arclight A242",
-        "target": "membrane potential",
-        "color": "fluorescent",
-        "type": "Genetically encoded voltage indicator (GEVI)"
-    },
-    {
-        "title": "Genetically encoded dual fluorophore reporters for graded oxygen-sensing in light microscopy.",
-        "abstract": "Hypoxia is an essential regulator of cell metabolism, affects cell migration and angiogenesis during development and contributes to a wide range of pathological conditions. Multiple techniques to assess hypoxia through oxygen-imaging have been developed. However, significant limitations include low spatiotemporal resolution, limited tissue penetration of exogenous probes and non-dynamic signals due to irreversible probe-chemistry. First genetically-encoded reporters only partly overcame these limitations as the green and red fluorescent proteins (GFP/RFP) families require molecular oxygen for fluorescence. For the herein presented ratiometric and FRET-FLIM reporters dUnORS and dUnOFLS, we exploited oxygen-dependent maturation in combination with the hypoxia-tolerant fluorescent-protein UnaG. For ratiometric measurements, UnaG was fused to the orange large Stokes Shift protein CyOFP1, allowing excitation with a single light-source, while fusion of UnaG with mOrange2 allowed FRET-FLIM analysis. Imaging live or fixed cultured cells for calibration, we applied both reporters in spheroid and tumor transplantation-models and obtained graded information on oxygen-availability at cellular resolution, establishing these sensors as promising tools for visualizing oxygen-gradients in-vivo.",
-        "doi": "https://doi.org/10.1016/j.bios.2022.114917",
-        "journal": "Biosensors & bioelectronics",
-        "date": "2023",
-        "is_new": true,
-        "probe_name": "dUnORS",
-        "target": "Molecule oxygen",
-        "color": "Orange",
-        "type": "Ratiometric"
     },
     {
         "title": "Single-Fluorophore Indicator to Explore Cellular and Sub-cellular Lactate Dynamics.",
@@ -3672,18 +3672,6 @@
         "type": "Genetically encoded fluorescent sensor"
     },
     {
-        "title": "In vivo imaging of calcium dynamics in zebrafish hepatocytes.",
-        "abstract": "Hepatocytes were the first cell type for which oscillations of cytoplasmic calcium levels in response to hormones were described. Since then, investigation of calcium dynamics in liver explants and culture has greatly increased our understanding of calcium signaling. A bottleneck, however, exists in observing calcium dynamics in a noninvasive manner because of the optical inaccessibility of the mammalian liver. Here, we aimed to take advantage of the transparency of the zebrafish larvae to image hepatocyte calcium dynamics in vivo at cellular resolution. We developed a transgenic model expressing a calcium sensor, GCaMP6s, specifically in zebrafish hepatocytes. Using this, we provide a quantitative assessment of intracellular calcium dynamics during multiple contexts, including growth, feeding, ethanol-induced stress, and cell ablation. Specifically, we show that synchronized calcium oscillations are present in vivo , which are lost upon starvation. Starvation induces lipid accumulation in the liver. Feeding recommences calcium waves in the liver, but in a spatially restricted manner, as well as resolves starvation-induced hepatic steatosis. By using a genetically encoded scavenger for calcium, we show that dampening of calcium signaling accelerates the accumulation of starvation-related lipid droplets in the liver. Furthermore, ethanol treatment, as well as cell ablation, induces calcium flux, but with different dynamics. The former causes asynchronous calcium oscillations, whereas the latter leads to a single calcium spike. We demonstrate the presence of oscillations, waves, and spikes in vivo . Calcium waves are present in response to nutrition and negatively regulate starvation-induced accumulation of lipid droplets.",
-        "doi": "https://doi.org/10.1002/hep.32663",
-        "journal": "Hepatology (Baltimore, Md.)",
-        "date": "2023",
-        "is_new": true,
-        "probe_name": "GCaMP6s",
-        "target": "Calcium",
-        "color": "Fluorescent",
-        "type": "Genetically encoded calcium sensor"
-    },
-    {
         "title": "iFLinkC-X: A Scalable Framework to Assemble Bespoke Genetically Encoded Co-polymeric Linkers of Variable Lengths and Amino Acid Composition.",
         "abstract": "Linker engineering is rapidly gaining prominence as protein engineers and synthetic biologists construct increasingly sophisticated protein assemblies capable of executing complex molecular functions in the context of biosensing, biocatalysis, or biotherapeutics. Depending on the application, the structural and functional requirements imposed on the underlying linkers can differ vastly. At the same time, there is a distinct lack of methods to effectively code linkers at the level of DNA and tailor them to the functional requirements of different fusion proteins. Addressing these limitations, a scalable framework is presented to compose co-polymeric linkers of variable lengths and amino acid composition based on a limited number of linker fragments stored in sequence-verified entry plasmids. The assembly process is exemplified for Pro-rich linkers in the context of a Zn<sup>2+</sup>-responsive dual-readout BRET/FRET sensor while examining how linker composition impacts key functional properties such as ligand affinity, dynamic range, and their ability to separate structurally distinct domains.",
         "doi": "https://doi.org/10.1021/acs.bioconjchem.2c00250",
@@ -3792,18 +3780,6 @@
         "type": "Genetically Encoded Fluorescent Sensor"
     },
     {
-        "title": "GEM-IL: A highly responsive fluorescent lactate indicator.",
-        "abstract": "Lactate metabolism has been shown to have increasingly important implications in cellular functions as well as in the development and pathophysiology of disease. The various roles as a signaling molecule and metabolite have led to interest in establishing a new method to detect lactate changes in live cells. Here we report our development of a genetically encoded metabolic indicator specifically for probing lactate (GEM-IL) based on superfolder fluorescent proteins and mutagenesis. With improvements in its design, specificity, and sensitivity, GEM-IL allows new applications compared with the previous lactate indicators, Laconic and Green Lindoblum. We demonstrate the functionality of GEM-IL to detect differences in lactate changes in human oncogenic neural progenitor cells and mouse primary ventricular myocytes. The development and application of GEM-IL show promise for enhancing our understanding of lactate dynamics and roles.",
-        "doi": "https://doi.org/10.1016/j.crmeth.2021.100092",
-        "journal": "Cell reports methods",
-        "date": "2021",
-        "is_new": true,
-        "probe_name": "GEM-IL",
-        "target": "lactate",
-        "color": "fluorescent",
-        "type": "genetically encoded metabolic indicator"
-    },
-    {
         "title": "Live-Cell Imaging of the Contractile Velocity and Transient Intracellular Ca<sup>2+</sup> Fluctuations in Human Stem Cell-Derived Cardiomyocytes.",
         "abstract": "Live-cell imaging techniques are essential for acquiring vital physiological and pathophysiological knowledge to understand and treat heart disease. For live-cell imaging of transient alterations of [Ca<sup>2+</sup>]<sub>i</sub> in human cardiomyocytes, we engineered human-induced pluripotent stem cells carrying a genetically-encoded Ca<sup>2+</sup>-indicator (GECI). To monitor sarcomere shortening and relaxation in cardiomyocytes in real-time, we generated a α-cardiac actinin (ACTN2)-copepod (cop) green fluorescent protein (GFP<sup>+</sup>)-human-induced pluripotent stem cell line by using the CRISPR-Cas9 and a homology directed recombination approach. The engineered human-induced pluripotent stem cells were differentiated in transgenic GECI-enhanced GFP<sup>+</sup>-cardiomyocytes and ACTN2-copGFP<sup>+</sup>-cardiomyocytes, allowing real-time imaging of [Ca<sup>2+</sup>]<sub>i</sub> transients and live recordings of the sarcomere shortening velocity of ACTN2-copGFP<sup>+</sup>-cardiomyocytes. We developed a video analysis software tool to quantify various parameters of sarcoplasmic Ca<sup>2+</sup> fluctuations recorded during contraction of cardiomyocytes and to calculate the contraction velocity of cardiomyocytes in the presence and absence of different drugs affecting cardiac function. Our cellular and software tool not only proved the positive and negative inotropic and lusitropic effects of the tested cardioactive drugs but also quantified the expected effects precisely. Our platform will offer a human-relevant in vitro alternative for high-throughput drug screenings, as well as a model to explore the underlying mechanisms of cardiac diseases.",
         "doi": "https://doi.org/10.3390/cells11081280",
@@ -3850,18 +3826,6 @@
         "target": "Acrosome",
         "color": "Fluorescent",
         "type": "Genetically encoded Ca2+ indicator"
-    },
-    {
-        "title": "A New Transgenic Mouse Line for Imaging Mitochondrial Calcium Signals.",
-        "abstract": "Mitochondria play a key role in cellular calcium (Ca<sup>2+</sup>) homeostasis. Dysfunction in the organelle Ca<sup>2+</sup> handling appears to be involved in several pathological conditions, ranging from neurodegenerative diseases, cardiac failure and malignant transformation. In the past years, several targeted green fluorescent protein (GFP)-based genetically encoded Ca<sup>2+</sup> indicators (GECIs) have been developed to study Ca<sup>2+</sup> dynamics inside mitochondria of living cells. Surprisingly, while there is a number of transgenic mice expressing different types of cytosolic GECIs, few examples are available expressing mitochondria-localized GECIs, and none of them exhibits adequate spatial resolution. Here we report the generation and characterization of a transgenic mouse line (hereafter called mt-Cam) for the controlled expression of a mitochondria-targeted, Förster resonance energy transfer (FRET)-based Cameleon, 4mtD3cpv. To achieve this goal, we engineered the mouse <i>ROSA26</i> genomic locus by inserting the optimized sequence of 4mtD3cpv, preceded by a <i>loxP</i>-STOP-<i>loxP</i> sequence. The probe can be readily expressed in a tissue-specific manner upon Cre recombinase-mediated excision, obtainable with a single cross. Upon ubiquitous Cre expression, the Cameleon is specifically localized in the mitochondrial matrix of cells in all the organs and tissues analyzed, from embryos to aged animals. Ca<sup>2+</sup> imaging experiments performed <i>in vitro</i> and <i>ex vivo</i> in brain slices confirmed the functionality of the probe in isolated cells and live tissues. This new transgenic mouse line allows the study of mitochondrial Ca<sup>2+</sup> dynamics in different tissues with no invasive intervention (such as viral infection or electroporation), potentially allowing simple calibration of the fluorescent signals in terms of mitochondrial Ca<sup>2+</sup> concentration ([Ca<sup>2+</sup>]).",
-        "doi": "https://doi.org/10.1093/function/zqab012",
-        "journal": "Function (Oxford, England)",
-        "date": "2021",
-        "is_new": true,
-        "probe_name": "4mtD3cpv",
-        "target": "Mitochondria",
-        "color": "Green",
-        "type": "Förster resonance energy transfer (FRET)-based Cameleon"
     },
     {
         "title": "Evaluation of Hydroxycarboxylic Acid Receptor 1 (HCAR1) as a Building Block for Genetically Encoded Extracellular Lactate Biosensors.",
@@ -4068,6 +4032,90 @@
         "type": "GPCR activation-based ATP sensor"
     },
     {
+        "title": "Live imaging of transcription sites using an elongating RNA polymerase II-specific probe.",
+        "abstract": "In eukaryotic nuclei, most genes are transcribed by RNA polymerase II (RNAP2), whose regulation is a key to understanding the genome and cell function. RNAP2 has a long heptapeptide repeat (Tyr1-Ser2-Pro3-Thr4-Ser5-Pro6-Ser7), and Ser2 is phosphorylated on an elongation form. To detect RNAP2 Ser2 phosphorylation (RNAP2 Ser2ph) in living cells, we developed a genetically encoded modification-specific intracellular antibody (mintbody) probe. The RNAP2 Ser2ph-mintbody exhibited numerous foci, possibly representing transcription \"factories,\" and foci were diminished during mitosis and in a Ser2 kinase inhibitor. An in vitro binding assay using phosphopeptides confirmed the mintbody's specificity. RNAP2 Ser2ph-mintbody foci were colocalized with proteins associated with elongating RNAP2 compared with factors involved in the initiation. These results support the view that mintbody localization represents the sites of RNAP2 Ser2ph in living cells. RNAP2 Ser2ph-mintbody foci showed constrained diffusional motion like chromatin, but they were more mobile than DNA replication domains and p300-enriched foci, suggesting that the elongating RNAP2 complexes are separated from more confined chromatin domains.",
+        "doi": "https://doi.org/10.1083/jcb.202104134",
+        "journal": "The Journal of cell biology",
+        "date": "2022",
+        "is_new": true,
+        "probe_name": "RNAP2 Ser2ph-mintbody",
+        "target": "RNA polymerase II Ser2 phosphorylation",
+        "color": "Fluorescent",
+        "type": "Genetically encoded modification-specific intracellular antibody probe"
+    },
+    {
+        "title": "Sponging of glutamate at the outer plasma membrane surface reveals roles for glutamate in development.",
+        "abstract": "Plants use electrical and chemical signals for systemic communication. Herbivory, for instance, appears to trigger local apoplasmic glutamate accumulation, systemic electrical signals, and calcium waves that travel to report insect damage to neighboring leaves and initiate defense. To monitor extra- and intracellular glutamate concentrations in plants, we generated Arabidopsis lines expressing genetically encoded fluorescent glutamate sensors. In contrast to cytosolically localized sensors, extracellularly displayed variants inhibited plant growth and proper development. Phenotypic analyses of high-affinity display sensor lines revealed that root meristem development, particularly the quiescent center, number of lateral roots, vegetative growth, and floral architecture were impacted. Notably, the severity of the phenotypes was positively correlated with the affinity of the display sensors, intimating that their ability to sequester glutamate at the surface of the plasma membrane was responsible for the defects. Root growth defects were suppressed by supplementing culture media with low levels of glutamate. Together, the data indicate that sequestration of glutamate at the cell surface either disrupts the supply of glutamate to meristematic cells and/or impairs localized glutamatergic signaling important for developmental processes.",
+        "doi": "https://doi.org/10.1111/tpj.15585",
+        "journal": "The Plant journal : for cell and molecular biology",
+        "date": "2022",
+        "is_new": true,
+        "probe_name": "Genetically encoded fluorescent glutamate sensors",
+        "target": "Glutamate",
+        "color": "Fluorescent",
+        "type": "Fluorescent sensor"
+    },
+    {
+        "title": "A fluorescent sensor for spatiotemporally resolved imaging of endocannabinoid dynamics in vivo.",
+        "abstract": "Endocannabinoids (eCBs) are retrograde neuromodulators with important functions in a wide range of physiological processes, but their in vivo dynamics remain largely uncharacterized. Here we developed a genetically encoded eCB sensor called GRAB<sub>eCB2.0</sub>. GRAB<sub>eCB2.0</sub> consists of a circular-permutated EGFP and the human CB1 cannabinoid receptor, providing cell membrane trafficking, second-resolution kinetics with high specificity for eCBs, and shows a robust fluorescence response at physiological eCB concentrations. Using GRAB<sub>eCB2.0</sub>, we monitored evoked and spontaneous changes in eCB dynamics in cultured neurons and acute brain slices. We observed spontaneous compartmentalized eCB transients in cultured neurons and eCB transients from single axonal boutons in acute brain slices, suggesting constrained, localized eCB signaling. When GRAB<sub>eCB2.0</sub> was expressed in the mouse brain, we observed foot shock-elicited and running-triggered eCB signaling in the basolateral amygdala and hippocampus, respectively. In a mouse model of epilepsy, we observed a spreading wave of eCB release that followed a Ca<sup>2+</sup> wave through the hippocampus. GRAB<sub>eCB2.0</sub> is a robust probe for eCB release in vivo.",
+        "doi": "https://doi.org/10.1038/s41587-021-01074-4",
+        "journal": "Nature biotechnology",
+        "date": "2022",
+        "is_new": true,
+        "probe_name": "GRAB<sub>eCB2.0</sub>",
+        "target": "Endocannabinoids (eCBs)",
+        "color": "Fluorescent (EGFP)",
+        "type": "Genetically encoded fluorescent sensor"
+    },
+    {
+        "title": "HI-NESS: a family of genetically encoded DNA labels based on a bacterial nucleoid-associated protein.",
+        "abstract": "The interplay between three-dimensional chromosome organisation and genomic processes such as replication and transcription necessitates in vivo studies of chromosome dynamics. Fluorescent organic dyes are often used for chromosome labelling in vivo. The mode of binding of these dyes to DNA cause its distortion, elongation, and partial unwinding. The structural changes induce DNA damage and interfere with the binding dynamics of chromatin-associated proteins, consequently perturbing gene expression, genome replication, and cell cycle progression. We have developed a minimally-perturbing, genetically encoded fluorescent DNA label consisting of a (photo-switchable) fluorescent protein fused to the DNA-binding domain of H-NS - a bacterial nucleoid-associated protein. We show that this DNA label, abbreviated as HI-NESS (H-NS-based indicator for nucleic acid stainings), is minimally-perturbing to genomic processes and labels chromosomes in eukaryotic cells in culture, and in zebrafish embryos with preferential binding to AT-rich chromatin.",
+        "doi": "https://doi.org/10.1093/nar/gkab993",
+        "journal": "Nucleic acids research",
+        "date": "2022",
+        "is_new": true,
+        "probe_name": "HI-NESS",
+        "target": "DNA",
+        "color": "Fluorescent",
+        "type": "Genetically encoded fluorescent DNA label"
+    },
+    {
+        "title": "Strigo-D2-a bio-sensor for monitoring spatio-temporal strigolactone signaling patterns in intact plants.",
+        "abstract": "Strigolactones (SLs) are a class of plant hormones that mediate biotic interactions and modulate developmental programs in response to endogenous and exogenous stimuli. However, a comprehensive view on the spatio-temporal pattern of SL signaling has not been established, and tools for a systematic in planta analysis do not exist. Here, we present Strigo-D2, a genetically encoded ratiometric SL signaling sensor that enables the examination of SL signaling distribution at cellular resolution and is capable of rapid response to altered SL levels in intact Arabidopsis (Arabidopsis thaliana) plants. By monitoring the abundance of a truncated and fluorescently labeled SUPPRESSOR OF MAX2 1-LIKE 6 (SMXL6) protein, a proteolytic target of the SL signaling machinery, we show that all cell types investigated have the capacity to respond to changes in SL levels but with very different dynamics. In particular, SL signaling is pronounced in vascular cells but low in guard cells and the meristematic region of the root. We also show that other hormones leave Strigo-D2 activity unchanged, indicating that initial SL signaling steps work in isolation from other hormonal signaling pathways. The specificity and spatio-temporal resolution of Strigo-D2 underline the value of the sensor for monitoring SL signaling in a broad range of biological contexts with highly instructive analytical depth.",
+        "doi": "https://doi.org/10.1093/plphys/kiab504",
+        "journal": "Plant physiology",
+        "date": "2022",
+        "is_new": true,
+        "probe_name": "Strigo-D2",
+        "target": "Strigolactones (SLs)",
+        "color": "Fluorescent",
+        "type": "Genetically encoded ratiometric sensor"
+    },
+    {
+        "title": "GEM-IL: A highly responsive fluorescent lactate indicator.",
+        "abstract": "Lactate metabolism has been shown to have increasingly important implications in cellular functions as well as in the development and pathophysiology of disease. The various roles as a signaling molecule and metabolite have led to interest in establishing a new method to detect lactate changes in live cells. Here we report our development of a genetically encoded metabolic indicator specifically for probing lactate (GEM-IL) based on superfolder fluorescent proteins and mutagenesis. With improvements in its design, specificity, and sensitivity, GEM-IL allows new applications compared with the previous lactate indicators, Laconic and Green Lindoblum. We demonstrate the functionality of GEM-IL to detect differences in lactate changes in human oncogenic neural progenitor cells and mouse primary ventricular myocytes. The development and application of GEM-IL show promise for enhancing our understanding of lactate dynamics and roles.",
+        "doi": "https://doi.org/10.1016/j.crmeth.2021.100092",
+        "journal": "Cell reports methods",
+        "date": "2021",
+        "is_new": true,
+        "probe_name": "GEM-IL",
+        "target": "lactate",
+        "color": "fluorescent",
+        "type": "genetically encoded metabolic indicator"
+    },
+    {
+        "title": "A New Transgenic Mouse Line for Imaging Mitochondrial Calcium Signals.",
+        "abstract": "Mitochondria play a key role in cellular calcium (Ca<sup>2+</sup>) homeostasis. Dysfunction in the organelle Ca<sup>2+</sup> handling appears to be involved in several pathological conditions, ranging from neurodegenerative diseases, cardiac failure and malignant transformation. In the past years, several targeted green fluorescent protein (GFP)-based genetically encoded Ca<sup>2+</sup> indicators (GECIs) have been developed to study Ca<sup>2+</sup> dynamics inside mitochondria of living cells. Surprisingly, while there is a number of transgenic mice expressing different types of cytosolic GECIs, few examples are available expressing mitochondria-localized GECIs, and none of them exhibits adequate spatial resolution. Here we report the generation and characterization of a transgenic mouse line (hereafter called mt-Cam) for the controlled expression of a mitochondria-targeted, Förster resonance energy transfer (FRET)-based Cameleon, 4mtD3cpv. To achieve this goal, we engineered the mouse <i>ROSA26</i> genomic locus by inserting the optimized sequence of 4mtD3cpv, preceded by a <i>loxP</i>-STOP-<i>loxP</i> sequence. The probe can be readily expressed in a tissue-specific manner upon Cre recombinase-mediated excision, obtainable with a single cross. Upon ubiquitous Cre expression, the Cameleon is specifically localized in the mitochondrial matrix of cells in all the organs and tissues analyzed, from embryos to aged animals. Ca<sup>2+</sup> imaging experiments performed <i>in vitro</i> and <i>ex vivo</i> in brain slices confirmed the functionality of the probe in isolated cells and live tissues. This new transgenic mouse line allows the study of mitochondrial Ca<sup>2+</sup> dynamics in different tissues with no invasive intervention (such as viral infection or electroporation), potentially allowing simple calibration of the fluorescent signals in terms of mitochondrial Ca<sup>2+</sup> concentration ([Ca<sup>2+</sup>]).",
+        "doi": "https://doi.org/10.1093/function/zqab012",
+        "journal": "Function (Oxford, England)",
+        "date": "2021",
+        "is_new": true,
+        "probe_name": "4mtD3cpv",
+        "target": "Mitochondria",
+        "color": "Green",
+        "type": "Förster resonance energy transfer (FRET)-based Cameleon"
+    },
+    {
         "title": "Simultaneous two-photon imaging of action potentials and subthreshold inputs in vivo.",
         "abstract": "To better understand the input-output computations of neuronal populations, we developed ArcLight-ST, a genetically-encoded voltage indicator, to specifically measure subthreshold membrane potentials. We combined two-photon imaging of voltage and calcium, and successfully discriminated subthreshold inputs and spikes with cellular resolution in vivo. We demonstrate the utility of the method by mapping epileptic seizures progression through cortical circuits, revealing divergent sub- and suprathreshold dynamics within compartmentalized epileptic micronetworks. Two-photon, two-color imaging of calcium and voltage enables mapping of inputs and outputs in neuronal populations in living animals.",
         "doi": "https://doi.org/10.1038/s41467-021-27444-9",
@@ -4116,18 +4164,6 @@
         "type": "Genetically encoded calcium indicator"
     },
     {
-        "title": "Live imaging of transcription sites using an elongating RNA polymerase II-specific probe.",
-        "abstract": "In eukaryotic nuclei, most genes are transcribed by RNA polymerase II (RNAP2), whose regulation is a key to understanding the genome and cell function. RNAP2 has a long heptapeptide repeat (Tyr1-Ser2-Pro3-Thr4-Ser5-Pro6-Ser7), and Ser2 is phosphorylated on an elongation form. To detect RNAP2 Ser2 phosphorylation (RNAP2 Ser2ph) in living cells, we developed a genetically encoded modification-specific intracellular antibody (mintbody) probe. The RNAP2 Ser2ph-mintbody exhibited numerous foci, possibly representing transcription \"factories,\" and foci were diminished during mitosis and in a Ser2 kinase inhibitor. An in vitro binding assay using phosphopeptides confirmed the mintbody's specificity. RNAP2 Ser2ph-mintbody foci were colocalized with proteins associated with elongating RNAP2 compared with factors involved in the initiation. These results support the view that mintbody localization represents the sites of RNAP2 Ser2ph in living cells. RNAP2 Ser2ph-mintbody foci showed constrained diffusional motion like chromatin, but they were more mobile than DNA replication domains and p300-enriched foci, suggesting that the elongating RNAP2 complexes are separated from more confined chromatin domains.",
-        "doi": "https://doi.org/10.1083/jcb.202104134",
-        "journal": "The Journal of cell biology",
-        "date": "2022",
-        "is_new": true,
-        "probe_name": "RNAP2 Ser2ph-mintbody",
-        "target": "RNA polymerase II Ser2 phosphorylation",
-        "color": "Fluorescent",
-        "type": "Genetically encoded modification-specific intracellular antibody probe"
-    },
-    {
         "title": "Whole-cell screening of oxidative enzymes using genetically encoded sensors.",
         "abstract": "Biocatalysis is increasingly used for synthetic purposes in the chemical and especially the pharmaceutical industry. Enzyme discovery and optimization which is frequently needed to improve biocatalytic performance rely on high-throughput methods for activity determination. These methods should ideally be generic and applicable to entire enzyme families. Hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) is a product of several biocatalytic oxidations and its formation can serve as a proxy for oxidative activity. We designed a genetically encoded sensor for activity measurement of oxidative biocatalysts <i>via</i> the amount of intracellularly-formed H<sub>2</sub>O<sub>2</sub>. A key component of the sensor is an H<sub>2</sub>O<sub>2</sub>-sensitive transcriptional regulator, OxyR, which is used to control the expression levels of fluorescent proteins. We employed the OxyR sensor to monitor the oxidation of glycerol to glyceraldehyde and of toluene to <i>o</i>-cresol catalysed by recombinant <i>E. coli</i> expressing an alcohol oxidase and a P450 monooxygenase, respectively. In case of the P450 BM3-catalysed reaction, we additionally monitored <i>o</i>-cresol formation <i>via</i> a second genetically encoded sensor based on the phenol-sensitive transcriptional activator, DmpR, and an orthogonal fluorescent reporter protein. Single round screens of mutant libraries by flow cytometry or by visual inspection of colonies on agar plates yielded significantly improved oxidase and oxygenase variants thus exemplifying the suitability of the sensor system to accurately assess whole-cell oxidations in a high-throughput manner.",
         "doi": "https://doi.org/10.1039/d1sc02578c",
@@ -4152,18 +4188,6 @@
         "type": "Genetically Encoded Fluorescent Glutamate Sensor"
     },
     {
-        "title": "Sponging of glutamate at the outer plasma membrane surface reveals roles for glutamate in development.",
-        "abstract": "Plants use electrical and chemical signals for systemic communication. Herbivory, for instance, appears to trigger local apoplasmic glutamate accumulation, systemic electrical signals, and calcium waves that travel to report insect damage to neighboring leaves and initiate defense. To monitor extra- and intracellular glutamate concentrations in plants, we generated Arabidopsis lines expressing genetically encoded fluorescent glutamate sensors. In contrast to cytosolically localized sensors, extracellularly displayed variants inhibited plant growth and proper development. Phenotypic analyses of high-affinity display sensor lines revealed that root meristem development, particularly the quiescent center, number of lateral roots, vegetative growth, and floral architecture were impacted. Notably, the severity of the phenotypes was positively correlated with the affinity of the display sensors, intimating that their ability to sequester glutamate at the surface of the plasma membrane was responsible for the defects. Root growth defects were suppressed by supplementing culture media with low levels of glutamate. Together, the data indicate that sequestration of glutamate at the cell surface either disrupts the supply of glutamate to meristematic cells and/or impairs localized glutamatergic signaling important for developmental processes.",
-        "doi": "https://doi.org/10.1111/tpj.15585",
-        "journal": "The Plant journal : for cell and molecular biology",
-        "date": "2022",
-        "is_new": true,
-        "probe_name": "Genetically encoded fluorescent glutamate sensors",
-        "target": "Glutamate",
-        "color": "Fluorescent",
-        "type": "Fluorescent sensor"
-    },
-    {
         "title": "Bioluminescent Sensors for Ca<sup>++</sup> Flux Imaging and the Introduction of a New Intensity-Based Ca<sup>++</sup> Sensor.",
         "abstract": "Sensitive detection of biological events is a goal for the design and characterization of sensors that can be used <i>in vitro</i> and <i>in vivo</i>. One important second messenger is Ca<sup>++</sup> which has been a focus of using genetically encoded Ca<sup>++</sup> indicators (GECIs) within living cells or intact organisms <i>in vivo</i>. An ideal GECI would exhibit high signal intensity, excellent signal-to-noise ratio (SNR), rapid kinetics, a large dynamic range within relevant physiological conditions, and red-shifted emission. Most available GECIs are based on fluorescence, but bioluminescent GECIs have potential advantages in terms of avoiding tissue autofluorescence, phototoxicity, photobleaching, and spectral overlap, as well as enhancing SNR. Here, we summarize current progress in the development of bioluminescent GECIs and introduce a new and previously unpublished biosensor. Because these biosensors require a substrate, we also describe the pros and cons of various substrates used with these sensors. The novel GECI that is introduced here is called CalBiT, and it is a Ca<sup>++</sup> indicator based on the functional complementation of NanoBiT which shows a high dynamic change in response to Ca<sup>++</sup> fluxes. Here, we use CalBiT for the detection of Ca<sup>++</sup> fluctuations in cultured cells, including its ability for real-time imaging in living cells.",
         "doi": "https://doi.org/10.3389/fbioe.2021.773353",
@@ -4174,18 +4198,6 @@
         "target": "Ca<sup>++</sup>",
         "color": "Not specified",
         "type": "Bioluminescent GECI"
-    },
-    {
-        "title": "A fluorescent sensor for spatiotemporally resolved imaging of endocannabinoid dynamics in vivo.",
-        "abstract": "Endocannabinoids (eCBs) are retrograde neuromodulators with important functions in a wide range of physiological processes, but their in vivo dynamics remain largely uncharacterized. Here we developed a genetically encoded eCB sensor called GRAB<sub>eCB2.0</sub>. GRAB<sub>eCB2.0</sub> consists of a circular-permutated EGFP and the human CB1 cannabinoid receptor, providing cell membrane trafficking, second-resolution kinetics with high specificity for eCBs, and shows a robust fluorescence response at physiological eCB concentrations. Using GRAB<sub>eCB2.0</sub>, we monitored evoked and spontaneous changes in eCB dynamics in cultured neurons and acute brain slices. We observed spontaneous compartmentalized eCB transients in cultured neurons and eCB transients from single axonal boutons in acute brain slices, suggesting constrained, localized eCB signaling. When GRAB<sub>eCB2.0</sub> was expressed in the mouse brain, we observed foot shock-elicited and running-triggered eCB signaling in the basolateral amygdala and hippocampus, respectively. In a mouse model of epilepsy, we observed a spreading wave of eCB release that followed a Ca<sup>2+</sup> wave through the hippocampus. GRAB<sub>eCB2.0</sub> is a robust probe for eCB release in vivo.",
-        "doi": "https://doi.org/10.1038/s41587-021-01074-4",
-        "journal": "Nature biotechnology",
-        "date": "2022",
-        "is_new": true,
-        "probe_name": "GRAB<sub>eCB2.0</sub>",
-        "target": "Endocannabinoids (eCBs)",
-        "color": "Fluorescent (EGFP)",
-        "type": "Genetically encoded fluorescent sensor"
     },
     {
         "title": "An Autonomous Molecular Bioluminescent Reporter (AMBER) for Voltage Imaging in Freely Moving Animals.",
@@ -4200,18 +4212,6 @@
         "type": "Genetically encoded bioluminescent reporter"
     },
     {
-        "title": "HI-NESS: a family of genetically encoded DNA labels based on a bacterial nucleoid-associated protein.",
-        "abstract": "The interplay between three-dimensional chromosome organisation and genomic processes such as replication and transcription necessitates in vivo studies of chromosome dynamics. Fluorescent organic dyes are often used for chromosome labelling in vivo. The mode of binding of these dyes to DNA cause its distortion, elongation, and partial unwinding. The structural changes induce DNA damage and interfere with the binding dynamics of chromatin-associated proteins, consequently perturbing gene expression, genome replication, and cell cycle progression. We have developed a minimally-perturbing, genetically encoded fluorescent DNA label consisting of a (photo-switchable) fluorescent protein fused to the DNA-binding domain of H-NS - a bacterial nucleoid-associated protein. We show that this DNA label, abbreviated as HI-NESS (H-NS-based indicator for nucleic acid stainings), is minimally-perturbing to genomic processes and labels chromosomes in eukaryotic cells in culture, and in zebrafish embryos with preferential binding to AT-rich chromatin.",
-        "doi": "https://doi.org/10.1093/nar/gkab993",
-        "journal": "Nucleic acids research",
-        "date": "2022",
-        "is_new": true,
-        "probe_name": "HI-NESS",
-        "target": "DNA",
-        "color": "Fluorescent",
-        "type": "Genetically encoded fluorescent DNA label"
-    },
-    {
         "title": "Genetically Encoded Green Fluorescent Biosensors for Monitoring UDP-GlcNAc in Live Cells.",
         "abstract": "Uridine diphosphate <i>N</i>-acetylglucosamine (UDP-GlcNAc) is a nucleotide sugar used by glycosyltransferases to synthesize glycoproteins, glycosaminoglycans, glycolipids, and glycoRNA. UDP-GlcNAc also serves as the donor substrate for forming <i>O</i>-GlcNAc, a dynamic intracellular protein modification involved in diverse signaling and disease processes. UDP-GlcNAc is thus a central metabolite connecting nutrition, metabolism, signaling, and disease. There is a great interest in monitoring UDP-GlcNAc in biological systems. Here, we present the first genetically encoded, green fluorescent UDP-GlcNAc sensor (UGAcS), an optimized insertion of a circularly permuted green fluorescent protein (cpGFP) into an inactive mutant of an <i>Escherichia coli</i> UDP-GlcNAc transferase, for ratiometric monitoring of UDP-GlcNAc dynamics in live mammalian cells. Although UGAcS responds to UDP-GlcNAc quite selectively among various nucleotide sugars, UDP and uridine triphosphate (UTP) interfere with the response. We thus developed another biosensor named UXPS, which is responsive to UDP and UTP but not UDP-GlcNAc. We demonstrated the use of the biosensors to follow UDP-GlcNAc levels in cultured mammalian cells perturbed with nutritional changes, pharmacological inhibition, and knockdown or overexpression of key enzymes in the UDP-GlcNAc synthesis pathway. We further utilized the biosensors to monitor UDP-GlcNAc concentrations in pancreatic MIN6 β-cells under various culture conditions.",
         "doi": "https://doi.org/10.1021/acscentsci.1c00745",
@@ -4222,18 +4222,6 @@
         "target": "UDP-GlcNAc",
         "color": "Green",
         "type": "Genetically Encoded Fluorescent Sensor"
-    },
-    {
-        "title": "Strigo-D2-a bio-sensor for monitoring spatio-temporal strigolactone signaling patterns in intact plants.",
-        "abstract": "Strigolactones (SLs) are a class of plant hormones that mediate biotic interactions and modulate developmental programs in response to endogenous and exogenous stimuli. However, a comprehensive view on the spatio-temporal pattern of SL signaling has not been established, and tools for a systematic in planta analysis do not exist. Here, we present Strigo-D2, a genetically encoded ratiometric SL signaling sensor that enables the examination of SL signaling distribution at cellular resolution and is capable of rapid response to altered SL levels in intact Arabidopsis (Arabidopsis thaliana) plants. By monitoring the abundance of a truncated and fluorescently labeled SUPPRESSOR OF MAX2 1-LIKE 6 (SMXL6) protein, a proteolytic target of the SL signaling machinery, we show that all cell types investigated have the capacity to respond to changes in SL levels but with very different dynamics. In particular, SL signaling is pronounced in vascular cells but low in guard cells and the meristematic region of the root. We also show that other hormones leave Strigo-D2 activity unchanged, indicating that initial SL signaling steps work in isolation from other hormonal signaling pathways. The specificity and spatio-temporal resolution of Strigo-D2 underline the value of the sensor for monitoring SL signaling in a broad range of biological contexts with highly instructive analytical depth.",
-        "doi": "https://doi.org/10.1093/plphys/kiab504",
-        "journal": "Plant physiology",
-        "date": "2022",
-        "is_new": true,
-        "probe_name": "Strigo-D2",
-        "target": "Strigolactones (SLs)",
-        "color": "Fluorescent",
-        "type": "Genetically encoded ratiometric sensor"
     },
     {
         "title": "An improved macromolecular crowding sensor CRONOS for detection of crowding changes in membrane-less organelles under stressed conditions.",
@@ -4740,30 +4728,6 @@
         "type": "Genetically encoded fluorescent sensor"
     },
     {
-        "title": "Affinity Purification of GO-Matryoshka Biosensors from <i>E. coli</i> for Quantitative Ratiometric Fluorescence Analyses.",
-        "abstract": "Genetically encoded biosensors are powerful tools for quantitative visualization of ions and metabolites <i>in vivo</i>. Design and optimization of such biosensors typically require analyses of large numbers of variants. Sensor properties determined <i>in vitro</i> such as substrate specificity, affinity, response range, dynamic range, and signal-to-noise ratio are important for evaluating <i>in vivo</i> data. This protocol provides a robust methodology for <i>in vitro</i> binding assays of newly designed sensors. Here we present a detailed protocol for purification and <i>in vitro</i> characterization of genetically encoded sensors, exemplified for the His affinity-tagged GO-(Green-Orange) MatryoshCaMP6s calcium sensor. GO-Matryoshka sensors are based on single-step insertion of a cassette containing two nested fluorescent proteins, circularly permutated fluorescent green FP (cpGFP) and Large Stoke Shift LSSmOrange, within the binding protein of interest, producing ratiometric sensors that exploit the analyte-triggered change in fluorescence of a cpGFP.",
-        "doi": "https://doi.org/10.21769/BioProtoc.3773",
-        "journal": "Bio-protocol",
-        "date": "2020",
-        "is_new": true,
-        "probe_name": "GO-Matryoshka",
-        "target": "Calcium",
-        "color": "Green-Orange",
-        "type": "Ratiometric Fluorescence Sensor"
-    },
-    {
-        "title": "Live Mitochondrial or Cytosolic Calcium Imaging Using Genetically-encoded Cameleon Indicator in Mammalian Cells.",
-        "abstract": "Calcium (Ca<sup>2+</sup>) imaging aims at investigating the dynamic changes in live cells of its concentration ([Ca<sup>2+</sup>]) in different pathophysiological conditions. Ca<sup>2+</sup> is an ubiquitous and versatile intracellular signal that modulates a large variety of cellular functions thanks to a cell type-specific toolkit and a complex subcellular compartmentalization. Many Ca<sup>2+</sup> sensors are presently available (chemical and genetically encoded) that can be specifically targeted to different cellular compartments. Using these probes, it is now possible to monitor Ca<sup>2+</sup> dynamics of living cells not only in the cytosol but also within specific organelles. The choice of a specific sensor depends on the experimental design and the spatial and temporal resolution required. Here we describe the use of novel Förster resonance energy transfer (FRET)-based fluorescent Ca<sup>2+</sup> probes to dynamically and quantitatively monitor the changes in cytosolic and mitochondrial [Ca<sup>2+</sup>] in a variety of cell types and experimental conditions. FRET-based sensors have the enormous advantage of being ratiometric, a feature that makes them particularly suitable for quantitative and <i>in vivo</i> applications.",
-        "doi": "https://doi.org/10.21769/BioProtoc.3504",
-        "journal": "Bio-protocol",
-        "date": "2020",
-        "is_new": true,
-        "probe_name": "Förster resonance energy transfer (FRET)-based fluorescent Ca<sup>2+</sup> probes",
-        "target": "Cytosolic and mitochondrial [Ca<sup>2+</sup>]",
-        "color": "Fluorescent",
-        "type": "Genetically-encoded"
-    },
-    {
         "title": "ROS Live Cell Imaging During Neuronal Development.",
         "abstract": "Reactive oxygen species (ROS) are well-established signaling molecules, which are important in normal development, homeostasis, and physiology. Among the different ROS, hydrogen peroxide (H2O2) is best characterized with respect to roles in cellular signaling. H2O2 has been implicated during the development in several species. For example, a transient increase in H2O2 has been detected in zebrafish embryos during the first days following fertilization. Furthermore, depleting an important cellular H2O2 source, NADPH oxidase (NOX), impairs nervous system development such as the differentiation, axonal growth, and guidance of retinal ganglion cells (RGCs) both in vivo and in vitro. Here, we describe a method for imaging intracellular H2O2 levels in cultured zebrafish neurons and whole larvae during development using the genetically encoded H2O2-specific biosensor, roGFP2-Orp1. This probe can be transiently or stably expressed in zebrafish larvae. Furthermore, the ratiometric readout diminishes the probability of detecting artifacts due to differential gene expression or volume effects. First, we demonstrate how to isolate and culture RGCs derived from zebrafish embryos that transiently express roGFP2-Orp1. Then, we use whole larvae to monitor H2O2 levels at the tissue level. The sensor has been validated by the addition of H2O2. Additionally, this methodology could be used to measure H2O2 levels in specific cell types and tissues by generating transgenic animals with tissue-specific biosensor expression. As zebrafish facilitate genetic and developmental manipulations, the approach demonstrated here could serve as a pipeline to test the role of H2O2 during neuronal and general embryonic development in vertebrates.",
         "doi": "https://doi.org/10.3791/62165",
@@ -4932,6 +4896,78 @@
         "type": "Fluorescent biosensor"
     },
     {
+        "title": "Bidirectional astrocytic GLUT1 activation by elevated extracellular K<sup></sup>.",
+        "abstract": "The acute rise in interstitial K<sup>+</sup> that accompanies neural activity couples the energy demand of neurons to the metabolism of astrocytes. The effects of elevated K<sup>+</sup> on astrocytes include activation of aerobic glycolysis, inhibition of mitochondrial respiration and the release of lactate. Using a genetically encoded FRET glucose sensor and a novel protocol based on 3-O-methylglucose trans-acceleration and numerical simulation of glucose dynamics, we report that extracellular K<sup>+</sup> is also a potent and reversible modulator of the astrocytic glucose transporter GLUT1. In cultured mouse astrocytes, the stimulatory effect developed within seconds, engaged both the influx and efflux modes of the transporter, and was detected even at 1 mM incremental K<sup>+</sup> . The modulation of GLUT1 explains how astrocytes are able to maintain their glucose pool in the face of strong glycolysis stimulation. We propose that the stimulation of GLUT1 by K<sup>+</sup> supports the production of lactate by astrocytes and the timely delivery of glucose to active neurons.",
+        "doi": "https://doi.org/10.1002/glia.23944",
+        "journal": "Glia",
+        "date": "2021",
+        "is_new": true,
+        "probe_name": "Genetically encoded FRET glucose sensor",
+        "target": "GLUT1",
+        "color": "Fluorescent",
+        "type": "Fluorescence Resonance Energy Transfer (FRET)"
+    },
+    {
+        "title": "A near-infrared genetically encoded calcium indicator for in vivo imaging.",
+        "abstract": "While calcium imaging has become a mainstay of modern neuroscience, the spectral properties of current fluorescent calcium indicators limit deep-tissue imaging as well as simultaneous use with other probes. Using two monomeric near-infrared (NIR) fluorescent proteins (FPs), we engineered an NIR Förster resonance energy transfer (FRET)-based genetically encoded calcium indicator (iGECI). iGECI exhibits high levels of brightness and photostability and an increase up to 600% in the fluorescence response to calcium. In dissociated neurons, iGECI detects spontaneous neuronal activity and electrically and optogenetically induced firing. We validated the performance of iGECI up to a depth of almost 400 µm in acute brain slices using one-photon light-sheet imaging. Applying hybrid photoacoustic and fluorescence microscopy, we simultaneously monitored neuronal and hemodynamic activities in the mouse brain through an intact skull, with resolutions of ~3 μm (lateral) and ~25-50 μm (axial). Using two-photon imaging, we detected evoked and spontaneous neuronal activity in the mouse visual cortex, with fluorescence changes of up to 25%. iGECI allows biosensors and optogenetic actuators to be multiplexed without spectral crosstalk.",
+        "doi": "https://doi.org/10.1038/s41587-020-0710-1",
+        "journal": "Nature biotechnology",
+        "date": "2021",
+        "is_new": true,
+        "probe_name": "iGECI",
+        "target": "Calcium",
+        "color": "Near-infrared",
+        "type": "Genetically encoded calcium indicator"
+    },
+    {
+        "title": "Using genetically encoded heme sensors to probe the mechanisms of heme uptake and homeostasis in Candida albicans.",
+        "abstract": "Candida albicans is a major fungal pathogen that can utilise hemin and haemoglobin as iron sources in the iron-scarce host environment. While C. albicans is a heme prototroph, we show here that it can also efficiently utilise external heme as a cellular heme source. Using genetically encoded ratiometric fluorescent heme sensors, we show that heme extracted from haemoglobin and free hemin enter the cells with different kinetics. Heme supplied as haemoglobin is taken up via the Common in Fungal Extracellular Membrane (CFEM) hemophore cascade, and reaches the cytoplasm over several hours, whereas entry of free hemin via CFEM-dependent and independent pathways is much faster, less than an hour. To prevent an influx of extracellular heme from reaching toxic levels in the cytoplasm, the cells deploy Hmx1, a heme oxygenase. Hmx1 was previously suggested to be involved in utilisation of haemoglobin and hemin as iron sources, but we find that it is primarily required to prevent heme toxicity. Taken together, the combination of novel heme sensors with genetic analysis revealed new details of the fungal mechanisms of heme import and homeostasis, necessary to balance the uses of heme as essential cofactor and potential iron source against its toxicity.",
+        "doi": "https://doi.org/10.1111/cmi.13282",
+        "journal": "Cellular microbiology",
+        "date": "2021",
+        "is_new": true,
+        "probe_name": "ratiometric fluorescent heme sensors",
+        "target": "heme",
+        "color": "Fluorescent",
+        "type": "Genetically encoded"
+    },
+    {
+        "title": "Live imaging of intra-lysosome pH in cell lines and primary neuronal culture using a novel genetically encoded biosensor.",
+        "abstract": "Disorders of lysosomal physiology have increasingly been found to underlie the pathology of a rapidly growing cast of neurodevelopmental disorders and sporadic diseases of aging. One cardinal aspect of lysosomal (dys)function is lysosomal acidification in which defects trigger lysosomal stress signaling and defects in proteolytic capacity. We have developed a genetically encoded ratiometric probe to measure lysosomal pH coupled with a purification tag to efficiently purify lysosomes for both proteomic and <i>in vitro</i> evaluation of their function. Using our probe, we showed that lysosomal pH is remarkably stable over a period of days in a variety of cell types. Additionally, this probe can be used to determine that lysosomal stress signaling <i>via</i> TFEB is uncoupled from gross changes in lysosomal pH. Finally, we demonstrated that while overexpression of ARL8B GTPase causes striking alkalinization of peripheral lysosomes in HEK293 T cells, peripheral lysosomes <i>per se</i> are no less acidic than juxtanuclear lysosomes in our cell lines.<b>Abbreviations:</b> ARL8B: ADP ribosylation factor like GTPase 8B; ATP: adenosine triphosphate; ATP5F1B/ATPB: ATP synthase F1 subunit beta; ATP6V1A: ATPase H+ transporting V1 subunit A; Baf: bafilomycin A<sub>1</sub>; BLOC-1: biogenesis of lysosome-related organelles complex 1; BSA: bovine serum albumin; Cos7: African green monkey kidney fibroblast-like cell line; CQ: chloroquine; CTSB: cathepsin B; CYCS: cytochrome c, somatic; DAPI: 4',6-diamidino -2- phenylindole; DIC: differential interference contrast; DIV: days <i>in vitro</i>; DMEM: Dulbecco's modified Eagle's medium;‎ E8: embryonic day 8; EEA1: early endosome antigen 1; EGTA: ethylene glycol-bis(β-aminoethyl ether)-N,N,N',N'-tetraacetic acid; ER: endoplasmic reticulum; FBS: fetal bovine serum; FITC: fluorescein isothiocyanate; GABARAPL2: GABA type A receptor associated protein like 2; GAPDH: glyceraldehyde-3-phosphate dehydrogenase; GOLGA2/GM130: golgin A2; GTP: guanosine triphosphate; HEK293T: human embryonic kidney 293 cells, that expresses a mutant version of the SV40 large T antigen; HeLa: Henrietta Lacks-derived cell; HEPES: 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid; HRP: horseradish peroxidase; IGF2R/ciM6PR: insulin like growth factor 2 receptor; LAMP1/2: lysosomal associated membrane protein 1/2; LMAN2/VIP36: lectin, mannose binding 2; MAP1LC3/LC3: microtubule-associated protein 1 light chain 3; MTORC1: mechanistic target of rapamycin kinase complex 1; PCR: polymerase chain reaction; PDL: poly-d-lysine; <i>PGK1p</i>: promotor from human phosphoglycerate kinase 1; PIKFYVE: phosphoinositide kinase, FYVE-type zinc finger containing; PPT1/CLN1: palmitoyl-protein thioesterase 1; RPS6KB1/p70: ribosomal protein S6 kinase B1; STAT3: signal transducer and activator of transcription 3; TAX1BP1: Tax1 binding protein 1; TFEB: transcription factor EB; TGN: trans-Golgi network; TGOLN2/TGN46: trans-Golgi network protein 2; TIRF: total internal reflection fluorescence; TMEM106B: transmembrane protein 106B; TOR: target of rapamycin; TRPM2: transient receptor potential cation channel subfamily M member 2; V-ATPase: vacuolar-type proton-translocating ATPase; VPS35: VPS35 retromer complex component.",
+        "doi": "https://doi.org/10.1080/15548627.2020.1771858",
+        "journal": "Autophagy",
+        "date": "2021",
+        "is_new": true,
+        "probe_name": "Genetically encoded ratiometric probe",
+        "target": "Lysosomal pH",
+        "color": "Fluorescent",
+        "type": "Biosensor"
+    },
+    {
+        "title": "Affinity Purification of GO-Matryoshka Biosensors from <i>E. coli</i> for Quantitative Ratiometric Fluorescence Analyses.",
+        "abstract": "Genetically encoded biosensors are powerful tools for quantitative visualization of ions and metabolites <i>in vivo</i>. Design and optimization of such biosensors typically require analyses of large numbers of variants. Sensor properties determined <i>in vitro</i> such as substrate specificity, affinity, response range, dynamic range, and signal-to-noise ratio are important for evaluating <i>in vivo</i> data. This protocol provides a robust methodology for <i>in vitro</i> binding assays of newly designed sensors. Here we present a detailed protocol for purification and <i>in vitro</i> characterization of genetically encoded sensors, exemplified for the His affinity-tagged GO-(Green-Orange) MatryoshCaMP6s calcium sensor. GO-Matryoshka sensors are based on single-step insertion of a cassette containing two nested fluorescent proteins, circularly permutated fluorescent green FP (cpGFP) and Large Stoke Shift LSSmOrange, within the binding protein of interest, producing ratiometric sensors that exploit the analyte-triggered change in fluorescence of a cpGFP.",
+        "doi": "https://doi.org/10.21769/BioProtoc.3773",
+        "journal": "Bio-protocol",
+        "date": "2020",
+        "is_new": true,
+        "probe_name": "GO-Matryoshka",
+        "target": "Calcium",
+        "color": "Green-Orange",
+        "type": "Ratiometric Fluorescence Sensor"
+    },
+    {
+        "title": "Live Mitochondrial or Cytosolic Calcium Imaging Using Genetically-encoded Cameleon Indicator in Mammalian Cells.",
+        "abstract": "Calcium (Ca<sup>2+</sup>) imaging aims at investigating the dynamic changes in live cells of its concentration ([Ca<sup>2+</sup>]) in different pathophysiological conditions. Ca<sup>2+</sup> is an ubiquitous and versatile intracellular signal that modulates a large variety of cellular functions thanks to a cell type-specific toolkit and a complex subcellular compartmentalization. Many Ca<sup>2+</sup> sensors are presently available (chemical and genetically encoded) that can be specifically targeted to different cellular compartments. Using these probes, it is now possible to monitor Ca<sup>2+</sup> dynamics of living cells not only in the cytosol but also within specific organelles. The choice of a specific sensor depends on the experimental design and the spatial and temporal resolution required. Here we describe the use of novel Förster resonance energy transfer (FRET)-based fluorescent Ca<sup>2+</sup> probes to dynamically and quantitatively monitor the changes in cytosolic and mitochondrial [Ca<sup>2+</sup>] in a variety of cell types and experimental conditions. FRET-based sensors have the enormous advantage of being ratiometric, a feature that makes them particularly suitable for quantitative and <i>in vivo</i> applications.",
+        "doi": "https://doi.org/10.21769/BioProtoc.3504",
+        "journal": "Bio-protocol",
+        "date": "2020",
+        "is_new": true,
+        "probe_name": "Förster resonance energy transfer (FRET)-based fluorescent Ca<sup>2+</sup> probes",
+        "target": "Cytosolic and mitochondrial [Ca<sup>2+</sup>]",
+        "color": "Fluorescent",
+        "type": "Genetically-encoded"
+    },
+    {
         "title": "FRCaMP, a Red Fluorescent Genetically Encoded Calcium Indicator Based on Calmodulin from Schizosaccharomyces Pombe Fungus.",
         "abstract": "Red fluorescent genetically encoded calcium indicators (GECIs) have expanded the available pallet of colors used for the visualization of neuronal calcium activity in vivo. However, their calcium-binding domain is restricted by calmodulin from metazoans. In this study, we developed red GECI, called FRCaMP, using calmodulin (CaM) from <i>Schizosaccharomyces pombe</i> fungus as a calcium binding domain. Compared to the R-GECO1 indicator in vitro, the purified protein FRCaMP had similar spectral characteristics, brightness, and pH stability but a 1.3-fold lower ΔF/F calcium response and 2.6-fold tighter calcium affinity with K<sub>d</sub> of 441 nM and 2.4-6.6-fold lower photostability. In the cytosol of cultured HeLa cells, FRCaMP visualized calcium transients with a ΔF/F dynamic range of 5.6, which was similar to that of R-GECO1. FRCaMP robustly visualized the spontaneous activity of neuronal cultures and had a similar ΔF/F dynamic range of 1.7 but 2.1-fold faster decay kinetics vs. NCaMP7. On electrically stimulated cultured neurons, FRCaMP demonstrated 1.8-fold faster decay kinetics and 1.7-fold lower ΔF/F values per one action potential of 0.23 compared to the NCaMP7 indicator. The fungus-originating CaM of the FRCaMP indicator version with a deleted M13-like peptide did not interact with the cytosolic environment of the HeLa cells in contrast to the metazoa-originating CaM of the similarly truncated version of the GCaMP6s indicator with a deleted M13-like peptide. Finally, we generated a split version of the FRCaMP indicator, which allowed the simultaneous detection of calcium transients and the heterodimerization of bJun/bFos interacting proteins in the nuclei of HeLa cells with a ΔF/F dynamic range of 9.4 and a contrast of 2.3-3.5, respectively.",
         "doi": "https://doi.org/10.3390/ijms22010111",
@@ -4966,18 +5002,6 @@
         "target": "Oxygen",
         "color": "Fluorescent",
         "type": "Genetically Encoded Oxygen Biosensor"
-    },
-    {
-        "title": "Bidirectional astrocytic GLUT1 activation by elevated extracellular K<sup></sup>.",
-        "abstract": "The acute rise in interstitial K<sup>+</sup> that accompanies neural activity couples the energy demand of neurons to the metabolism of astrocytes. The effects of elevated K<sup>+</sup> on astrocytes include activation of aerobic glycolysis, inhibition of mitochondrial respiration and the release of lactate. Using a genetically encoded FRET glucose sensor and a novel protocol based on 3-O-methylglucose trans-acceleration and numerical simulation of glucose dynamics, we report that extracellular K<sup>+</sup> is also a potent and reversible modulator of the astrocytic glucose transporter GLUT1. In cultured mouse astrocytes, the stimulatory effect developed within seconds, engaged both the influx and efflux modes of the transporter, and was detected even at 1 mM incremental K<sup>+</sup> . The modulation of GLUT1 explains how astrocytes are able to maintain their glucose pool in the face of strong glycolysis stimulation. We propose that the stimulation of GLUT1 by K<sup>+</sup> supports the production of lactate by astrocytes and the timely delivery of glucose to active neurons.",
-        "doi": "https://doi.org/10.1002/glia.23944",
-        "journal": "Glia",
-        "date": "2021",
-        "is_new": true,
-        "probe_name": "Genetically encoded FRET glucose sensor",
-        "target": "GLUT1",
-        "color": "Fluorescent",
-        "type": "Fluorescence Resonance Energy Transfer (FRET)"
     },
     {
         "title": "Construction of a Nanosensor for Non-Invasive Imaging of Hydrogen Peroxide Levels in Living Cells.",
@@ -5038,30 +5062,6 @@
         "target": "Dopamine",
         "color": "Red and Green",
         "type": "Genetically encoded fluorescent sensor"
-    },
-    {
-        "title": "A near-infrared genetically encoded calcium indicator for in vivo imaging.",
-        "abstract": "While calcium imaging has become a mainstay of modern neuroscience, the spectral properties of current fluorescent calcium indicators limit deep-tissue imaging as well as simultaneous use with other probes. Using two monomeric near-infrared (NIR) fluorescent proteins (FPs), we engineered an NIR Förster resonance energy transfer (FRET)-based genetically encoded calcium indicator (iGECI). iGECI exhibits high levels of brightness and photostability and an increase up to 600% in the fluorescence response to calcium. In dissociated neurons, iGECI detects spontaneous neuronal activity and electrically and optogenetically induced firing. We validated the performance of iGECI up to a depth of almost 400 µm in acute brain slices using one-photon light-sheet imaging. Applying hybrid photoacoustic and fluorescence microscopy, we simultaneously monitored neuronal and hemodynamic activities in the mouse brain through an intact skull, with resolutions of ~3 μm (lateral) and ~25-50 μm (axial). Using two-photon imaging, we detected evoked and spontaneous neuronal activity in the mouse visual cortex, with fluorescence changes of up to 25%. iGECI allows biosensors and optogenetic actuators to be multiplexed without spectral crosstalk.",
-        "doi": "https://doi.org/10.1038/s41587-020-0710-1",
-        "journal": "Nature biotechnology",
-        "date": "2021",
-        "is_new": true,
-        "probe_name": "iGECI",
-        "target": "Calcium",
-        "color": "Near-infrared",
-        "type": "Genetically encoded calcium indicator"
-    },
-    {
-        "title": "Using genetically encoded heme sensors to probe the mechanisms of heme uptake and homeostasis in Candida albicans.",
-        "abstract": "Candida albicans is a major fungal pathogen that can utilise hemin and haemoglobin as iron sources in the iron-scarce host environment. While C. albicans is a heme prototroph, we show here that it can also efficiently utilise external heme as a cellular heme source. Using genetically encoded ratiometric fluorescent heme sensors, we show that heme extracted from haemoglobin and free hemin enter the cells with different kinetics. Heme supplied as haemoglobin is taken up via the Common in Fungal Extracellular Membrane (CFEM) hemophore cascade, and reaches the cytoplasm over several hours, whereas entry of free hemin via CFEM-dependent and independent pathways is much faster, less than an hour. To prevent an influx of extracellular heme from reaching toxic levels in the cytoplasm, the cells deploy Hmx1, a heme oxygenase. Hmx1 was previously suggested to be involved in utilisation of haemoglobin and hemin as iron sources, but we find that it is primarily required to prevent heme toxicity. Taken together, the combination of novel heme sensors with genetic analysis revealed new details of the fungal mechanisms of heme import and homeostasis, necessary to balance the uses of heme as essential cofactor and potential iron source against its toxicity.",
-        "doi": "https://doi.org/10.1111/cmi.13282",
-        "journal": "Cellular microbiology",
-        "date": "2021",
-        "is_new": true,
-        "probe_name": "ratiometric fluorescent heme sensors",
-        "target": "heme",
-        "color": "Fluorescent",
-        "type": "Genetically encoded"
     },
     {
         "title": "Screening and Cellular Characterization of Genetically Encoded Voltage Indicators Based on Near-Infrared Fluorescent Proteins.",
@@ -5386,18 +5386,6 @@
         "target": "cytosolic anion concentration and pH",
         "color": "fluorescent",
         "type": "genetically encoded biosensor"
-    },
-    {
-        "title": "Live imaging of intra-lysosome pH in cell lines and primary neuronal culture using a novel genetically encoded biosensor.",
-        "abstract": "Disorders of lysosomal physiology have increasingly been found to underlie the pathology of a rapidly growing cast of neurodevelopmental disorders and sporadic diseases of aging. One cardinal aspect of lysosomal (dys)function is lysosomal acidification in which defects trigger lysosomal stress signaling and defects in proteolytic capacity. We have developed a genetically encoded ratiometric probe to measure lysosomal pH coupled with a purification tag to efficiently purify lysosomes for both proteomic and <i>in vitro</i> evaluation of their function. Using our probe, we showed that lysosomal pH is remarkably stable over a period of days in a variety of cell types. Additionally, this probe can be used to determine that lysosomal stress signaling <i>via</i> TFEB is uncoupled from gross changes in lysosomal pH. Finally, we demonstrated that while overexpression of ARL8B GTPase causes striking alkalinization of peripheral lysosomes in HEK293 T cells, peripheral lysosomes <i>per se</i> are no less acidic than juxtanuclear lysosomes in our cell lines.<b>Abbreviations:</b> ARL8B: ADP ribosylation factor like GTPase 8B; ATP: adenosine triphosphate; ATP5F1B/ATPB: ATP synthase F1 subunit beta; ATP6V1A: ATPase H+ transporting V1 subunit A; Baf: bafilomycin A<sub>1</sub>; BLOC-1: biogenesis of lysosome-related organelles complex 1; BSA: bovine serum albumin; Cos7: African green monkey kidney fibroblast-like cell line; CQ: chloroquine; CTSB: cathepsin B; CYCS: cytochrome c, somatic; DAPI: 4',6-diamidino -2- phenylindole; DIC: differential interference contrast; DIV: days <i>in vitro</i>; DMEM: Dulbecco's modified Eagle's medium;‎ E8: embryonic day 8; EEA1: early endosome antigen 1; EGTA: ethylene glycol-bis(β-aminoethyl ether)-N,N,N',N'-tetraacetic acid; ER: endoplasmic reticulum; FBS: fetal bovine serum; FITC: fluorescein isothiocyanate; GABARAPL2: GABA type A receptor associated protein like 2; GAPDH: glyceraldehyde-3-phosphate dehydrogenase; GOLGA2/GM130: golgin A2; GTP: guanosine triphosphate; HEK293T: human embryonic kidney 293 cells, that expresses a mutant version of the SV40 large T antigen; HeLa: Henrietta Lacks-derived cell; HEPES: 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid; HRP: horseradish peroxidase; IGF2R/ciM6PR: insulin like growth factor 2 receptor; LAMP1/2: lysosomal associated membrane protein 1/2; LMAN2/VIP36: lectin, mannose binding 2; MAP1LC3/LC3: microtubule-associated protein 1 light chain 3; MTORC1: mechanistic target of rapamycin kinase complex 1; PCR: polymerase chain reaction; PDL: poly-d-lysine; <i>PGK1p</i>: promotor from human phosphoglycerate kinase 1; PIKFYVE: phosphoinositide kinase, FYVE-type zinc finger containing; PPT1/CLN1: palmitoyl-protein thioesterase 1; RPS6KB1/p70: ribosomal protein S6 kinase B1; STAT3: signal transducer and activator of transcription 3; TAX1BP1: Tax1 binding protein 1; TFEB: transcription factor EB; TGN: trans-Golgi network; TGOLN2/TGN46: trans-Golgi network protein 2; TIRF: total internal reflection fluorescence; TMEM106B: transmembrane protein 106B; TOR: target of rapamycin; TRPM2: transient receptor potential cation channel subfamily M member 2; V-ATPase: vacuolar-type proton-translocating ATPase; VPS35: VPS35 retromer complex component.",
-        "doi": "https://doi.org/10.1080/15548627.2020.1771858",
-        "journal": "Autophagy",
-        "date": "2021",
-        "is_new": true,
-        "probe_name": "Genetically encoded ratiometric probe",
-        "target": "Lysosomal pH",
-        "color": "Fluorescent",
-        "type": "Biosensor"
     },
     {
         "title": "FRET kinase sensor development reveals SnRK2/OST1 activation by ABA but not by MeJA and high CO<sub>2</sub> during stomatal closure.",
