@@ -2,141 +2,217 @@ import streamlit as st
 import pandas as pd
 import json
 import os
+import datetime
 
-# ================= 页面配置 =================
+# ================= Page Config =================
 st.set_page_config(
-    page_title="🧬 遗传编码探针数据库",
-    page_icon="🔬",
+    page_title="FP-Sensor Auto-DB",
+    page_icon="🧬",
     layout="wide"
 )
 
-# 文件路径
+# Custom CSS for compact layout and badges
+st.markdown("""
+<style>
+    /* Reduce vertical padding in block containers */
+    .block-container {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+    /* Compact text styles */
+    .probe-title {
+        font-size: 1.2rem;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+    .probe-meta {
+        font-size: 0.85rem;
+        color: #666;
+        margin-bottom: 4px;
+    }
+    /* Badges */
+    .badge-target {
+        background-color: #e8fdf5;
+        color: #0c8558;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-size: 0.75rem;
+        font-weight: 600;
+        border: 1px solid #b7ebd6;
+    }
+    .badge-type {
+        background-color: #f0f2f6;
+        color: #31333F;
+        padding: 2px 8px;
+        border-radius: 12px;
+        font-size: 0.75rem;
+        border: 1px solid #dce0e6;
+    }
+    /* "New" Star Badge */
+    .badge-new {
+        background: linear-gradient(45deg, #FFD700, #FFC107);
+        color: #7a5c00;
+        padding: 2px 6px;
+        border-radius: 4px;
+        font-size: 0.7rem;
+        font-weight: bold;
+        margin-left: 8px;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+        display: inline-block;
+        vertical-align: middle;
+    }
+    /* Button compacting */
+    .stButton button {
+        height: 2.0rem;
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+</style>
+""", unsafe_allow_html=True)
+
+# File Path
 DATA_FILE = "processed_probes.json"
 
-# ================= 辅助函数 =================
 def load_data():
-    """读取 JSON 数据并转换为 DataFrame"""
     if not os.path.exists(DATA_FILE):
-        return pd.DataFrame() # 返回空表
-    
+        return pd.DataFrame()
     with open(DATA_FILE, "r", encoding="utf-8") as f:
         data = json.load(f)
+    return pd.DataFrame(data)
+
+def color_circle(color_name):
+    """Returns a colored SVG circle for better visuals than emojis"""
+    c = str(color_name).lower()
+    hex_color = "#ccc" # default gray
+    if "green" in c: hex_color = "#2ecc71"
+    elif "red" in c: hex_color = "#e74c3c"
+    elif "blue" in c or "cyan" in c: hex_color = "#3498db"
+    elif "yellow" in c or "gold" in c: hex_color = "#f1c40f"
+    elif "orange" in c: hex_color = "#e67e22"
+    elif "purple" in c: hex_color = "#9b59b6"
     
-    # 转换为 DataFrame 方便处理
-    df = pd.DataFrame(data)
-    return df
+    return f"""
+    <div style="
+        width: 18px; 
+        height: 18px; 
+        background-color: {hex_color}; 
+        border-radius: 50%; 
+        display: inline-block;
+        border: 2px solid rgba(0,0,0,0.1);
+        vertical-align: middle;
+    "></div>
+    """
 
-def color_badge(color_name):
-    """根据荧光颜色返回不同的颜色点"""
-    c = color_name.lower()
-    if "green" in c: return "🟢"
-    if "red" in c: return "🔴"
-    if "blue" in c or "cyan" in c: return "🔵"
-    if "yellow" in c: return "🟡"
-    return "⚪"
-
-# ================= 页面逻辑 =================
-
-# 初始化 Session State (用于记录当前选了哪个探针)
-if 'selected_probe_index' not in st.session_state:
-    st.session_state.selected_probe_index = None
-
-def go_back():
-    """返回列表页"""
-    st.session_state.selected_probe_index = None
-
-# 1. 加载数据
+# Load Data
 df = load_data()
 
-# 2. 侧边栏：标题与筛选
+# ================= Sidebar =================
 with st.sidebar:
-    st.title("🔬 FP-Sensor Auto-DB")
-    st.markdown("自动追踪最新的遗传编码荧光探针文献。")
-    st.divider()
+    st.title("🧬 Auto-DB")
+    st.caption("Genetically Encoded Fluorescent Probes")
     
+    # Download Button
     if not df.empty:
-        # 筛选器
-        st.subheader("🔍 筛选")
-        all_targets = ["全部"] + list(df['target'].unique())
-        selected_target = st.selectbox("按检测底物筛选", all_targets)
+        csv = df.to_csv(index=False).encode('utf-8')
+        st.download_button(
+            label="📥 Download CSV",
+            data=csv,
+            file_name='probes_database.csv',
+            mime='text/csv',
+        )
+    
+    st.divider()
+
+    # Filters
+    if not df.empty:
+        # Normalize data types
+        df['target'] = df['target'].astype(str)
+        df['color'] = df['color'].astype(str)
+        df['date'] = df['date'].astype(str)
         
-        all_colors = ["全部"] + list(df['color'].unique())
-        selected_color = st.selectbox("按颜色筛选", all_colors)
+        # Sort filters
+        all_targets = ["All"] + sorted(list(df['target'].unique()))
+        selected_target = st.selectbox("Filter by Target", all_targets)
         
-        # 应用筛选
+        all_colors = ["All"] + sorted(list(df['color'].unique()))
+        selected_color = st.selectbox("Filter by Color", all_colors)
+        
+        # Apply Filters
         filtered_df = df.copy()
-        if selected_target != "全部":
+        if selected_target != "All":
             filtered_df = filtered_df[filtered_df['target'] == selected_target]
-        if selected_color != "全部":
+        if selected_color != "All":
             filtered_df = filtered_df[filtered_df['color'] == selected_color]
         
-        st.info(f"共展示 {len(filtered_df)} 个探针")
+        st.markdown(f"**Showing {len(filtered_df)} probes**")
     else:
         filtered_df = pd.DataFrame()
-        st.warning("暂无数据，请先运行爬虫脚本。")
 
-# ================= 主界面内容 =================
+# ================= Main Content =================
+st.header("🚀 Latest Probes")
 
-# 场景 A: 详情页 (如果用户点击了某个探针)
-if st.session_state.selected_probe_index is not None:
-    # 获取当前选中的行数据
-    # 注意：这里需要从原始 df 获取，因为 index 是固定的
-    try:
-        probe = df.loc[st.session_state.selected_probe_index]
-    except KeyError:
-        st.session_state.selected_probe_index = None
-        st.rerun()
-
-    # ---- 详情页布局 ----
-    st.button("← 返回列表", on_click=go_back)
-    
-    st.markdown(f"# {color_badge(probe['color'])} {probe['probe_name']}")
-    st.caption(f"发表于 *{probe.get('journal', 'Unknown Journal')}* ({probe.get('date', 'Unknown Date')})")
-    
-    # 核心指标卡片
-    col1, col2, col3, col4 = st.columns(4)
-    with col1: st.metric("检测底物", probe['target'])
-    with col2: st.metric("荧光颜色", probe['color'])
-    with col3: st.metric("探针类型", probe.get('type', 'N/A'))
-    with col4: 
-        if probe.get('doi') and "http" in probe['doi']:
-            st.link_button("🔗 阅读原文", probe['doi'])
-        else:
-            st.metric("DOI", "Unavailable")
-
-    st.divider()
-    
-    st.subheader("📝 摘要")
-    st.info(probe['abstract'])
-    
-    st.subheader("⚙️ 原始数据 (JSON)")
-    st.json(probe.to_dict())
-
-# 场景 B: 列表页 (默认展示)
+if filtered_df.empty:
+    st.info("No data available yet. Please run the backend script.")
 else:
-    st.title("🚀 最新发布的探针列表")
-    
-    if filtered_df.empty:
-        st.info("👋 还没有找到新探针。请运行后台脚本抓取数据，或手动生成一些测试数据。")
-    else:
-        # 使用卡片式布局展示列表
-        for index, row in filtered_df.iterrows():
-            # 创建一个带边框的容器
-            with st.container(border=True):
-                c1, c2, c3 = st.columns([1, 4, 1])
+    # Sort by date (newest first) assuming date is roughly parsable
+    # If date is just Year (2025), this works. 
+    try:
+        filtered_df = filtered_df.sort_values(by='date', ascending=False)
+    except:
+        pass
+
+    # Loop through rows
+    for index, row in filtered_df.iterrows():
+        # Determine if "New" (Current year or next year)
+        # Adjust '2025' to whatever logic you prefer
+        current_year = datetime.datetime.now().year
+        pub_year = str(row.get('date', ''))
+        
+        # Mark as new if published in current year or next year (preprint)
+        is_new = str(current_year) in pub_year or str(current_year + 1) in pub_year
+        new_badge = '<span class="badge-new">⭐ NEW</span>' if is_new else ""
+
+        # Layout: Compact Container
+        with st.container(border=True):
+            # Columns: [Color Indicator] [Main Info] [Action Button]
+            c1, c2, c3 = st.columns([0.3, 5, 1])
+            
+            with c1:
+                # Vertical align the color dot
+                st.markdown(f"<div style='margin-top: 5px;'>{color_circle(row['color'])}</div>", unsafe_allow_html=True)
+            
+            with c2:
+                # Title + New Badge
+                st.markdown(f"""
+                <div class="probe-title">
+                    {row['probe_name']} {new_badge}
+                </div>
+                """, unsafe_allow_html=True)
                 
-                with c1:
-                    # 显示大大的颜色图标
-                    st.markdown(f"<h1 style='text-align: center;'>{color_badge(row['color'])}</h1>", unsafe_allow_html=True)
+                # Meta info (Target | Type | Journal | Date) in one compact line
+                target = row['target']
+                ptype = row.get('type', 'Unknown')
+                journal = row.get('journal', 'Unknown Journal')
+                date = row.get('date', 'N/A')
                 
-                with c2:
-                    st.subheader(f"{row['probe_name']}")
-                    st.markdown(f"**Target:** `{row['target']}` | **Type:** {row.get('type', 'Unknown')}")
-                    st.markdown(f"*{row['title']}*")
-                
-                with c3:
-                    st.markdown("<br>", unsafe_allow_html=True) # 占位符，为了按钮居中
-                    # 点击按钮，更新 session_state，然后 rerun 刷新页面
-                    if st.button("查看详情", key=f"btn_{index}"):
-                        st.session_state.selected_probe_index = index
-                        st.rerun()
+                st.markdown(f"""
+                <div style="margin-top: 4px;">
+                    <span class="badge-target">{target}</span>
+                    <span class="badge-type">{ptype}</span>
+                    <span style="color: #bbb; margin: 0 6px;">|</span>
+                    <span class="probe-meta"><i>{journal}</i></span>
+                    <span style="color: #bbb; margin: 0 6px;">•</span>
+                    <span class="probe-meta">📅 {date}</span>
+                </div>
+                """, unsafe_allow_html=True)
+
+            with c3:
+                # DOI Link Button
+                if row.get('doi') and "http" in row['doi']:
+                    st.link_button("Read", row['doi'], use_container_width=True)
+                else:
+                    st.button("No DOI", disabled=True, key=f"btn_{index}", use_container_width=True)
+            
+            # Abstract Expander (Compact)
+            with st.expander(f"View Abstract: {row['title']}", expanded=False):
+                st.markdown(f"<div style='font-size: 0.9rem; color: #444;'>{row.get('abstract', 'No abstract')}</div>", unsafe_allow_html=True)
