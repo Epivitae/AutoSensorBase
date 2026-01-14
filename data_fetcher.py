@@ -3,9 +3,9 @@ from Bio import Entrez
 import datetime
 
 # 设置邮箱（PubMed 要求）
-Entrez.email = "your.email@example.com"
+Entrez.email = "wangk@ion.ac.cn"
 
-def fetch_recent_papers(days_back=3):
+def fetch_recent_papers(days_back=7):
     """
     爬取过去 N 天的论文
     """

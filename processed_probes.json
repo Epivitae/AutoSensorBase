@@ -2542,5 +2542,65 @@
         "target": "Calcium",
         "color": "Green",
         "type": "Genetically Encoded Calcium Indicator"
+    },
+    {
+        "title": "Overexpression of the WWE domain of RNF146 modulates poly-(ADP)-ribose dynamics at sites of DNA damage.",
+        "abstract": "Protein poly-ADP-ribosylation (PARylation) is a post-translational modification formed by transfer of successive units of ADP-ribose to target proteins to form poly-ADP-ribose (PAR) chains. PAR plays a critical role in the DNA damage response (DDR) by acting as a signaling platform to promote the recruitment of DNA repair factors to the sites of DNA damage that bind via their PAR-binding domains (PBDs). Several classes of PBD families have been recognized, which identify distinct parts of the PAR chain. Proteins encoding PBDs play an essential role in conveying the PAR-mediated signal through their interaction with PAR chains, which mediates many cellular functions, including the DDR. The WWE domain identifies the iso-ADP-ribose moiety of the PAR chain. We recently described the WWE domain of RNF146 as a robust genetically encoded probe, when fused to EGFP, for detection of PAR in live cells. Here, we evaluated other PBD candidates as molecular PAR probes in live cells, including several other WWE domains and an engineered macrodomain. In addition, we demonstrate unique PAR dynamics when tracked by different PAR binding domains, a finding that that can be exploited for modulation of the PAR-dependent DNA damage response.",
+        "doi": "https://doi.org/10.1101/2023.12.29.573650",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "WWE domain of RNF146 fused to EGFP",
+        "target": "Poly-ADP-ribose (PAR)",
+        "color": "Fluorescent (Green due to EGFP fusion)",
+        "type": "Genetically encoded fluorescent sensor"
+    },
+    {
+        "title": "Optogenetic Microwell Array Screening System: A High-Throughput Engineering Platform for Genetically Encoded Fluorescent Indicators.",
+        "abstract": "Genetically encoded fluorescent indicators (GEFIs) are protein-based optogenetic tools that change their fluorescence intensity when binding specific ligands in cells and tissues. GEFI encoding DNA can be expressed in cell subtypes while monitoring cellular physiological responses. However, engineering GEFIs with physiological sensitivity and pharmacological specificity often requires iterative optimization through trial-and-error mutagenesis while assessing their biophysical function <i>in vitro</i> one by one. Here, the vast mutational landscape of proteins constitutes a significant obstacle that slows GEFI development, particularly for sensors that rely on mammalian host systems for testing. To overcome these obstacles, we developed a multiplexed high-throughput engineering platform called the optogenetic microwell array screening system (Opto-MASS) that functionally tests thousands of GEFI variants in parallel in mammalian cells. Opto-MASS represents the next step for engineering optogenetic tools as it can screen large variant libraries orders of magnitude faster than current methods. We showcase this system by testing over 13,000 dopamine and 21,000 opioid sensor variants. We generated a new dopamine sensor, dMASS<sup>1</sup>, with a >6-fold signal increase to 100 nM dopamine exposure compared to its parent construct. Our new opioid sensor, μMASS<sup>1</sup>, has a ∼4.6-fold signal increase over its parent scaffold's response to 500 nM DAMGO. Thus, Opto-MASS can rapidly engineer new sensors while significantly shortening the optimization time for new sensors with distinct biophysical properties.",
+        "doi": "https://doi.org/10.1021/acssensors.3c01573",
+        "journal": "ACS sensors",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "dMASS<sup>1</sup>",
+        "target": "dopamine",
+        "color": "Fluorescent",
+        "type": "Optogenetic Sensor"
+    },
+    {
+        "title": "A blue-shifted genetically encoded Ca<sup>2+</sup> indicator with enhanced two-photon absorption.",
+        "abstract": "Genetically encoded calcium ion (Ca<sup>2+</sup>) indicators (GECIs) are powerful tools for monitoring intracellular Ca<sup>2+</sup> concentration changes in living cells and model organisms. In particular, GECIs have found particular utility for monitoring the transient increase of Ca<sup>2+</sup> concentration that is associated with the neuronal action potential. However, the palette of highly optimized GECIs for imaging of neuronal activity remains relatively limited. Expanding the selection of available GECIs to include new colors and distinct photophysical properties could create new opportunities for <i>in vitro</i> and <i>in vivo</i> fluorescence imaging of neuronal activity. In particular, blue-shifted variants of GECIs are expected to have enhanced two-photon brightness, which would facilitate multiphoton microscopy. We describe the development and applications of T-GECO1 - a high-performance blue-shifted GECI based on the <i>Clavularia sp.</i>-derived mTFP1. We used protein engineering and extensive directed evolution to develop T-GECO1. We characterize the purified protein and assess its performance <i>in vitro</i> using one-photon excitation in cultured rat hippocampal neurons, <i>in vivo</i> using one-photon excitation fiber photometry in mice, and <i>ex vivo</i> using two-photon Ca<sup>2+</sup> imaging in hippocampal slices. The Ca<sup>2+</sup>-bound state of T-GECO1 has an excitation peak maximum of 468 nm, an emission peak maximum of 500 nm, an extinction coefficient of 49,300 M<sup>-1</sup>cm<sup>-1</sup>, a quantum yield of 0.83, and two-photon brightness approximately double that of EGFP. The Ca<sup>2+</sup>-dependent fluorescence increase is 15-fold and the apparent <i>K</i><sub>d</sub> for Ca<sup>2+</sup> is 82 nM. With two-photon excitation conditions at 850 nm, T-GECO1 consistently enabled detection of action potentials with higher signal-to-noise (SNR) than a late generation GCaMP variant. T-GECO1 is a high performance blue-shifted GECI that, under two-photon excitation conditions, provides advantages relative to late generation GCaMP variants.",
+        "doi": "https://doi.org/10.1101/2023.10.12.562058",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "T-GECO1",
+        "target": "Ca<sup>2+</sup>",
+        "color": "Blue-shifted",
+        "type": "Genetically encoded calcium ion (Ca<sup>2+</sup>) indicator (GECI)"
+    },
+    {
+        "title": "Real-Time Imaging of Acrosomal Calcium Dynamics and Exocytosis in Live Mouse Sperm.",
+        "abstract": "Acrosome exocytosis (AE), in which the sperm's single exocytotic vesicle fuses with the plasma membrane, is a complex, calcium-dependent process essential for fertilization. However, our understanding of how calcium signaling regulates AE is still incomplete. In particular, the interplay between intra-acrosomal calcium dynamics and the intermediate steps leading to AE is not well-defined. Here, we describe a method that provides spatial and temporal insights into acrosomal calcium dynamics and their relationship to membrane fusion and subsequent exocytosis of the acrosome vesicle. The method utilizes a novel transgenic mouse expressing an Acrosome-targeted Sensor for Exocytosis (AcroSensE). The sensor combines a genetically encoded calcium indicator (GCaMP) fused with mCherry. This fusion protein was specifically designed to enable the concurrent observation of acrosomal calcium dynamics and membrane fusion events. Real-time monitoring of acrosomal calcium dynamics and AE in live AcroSensE sperm is achieved using a combination of high frame-rate imaging and a stimulant delivery system that can target single sperm. This protocol also provides several examples of basic methods to quantify and analyze the raw data. Because the AcroSensE model is genetically encoded, its scientific significance can be augmented by using readily available genetic tools, such as crossbreeding with other mouse genetic models or gene-editing (CRISPR) based methods. With this strategy, the roles of additional signaling pathways in sperm capacitation and fertilization can be resolved. In summary, the method described here provides a convenient and effective tool to study calcium dynamics in a specific subcellular compartment-the sperm acrosome-and how those dynamics regulate the intermediate steps leading to membrane fusion and acrosome exocytosis.",
+        "doi": "https://doi.org/10.3791/65962",
+        "journal": "Journal of visualized experiments : JoVE",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "AcroSensE",
+        "target": "Acrosome",
+        "color": "Red (mCherry)",
+        "type": "Genetically encoded calcium indicator"
+    },
+    {
+        "title": "Widefield imaging of rapid pan-cortical voltage dynamics with an indicator evolved for one-photon microscopy.",
+        "abstract": "Widefield imaging with genetically encoded voltage indicators (GEVIs) is a promising approach for understanding the role of large cortical networks in the neural coding of behavior. However, the limited performance of current GEVIs restricts their deployment for single-trial imaging of rapid neuronal voltage dynamics. Here, we developed a high-throughput platform to screen for GEVIs that combine fast kinetics with high brightness, sensitivity, and photostability under widefield one-photon illumination. Rounds of directed evolution produced JEDI-1P, a green-emitting fluorescent indicator with enhanced performance across all metrics. Next, we optimized a neonatal intracerebroventricular delivery method to achieve cost-effective and wide-spread JEDI-1P expression in mice. We also developed an approach to correct optical measurements from hemodynamic and motion artifacts effectively. Finally, we achieved stable brain-wide voltage imaging and successfully tracked gamma-frequency whisker and visual stimulations in awake mice in single trials, opening the door to investigating the role of high-frequency signals in brain computations.",
+        "doi": "https://doi.org/10.1038/s41467-023-41975-3",
+        "journal": "Nature communications",
+        "date": "2023",
+        "is_new": true,
+        "probe_name": "JEDI-1P",
+        "target": "Voltage",
+        "color": "Green",
+        "type": "Genetically encoded voltage indicator (GEVI)"
     }
 ]
