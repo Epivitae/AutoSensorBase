@@ -11,7 +11,7 @@ st.set_page_config(
     layout="wide"
 )
 
-# ================= Theme Logic =================
+# ================= Theme Logic (核心配色逻辑) =================
 with st.sidebar:
     st.title("🧬 Auto-DB")
     # 开关：False=Dark(默认), True=Light
@@ -19,151 +19,182 @@ with st.sidebar:
 
 # 定义配色方案
 if is_light_mode:
-    # --- 🌞 现代清爽白天模式 ---
+    # --- 🌞 白天模式 (Light Mode) ---
     theme = {
-        "bg_color": "#f3f4f6",         # 浅灰背景，让卡片浮起来
-        "sidebar_bg": "#ffffff",       # 纯白侧边栏
-        "text_color": "#111827",       # 深灰黑，不刺眼
-        "card_bg": "#ffffff",          # 纯白卡片
-        "card_border": "transparent",  # 白天模式不需要边框，靠阴影
-        "card_shadow": "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)", # 柔和投影
-        "badge_target_bg": "#ecfdf5",  # 清新薄荷绿
-        "badge_target_text": "#059669",
-        "badge_type_bg": "#f3f4f6",    # 浅灰胶囊
-        "badge_type_text": "#4b5563",
-        "meta_color": "#6b7280",
-        "btn_bg": "#ffffff",           # 按钮白底
-        "btn_text": "#374151",         # 按钮灰字
-        "btn_border": "#d1d5db",       # 按钮灰边
-        "btn_hover": "#f9fafb"
+        "bg_color": "#F7F9FB",         # 极浅的灰蓝色背景，护眼且高级
+        "sidebar_bg": "#FFFFFF",       # 纯白侧边栏
+        "sidebar_text": "#1A202C",     # 侧边栏文字深黑
+        "main_text": "#2D3748",        # 主内容文字深灰
+        "card_bg": "#FFFFFF",          # 卡片纯白
+        "card_border": "1px solid #E2E8F0", # 极浅的边框
+        "card_shadow": "0 2px 4px rgba(0,0,0,0.02), 0 1px 2px rgba(0,0,0,0.03)", # 几乎不可见的微阴影
+        "header_visibility": "hidden", # 隐藏原来的深色 Header
+        "badge_target_bg": "#E6FFFA",  # 清新薄荷绿
+        "badge_target_text": "#2C7A7B",
+        "badge_type_bg": "#EDF2F7",    # 浅灰胶囊
+        "badge_type_text": "#4A5568",
+        "meta_color": "#718096",       # 元数据灰色
+        
+        # 按钮样式 (轻量化)
+        "btn_bg": "#FFFFFF",
+        "btn_text": "#4A5568",
+        "btn_border": "#CBD5E0",
+        "btn_hover_bg": "#F7FAFC",
+        "btn_hover_border": "#A0AEC0"
     }
 else:
-    # --- 🌜 极客深色模式 (保持你喜欢的样子) ---
+    # --- 🌜 黑夜模式 (Dark Mode) ---
     theme = {
-        "bg_color": "#0e1117",
+        "bg_color": "#0E1117",
         "sidebar_bg": "#262730",
-        "text_color": "#fafafa",
-        "card_bg": "#1f2937",
-        "card_border": "#374151",
+        "sidebar_text": "#FAFAFA",
+        "main_text": "#FAFAFA",
+        "card_bg": "#1F2937",
+        "card_border": "1px solid #374151",
         "card_shadow": "none",
+        "header_visibility": "visible",
         "badge_target_bg": "rgba(16, 185, 129, 0.15)",
-        "badge_target_text": "#6ee7b7",
+        "badge_target_text": "#6EE7B7",
         "badge_type_bg": "rgba(255, 255, 255, 0.1)",
-        "badge_type_text": "#d1d5db",
-        "meta_color": "#9ca3af",
-        "btn_bg": "#1f2937",
-        "btn_text": "#e5e7eb",
-        "btn_border": "#4b5563",
-        "btn_hover": "#374151"
+        "badge_type_text": "#D1D5DB",
+        "meta_color": "#9CA3AF",
+        
+        # 按钮样式 (深色)
+        "btn_bg": "#374151",
+        "btn_text": "#E5E7EB",
+        "btn_border": "#4B5563",
+        "btn_hover_bg": "#4B5563",
+        "btn_hover_border": "#9CA3AF"
     }
 
-# ================= CSS Injection =================
+# ================= CSS Injection (黑魔法区域) =================
 st.markdown(f"""
 <style>
-    /* 全局背景 */
+    /* 1. 全局背景与文字 */
     .stApp {{
         background-color: {theme['bg_color']};
-        color: {theme['text_color']};
-    }}
-    
-    /* 侧边栏 */
-    [data-testid="stSidebar"] {{
-        background-color: {theme['sidebar_bg']};
-        border-right: 1px solid {theme.get('btn_border', 'transparent')};
+        color: {theme['main_text']};
     }}
 
-    /* 顶部留白 */
+    /* 2. 隐藏 Streamlit 顶部的彩虹条和深色 Header (针对白天模式优化) */
+    header[data-testid="stHeader"] {{
+        background-color: transparent !important;
+        visibility: {theme.get('header_visibility', 'visible')};
+    }}
+    /* 彻底隐藏顶部的彩虹装饰条 */
+    .stDecoration {{
+        display: none !important;
+    }}
+
+    /* 3. 侧边栏样式 (强制覆盖) */
+    [data-testid="stSidebar"] {{
+        background-color: {theme['sidebar_bg']};
+        border-right: 1px solid #E2E8F0;
+    }}
+    /* 强制侧边栏内所有元素（标题、文本、Label）的颜色 */
+    [data-testid="stSidebar"] h1, 
+    [data-testid="stSidebar"] h2, 
+    [data-testid="stSidebar"] h3, 
+    [data-testid="stSidebar"] span, 
+    [data-testid="stSidebar"] label,
+    [data-testid="stSidebar"] div {{
+        color: {theme['sidebar_text']} !important;
+    }}
+    /* 侧边栏下拉框的优化 */
+    [data-testid="stSidebar"] [data-baseweb="select"] div {{
+        background-color: {theme['bg_color']};
+        color: {theme['main_text']};
+    }}
+
+    /* 4. 顶部留白调整 (去除 Header 后的补位) */
     .block-container {{
-        padding-top: 2rem;
+        padding-top: 1rem;
         padding-bottom: 3rem;
     }}
 
-    /* === 卡片样式优化 === */
+    /* 5. 卡片样式 */
     [data-testid="stVerticalBlockBorderWrapper"] > div {{
         background-color: {theme['card_bg']};
-        border: 1px solid {theme['card_border']} !important;
+        border: {theme['card_border']} !important;
         box-shadow: {theme['card_shadow']};
-        border-radius: 12px; /* 更圆润的角 */
-        padding: 1rem;
-        transition: all 0.2s ease;
+        border-radius: 10px;
+        padding: 1.2rem;
     }}
-    
-    /* === 按钮样式重构 (去掉原来的黑砖头) === */
-    /* 普通按钮 & 链接按钮 */
+
+    /* 6. 按钮样式 (Read 按钮) */
     .stButton button, [data-testid="stLinkButton"] {{
         background-color: {theme['btn_bg']} !important;
         color: {theme['btn_text']} !important;
         border: 1px solid {theme['btn_border']} !important;
-        border-radius: 8px;
-        height: 2.2rem;
-        line-height: 2.2rem;
-        padding: 0 1rem;
+        border-radius: 6px;
         font-weight: 500;
-        transition: all 0.2s;
-        box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+        transition: all 0.2s ease;
+        box-shadow: 0 1px 2px rgba(0,0,0,0.05);
     }}
-    /* 按钮悬停 */
+    
+    /* 按钮悬停态 */
     .stButton button:hover, [data-testid="stLinkButton"]:hover {{
-        background-color: {theme['btn_hover']} !important;
-        border-color: #9ca3af !important;
-        color: {theme['text_color']} !important;
+        background-color: {theme['btn_hover_bg']} !important;
+        border-color: {theme['btn_hover_border']} !important;
         transform: translateY(-1px);
+        box-shadow: 0 4px 6px rgba(0,0,0,0.08);
     }}
-    /* 去除链接按钮的下划线和默认色 */
+    
+    /* 链接文字颜色修正 */
     [data-testid="stLinkButton"] a {{
-        text-decoration: none !important;
         color: {theme['btn_text']} !important;
     }}
 
-    /* === 文本排版 === */
+    /* 7. 字体与排版优化 */
     .probe-title {{
-        font-size: 1.2rem;
+        font-size: 1.25rem;
         font-weight: 700;
-        margin-bottom: 4px;
-        color: {theme['text_color']};
-        letter-spacing: -0.025em;
+        margin-bottom: 6px;
+        color: {theme['main_text']};
+        letter-spacing: -0.01em;
     }}
-
+    
     .probe-meta {{
-        font-size: 0.85rem;
+        font-size: 0.9rem;
         color: {theme['meta_color']};
+        font-family: 'Source Sans Pro', sans-serif;
     }}
 
-    /* === 徽章系统 === */
+    /* 8. 徽章样式 */
     .badge-target {{
         background-color: {theme['badge_target_bg']};
         color: {theme['badge_target_text']};
-        padding: 2px 8px;
-        border-radius: 9999px; /* 全圆角胶囊 */
-        font-size: 0.75rem;
+        padding: 3px 10px;
+        border-radius: 100px;
+        font-size: 0.8rem;
         font-weight: 600;
         display: inline-block;
-        margin-right: 6px;
+        margin-right: 8px;
     }}
-
     .badge-type {{
         background-color: {theme['badge_type_bg']};
         color: {theme['badge_type_text']};
-        padding: 2px 8px;
-        border-radius: 9999px;
-        font-size: 0.75rem;
-        font-weight: 500;
+        padding: 3px 10px;
+        border-radius: 100px;
+        font-size: 0.8rem;
         display: inline-block;
     }}
-
-    /* NEW 星标 (保持金色) */
+    
+    /* NEW 星标 */
     .badge-new {{
-        background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%);
+        background: linear-gradient(135deg, #FFD700 0%, #F59E0B 100%);
         color: white;
         padding: 2px 6px;
         border-radius: 4px;
-        font-size: 0.65rem;
+        font-size: 0.7rem;
         font-weight: 800;
         margin-left: 8px;
         vertical-align: middle;
-        box-shadow: 0 2px 4px rgba(245, 158, 11, 0.3);
+        box-shadow: 0 2px 5px rgba(245, 158, 11, 0.4);
     }}
-
+    
+    /* 隐藏链接下划线 */
+    a {{ text-decoration: none !important; }}
 </style>
 """, unsafe_allow_html=True)
 
@@ -179,15 +210,16 @@ def load_data():
 
 def color_circle(color_name):
     c = str(color_name).lower()
-    hex_color = "#d1d5db" 
-    if "green" in c: hex_color = "#10b981"
-    elif "red" in c: hex_color = "#ef4444"
-    elif "blue" in c or "cyan" in c: hex_color = "#3b82f6"
-    elif "yellow" in c or "gold" in c: hex_color = "#eab308"
-    elif "orange" in c: hex_color = "#f97316"
-    elif "purple" in c: hex_color = "#a855f7"
+    hex_color = "#D1D5DB" # Default gray
     
-    # 给圆点加一点光泽
+    # 调整过的颜色，让白天模式下也好看
+    if "green" in c: hex_color = "#10B981"
+    elif "red" in c: hex_color = "#EF4444"
+    elif "blue" in c or "cyan" in c: hex_color = "#3B82F6"
+    elif "yellow" in c or "gold" in c: hex_color = "#F59E0B"
+    elif "orange" in c: hex_color = "#F97316"
+    elif "purple" in c: hex_color = "#8B5CF6"
+    
     return f"""
     <div style="
         width: 16px; 
@@ -195,23 +227,23 @@ def color_circle(color_name):
         background-color: {hex_color}; 
         border-radius: 50%; 
         display: inline-block;
-        box-shadow: 0 0 0 2px {hex_color}30; 
+        box-shadow: 0 0 0 2px {hex_color}40; /* 增加一圈淡色光晕 */
         vertical-align: middle;
-        margin-top: 2px;
+        margin-top: 4px;
     "></div>
     """
 
 # Load Data
 df = load_data()
 
-# ================= Sidebar Content =================
+# ================= Sidebar =================
 with st.sidebar:
     st.caption("Automated Tracking System")
     
     if not df.empty:
         csv = df.to_csv(index=False).encode('utf-8')
         st.download_button(
-            label="📥 Download CSV",
+            label="📥 Download CSV Dataset",
             data=csv,
             file_name='probes_database.csv',
             mime='text/csv',
@@ -239,7 +271,13 @@ with st.sidebar:
         if selected_color != "All":
             filtered_df = filtered_df[filtered_df['color'] == selected_color]
         
-        st.markdown(f"<br><div style='text-align: center; color: {theme['meta_color']}'>Found <b>{len(filtered_df)}</b> probes</div>", unsafe_allow_html=True)
+        # 侧边栏底部统计
+        st.markdown(f"""
+        <div style='margin-top: 20px; padding: 10px; background: rgba(0,0,0,0.05); border-radius: 8px; text-align: center;'>
+            <div style='font-size: 0.8rem; color: {theme['meta_color']}'>Total Probes</div>
+            <div style='font-size: 1.5rem; font-weight: bold; color: {theme['sidebar_text']}'>{len(filtered_df)}</div>
+        </div>
+        """, unsafe_allow_html=True)
     else:
         filtered_df = pd.DataFrame()
 
@@ -261,13 +299,13 @@ else:
         is_new = str(current_year) in pub_year or str(current_year + 1) in pub_year
         new_badge = '<span class="badge-new">NEW</span>' if is_new else ""
 
-        # Layout
+        # Layout Container
         with st.container(border=True):
-            # 调整了列宽比例，让按钮不那么挤
-            c1, c2, c3 = st.columns([0.2, 5.5, 1.0])
+            # 列比例优化
+            c1, c2, c3 = st.columns([0.2, 6, 1.2])
             
             with c1:
-                st.markdown(f"<div style='padding-top: 6px;'>{color_circle(row['color'])}</div>", unsafe_allow_html=True)
+                st.markdown(f"<div style='text-align: center;'>{color_circle(row['color'])}</div>", unsafe_allow_html=True)
             
             with c2:
                 # Title
@@ -277,32 +315,31 @@ else:
                 </div>
                 """, unsafe_allow_html=True)
                 
-                # Metadata line
+                # Meta Data Row
                 target = row['target']
                 ptype = row.get('type', 'Unknown')
                 journal = row.get('journal', 'Unknown Journal')
                 date = row.get('date', 'N/A')
                 
                 st.markdown(f"""
-                <div style="margin-top: 8px; line-height: 1.6;">
+                <div style="margin-top: 8px; line-height: 1.8;">
                     <span class="badge-target">{target}</span>
                     <span class="badge-type">{ptype}</span>
-                    <span style="color: {theme.get('btn_border')}; margin: 0 8px;">|</span>
+                    <span style="color: {theme.get('meta_color')}; margin: 0 8px; opacity: 0.5;">|</span>
                     <span class="probe-meta"><i>{journal}</i></span>
-                    <span style="color: {theme.get('btn_border')}; margin: 0 8px;">•</span>
+                    <span style="color: {theme.get('meta_color')}; margin: 0 8px; opacity: 0.5;">•</span>
                     <span class="probe-meta">📅 {date}</span>
                 </div>
                 """, unsafe_allow_html=True)
 
             with c3:
-                # Button
-                st.markdown("<div style='height: 4px'></div>", unsafe_allow_html=True) 
+                # Button: 垂直居中
+                st.markdown("<div style='height: 8px'></div>", unsafe_allow_html=True) 
                 if row.get('doi') and "http" in row['doi']:
-                    # 使用 link_button
-                    st.link_button("Read", row['doi'], use_container_width=True)
+                    st.link_button("Read Paper", row['doi'], use_container_width=True)
                 else:
                     st.button("No Link", disabled=True, key=f"btn_{index}", use_container_width=True)
             
-            # Abstract
+            # Abstract Expander
             with st.expander("View Abstract", expanded=False):
-                st.markdown(f"<div style='font-size: 0.9rem; color: {theme['text_color']}; opacity: 0.9; line-height: 1.6;'>{row.get('abstract', 'No abstract')}</div>", unsafe_allow_html=True)
+                st.markdown(f"<div style='font-size: 0.95rem; color: {theme['main_text']}; opacity: 0.85; line-height: 1.6;'>{row.get('abstract', 'No abstract')}</div>", unsafe_allow_html=True)
