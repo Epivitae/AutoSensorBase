@@ -3,7 +3,9 @@ import pandas as pd
 import json
 import os
 import datetime
+import requests
 from github import Github
+from Bio import Entrez
 
 # ================= 1. 配置与初始化 =================
 st.set_page_config(
@@ -16,41 +18,110 @@ st.set_page_config(
 GITHUB_TOKEN = st.secrets.get("GITHUB_TOKEN")
 REPO_NAME = st.secrets.get("GITHUB_REPO")
 ADMIN_PWD = st.secrets.get("ADMIN_PASSWORD")
+ZHIPU_API_KEY = st.secrets.get("ZHIPU_API_KEY") # 新增
 DATA_FILE = "processed_probes.json"
 
-# 初始化 Session State (用于记住管理员登录状态)
-if 'is_admin' not in st.session_state:
-    st.session_state.is_admin = False
+# 初始化 Biopython
+Entrez.email = "wangk@ion.ac.cn" # 建议换成你的邮箱
 
-# ================= 2. GitHub 同步功能 =================
+# ================= 2. 核心功能函数 =================
+
 def update_github_data(new_data_list):
     """将修改后的数据推送到 GitHub"""
     if not GITHUB_TOKEN or not REPO_NAME:
         st.error("❌ GitHub Token or Repo name not set in Secrets!")
         return False
-        
     try:
         g = Github(GITHUB_TOKEN)
         repo = g.get_repo(REPO_NAME)
         contents = repo.get_contents(DATA_FILE)
-        
         json_content = json.dumps(new_data_list, indent=4, ensure_ascii=False)
-        
-        repo.update_file(
-            path=contents.path,
-            message="🤖 Admin: Manual data update via Streamlit",
-            content=json_content,
-            sha=contents.sha
-        )
+        repo.update_file(contents.path, "🤖 Admin: Manual data update", json_content, contents.sha)
         return True
     except Exception as e:
         st.error(f"GitHub Sync Error: {e}")
         return False
 
-# ================= 3. 主题配色定义 =================
+def fetch_pubmed_metadata(doi):
+    """根据 DOI 从 PubMed 获取元数据"""
+    try:
+        # 1. 搜索 DOI 对应的 PMID
+        search_handle = Entrez.esearch(db="pubmed", term=doi, retmax=1)
+        search_record = Entrez.read(search_handle)
+        search_handle.close()
+        
+        id_list = search_record["IdList"]
+        if not id_list:
+            return None, "DOI not found in PubMed."
+
+        # 2. 获取详细信息
+        fetch_handle = Entrez.efetch(db="pubmed", id=id_list[0], rettype="medline", retmode="xml")
+        data = Entrez.read(fetch_handle)
+        fetch_handle.close()
+        
+        article = data['PubmedArticle'][0]['MedlineCitation']['Article']
+        
+        # 提取字段
+        title = article.get('ArticleTitle', 'No Title')
+        journal = article.get('Journal', {}).get('Title', 'Unknown Journal')
+        year = article.get('Journal', {}).get('JournalIssue', {}).get('PubDate', {}).get('Year', str(datetime.datetime.now().year))
+        
+        abstract_list = article.get('Abstract', {}).get('AbstractText', [])
+        abstract = " ".join(abstract_list) if isinstance(abstract_list, list) else str(abstract_list)
+        
+        return {
+            "title": title,
+            "journal": journal,
+            "date": year,
+            "abstract": abstract,
+            "doi": doi  # 保持输入的 DOI
+        }, None
+        
+    except Exception as e:
+        return None, str(e)
+
+def ai_extract_attributes(abstract):
+    """强制 AI 从摘要中提取属性 (不判断真伪，只提取)"""
+    if not ZHIPU_API_KEY:
+        return {"target": "Manual", "color": "Other", "type": "Manual"}
+
+    url = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
+    headers = {"Authorization": f"Bearer {ZHIPU_API_KEY}", "Content-Type": "application/json"}
+    
+    # 提示词：假设它就是探针，只管提取
+    prompt = f"""
+    Read this abstract and extract the fluorescent sensor's attributes.
+    Abstract: {abstract}
+    
+    Return JSON ONLY with these keys:
+    {{
+        "target": "What molecule is detected? (e.g. Dopamine, Calcium)",
+        "color": "Fluorescence color (Green, Red, Blue, Yellow, etc.)",
+        "type": "Sensor type (e.g. CPFP, GPCR-based, snifit)"
+    }}
+    If unsure, use "Unknown". Do NOT return Markdown.
+    """
+    
+    payload = {
+        "model": "glm-4-flash",
+        "messages": [{"role": "user", "content": prompt}],
+        "temperature": 0.1
+    }
+
+    try:
+        resp = requests.post(url, headers=headers, json=payload, timeout=10)
+        if resp.status_code == 200:
+            content = resp.json()['choices'][0]['message']['content']
+            clean_json = content.replace("```json", "").replace("```", "").strip()
+            return json.loads(clean_json)
+    except Exception as e:
+        print(f"AI Error: {e}")
+    
+    return {"target": "Manual", "color": "Other", "type": "Manual"}
+
+# ================= 3. 主题配色 =================
 def get_theme_config(is_light_mode):
     if is_light_mode:
-        # --- 🌞 白天模式 ---
         return {
             "mode": "light", "bg_color": "#F7F9FB", "sidebar_bg": "#FFFFFF", "text_main": "#2D3748",
             "text_sidebar": "#1A202C", "meta_color": "#718096", "border_color": "#E2E8F0",
@@ -60,7 +131,6 @@ def get_theme_config(is_light_mode):
             "header_visibility": "hidden"
         }
     else:
-        # --- 🌜 黑夜模式 ---
         return {
             "mode": "dark", "bg_color": "#0E1117", "sidebar_bg": "#262730", "text_main": "#FAFAFA",
             "text_sidebar": "#FAFAFA", "meta_color": "#9CA3AF", "border_color": "#4B5563",
@@ -70,27 +140,21 @@ def get_theme_config(is_light_mode):
             "header_visibility": "visible"
         }
 
-# ================= 4. 样式注入 =================
 def inject_custom_css(t):
     st.markdown(f"""
     <style>
         .stApp {{ background-color: {t['bg_color']}; color: {t['text_main']}; }}
         .stDecoration {{ display: none !important; }}
         header[data-testid="stHeader"] {{ background-color: transparent !important; visibility: {t['header_visibility']}; }}
-        
         [data-testid="stSidebar"] {{ background-color: {t['sidebar_bg']}; border-right: 1px solid #E2E8F0; }}
         [data-testid="stSidebar"] h1, [data-testid="stSidebar"] h2, [data-testid="stSidebar"] span, 
         [data-testid="stSidebar"] div, [data-testid="stSidebar"] label, [data-testid="stSidebar"] p {{ color: {t['text_sidebar']} !important; }}
-        [data-testid="stSidebar"] a {{ color: {t['text_sidebar']} !important; opacity: 0.8; }}
         [data-testid="stSidebar"] .stSelectbox > div > div {{ background-color: {t['bg_color']}; color: {t['text_main']}; border-color: {t['btn_border']}; }}
-
         .block-container {{ padding-top: 1.5rem; padding-bottom: 3rem; }}
-
         [data-testid="stVerticalBlockBorderWrapper"] > div {{
             background-color: {t['card_bg']}; border: {t['card_border']} !important;
             box-shadow: {t['card_shadow']}; border-radius: 10px; padding: 1.2rem;
         }}
-        
         .stButton button, [data-testid="stLinkButton"] a, [data-testid="stDownloadButton"] button {{
             background-color: {t['btn_bg']} !important; color: {t['btn_text']} !important;
             border: 1px solid {t['btn_border']} !important; border-radius: 6px; font-weight: 500;
@@ -100,17 +164,15 @@ def inject_custom_css(t):
             background-color: {t['btn_hover_bg']} !important; border-color: #A0AEC0 !important;
             transform: translateY(-1px); color: {t['text_main']} !important;
         }}
-
         .probe-title {{ font-size: 1.2rem; font-weight: 700; margin-bottom: 6px; color: {t['text_main']}; letter-spacing: -0.01em; }}
         .probe-meta {{ font-size: 0.9rem; color: {t['meta_color']}; font-family: 'Source Sans Pro', sans-serif; }}
-
         .badge-target {{ background-color: {t['badge_target_bg']}; color: {t['badge_target_text']}; padding: 3px 10px; border-radius: 100px; font-size: 0.8rem; font-weight: 600; display: inline-block; margin-right: 6px; }}
         .badge-type {{ background-color: {t['badge_type_bg']}; color: {t['badge_type_text']}; padding: 3px 10px; border-radius: 100px; font-size: 0.8rem; display: inline-block; }}
         .badge-new {{ background: linear-gradient(135deg, #FFD700 0%, #F59E0B 100%); color: white; padding: 2px 6px; border-radius: 4px; font-size: 0.7rem; font-weight: 800; margin-left: 8px; vertical-align: middle; box-shadow: 0 2px 5px rgba(245, 158, 11, 0.4); }}
     </style>
     """, unsafe_allow_html=True)
 
-# ================= 5. 数据处理 =================
+# ================= 4. 数据处理 =================
 def load_data():
     if not os.path.exists(DATA_FILE):
         return []
@@ -138,30 +200,55 @@ def extract_years(data):
     except:
         return "2021", datetime.datetime.now().year
 
-# ================= 6. 管理员面板 (添加探针) =================
+# ================= 5. 增强版管理员面板 (核心修改) =================
 def render_admin_panel(current_data):
     with st.sidebar:
         st.markdown("---")
-        st.markdown("### 🛠️ Admin Panel")
-        with st.expander("➕ Manual Add Probe", expanded=True):
-            with st.form("add_probe_form"):
-                new_name = st.text_input("Name")
-                new_target = st.text_input("Target")
-                new_color = st.selectbox("Color", ["Green", "Red", "Blue", "Yellow", "Orange"])
-                new_doi = st.text_input("DOI/Link")
-                new_year = st.text_input("Year", value=str(datetime.datetime.now().year))
-                submitted = st.form_submit_button("Submit")
+        st.markdown("### 🛠️ Admin Panel (AI Auto-Fill)")
+        
+        with st.expander("✨ Smart Add Probe", expanded=True):
+            with st.form("smart_add_form"):
+                # 输入区
+                input_doi = st.text_input("1. DOI (Required)", placeholder="e.g. 10.1038/s41592-024-02202-x")
+                input_name = st.text_input("2. Probe Name (Required)", placeholder="e.g. GCaMP8")
+                
+                st.caption("Leave the rest to AI! 🤖")
+                submitted = st.form_submit_button("🚀 Fetch & Add")
+                
                 if submitted:
-                    new_entry = {
-                        "probe_name": new_name, "target": new_target, "color": new_color,
-                        "doi": new_doi, "date": new_year, "is_new": True,
-                        "type": "Manual", "journal": "Manual Entry", "abstract": "Manually added."
-                    }
-                    current_data.insert(0, new_entry)
-                    if update_github_data(current_data):
-                        st.success("Added!"); st.rerun()
+                    if not input_doi or not input_name:
+                        st.error("Please fill in DOI and Name.")
+                    else:
+                        status_msg = st.empty()
+                        status_msg.info("⏳ Fetching from PubMed...")
+                        
+                        # 1. 爬取 PubMed
+                        meta_data, error = fetch_pubmed_metadata(input_doi)
+                        
+                        if error:
+                            status_msg.error(f"PubMed Error: {error}")
+                        else:
+                            status_msg.info("🧠 AI Extracting Attributes...")
+                            
+                            # 2. AI 提取属性 (Target/Color/Type)
+                            ai_attrs = ai_extract_attributes(meta_data['abstract'])
+                            
+                            # 3. 合并数据
+                            new_entry = {
+                                "probe_name": input_name,
+                                "is_new": True,  # 手动添加的默认为 New
+                                **meta_data,     # 包含 title, journal, date, abstract, doi
+                                **ai_attrs       # 包含 target, color, type
+                            }
+                            
+                            # 4. 保存
+                            current_data.insert(0, new_entry)
+                            if update_github_data(current_data):
+                                status_msg.success(f"✅ Added {input_name} successfully!")
+                                time.sleep(1)
+                                st.rerun()
 
-# ================= 7. 渲染侧边栏 =================
+# ================= 6. 渲染侧边栏 =================
 def render_sidebar_content(data, theme):
     with st.sidebar:
         st.markdown("<br>", unsafe_allow_html=True)
@@ -184,7 +271,6 @@ def render_sidebar_content(data, theme):
             if sel_target != "All": filtered = [d for d in filtered if str(d.get('target')) == sel_target]
             if sel_color != "All": filtered = [d for d in filtered if str(d.get('color')) == sel_color]
 
-        # 统计面板
         min_y, max_y = extract_years(filtered)
         st.markdown(f"""
         <div style='margin-top: 20px; padding: 15px; background: rgba(0,0,0,0.03); border-radius: 12px; text-align: center; border: 1px solid {theme['border_color']};'>
@@ -194,29 +280,27 @@ def render_sidebar_content(data, theme):
         </div>
         """, unsafe_allow_html=True)
         
-        # === 🔐 管理员登录 (带按钮的修复版) ===
         st.markdown("<br>", unsafe_allow_html=True)
+        
+        # 登录逻辑
+        if 'is_admin' not in st.session_state: st.session_state.is_admin = False
         
         with st.expander("🔐 Admin Login", expanded=st.session_state.is_admin):
             if not st.session_state.is_admin:
-                # 使用 form，这会给你一个真正的 "Login" 按钮
                 with st.form("login_form"):
                     pwd = st.text_input("Password", type="password")
-                    submit_login = st.form_submit_button("Login")
-                
-                if submit_login:
-                    if pwd == ADMIN_PWD:
-                        st.session_state.is_admin = True
-                        st.rerun() # 立即刷新，进入管理员模式
-                    else:
-                        st.error("Wrong password")
+                    if st.form_submit_button("Login"):
+                        if pwd == ADMIN_PWD:
+                            st.session_state.is_admin = True
+                            st.rerun()
+                        else:
+                            st.error("Wrong password")
             else:
-                st.success("✅ Logged in as Admin")
+                st.success("✅ Logged in")
                 if st.button("Logout"):
                     st.session_state.is_admin = False
                     st.rerun()
         
-        # 底部 Footer
         st.markdown(f"""
         <div style='margin-top: 40px; padding-top: 20px; border-top: 1px solid {theme['border_color']}; text-align: center;'>
             <div style='font-weight: 600; font-size: 0.9rem; margin-bottom: 4px; color: {theme['text_sidebar']};'>Chimera Nano Sensor Team</div>
@@ -229,10 +313,9 @@ def render_sidebar_content(data, theme):
         
         return filtered, st.session_state.is_admin
 
-# ================= 8. 渲染主列表 =================
+# ================= 7. 渲染主列表 =================
 def render_main_feed(data, theme, is_admin):
     st.header("🚀 Latest Probes")
-
     if not data:
         st.info("No data available.")
         return
@@ -262,12 +345,11 @@ def render_main_feed(data, theme, is_admin):
                 """, unsafe_allow_html=True)
             with c3:
                 st.markdown("<div style='height: 6px'></div>", unsafe_allow_html=True)
-                
                 if is_admin:
                     if st.button("🗑️ Delete", key=f"del_{index}", type="primary", use_container_width=True):
                         data.pop(index)
                         if update_github_data(data):
-                            st.success("Deleted!"); st.rerun()
+                            st.success("Deleted!"); import time; time.sleep(0.5); st.rerun()
                 else:
                     if row.get('doi') and "http" in row['doi']:
                         st.link_button("Read", row['doi'], use_container_width=True)
@@ -277,7 +359,7 @@ def render_main_feed(data, theme, is_admin):
             with st.expander("View Abstract", expanded=False):
                 st.markdown(f"<div style='opacity: 0.85; line-height: 1.6;'>{row.get('abstract', 'No abstract')}</div>", unsafe_allow_html=True)
 
-# ================= 9. 程序入口 =================
+# ================= 8. 程序入口 =================
 def main():
     data_list = load_data()
     
@@ -291,6 +373,7 @@ def main():
     
     filtered_data, is_admin = render_sidebar_content(data_list, theme_config)
     
+    # 如果是管理员，显示智能添加面板
     if is_admin:
         render_admin_panel(data_list)
     
