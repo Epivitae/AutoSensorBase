@@ -4102,5 +4102,77 @@
         "target": "Dopamine",
         "color": "Red",
         "type": "Genetically encoded fluorescent biosensor"
+    },
+    {
+        "title": "Brain Pericyte Calcium and Hemodynamic Imaging in Transgenic Mice In Vivo.",
+        "abstract": "Recent advances in protein biology and mouse genetics have made it possible to measure intracellular calcium fluctuations of brain cells in vivo and to correlate this with local hemodynamics. This protocol uses transgenic mice that have been prepared with a chronic cranial window and express the genetically encoded calcium indicator, RCaMP1.07, under the α-smooth muscle actin promoter to specifically label mural cells, such as vascular smooth muscle cells and ensheathing pericytes. Steps are outlined on how to prepare a tail vein catheter for intravenous injection of fluorescent dyes to trace blood flow, as well as how to measure brain pericyte calcium and local blood vessel hemodynamics (diameter, red blood cell velocity, etc.) by two photon microscopy in vivo through the cranial window in ketamine/xylazine anesthetized mice. Finally, details are provided for the analysis of calcium fluctuations and blood flow movies via the image processing algorithms developed by Barrett et al. 2018, with an emphasis on how these processes can be adapted to other cellular imaging data.",
+        "doi": "https://doi.org/10.3791/62725",
+        "journal": "Journal of visualized experiments : JoVE",
+        "date": "2021",
+        "is_new": true,
+        "probe_name": "RCaMP1.07",
+        "target": "Mural cells",
+        "color": "Fluorescent",
+        "type": "Genetically encoded calcium indicator"
+    },
+    {
+        "title": "Live imaging of transcription sites using an elongating RNA polymerase II-specific probe.",
+        "abstract": "In eukaryotic nuclei, most genes are transcribed by RNA polymerase II (RNAP2), whose regulation is a key to understanding the genome and cell function. RNAP2 has a long heptapeptide repeat (Tyr1-Ser2-Pro3-Thr4-Ser5-Pro6-Ser7), and Ser2 is phosphorylated on an elongation form. To detect RNAP2 Ser2 phosphorylation (RNAP2 Ser2ph) in living cells, we developed a genetically encoded modification-specific intracellular antibody (mintbody) probe. The RNAP2 Ser2ph-mintbody exhibited numerous foci, possibly representing transcription \"factories,\" and foci were diminished during mitosis and in a Ser2 kinase inhibitor. An in vitro binding assay using phosphopeptides confirmed the mintbody's specificity. RNAP2 Ser2ph-mintbody foci were colocalized with proteins associated with elongating RNAP2 compared with factors involved in the initiation. These results support the view that mintbody localization represents the sites of RNAP2 Ser2ph in living cells. RNAP2 Ser2ph-mintbody foci showed constrained diffusional motion like chromatin, but they were more mobile than DNA replication domains and p300-enriched foci, suggesting that the elongating RNAP2 complexes are separated from more confined chromatin domains.",
+        "doi": "https://doi.org/10.1083/jcb.202104134",
+        "journal": "The Journal of cell biology",
+        "date": "2022",
+        "is_new": true,
+        "probe_name": "RNAP2 Ser2ph-mintbody",
+        "target": "RNA polymerase II Ser2 phosphorylation",
+        "color": "Fluorescent",
+        "type": "Genetically encoded modification-specific intracellular antibody probe"
+    },
+    {
+        "title": "Whole-cell screening of oxidative enzymes using genetically encoded sensors.",
+        "abstract": "Biocatalysis is increasingly used for synthetic purposes in the chemical and especially the pharmaceutical industry. Enzyme discovery and optimization which is frequently needed to improve biocatalytic performance rely on high-throughput methods for activity determination. These methods should ideally be generic and applicable to entire enzyme families. Hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>) is a product of several biocatalytic oxidations and its formation can serve as a proxy for oxidative activity. We designed a genetically encoded sensor for activity measurement of oxidative biocatalysts <i>via</i> the amount of intracellularly-formed H<sub>2</sub>O<sub>2</sub>. A key component of the sensor is an H<sub>2</sub>O<sub>2</sub>-sensitive transcriptional regulator, OxyR, which is used to control the expression levels of fluorescent proteins. We employed the OxyR sensor to monitor the oxidation of glycerol to glyceraldehyde and of toluene to <i>o</i>-cresol catalysed by recombinant <i>E. coli</i> expressing an alcohol oxidase and a P450 monooxygenase, respectively. In case of the P450 BM3-catalysed reaction, we additionally monitored <i>o</i>-cresol formation <i>via</i> a second genetically encoded sensor based on the phenol-sensitive transcriptional activator, DmpR, and an orthogonal fluorescent reporter protein. Single round screens of mutant libraries by flow cytometry or by visual inspection of colonies on agar plates yielded significantly improved oxidase and oxygenase variants thus exemplifying the suitability of the sensor system to accurately assess whole-cell oxidations in a high-throughput manner.",
+        "doi": "https://doi.org/10.1039/d1sc02578c",
+        "journal": "Chemical science",
+        "date": "2021",
+        "is_new": true,
+        "probe_name": "OxyR sensor",
+        "target": "Hydrogen peroxide (H2O2)",
+        "color": "Fluorescent proteins",
+        "type": "Transcriptional regulator-based sensor"
+    },
+    {
+        "title": "Population imaging of synaptically released glutamate in mouse hippocampal slices.",
+        "abstract": "Glutamatergic neurotransmission is a widespread form of synaptic excitation in the mammalian brain. The development of genetically encoded fluorescent glutamate sensors allows monitoring synaptic signaling in living brain tissue in real time. Here, we describe single- and two-photon imaging of synaptically evoked glutamatergic population signals in acute hippocampal slices expressing the fluorescent glutamate sensor SF-iGluSnFR.A184S in CA1 or CA3 pyramidal neurons. The protocol can be readily used to study defective synaptic glutamate signaling in mouse models of neuropsychiatric disorders, such as Alzheimer disease. For complete details on the use and execution of this protocol, please refer to Zott et al. (2019).",
+        "doi": "https://doi.org/10.1016/j.xpro.2021.100877",
+        "journal": "STAR protocols",
+        "date": "2021",
+        "is_new": true,
+        "probe_name": "SF-iGluSnFR.A184S",
+        "target": "Glutamate",
+        "color": "Fluorescent",
+        "type": "Genetically Encoded Fluorescent Glutamate Sensor"
+    },
+    {
+        "title": "Sponging of glutamate at the outer plasma membrane surface reveals roles for glutamate in development.",
+        "abstract": "Plants use electrical and chemical signals for systemic communication. Herbivory, for instance, appears to trigger local apoplasmic glutamate accumulation, systemic electrical signals, and calcium waves that travel to report insect damage to neighboring leaves and initiate defense. To monitor extra- and intracellular glutamate concentrations in plants, we generated Arabidopsis lines expressing genetically encoded fluorescent glutamate sensors. In contrast to cytosolically localized sensors, extracellularly displayed variants inhibited plant growth and proper development. Phenotypic analyses of high-affinity display sensor lines revealed that root meristem development, particularly the quiescent center, number of lateral roots, vegetative growth, and floral architecture were impacted. Notably, the severity of the phenotypes was positively correlated with the affinity of the display sensors, intimating that their ability to sequester glutamate at the surface of the plasma membrane was responsible for the defects. Root growth defects were suppressed by supplementing culture media with low levels of glutamate. Together, the data indicate that sequestration of glutamate at the cell surface either disrupts the supply of glutamate to meristematic cells and/or impairs localized glutamatergic signaling important for developmental processes.",
+        "doi": "https://doi.org/10.1111/tpj.15585",
+        "journal": "The Plant journal : for cell and molecular biology",
+        "date": "2022",
+        "is_new": true,
+        "probe_name": "Genetically encoded fluorescent glutamate sensors",
+        "target": "Glutamate",
+        "color": "Fluorescent",
+        "type": "Fluorescent sensor"
+    },
+    {
+        "title": "Bioluminescent Sensors for Ca<sup>++</sup> Flux Imaging and the Introduction of a New Intensity-Based Ca<sup>++</sup> Sensor.",
+        "abstract": "Sensitive detection of biological events is a goal for the design and characterization of sensors that can be used <i>in vitro</i> and <i>in vivo</i>. One important second messenger is Ca<sup>++</sup> which has been a focus of using genetically encoded Ca<sup>++</sup> indicators (GECIs) within living cells or intact organisms <i>in vivo</i>. An ideal GECI would exhibit high signal intensity, excellent signal-to-noise ratio (SNR), rapid kinetics, a large dynamic range within relevant physiological conditions, and red-shifted emission. Most available GECIs are based on fluorescence, but bioluminescent GECIs have potential advantages in terms of avoiding tissue autofluorescence, phototoxicity, photobleaching, and spectral overlap, as well as enhancing SNR. Here, we summarize current progress in the development of bioluminescent GECIs and introduce a new and previously unpublished biosensor. Because these biosensors require a substrate, we also describe the pros and cons of various substrates used with these sensors. The novel GECI that is introduced here is called CalBiT, and it is a Ca<sup>++</sup> indicator based on the functional complementation of NanoBiT which shows a high dynamic change in response to Ca<sup>++</sup> fluxes. Here, we use CalBiT for the detection of Ca<sup>++</sup> fluctuations in cultured cells, including its ability for real-time imaging in living cells.",
+        "doi": "https://doi.org/10.3389/fbioe.2021.773353",
+        "journal": "Frontiers in bioengineering and biotechnology",
+        "date": "2021",
+        "is_new": true,
+        "probe_name": "CalBiT",
+        "target": "Ca<sup>++</sup>",
+        "color": "Not specified",
+        "type": "Bioluminescent GECI"
     }
 ]
