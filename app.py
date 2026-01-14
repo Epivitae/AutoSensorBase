@@ -8,7 +8,7 @@ import re
 # ================= 1. 配置与初始化 =================
 st.set_page_config(
     page_title="Auto Sensor Base",
-    page_icon="",
+    page_icon="🧬",
     layout="wide"
 )
 
@@ -287,7 +287,7 @@ def main():
     
     # 重新组织 render_sidebar 逻辑以支持动态传参
     with st.sidebar:
-        st.title("🧬 Auto Sensor Base")
+        st.title("Auto Sensor Base")
         st.caption("Automated Tracking System")
         is_light = st.toggle("🌞 Light Mode / 🌜 Dark", value=False)
     
