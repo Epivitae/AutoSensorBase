@@ -8,7 +8,7 @@ import re
 # ================= 1. 配置与初始化 =================
 st.set_page_config(
     page_title="Auto Sensor Base",
-    page_icon="🧬",
+    page_icon="",
     layout="wide"
 )
 
