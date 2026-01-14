@@ -328,7 +328,7 @@ def render_sidebar_content(df, theme):
 
         st.markdown(f"""
         <div style='margin-top: 50px; padding-top: 20px; border-top: 1px solid {theme['border_color']}; text-align: center;'>
-            <div style='font-weight: 600; font-size: 0.95rem; margin-bottom: 4px; color: {theme['text_sidebar']};'>Chimera Sensor Team</div>
+            <div style='font-weight: 600; font-size: 0.95rem; margin-bottom: 4px; color: {theme['text_sidebar']};'>Chimera Nano Sensor Team</div>
             <div style='font-size: 0.8rem; opacity: 0.8; margin-bottom: 8px; color: {theme['text_sidebar']};'>Institute of Neuroscience, CAS</div>
             <div style='font-size: 0.85rem;'>
                 <a href="http://www.cns.ac.cn" target="_blank" style='text-decoration: none; border-bottom: 1px dotted; color: {theme['text_sidebar']};'>www.cns.ac.cn</a>
