@@ -32,6 +32,13 @@ jobs:
         run: |
           git config --global user.name "GitHub Action Bot"
           git config --global user.email "action@github.com"
-          git add processed_probes.json
-          # 如果文件没变，就不提交，防止报错
-          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-update: New probes found" && git push)
+          
+          # 1. 只有当文件存在时才 add
+          if [ -f processed_probes.json ]; then
+            git add processed_probes.json
+          else
+            echo "⚠️ No processed_probes.json found, skipping git add."
+          fi
+
+          # 2. 检查暂存区是否有变化，有才 commit，否则安全退出
+          git diff --staged --quiet || (git commit -m "🤖 Auto-update: New probes found" && git push)
