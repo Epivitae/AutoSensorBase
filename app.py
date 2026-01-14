@@ -18,6 +18,10 @@ REPO_NAME = st.secrets.get("GITHUB_REPO")
 ADMIN_PWD = st.secrets.get("ADMIN_PASSWORD")
 DATA_FILE = "processed_probes.json"
 
+# 初始化 Session State (用于记住管理员登录状态)
+if 'is_admin' not in st.session_state:
+    st.session_state.is_admin = False
+
 # ================= 2. GitHub 同步功能 =================
 def update_github_data(new_data_list):
     """将修改后的数据推送到 GitHub"""
@@ -134,7 +138,7 @@ def extract_years(data):
     except:
         return "2021", datetime.datetime.now().year
 
-# ================= 6. 管理员面板 =================
+# ================= 6. 管理员面板 (添加探针) =================
 def render_admin_panel(current_data):
     with st.sidebar:
         st.markdown("---")
@@ -157,12 +161,8 @@ def render_admin_panel(current_data):
                     if update_github_data(current_data):
                         st.success("Added!"); st.rerun()
 
-# ================= 7. 渲染组件 (修复了重复ID问题) =================
-
+# ================= 7. 渲染侧边栏 =================
 def render_sidebar_content(data, theme):
-    """
-    这里只渲染除了标题和Toggle之外的内容
-    """
     with st.sidebar:
         st.markdown("<br>", unsafe_allow_html=True)
 
@@ -194,14 +194,27 @@ def render_sidebar_content(data, theme):
         </div>
         """, unsafe_allow_html=True)
         
-        # === 🔐 管理员登录 ===
+        # === 🔐 管理员登录 (带按钮的修复版) ===
         st.markdown("<br>", unsafe_allow_html=True)
-        is_admin = False
-        with st.expander("🔐 Admin Login"):
-            pwd = st.text_input("Password", type="password")
-            if pwd == ADMIN_PWD and ADMIN_PWD:
-                is_admin = True
-                st.success("Mode: Admin")
+        
+        with st.expander("🔐 Admin Login", expanded=st.session_state.is_admin):
+            if not st.session_state.is_admin:
+                # 使用 form，这会给你一个真正的 "Login" 按钮
+                with st.form("login_form"):
+                    pwd = st.text_input("Password", type="password")
+                    submit_login = st.form_submit_button("Login")
+                
+                if submit_login:
+                    if pwd == ADMIN_PWD:
+                        st.session_state.is_admin = True
+                        st.rerun() # 立即刷新，进入管理员模式
+                    else:
+                        st.error("Wrong password")
+            else:
+                st.success("✅ Logged in as Admin")
+                if st.button("Logout"):
+                    st.session_state.is_admin = False
+                    st.rerun()
         
         # 底部 Footer
         st.markdown(f"""
@@ -214,8 +227,9 @@ def render_sidebar_content(data, theme):
         </div>
         """, unsafe_allow_html=True)
         
-        return filtered, is_admin
+        return filtered, st.session_state.is_admin
 
+# ================= 8. 渲染主列表 =================
 def render_main_feed(data, theme, is_admin):
     st.header("🚀 Latest Probes")
 
@@ -263,32 +277,23 @@ def render_main_feed(data, theme, is_admin):
             with st.expander("View Abstract", expanded=False):
                 st.markdown(f"<div style='opacity: 0.85; line-height: 1.6;'>{row.get('abstract', 'No abstract')}</div>", unsafe_allow_html=True)
 
-# ================= 8. 程序入口 =================
+# ================= 9. 程序入口 =================
 def main():
-    # 1. 加载数据
     data_list = load_data()
     
-    # 2. 先在 Main 里渲染 Sidebar 的头部 (标题和开关)
-    # 这样可以尽早拿到 is_light 状态来配置 CSS
     with st.sidebar:
         st.title("Auto Sensor Base")
         st.caption("Automated Tracking System")
-        # 加上 key 也是个好习惯，防止任何潜在ID冲突
         is_light = st.toggle("🌞 Light Mode / 🌜 Dark", value=False, key="theme_toggle")
 
-    # 3. 配置主题
     theme_config = get_theme_config(is_light)
     inject_custom_css(theme_config)
     
-    # 4. 渲染 Sidebar 剩余部分 (筛选器、管理员登录、Footer)
-    # 注意：这里调用的是 render_sidebar_content，不再包含 toggle
     filtered_data, is_admin = render_sidebar_content(data_list, theme_config)
     
-    # 5. 如果是管理员，显示添加面板
     if is_admin:
         render_admin_panel(data_list)
     
-    # 6. 渲染主列表
     render_main_feed(filtered_data, theme_config, is_admin)
 
 if __name__ == "__main__":
