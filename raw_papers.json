@@ -5,8 +5,8 @@
         "doi": "https://doi.org/10.1038/s41592-025-02972-0",
         "journal": "Nature methods",
         "date": "2026",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Mitochondrial calcium shapes B cell signaling and mitochondrial function.",
@@ -14,8 +14,8 @@
         "doi": "https://doi.org/10.3389/fimmu.2025.1710128",
         "journal": "Frontiers in immunology",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "A stationary phase-specific bacterial green light sensor for enhancing metabolite production.",
@@ -23,8 +23,8 @@
         "doi": "https://doi.org/10.1038/s41467-025-67829-8",
         "journal": "Nature communications",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Spatially heterogeneous acetylcholine dynamics in the striatum promote behavioral flexibility.",
@@ -32,8 +32,8 @@
         "doi": "https://doi.org/10.1038/s41467-025-66826-1",
         "journal": "Nature communications",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Nonionotropic action of an acid-sensing ion channel inhibits leukemogenesis in the acidic bone marrow niche.",
@@ -41,8 +41,8 @@
         "doi": "https://doi.org/10.1172/JCI189051",
         "journal": "The Journal of clinical investigation",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Human in vitro neuromuscular junction model to functionally dissect the pathogenic mechanism of anti-AChR autoantibody-positive myasthenia gravis.",
@@ -50,8 +50,8 @@
         "doi": "https://doi.org/10.1186/s40360-025-01056-1",
         "journal": "BMC pharmacology & toxicology",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Development of Endogenous Protein Probes for Characterizing Surface Proteins and Cellular Interactors of Extracellular Vesicles.",
@@ -59,8 +59,8 @@
         "doi": "https://doi.org/10.1002/advs.202511414",
         "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "A Reversible Mitochondrial ROS Probe for Monitoring Mitophagy Dynamics: Development and Application of MitoFlare.",
@@ -68,8 +68,8 @@
         "doi": "https://doi.org/10.1101/2025.11.18.689025",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "From Plankton to Primates: How VSP Sequence Diversity Shapes Voltage Sensing.",
@@ -77,8 +77,8 @@
         "doi": "https://doi.org/10.3390/ijms262210963",
         "journal": "International journal of molecular sciences",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Imaging Electrical Activity of Retinal Ganglion Cells with Fluorescent Voltage and Calcium Indicator Proteins in Retinal Degenerative <i>rd1</i> Blind Mice.",
@@ -86,7 +86,7 @@
         "doi": "https://doi.org/10.1021/acschemneuro.5c00740",
         "journal": "ACS chemical neuroscience",
         "date": "2025",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -95,8 +95,8 @@
         "doi": "https://doi.org/10.1101/2025.11.06.687003",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "hpGRISZ: a high-performance fluorescent biosensor for in vivo imaging of synaptic zinc dynamics.",
@@ -104,8 +104,8 @@
         "doi": "https://doi.org/10.1101/2025.10.06.680726",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Genetically Encoded Sensors for Monitoring Intracellular Redox Health of the Pathogenic Fungus <i>Cryptococcus neoformans</i>.",
@@ -113,8 +113,8 @@
         "doi": "https://doi.org/10.1021/acssensors.5c01883",
         "journal": "ACS sensors",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "A Fluorescent-Based Method to Assess the Activity of the Human Sodium-Coupled Citrate Transporter.",
@@ -122,8 +122,8 @@
         "doi": "https://doi.org/10.1002/biot.70156",
         "journal": "Biotechnology journal",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Plasma membrane-endoplasmic reticulum coupling probed with genetically-encoded voltage sensors.",
@@ -131,8 +131,8 @@
         "doi": "https://doi.org/10.1101/2025.10.03.680358",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Genetically Encoded FRET-Based Nanosensor for Insect Juvenile Hormone.",
@@ -140,8 +140,8 @@
         "doi": "https://doi.org/10.1021/acsomega.5c07961",
         "journal": "ACS omega",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Strengths and Limitations of Salicylic Acid Reporters.",
@@ -149,8 +149,8 @@
         "doi": "https://doi.org/10.3390/ijms262110610",
         "journal": "International journal of molecular sciences",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Understanding Crosstalk Between Phosphate and Immune-Related Signaling in Rice and <i>Arabidopsis</i> Through Live Imaging of Phosphate Levels.",
@@ -158,7 +158,7 @@
         "doi": "https://doi.org/10.3390/plants14213334",
         "journal": "Plants (Basel, Switzerland)",
         "date": "2025",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -167,8 +167,8 @@
         "doi": "https://doi.org/10.1126/sciadv.adz3889",
         "journal": "Science advances",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Construction of genetically encoded biosensors for monitoring cytosolic and mitochondrial H<sub>2</sub>O<sub>2</sub> in response to nanozymes in THP-1 cells.",
@@ -176,8 +176,8 @@
         "doi": "https://doi.org/10.52601/bpr.2025.250008",
         "journal": "Biophysics reports",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Disentangling Metabolite Detection from Pathway Stress Using Biosensors.",
@@ -185,8 +185,8 @@
         "doi": "https://doi.org/10.1021/acssynbio.5c00275",
         "journal": "ACS synthetic biology",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Chromophore charge-state switching through copper-dependent homodimerisation of an engineered green fluorescent protein.",
@@ -194,8 +194,8 @@
         "doi": "https://doi.org/10.1039/d5sc06589e",
         "journal": "Chemical science",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Genetically Encoded Cell Fate Reporter System for Multiplex Single-Cell Detection of DNA and Mitochondrial Damage.",
@@ -203,8 +203,8 @@
         "doi": "https://doi.org/10.1021/acsomega.5c02766",
         "journal": "ACS omega",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Plasma membrane-endoplasmic reticulum coupling probed with genetically encoded voltage sensors.",
@@ -212,8 +212,8 @@
         "doi": "https://doi.org/10.1016/j.bpj.2025.10.023",
         "journal": "Biophysical journal",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Modulating Chromophore Flexibility in GEVIs through Threonine-Based Molecular Switches Reveals an Influence of Membrane Curvature on Protein Activity.",
@@ -221,8 +221,8 @@
         "doi": "https://doi.org/10.1021/acssensors.5c01748",
         "journal": "ACS sensors",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "The genetically encoded biosensor FEOX is a molecular gauge for cellular iron environment dynamics at single cell resolution.",
@@ -230,8 +230,8 @@
         "doi": "https://doi.org/10.1038/s41598-025-20428-5",
         "journal": "Scientific reports",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Allosteric Genetically Encoded Dual-Color Fluorogenic RNA Biosensor Simultaneously Illuminates miRNA and Its Precursor.",
@@ -239,8 +239,8 @@
         "doi": "https://doi.org/10.1021/acs.analchem.5c04717",
         "journal": "Analytical chemistry",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Modulation of speed-dependent acetylcholine release in the hippocampus by spatial task engagement.",
@@ -248,8 +248,8 @@
         "doi": "https://doi.org/10.1016/j.celrep.2025.116443",
         "journal": "Cell reports",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "A Wireless Photometric Probe to Capture Calcium Activities During Hippocampal Seizures in Freely Moving Mice.",
@@ -257,8 +257,8 @@
         "doi": "https://doi.org/10.1002/smtd.202500470",
         "journal": "Small methods",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "All-optical voltage interrogation for probing synaptic plasticity in vivo.",
@@ -266,8 +266,8 @@
         "doi": "https://doi.org/10.1038/s41467-025-63867-4",
         "journal": "Nature communications",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "A live cell biosensor protocol for high-resolution screening of therapy-resistant cancer cells.",
@@ -275,8 +275,8 @@
         "doi": "https://doi.org/10.1101/2025.09.23.678038",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "An Improved Ratiometric FRET Biosensor with Higher Affinity for Extracellular ATP.",
@@ -284,8 +284,8 @@
         "doi": "https://doi.org/10.3390/s25185903",
         "journal": "Sensors (Basel, Switzerland)",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Nucleus Accumbens Dopamine Levels Fluctuate Across Different States of Consciousness Under Sevoflurane Anesthesia.",
@@ -293,8 +293,8 @@
         "doi": "https://doi.org/10.3390/brainsci15090897",
         "journal": "Brain sciences",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Development of a genetically encoded melanocortin sensor for high sensitivity in vivo imaging.",
@@ -302,8 +302,8 @@
         "doi": "https://doi.org/10.1016/j.molmet.2025.102254",
         "journal": "Molecular metabolism",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Visualizing NEK9 in action: aptamer-based fluorescent probes for real-time live-cell imaging.",
@@ -311,8 +311,8 @@
         "doi": "https://doi.org/10.1080/15257770.2025.2553383",
         "journal": "Nucleosides, nucleotides & nucleic acids",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "A genetically encoded nanobody sensor reveals conformational diversity in β-arrestins orchestrated by distinct seven transmembrane receptors.",
@@ -320,8 +320,8 @@
         "doi": "https://doi.org/10.1073/pnas.2507384122",
         "journal": "Proceedings of the National Academy of Sciences of the United States of America",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Spatiotemporal dynamics of CXCL10 encode contextual immune information revealed by the genetically encoded fluorescent sensor.",
@@ -329,8 +329,8 @@
         "doi": "https://doi.org/10.1016/j.immuni.2025.07.005",
         "journal": "Immunity",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Chemogenetic detection and quantitation of H<sub>2</sub>O<sub>2</sub> in living cells.",
@@ -338,8 +338,8 @@
         "doi": "https://doi.org/10.1038/s41596-025-01226-9",
         "journal": "Nature protocols",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Perinatal and prenatal alcohol exposure impairs striatal cholinergic function and cognitive flexibility in adult offspring.",
@@ -347,8 +347,8 @@
         "doi": "https://doi.org/10.1016/j.neuropharm.2025.110627",
         "journal": "Neuropharmacology",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Treatment of age-related decreases in GTP levels restores endocytosis and autophagy.",
@@ -356,8 +356,8 @@
         "doi": "https://doi.org/10.1007/s11357-025-01786-4",
         "journal": "GeroScience",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Fusion of a bacterial cysteine desulfurase to redox-sensitive green fluorescent protein produces a highly sensitive cysteine biosensor for monitoring changes in intracellular cysteine.",
@@ -365,8 +365,8 @@
         "doi": "https://doi.org/10.1016/j.redox.2025.103785",
         "journal": "Redox biology",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "A genetically encoded biosensor for point-of-care and live-cell detection of D-2-hydroxyglutarate.",
@@ -374,8 +374,8 @@
         "doi": "https://doi.org/10.1038/s41467-025-62225-8",
         "journal": "Nature communications",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Genetically encoded biosensor for monitoring spatiotemporal dynamics of CCR2 ligands in culture and in vivo.",
@@ -383,8 +383,8 @@
         "doi": "https://doi.org/10.1038/s41592-025-02742-y",
         "journal": "Nature methods",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Treatment of age-related decreases in GTP levels restores endocytosis and autophagy.",
@@ -392,8 +392,8 @@
         "doi": "https://doi.org/10.1101/2025.06.09.658689",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Mapping Morphine's Antinociceptive Impact on the Ventral Tegmental Area During Nociceptive Stimulation: A Novel Microimaging Approach in a Neuropathic Pain Model.",
@@ -401,7 +401,7 @@
         "doi": "https://doi.org/10.3390/ijms26136526",
         "journal": "International journal of molecular sciences",
         "date": "2025",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -410,7 +410,7 @@
         "doi": "https://doi.org/10.1002/glia.70056",
         "journal": "Glia",
         "date": "2025",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -419,8 +419,8 @@
         "doi": "https://doi.org/10.1101/2025.06.19.660577",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Histamine Dynamics During Ingestive Behavior Measured by the Novel Biosensor HisLightG.",
@@ -428,8 +428,8 @@
         "doi": "https://doi.org/10.1111/jnc.70142",
         "journal": "Journal of neurochemistry",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Ultrasensitive bioluminescent reporters of protein kinase A based on luciferase activity modulated by phosphorylation (PKA LAMP).",
@@ -437,8 +437,8 @@
         "doi": "https://doi.org/10.1016/j.jbc.2025.110445",
         "journal": "The Journal of biological chemistry",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Flavoproteins as native and genetically encoded spin probes for in cell ESR spectroscopy.",
@@ -446,8 +446,8 @@
         "doi": "https://doi.org/10.1038/s41467-025-60623-6",
         "journal": "Nature communications",
         "date": "2025",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Prenatal Alcohol Exposure Impairs Striatal Cholinergic Function and Cognitive Flexibility in Adult Offspring.",
