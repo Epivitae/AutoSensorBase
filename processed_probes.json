@@ -5827,5 +5827,41 @@
         "target": "SARS-CoV-2 spike protein and hACE2 receptor",
         "color": "Bioluminescent",
         "type": "Structural complementation reporter"
+    },
+    {
+        "title": "Determination of cold-adapted influenza virus (Orthomyxoviridae: <i>Alphainfluenzavirus</i>) polymerase activity by the minigenome method with a fluorescent protein.",
+        "journal": "Voprosy virusologii",
+        "date": "2023",
+        "doi": "https://doi.org/10.36233/0507-4088-203",
+        "abstract": "Polymerase proteins PB1 and PB2 determine the cold-adapted phenotype of the influenza virus A/Krasnodar/101/35/59 (H2N2), as was shown earlier. The development of the reporter construct to determine the activity of viral polymerase at 33 and 37 °C using the minigenome method. Co-transfection of Cos-1 cells with pHW2000 plasmids expressing viral polymerase proteins PB1, PB2, PA, NP (minigenome) and reporter construct. Based on segment 8, two reporter constructs were created that contain a direct or inverted NS1-GFP-NS2 sequence for the expression of NS2 and NS1 proteins translationally fused with green fluorescent protein (GFP), which allowed the evaluation the transcriptional and/or replicative activity of viral polymerase. Polymerase of virus A/Krasnodar/101/35/59 (H2N2) has higher replicative and transcriptional activity at 33 °C than at 37 °C. Its transcriptional activity is more temperature-dependent than its replicative activity. The replicative and transcriptional activity of polymerase A/Puerto Rico/8/34 virus (H1N1, Mount Sinai variant) have no significant differences and do not depend on temperature.",
+        "is_new": true,
+        "probe_name": "NS1-GFP-NS2",
+        "target": "Influenza virus polymerase",
+        "color": "Green",
+        "type": "Fluorescent protein-based reporter construct"
+    },
+    {
+        "title": "Quantification of Binding of Small Molecules to Native Proteins Overexpressed in Living Cells.",
+        "journal": "Journal of the American Chemical Society",
+        "date": "2024",
+        "doi": "https://doi.org/10.1021/jacs.3c07488",
+        "abstract": "The affinity and selectivity of small molecules for proteins drive drug discovery and development. We report a fluorescent probe cellular binding assay (FPCBA) for determination of these values for native (untagged) proteins overexpressed in living cells. This method uses fluorophores such as Pacific Blue (PB) linked to cell-permeable protein ligands to generate probes that rapidly and reversibly equilibrate with intracellular targets, as established by kinetic assays of cellular uptake and efflux. To analyze binding to untagged proteins, an internal ribosomal entry site (IRES) vector was employed that allows a single mRNA to encode both the protein target and a separate orthogonal fluorescent protein (mVenus). This enabled cellular uptake of the probe to be correlated with protein expression by flow cytometry, allowing measurement of cellular dissociation constants (<i>K</i><sub>d</sub>) of the probe. This approach was validated by studies of the binding of allosteric activators to eight different Protein Kinase C (PKC) isozymes. Full-length PKCs expressed in transiently transfected HEK293T cells were used to measure cellular <i>K</i><sub>d</sub> values of a probe comprising PB linked to the natural product phorbol via a carbamate. These values were further used to determine competitive binding constants (cellular <i>K</i><sub>i</sub> values) of the nonfluorescent phorbol ester PDBu and the anticancer agent bryostatin 1 for each isozyme. For some PKC-small molecule pairs, these cellular <i>K</i><sub>i</sub> values matched known biochemical <i>K</i><sub>i</sub> values, but for others, altered selectivity was observed in cells. This approach can facilitate quantification of interactions of small molecules with physiologically relevant native proteins.",
+        "is_new": true,
+        "probe_name": "Fluorescent probe cellular binding assay (FPCBA)",
+        "target": "Native (untagged) proteins overexpressed in living cells",
+        "color": "Pacific Blue (PB)",
+        "type": "Genetically encoded fluorescent sensor"
+    },
+    {
+        "title": "A Fluorescence-Based Sensor for Calibrated Measurement of Protein Kinase Stability in Live Cells.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2023",
+        "doi": "https://doi.org/10.1101/2023.12.07.570636",
+        "abstract": "Oncogenic mutations can destabilize signaling proteins, resulting in increased or unregulated activity. Thus, there is considerable interest in mapping the relationship between mutations and the stability of proteins, to better understand the consequences of oncogenic mutations and potentially inform the development of new therapeutics. Here, we develop a tool to study protein-kinase stability in live mammalian cells and the effects of the HSP90 chaperone system on the stability of these kinases. We monitor the fluorescence of kinases fused to a fluorescent protein relative to that of a co-expressed reference fluorescent protein. We used this tool to study the dependence of Src- and Raf-family kinases on the HSP90 system. We demonstrate that this sensor reports on destabilization induced by oncogenic mutations in these kinases. We also show that Src-homology 2 (SH2) and Src-homology 3 (SH3) domains, which are required for autoinhibition of Src-family kinases, stabilize these kinase domains in the cell. Our expression-calibrated sensor enables the facile characterization of the effects of mutations and small-molecule drugs on protein-kinase stability.",
+        "is_new": true,
+        "probe_name": "Fluorescence-Based Sensor",
+        "target": "Protein Kinase",
+        "color": "Fluorescent",
+        "type": "Genetically Encoded"
     }
 ]
