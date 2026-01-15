@@ -68,7 +68,7 @@ def main():
         processed_dois_set.add(normalize_doi(item.get('doi')))
     
     # 批处理大小
-    BATCH_SIZE = 10 
+    BATCH_SIZE = 100 
     batch = pending[:BATCH_SIZE]
     
     analyzed_count = 0
