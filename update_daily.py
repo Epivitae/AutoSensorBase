@@ -1,114 +1,107 @@
 import json
 import os
 import time
-# ✅ 改动1：引入新的广度优先爬虫函数
 from data_fetcher import fetch_broad_probe_papers
 from data_analyzer import analyze_one_paper
 
-DB_FILE = "processed_probes.json"
+RAW_FILE = "raw_papers.json"
+PROCESSED_FILE = "processed_probes.json"
+
+def load_json(filename):
+    if os.path.exists(filename):
+        with open(filename, "r", encoding="utf-8") as f:
+            return json.load(f)
+    return []
+
+def save_json(filename, data):
+    with open(filename, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=4, ensure_ascii=False)
 
 def main():
-    print("🚀 Starting Daily Update...")
+    print("🚀 [ETL] Starting Daily Pipeline...")
 
-    # ================= 1. 读取旧数据 =================
-    if os.path.exists(DB_FILE):
-        try:
-            with open(DB_FILE, "r", encoding="utf-8") as f:
-                old_data = json.load(f)
-        except json.JSONDecodeError:
-            print("⚠️ JSON file corrupted, starting fresh.")
-            old_data = []
-    else:
-        old_data = []
+    # ================= 1. 抓取阶段 (Fetch to Raw) =================
+    raw_data = load_json(RAW_FILE)
     
-    # 提取现有 DOI 集合（统一转小写，防止大小写差异导致的重复）
+    # 建立索引防止重复抓取
     existing_dois = set()
-    for item in old_data:
-        d = item.get('doi') or item.get('DOI')
-        if d:
-            existing_dois.add(d.lower().strip())
-
-    print(f"📚 Existing database has {len(old_data)} entries.")
-
-    # ================= 2. 爬取新数据 =================
-    # ✅ 改动2：使用 fetch_broad_probe_papers
-    # 建议设置 3-5 天，因为我们现在用的是"录入日期(Entrez Date)"，这个更新非常及时
-    print("🌍 Fetching data using BROAD strategy (Entrez Date)...")
-    try:
-        new_papers = fetch_broad_probe_papers(days_back=5)
-    except Exception as e:
-        print(f"❌ Critical Error during fetching: {e}")
-        return
-
-    print(f"📦 Fetched {len(new_papers)} candidates from PubMed.")
-
-    # ================= 3. 筛选未处理的 =================
-    to_process = []
-    for p in new_papers:
-        # 获取 DOI 并清洗
-        current_doi = p.get('doi') or p.get('DOI')
-        if not current_doi:
-            continue
-            
-        clean_doi = current_doi.lower().strip()
-        
-        # 只有当 DOI 不在库中时，才处理
+    for item in raw_data:
+        d = item.get('doi')
+        if d: existing_dois.add(d.lower().strip().replace("https://doi.org/", ""))
+    
+    # 爬取过去 5 天
+    print("🌍 Fetching from PubMed (5 days)...")
+    candidates = fetch_broad_probe_papers(days_back=5)
+    
+    new_raw_count = 0
+    for p in candidates:
+        clean_doi = p['doi'].lower().strip().replace("https://doi.org/", "")
         if clean_doi not in existing_dois:
-            to_process.append(p)
+            # 初始化状态
+            p['ai_analyzed'] = False 
+            p['is_probe'] = False
+            raw_data.append(p)
+            existing_dois.add(clean_doi)
+            new_raw_count += 1
+            
+    if new_raw_count > 0:
+        print(f"📥 Staged {new_raw_count} new papers to {RAW_FILE}")
+        save_json(RAW_FILE, raw_data)
+    else:
+        print("💤 No new raw papers found.")
 
-    print(f"🔍 Found {len(to_process)} NEW papers to analyze (after deduplication).")
-
-    if not to_process:
-        print("💤 No new unique papers found. Exiting.")
+    # ================= 2. 分析阶段 (Process Pending) =================
+    # 找出所有未分析的
+    pending = [p for p in raw_data if not p.get('ai_analyzed')]
+    print(f"⏳ Pending Analysis Queue: {len(pending)} papers")
+    
+    if not pending:
+        print("✅ All caught up. Workflow finished.")
         return
 
-    # ================= 4. AI 分析 =================
-    # 提示：如果一次更新太多（例如 >20 篇），可能需要考虑分批运行
-    added_count = 0
+    processed_data = load_json(PROCESSED_FILE)
     
-    print("🤖 Starting AI Analysis...")
+    # 批处理限制 (防止 CI 超时)
+    BATCH_SIZE = 10 
+    batch = pending[:BATCH_SIZE]
     
-    for i, paper in enumerate(to_process):
-        title = paper.get('title') or paper.get('Title')
-        print(f"   [{i+1}/{len(to_process)}] Analyzing: {title[:50]}...")
-        
-        # 调用 AI
-        result = analyze_one_paper(paper)
-        
-        # ✅ 改动3：增加延时，防止 API 并发过高报错
-        time.sleep(1.0) 
-        
-        if result and result.get('is_new'):
-            probe_name = result.get('probe_name', 'Unknown')
-            print(f"      ✅ NEW PROBE DISCOVERED: {probe_name}")
-            
-            # 合并原始数据和 AI 分析结果
-            # 注意：保留 paper 里的 metadata，用 result 覆盖关键字段
-            merged_entry = {**paper, **result}
-            
-            # 确保统一的小写 key 存在 (为了兼容前端)
-            if 'Title' in merged_entry and 'title' not in merged_entry:
-                merged_entry['title'] = merged_entry['Title']
-            if 'Abstract' in merged_entry and 'abstract' not in merged_entry:
-                merged_entry['abstract'] = merged_entry['Abstract']
-                
-            old_data.append(merged_entry) # 加入总表
-            added_count += 1
-        else:
-            # 可能是纯应用文章，或者是提取失败
-            print("      ❌ Not a new sensor development.")
+    analyzed_count = 0
+    new_probe_count = 0
 
-    # ================= 5. 保存结果 =================
-    if added_count > 0:
-        print(f"💾 Saving {added_count} new entries to {DB_FILE}...")
-        # 备份一下是个好习惯（可选）
-        # shutil.copy(DB_FILE, DB_FILE + ".bak") 
-        
-        with open(DB_FILE, "w", encoding="utf-8") as f:
-            json.dump(old_data, f, indent=4, ensure_ascii=False)
-        print("🎉 Update Complete!")
-    else:
-        print("🏁 Analysis complete, no new probes added to database.")
+    for paper in batch:
+        print(f"🤖 Analyzing: {paper['title'][:50]}...")
+        try:
+            result = analyze_one_paper(paper)
+            
+            # 更新 Raw 状态
+            paper['ai_analyzed'] = True
+            
+            if result and result.get('is_new'):
+                print(f"   🎉 NEW PROBE: {result.get('probe_name')}")
+                paper['is_probe'] = True
+                
+                # 存入成品库 (清洗掉内部状态字段)
+                final_entry = {**paper, **result}
+                final_entry.pop('ai_analyzed', None)
+                final_entry.pop('is_probe', None)
+                processed_data.append(final_entry)
+                new_probe_count += 1
+            else:
+                print("   ❌ Rejected (Review/App)")
+                paper['is_probe'] = False
+            
+            analyzed_count += 1
+            time.sleep(1) # Rate limit
+            
+        except Exception as e:
+            print(f"   ⚠️ Analysis Error: {e}")
+            continue
+
+    # ================= 3. 保存阶段 =================
+    if analyzed_count > 0:
+        save_json(RAW_FILE, raw_data)        # 更新状态
+        save_json(PROCESSED_FILE, processed_data)  # 更新成品库
+        print(f"💾 Saved updates. (+{new_probe_count} probes)")
 
 if __name__ == "__main__":
     main()

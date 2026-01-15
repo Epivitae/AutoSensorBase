@@ -2,14 +2,14 @@ name: Daily Auto-Update
 
 on:
   schedule:
-    - cron: '0 22 * * *' # 每天 UTC 22:00 (北京时间早上 6:00) 运行
-  workflow_dispatch: # 允许你手动点击按钮运行
+    - cron: '0 22 * * *' # 北京时间 06:00
+  workflow_dispatch:
 
 jobs:
   update:
     runs-on: ubuntu-latest
     permissions:
-      contents: write # 必须给写权限，否则无法提交 json
+      contents: write
 
     steps:
       - name: Checkout code
@@ -23,22 +23,23 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run update script
+      - name: Run ETL pipeline
         env:
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
         run: python update_daily.py
 
       - name: Commit and Push changes
         run: |
-          git config --global user.name "GitHub Action Bot"
-          git config --global user.email "action@github.com"
+          git config --global user.name "AutoBot"
+          git config --global user.email "bot@example.com"
           
-          # 1. 只有当文件存在时才 add
-          if [ -f processed_probes.json ]; then
-            git add processed_probes.json
+          # 关键：同时添加 Raw 和 Processed 文件
+          git add raw_papers.json processed_probes.json
+          
+          # 仅在有变动时提交
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
           else
-            echo "⚠️ No processed_probes.json found, skipping git add."
+            git commit -m "🤖 Daily ETL Update"
+            git push
           fi
-
-          # 2. 检查暂存区是否有变化，有才 commit，否则安全退出
-          git diff --staged --quiet || (git commit -m "🤖 Auto-update: New probes found" && git push)
