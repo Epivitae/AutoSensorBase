@@ -372,7 +372,7 @@ def main():
     
     with st.sidebar:
         st.title("Auto Sensor Base")
-        st.caption("Automated Tracking System")
+        st.caption("AI-powered Tracking System")
         is_light = st.toggle("🌞 Light Mode / 🌜 Dark", value=False, key="theme_toggle")
 
     theme_config = get_theme_config(is_light)
