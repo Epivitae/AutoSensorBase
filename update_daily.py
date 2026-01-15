@@ -62,7 +62,7 @@ def main():
     processed_data = load_json(PROCESSED_FILE)
     
     # 批处理限制 (防止 CI 超时)
-    BATCH_SIZE = 1000 
+    BATCH_SIZE = 50 
     batch = pending[:BATCH_SIZE]
     
     analyzed_count = 0

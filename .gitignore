@@ -7,3 +7,5 @@ __pycache__/
 
 # 如果你有其他包含密码的文件，也加在这里
 .env
+
+.streamlit/
