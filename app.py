@@ -322,7 +322,7 @@ def render_sidebar_content(data, theme):
 
 # ================= 7. 渲染主列表 =================
 def render_main_feed(data, theme, is_admin):
-    st.header("🚀 Latest Probes")
+    st.header("Latest Genetically Encoded Fluorescent Sensors")
     if not data:
         st.info("No data available.")
         return
