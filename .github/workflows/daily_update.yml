@@ -2,7 +2,7 @@ name: Daily Auto-Update
 
 on:
   schedule:
-    - cron: '0 22 * * *' # 北京时间 06:00
+    - cron: '0 22 * * *' 
   workflow_dispatch:
 
 jobs:
@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0 # 获取完整历史，有助于解决复杂的合并/变基问题
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -28,25 +30,47 @@ jobs:
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
         run: python update_daily.py
 
+      # === 保险措施：先把结果存起来 ===
+      - name: Upload Artifacts (Data Backup)
+        uses: actions/upload-artifact@v4
+        with:
+          name: etl-data-${{ github.run_id }}
+          path: |
+            raw_papers.json
+            processed_probes.json
+          retention-days: 7 # 只保留7天，节省空间
+
       - name: Commit and Push changes
         run: |
           git config --global user.name "AutoBot"
           git config --global user.email "bot@example.com"
           
-          # 关键：同时添加 Raw 和 Processed 文件
           git add raw_papers.json processed_probes.json
           
-          # 仅在有变动时提交
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
             git commit -m "🤖 Daily ETL Update"
             
-            # === 新增修复逻辑 ===
-            # 1. 拉取远程 main 分支的最新代码
-            # 2. 使用 --rebase 将你的提交“嫁接”到最新代码之后
-            git pull --rebase origin main
+            # === 循环重试机制 (最多试3次) ===
+            MAX_RETRIES=3
+            count=0
+            success=false
             
-            # 3. 推送到远程 main 分支
-            git push origin main
+            until [ $count -ge $MAX_RETRIES ]
+            do
+              # 尝试拉取最新代码 (rebase) 并推送
+              git pull --rebase origin main && git push origin main && success=true && break
+              
+              # 如果失败了，增加计数，等待几秒再次尝试
+              count=$((count+1))
+              echo "Push failed, retrying in 5 seconds... ($count/$MAX_RETRIES)"
+              sleep 5
+            done
+            
+            # 如果3次都失败，脚本报错（但因为上面已经存档了，你手动去下载就行）
+            if [ "$success" = false ]; then
+              echo "Failed to push after $MAX_RETRIES attempts."
+              exit 1
+            fi
           fi
