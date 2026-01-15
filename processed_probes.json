@@ -605,11 +605,13 @@
         "doi": "https://doi.org/10.1101/2025.05.27.656351",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
+        "reasoning": "The abstract describes the use of a genetically encoded ACh sensor for live-tissue confocal imaging, indicating a new sensor development.",
+        "evidence_quote": "as measured by electrophysiology recordings and live-tissue confocal imaging using a genetically encoded ACh sensor",
         "is_new": true,
-        "probe_name": "Genetically Encoded ACh Sensor",
+        "probe_name": "Genetically encoded ACh sensor",
         "target": "Acetylcholine",
-        "color": "Not specified",
-        "type": "Not specified"
+        "color": "Unknown",
+        "type": "Unknown"
     },
     {
         "title": "Prolonged Single Neuron Voltage Imaging in Behaving Mammals.",
@@ -617,11 +619,13 @@
         "doi": "https://doi.org/10.1101/2025.05.29.656886",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
+        "reasoning": "The title and abstract describe the use of a new sensor, ElectraOFF, with specific development mentioned.",
+        "evidence_quote": "Using ElectraOFF, a fully genetically encoded, photostable, high-performance fluorescence voltage indicator...",
         "is_new": true,
         "probe_name": "ElectraOFF",
         "target": "Voltage",
         "color": "Unknown",
-        "type": "Fluorescence-based"
+        "type": "Fluorescent"
     },
     {
         "title": "A genetically encoded fluorescent sensor for monitoring spatiotemporal prostaglandin E2 dynamics <i>in vivo</i>.",
@@ -629,6 +633,8 @@
         "doi": "https://doi.org/10.1101/2025.06.01.657218",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
+        "reasoning": "The title and abstract clearly indicate the development of a new sensor named GRABPGE2-1.0.",
+        "evidence_quote": "Here, we developed and characterized a genetically encoded PGE2 sensor, which we call GRABPGE2-1.0 (PGE2-1.0)...",
         "is_new": true,
         "probe_name": "GRABPGE2-1.0",
         "target": "Prostaglandin E2 (PGE2)",
@@ -641,11 +647,13 @@
         "doi": "https://doi.org/10.1093/plphys/kiaf240",
         "journal": "Plant physiology",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a novel technique using a human influenza hemagglutinin (HA) Frankenbody (FB) as a probe, which is a new variant created by the authors.",
+        "evidence_quote": "We developed a technique to label and image a plant virus replicase during infection using the transiently expressed human influenza hemagglutinin (HA) Frankenbody (FB), an antibody fragment that binds the HA epitope.",
         "is_new": true,
-        "probe_name": "FB-mCherry",
-        "target": "HA epitope",
-        "color": "Red",
-        "type": "Antibody-based"
+        "probe_name": "HA Frankenbody (FB)",
+        "target": "Plant virus replicase",
+        "color": "Unknown",
+        "type": "Unknown"
     },
     {
         "title": "Microendoscopy for periodic intravital end-to-end tumor imaging of cancer cells.",
@@ -653,9 +661,11 @@
         "doi": "https://doi.org/10.1016/j.crmeth.2025.101056",
         "journal": "Cell reports methods",
         "date": "2025",
+        "reasoning": "The title and abstract describe the development of a new microendoscope with a genetically encoded fluorescent ubiquitination-based cell-cycle indicator (Fucci) system, indicating new sensor development.",
+        "evidence_quote": "We developed an optical-fiber-bundle-based microendoscope with a genetically encoded fluorescent ubiquitination-based cell-cycle indicator (Fucci) system to achieve the intravital, periodic, and multicolor end-to-end imaging of the proliferative activity of cancer cells at a cellular-level resolution.",
         "is_new": true,
         "probe_name": "Fucci",
-        "target": "Cell cycle",
+        "target": "Cell-cycle",
         "color": "Fluorescent",
         "type": "Genetically Encoded Sensor"
     },
@@ -665,11 +675,13 @@
         "doi": "https://doi.org/10.1111/jipb.13938",
         "journal": "Journal of integrative plant biology",
         "date": "2025",
+        "reasoning": "The authors developed a new probe by fusing roGFP2 to PRXIIB, demonstrating enhanced responsiveness and sensitivity.",
+        "evidence_quote": "Here, we develop a H<sub>2</sub>O<sub>2</sub> probe by fusing roGFP2 to an endogenous H<sub>2</sub>O<sub>2</sub> sensor, type II peroxiredoxin (PRXIIB), which displayed enhanced responsiveness and conversion kinetics compared to roGFP2-Orp1 in vitro and superior sensitivity to H<sub>2</sub>O<sub>2</sub> in vivo.",
         "is_new": true,
         "probe_name": "roGFP2-PRXIIB",
-        "target": "Hydrogen Peroxide (H2O2)",
+        "target": "Hydrogen Peroxide (H<sub>2</sub>O<sub>2</sub>)",
         "color": "Green",
-        "type": "Redox-sensitive Green Fluorescent Protein (roGFP)-based"
+        "type": "Intensometric"
     },
     {
         "title": "Overexpression of the WWE domain of RNF146 modulates poly-(ADP)-ribose dynamics at sites of DNA damage.",
@@ -677,11 +689,13 @@
         "doi": "https://doi.org/10.1016/j.dnarep.2025.103845",
         "journal": "DNA repair",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a new sensor using the WWE domain of RNF146 fused to EGFP.",
+        "evidence_quote": "We recently described the WWE domain of RNF146 as a robust genetically encoded probe, when fused to EGFP, for the detection of PAR in live cells.",
         "is_new": true,
         "probe_name": "WWE domain of RNF146 fused to EGFP",
-        "target": "poly-ADP-ribose (PAR)",
-        "color": "Green",
-        "type": "PAR-binding domain-based"
+        "target": "Poly-ADP-ribose (PAR)",
+        "color": "Fluorescent (Green due to EGFP)",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "The burning glass effect of water droplets triggers a high light-induced calcium response in the chloroplast stroma.",
@@ -701,11 +715,13 @@
         "doi": "https://doi.org/10.1021/acs.biochem.4c00567",
         "journal": "Biochemistry",
         "date": "2025",
+        "reasoning": "The authors developed a new RNA tag, Riboglow-FLIM, and systematically expanded its sequence space with nine different RNA tags.",
+        "evidence_quote": "Here, a genetically encoded RNA tag binds a fluorescent probe, causing an increase in both fluorescence intensity and fluorescence lifetime. ... Together, nine different RNA tags yielded a wide range of fluorescence lifetimes for the Riboglow-FLIM platform, building the foundation to tag and track several different RNAs simultaneously.",
         "is_new": true,
-        "probe_name": "Riboglow-FLIM RNA tags",
-        "target": "RNA spatiotemporal dynamics",
-        "color": "Fluorescent",
-        "type": "RNA-based FLIM"
+        "probe_name": "Riboglow-FLIM",
+        "target": "RNA",
+        "color": "Unknown",
+        "type": "Fluorescence Lifetime Imaging"
     },
     {
         "title": "A fluorescent sensor for real-time monitoring of DPP8/9 reveals crucial roles in immunity and cancer.",
@@ -713,11 +729,13 @@
         "doi": "https://doi.org/10.26508/lsa.202403076",
         "journal": "Life science alliance",
         "date": "2025",
+        "reasoning": "The title and abstract describe the development of a new ratiometric genetically encoded fluorescent sensor named DiPAK.",
+        "evidence_quote": "Here, we developed DiPAK (for DPP8/9 activity sensor based on AK2), a ratiometric genetically encoded fluorescent sensor, which enables studying DPP8/9 activity in living cells.",
         "is_new": true,
         "probe_name": "DiPAK",
         "target": "DPP8/9 activity",
         "color": "Fluorescent",
-        "type": "Genetically Encoded Sensor"
+        "type": "Ratiometric Genetically Encoded Sensor"
     },
     {
         "title": "A high-performance fluorescent sensor spatiotemporally reveals cell-type specific regulation of intracellular adenosine in vivo.",
@@ -725,11 +743,13 @@
         "doi": "https://doi.org/10.1038/s41467-025-59530-7",
         "journal": "Nature communications",
         "date": "2025",
+        "reasoning": "The abstract clearly states the development of a new sensor named HypnoS.",
+        "evidence_quote": "Here, we develop HypnoS, a genetically encoded fluorescent sensor for iAdo characterized by its high sensitivity, specificity, spatiotemporal resolution, and rapid response (sub-seconds).",
         "is_new": true,
         "probe_name": "HypnoS",
-        "target": "Intracellular adenosine (iAdo)",
+        "target": "Intracellular Adenosine (iAdo)",
         "color": "Fluorescent",
-        "type": "Genetically encoded fluorescent sensor"
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Mechanism and application of thiol-disulfide redox biosensors with a fluorescence-lifetime readout.",
@@ -737,11 +757,13 @@
         "doi": "https://doi.org/10.1073/pnas.2503978122",
         "journal": "Proceedings of the National Academy of Sciences of the United States of America",
         "date": "2025",
+        "reasoning": "The authors developed new biosensors (RoTq-Off and RoTq-On) with optimized fluorescence lifetime changes, indicating new sensor development.",
+        "evidence_quote": "Here, we optimized two biosensors for thiol-disulfide redox (RoTq-Off and RoTq-On) with opposite changes in fluorescence lifetime in response to oxidation.",
         "is_new": true,
         "probe_name": "RoTq-Off and RoTq-On",
         "target": "thiol-disulfide redox",
-        "color": "Fluorescence lifetime changes",
-        "type": "Fluorescence lifetime biosensors"
+        "color": "Unknown",
+        "type": "Fluorescence Lifetime"
     },
     {
         "title": "[Real-time measurement of neuromodulators using GRAB sensors].",
@@ -749,11 +771,13 @@
         "doi": "https://doi.org/10.1254/fpj.24111",
         "journal": "Nihon yakurigaku zasshi. Folia pharmacologica Japonica",
         "date": "2025",
+        "reasoning": "The title and abstract describe the development of a new class of sensors, 'GRAB sensors', with specific features and applications.",
+        "evidence_quote": "Recent innovations, exemplified by the development of genetically encoded fluorescent indicator, commonly referred to as 'GRAB sensors,' have addressed these limitations.",
         "is_new": true,
         "probe_name": "GRAB sensors",
-        "target": "neuromodulators",
-        "color": "fluorescent",
-        "type": "genetically encoded"
+        "target": "Neuromodulators (dopamine, acetylcholine, noradrenaline/norepinephrine, neuropeptides)",
+        "color": "Fluorescent",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "A sensitive soma-localized red fluorescent calcium indicator for in vivo imaging of neuronal populations at single-cell resolution.",
@@ -761,11 +785,13 @@
         "doi": "https://doi.org/10.1371/journal.pbio.3003048",
         "journal": "PLoS biology",
         "date": "2025",
+        "reasoning": "The abstract describes the re-engineering and development of new sensors, FRCaMPi and SomaFRCaMPi, with improved performance.",
+        "evidence_quote": "In this study, we explored topological inversion and soma-targeting strategies, which are complementary to conventional mutagenesis, to re-engineer a red genetically encoded calcium indicator, FRCaMP, for enhanced in vivo performance.",
         "is_new": true,
-        "probe_name": "FRCaMPi",
+        "probe_name": "FRCaMPi, SomaFRCaMPi",
         "target": "Calcium",
         "color": "Red",
-        "type": "Genetically Encoded Calcium Indicator"
+        "type": "Intensometric"
     },
     {
         "title": "Coenzyme Q10 protects keratinocytes against oxidation-induced energy stress as revealed by spatiotemporal analysis of cell energetics.",
@@ -773,11 +799,13 @@
         "doi": "https://doi.org/10.1038/s41598-025-98793-4",
         "journal": "Scientific reports",
         "date": "2025",
+        "reasoning": "The sensor AMPfret is described as engineered and validated by the authors, indicating a new development.",
+        "evidence_quote": "Engineered from the AMP-activated protein kinase (AMPK), this sensor leverages endogenous affinities of the kinase that evolved to detect energy stress...",
         "is_new": true,
         "probe_name": "AMPfret",
-        "target": "ATP/ADP and ATP/AMP ratios",
+        "target": "Energy Stress",
         "color": "Unknown",
-        "type": "AMPK-based"
+        "type": "FRET"
     },
     {
         "title": "Design and Evolution of a Phosphorescent Protein via the Proximal Encoding of Lanthanide and the Antenna Chromophore.",
@@ -785,11 +813,13 @@
         "doi": "https://doi.org/10.1021/jacs.5c00199",
         "journal": "Journal of the American Chemical Society",
         "date": "2025",
+        "reasoning": "The abstract describes the design and evolution of a novel phosphorescent protein system, indicating new development.",
+        "evidence_quote": "Here, we designed a novel phosphorescent protein system by incorporating photosensitizing unnatural amino acids (UAAs) proximal to the metal center of a lanthanide binding protein (LanM).",
         "is_new": true,
-        "probe_name": "Lanthanide-based phosphorescent protein",
-        "target": "Eu(III) and protease",
-        "color": "Phosphorescent",
-        "type": "Genetically encoded sensor"
+        "probe_name": "Unknown",
+        "target": "Eu(III), Protease",
+        "color": "Unknown",
+        "type": "Phosphorescent"
     },
     {
         "title": "Hyperspectral reporters for long-distance and wide-area detection of gene expression in living bacteria.",
@@ -797,11 +827,13 @@
         "doi": "https://doi.org/10.1038/s41587-025-02622-y",
         "journal": "Nature biotechnology",
         "date": "2025",
+        "reasoning": "The abstract describes the development of new hyperspectral reporters (HSRs) through quantum mechanical simulations and integration into bacteria, indicating a novel engineering process.",
+        "evidence_quote": "Quantum mechanical simulations of 20,170 metabolites identified candidate HSRs, leading to the selection of biliverdin IXα and bacteriochlorophyll a for their distinct absorption spectra and biosynthetic feasibility.",
         "is_new": true,
         "probe_name": "Hyperspectral reporters (HSRs)",
         "target": "Gene expression",
         "color": "Unique absorption signature",
-        "type": "Enzyme-based"
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "RIBOsensor for FRET-based, real-time ribose measurements in live cells.",
@@ -809,11 +841,13 @@
         "doi": "https://doi.org/10.1039/d5sc00244c",
         "journal": "Chemical science",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a new sensor, RIBOsensor, with specific engineering details.",
+        "evidence_quote": "To explore intracellular ribose dynamics, we developed a genetically encoded fluorescence resonance energy transfer (FRET) sensor using ribose binding protein (RBP) and enhanced cyan and yellow fluorescent proteins (FPs).",
         "is_new": true,
         "probe_name": "RIBOsensor",
         "target": "Ribose",
         "color": "Cyan and Yellow",
-        "type": "FRET-based"
+        "type": "FRET"
     },
     {
         "title": "Directed Evolution of a Genetically Encoded Indicator for Chloride.",
@@ -821,6 +855,8 @@
         "doi": "https://doi.org/10.1021/acssynbio.4c00818",
         "journal": "ACS synthetic biology",
         "date": "2025",
+        "reasoning": "The authors describe the development of a new chloride-insensitive fluorescent protein, ChlorOFF, through directed evolution and mutagenesis.",
+        "evidence_quote": "As a proof-of-concept, here, we use random mutagenesis paired with anion walking to engineer a chloride-insensitive fluorescent protein named OFPxm into a functional indicator named ChlorOFF.",
         "is_new": true,
         "probe_name": "ChlorOFF",
         "target": "Chloride",
@@ -833,11 +869,13 @@
         "doi": "https://doi.org/10.1021/jacs.5c00772",
         "journal": "Journal of the American Chemical Society",
         "date": "2025",
+        "reasoning": "The abstract describes the creation of a new series of fluorescent bivalent peptides named eSylites, indicating a new sensor development.",
+        "evidence_quote": "Here, we introduce small, high affinity synthetic probes for simplified, high contrast visualization of excitatory synapses without the limitations of larger biomolecules. In vitro binding quantification together with microscopy-based evaluation identified eSylites, a series of fluorescent bivalent peptides comprising a dye, linker, and sequence composition that show remarkable cellular target selectivity.",
         "is_new": true,
         "probe_name": "eSylites",
         "target": "PSD-95",
         "color": "Fluorescent",
-        "type": "Peptide-based"
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Screening of Vibrational Spectroscopic Voltage Indicator by Stimulated Raman Scattering Microscopy.",
@@ -845,11 +883,13 @@
         "doi": "https://doi.org/10.1002/smtd.202402124",
         "journal": "Small methods",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a new vibrational spectroscopic GEVI (vGEVI) named Archon, which was identified through screening and exhibited unique spectroscopic signatures.",
+        "evidence_quote": "To address this need, a vGEVI screening approach is developed that employs hyperspectral stimulated Raman scattering (hSRS) imaging synchronized with an induced transmembrane voltage (ITV) stimulation, revealing unique spectroscopic signatures of sensors expressed on membranes. Specifically, by screening various rhodopsin-based voltage sensors in live mammalian cells, a characteristic peak associated with retinal bound to the sensor is identified in one of the GEVIs, Archon, which exhibited a 70 cm<sup>-1</sup> red shift relative to the membrane-bound retinal. Notably, this peak is responsive to changes in membrane potential.",
         "is_new": true,
         "probe_name": "Archon",
-        "target": "membrane potential",
-        "color": "not specified",
-        "type": "rhodopsin-based voltage sensor"
+        "target": "Membrane potential",
+        "color": "Unknown",
+        "type": "Vibrational Spectroscopic Sensor"
     },
     {
         "title": "Rapid fluctuations in histamine associated with intake of nutritive and non-nutritive solutions.",
@@ -857,11 +897,13 @@
         "doi": "https://doi.org/10.1101/2024.11.07.622425",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
+        "reasoning": "The title and abstract describe the use of a novel genetically-encoded histamine sensor, HisLightG, indicating development.",
+        "evidence_quote": "Therefore, we used the novel genetically-encoded histamine sensor, HisLightG, combined with fiber photometry to measure histamine release...",
         "is_new": true,
         "probe_name": "HisLightG",
         "target": "Histamine",
-        "color": "Not specified",
-        "type": "Not specified"
+        "color": "Unknown",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "A genetically encoded fluorescent sensor enables sensitive and specific detection of IDH mutant associated oncometabolite D-2-hydroxyglutarate.",
@@ -869,6 +911,8 @@
         "doi": "https://doi.org/10.1186/s12885-025-13877-8",
         "journal": "BMC cancer",
         "date": "2025",
+        "reasoning": "The title and abstract describe the development of a new sensor, D2HGlo, through engineering and characterization.",
+        "evidence_quote": "Here, we present the development and characterization of a genetically encoded fluorescent sensor of D-2-HG (D2HGlo).",
         "is_new": true,
         "probe_name": "D2HGlo",
         "target": "D-2-hydroxyglutarate (D-2-HG)",
@@ -881,11 +925,13 @@
         "doi": "https://doi.org/10.3791/67911",
         "journal": "Journal of visualized experiments : JoVE",
         "date": "2025",
+        "reasoning": "The authors developed a novel protein-based mitochondrial-targeted GEVI named MPI, indicating new development.",
+        "evidence_quote": "Here, we developed protein-based mitochondrial-targeted GEVIs capable of detecting ΔΨm fluctuations in cells and the motor cortex of living animals.",
         "is_new": true,
         "probe_name": "MPI",
-        "target": "Mitochondrial Membrane Potential (MMP, ΔΨm)",
-        "color": "Fluorescent",
-        "type": "Genetically Encoded Voltage Indicator (GEVI)"
+        "target": "Mitochondrial Membrane Potential (ΔΨm)",
+        "color": "Unknown",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Genetically Encoded Fluorescent and Bioluminescent Probes for HDAC8.",
@@ -893,11 +939,13 @@
         "doi": "https://doi.org/10.1002/cbic.202500096",
         "journal": "Chembiochem : a European journal of chemical biology",
         "date": "2025",
+        "reasoning": "The authors describe the creation of new probes by engineering the probe design, indicating a development of new sensors.",
+        "evidence_quote": "Herein, we reformed the probe design by replacing the genetically encoded AcK with trifluoroacetyl lysine (TfAcK) and generated fluorescent and bioluminescent probes that could respond specifically to HDAC8 recombinantly expressed in E. coli and to endogenous HDACs in mammalian cells.",
         "is_new": true,
-        "probe_name": "Genetically Encoded Fluorescent and Bioluminescent Probes for HDAC8",
-        "target": "HDAC8 recombinantly expressed in E. coli and endogenous HDACs in mammalian cells",
-        "color": "Fluorescent and Bioluminescent",
-        "type": "Protein-based"
+        "probe_name": "Fluorescent and bioluminescent probes for HDAC8",
+        "target": "HDAC8",
+        "color": "Fluorescent and bioluminescent",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Engineering of Genetically Encoded Bright Near-Infrared Fluorescent Voltage Indicator.",
@@ -905,11 +953,13 @@
         "doi": "https://doi.org/10.3390/ijms26041442",
         "journal": "International journal of molecular sciences",
         "date": "2025",
+        "reasoning": "The authors developed a novel variant, monArch, through mutation and directed evolution, indicating new sensor development.",
+        "evidence_quote": "We performed random mutation on a bright Archon derivative and identified a novel variant, monArch...",
         "is_new": true,
         "probe_name": "monArch",
         "target": "Voltage",
         "color": "Near-Infrared",
-        "type": "Rhodopsin-based"
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Live Imaging of Synaptic Vesicle Recycling in the Neuromuscular Junction of Dissected Larval Zebrafish.",
@@ -917,11 +967,13 @@
         "doi": "https://doi.org/10.3791/67633",
         "journal": "Journal of visualized experiments : JoVE",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a transgenic zebrafish expressing a pHluorin-labeled probe, indicating new engineering.",
+        "evidence_quote": "We recently generated a transgenic zebrafish that highly expresses a pHluorin-labeled probe at motor neuron terminals",
         "is_new": true,
-        "probe_name": "pHluorin",
+        "probe_name": "pHluorin-labeled probe",
         "target": "pH",
         "color": "Green",
-        "type": "pH-sensitive fluorescent protein"
+        "type": "Intensometric"
     },
     {
         "title": "FRET-Based Sensor for Measuring Adenine Nucleotide Binding to AMPK.",
@@ -929,11 +981,13 @@
         "doi": "https://doi.org/10.1007/978-1-0716-4284-9_2",
         "journal": "Methods in molecular biology (Clifton, N.J.)",
         "date": "2025",
+        "reasoning": "The authors describe engineering a new sensor, AMPfret, which is a novel variant.",
+        "evidence_quote": "We have engineered an AMPK-based sensor, AMPfret, which translates the activating conformational switch into a fluorescence signal...",
         "is_new": true,
         "probe_name": "AMPfret",
-        "target": "AMPK activation",
-        "color": "Fluorescent",
-        "type": "FRET-based"
+        "target": "AMPK",
+        "color": "Unknown",
+        "type": "FRET"
     },
     {
         "title": "SFP6 fluorescent probes for imaging SAM dynamics in living cells.",
@@ -941,11 +995,13 @@
         "doi": "https://doi.org/10.1007/s00604-025-07039-7",
         "journal": "Mikrochimica acta",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a new probe, SFP6, with specific characteristics and applications.",
+        "evidence_quote": "A genetically encoded probe, SFP6 (S-adenosyl-L-methionine fluorescent probe), based on the principle of fluorescence resonance energy transfer (FRET) was developed.",
         "is_new": true,
         "probe_name": "SFP6",
-        "target": "S-adenosyl-L-methionine (SAM)",
+        "target": "S-adenosyl-L-methionine (SAM) levels",
         "color": "Fluorescent",
-        "type": "FRET-based"
+        "type": "FRET"
     },
     {
         "title": "Genetically encoded biosensor for fluorescence lifetime imaging of PTEN dynamics in the intact brain.",
@@ -953,11 +1009,13 @@
         "doi": "https://doi.org/10.1038/s41592-025-02610-9",
         "journal": "Nature methods",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a FRET-based biosensor using PTEN conformation as a proxy for PTEN activity, indicating a new sensor was created.",
+        "evidence_quote": "Here we describe the development of a FRET-based biosensor using PTEN conformation as a proxy for the PTEN activity state...",
         "is_new": true,
-        "probe_name": "PTEN biosensor",
-        "target": "PTEN activity state",
-        "color": "Fluorescent",
-        "type": "FRET-based"
+        "probe_name": "PTEN FRET biosensor",
+        "target": "PTEN activity",
+        "color": "Unknown",
+        "type": "FRET"
     },
     {
         "title": "Fast neural population dynamics in primate V1 captured by a genetically-encoded voltage indicator.",
@@ -965,11 +1023,13 @@
         "doi": "https://doi.org/10.21203/rs.3.rs-5851261/v1",
         "journal": "Research square",
         "date": "2025",
+        "reasoning": "The authors express a GEVI for the first time in V1 neurons, indicating a novel development.",
+        "evidence_quote": "Here, we successfully expressed, for the first time, a GEVI in excitatory V1 neurons in macaque monkeys.",
         "is_new": true,
         "probe_name": "GEVI",
         "target": "Voltage",
-        "color": "Fluorescent",
-        "type": "Voltage-Sensitive"
+        "color": "Unknown",
+        "type": "Unknown"
     },
     {
         "title": "Functionalization of a versatile fluorescent sensor for detecting protease activity and temporally gated opioid sensing.",
@@ -977,11 +1037,13 @@
         "doi": "https://doi.org/10.1039/d4cb00276h",
         "journal": "RSC chemical biology",
         "date": "2025",
+        "reasoning": "The authors report the functionalization and engineering of a sensor motif, indicating development of a new sensor.",
+        "evidence_quote": "We previously designed a fluorescent sensor motif suitable for detecting protease activity and opioids. In this manuscript, we demonstrated the motif's first use for reporting on protease activity in animal models, demonstrating a high signal-to-background ratio of 29. We further functionalized this sensor motif to detect the activity of the coronavirus main protease, Mpro, and demonstrated its utility in characterizing an Mpro inhibitor.",
         "is_new": true,
-        "probe_name": "Fluorescent sensor motif",
+        "probe_name": "Sensor motif",
         "target": "Protease activity and opioids",
-        "color": "Fluorescent",
-        "type": "Protease-based"
+        "color": "Unknown",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "A Sensitive Soma-localized Red Fluorescent Calcium Indicator for Multi-Modality Imaging of Neuronal Populations In Vivo.",
@@ -989,11 +1051,13 @@
         "doi": "https://doi.org/10.1101/2025.01.31.635851",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
+        "reasoning": "The abstract describes the re-engineering and development of a new red fluorescent calcium indicator, FRCaMPi, with specific improvements over existing sensors.",
+        "evidence_quote": "In this study, we explored topological inversion and soma-targeting strategies, which are complementary to conventional mutagenesis, to re-engineer a red genetically encoded calcium indicator, FRCaMP, for enhanced in vivo performance.",
         "is_new": true,
         "probe_name": "FRCaMPi",
         "target": "Calcium",
         "color": "Red",
-        "type": "Genetically Encoded Calcium Indicator"
+        "type": "Intensometric"
     },
     {
         "title": "Fluorescent protein with environmentally-sensitive fluorescence lifetime for quantitative pH measurement.",
@@ -1001,11 +1065,13 @@
         "doi": "https://doi.org/10.1016/j.abb.2025.110350",
         "journal": "Archives of biochemistry and biophysics",
         "date": "2025",
+        "reasoning": "The study describes the development of a new pH sensor, EYFP-G65T, through mutagenesis and optimization.",
+        "evidence_quote": "This study explores a yellow fluorescent protein EYFP-G65T as a core for a time-resolved pH-indicator.",
         "is_new": true,
         "probe_name": "EYFP-G65T",
         "target": "pH",
         "color": "Yellow",
-        "type": "pH indicator"
+        "type": "Fluorescence Lifetime"
     },
     {
         "title": "Genetically Encoded Single-Wavelength Sensor with High Specificity for Imaging ATP in Living Cells.",
@@ -1013,10 +1079,12 @@
         "doi": "https://doi.org/10.1021/acssensors.4c03389",
         "journal": "ACS sensors",
         "date": "2025",
+        "reasoning": "The title and abstract describe the development of a new sensor, OAS1.0, with specific mention of optimization and genetic targeting.",
+        "evidence_quote": "Here, we report an optimized genetically encoded ATP sensor (OAS1.0) with a high specificity for ATP detection.",
         "is_new": true,
         "probe_name": "OAS1.0",
         "target": "ATP",
-        "color": "not specified",
+        "color": "Unknown",
         "type": "Genetically Encoded Sensor"
     },
     {
@@ -1025,11 +1093,13 @@
         "doi": "https://doi.org/10.1073/pnas.2409309122",
         "journal": "Proceedings of the National Academy of Sciences of the United States of America",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a new sensor, termed the Dual-locked RNAtracker (Ducker), with a distinctive strategy for monitoring RNA dynamics.",
+        "evidence_quote": "Herein, a label-free and conformation switching-based genetically encoded sensor, termed the Dual-locked RNAtracker (Ducker), that realizes spatiotemporal monitoring of endogenous RNA dynamics in living cells is developed.",
         "is_new": true,
         "probe_name": "Dual-locked RNAtracker (Ducker)",
-        "target": "endogenous RNA",
-        "color": "fluorescent",
-        "type": "allosteric genetically encoded biosensor"
+        "target": "RNA dynamics",
+        "color": "Unknown",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Rapid quantification of intracellular calcium stores reveals effects of membrane micropeptides on SERCA function.",
@@ -1037,11 +1107,13 @@
         "doi": "https://doi.org/10.1016/j.ceca.2025.103000",
         "journal": "Cell calcium",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a new ratiometric ER-localized Ca2+ indicator for rapid quantification of Ca2+ stores.",
+        "evidence_quote": "we developed a ratiometric ER-localized Ca2+ indicator to rapidly quantify Ca2+ stores and assess SERCA function in live cells.",
         "is_new": true,
-        "probe_name": "ratiometric ER-localized Ca2+ indicator",
+        "probe_name": "Ratiometric ER-localized Ca2+ indicator",
         "target": "Calcium",
-        "color": "Unknown (not specified in the abstract)",
-        "type": "ER-localized"
+        "color": "Unknown",
+        "type": "Intensometric"
     },
     {
         "title": "Simultaneous, real-time tracking of many neuromodulatory signals with Multiplexed Optical Recording of Sensors on a micro-Endoscope.",
@@ -1049,11 +1121,13 @@
         "doi": "https://doi.org/10.1101/2025.01.26.634931",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a probe with spatial multiplexing of genetically encoded fluorescent sensors, indicating a new sensor development.",
+        "evidence_quote": "We developed a probe to track ten or more neuropeptides and neuromodulators using spatial multiplexing of genetically encoded fluorescent sensors.",
         "is_new": true,
-        "probe_name": "Genetically Encoded Fluorescent Sensors",
-        "target": "Neuropeptides and Neuromodulators",
-        "color": "Fluorescent",
-        "type": "Genetically Encoded"
+        "probe_name": "Unknown",
+        "target": "Neuropeptides and neuromodulators",
+        "color": "Unknown",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "A genetically encoded fluorescent biosensor for visualization of acetyl-CoA in live cells.",
@@ -1061,11 +1135,13 @@
         "doi": "https://doi.org/10.1016/j.chembiol.2025.01.002",
         "journal": "Cell chemical biology",
         "date": "2025",
+        "reasoning": "The authors engineered a new biosensor, PancACe, from bacterial protein PanZ and cpGFP, indicating a novel development.",
+        "evidence_quote": "Herein, we engineered an acetyl-CoA biosensor from the bacterial protein PanZ and circularly permuted green fluorescent protein (cpGFP).",
         "is_new": true,
         "probe_name": "PancACe",
-        "target": "acetyl-CoA",
+        "target": "Acetyl-CoA",
         "color": "Green",
-        "type": "Circularly permuted green fluorescent protein (cpGFP)-based"
+        "type": "Fluorescent"
     },
     {
         "title": "Utilizing FRET-based Biosensors to Measure Cellular Phosphate Levels in Mycorrhizal Roots of <i>Brachypodium distachyon</i>.",
@@ -1073,11 +1149,13 @@
         "doi": "https://doi.org/10.21769/BioProtoc.5158",
         "journal": "Bio-protocol",
         "date": "2025",
+        "reasoning": "The study introduces a new FRET biosensor, cpFLIPPi-5.3m, and a complementary control sensor, cpFLIPPi-Null, indicating development of new sensors.",
+        "evidence_quote": "Among these sensors, fluorescence resonance energy transfer (FRET)-based biosensors stand out for their accuracy. In this study, we employ the Pi-specific biosensor (cpFLIPPi-5.3m) targeted to the cytosol or plastids of <i>Brachypodium distachyon</i> plants...",
         "is_new": true,
         "probe_name": "cpFLIPPi-5.3m",
         "target": "Phosphate",
-        "color": "Fluorescent",
-        "type": "FRET-based"
+        "color": "Unknown",
+        "type": "FRET"
     },
     {
         "title": "7-ketocholesterol contributes to microglia-driven increases in astrocyte reactive oxygen species in Alzheimer's disease.",
@@ -1085,11 +1163,13 @@
         "doi": "https://doi.org/10.1101/2025.01.19.633810",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
+        "reasoning": "The authors developed a new method to express a genetically encoded fluorescent hydrogen peroxide (H2O2) sensor in astrocytes.",
+        "evidence_quote": "To further understand the contribution of 7-KC on the oxidative environment, we developed a method to express a genetically encoded fluorescent hydrogen peroxide (H2O2) sensor in astrocytes, the primary source of cholesterol in the brain.",
         "is_new": true,
-        "probe_name": "Fluorescent hydrogen peroxide sensor",
-        "target": "Hydrogen peroxide (H2O2)",
-        "color": "Not specified",
-        "type": "Genetically encoded"
+        "probe_name": "Genetically encoded fluorescent hydrogen peroxide (H2O2) sensor",
+        "target": "Hydrogen Peroxide",
+        "color": "Fluorescent",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Nuclear Calcium Signaling in D<sub>1</sub> Receptor-Expressing Neurons of the Nucleus Accumbens Regulates Molecular, Cellular, and Behavioral Adaptations to Cocaine.",
@@ -1097,11 +1177,13 @@
         "doi": "https://doi.org/10.1016/j.biopsych.2025.01.013",
         "journal": "Biological psychiatry",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a new genetically encoded nuclear calcium probe for monitoring calcium dynamics in neurons.",
+        "evidence_quote": "A genetically encoded cell type-specific nuclear calcium probe has been developed to monitor calcium dynamics in the nuclei of striatal neurons...",
         "is_new": true,
-        "probe_name": "cell type-specific nuclear calcium probe",
+        "probe_name": "Unknown",
         "target": "Calcium",
-        "color": "not specified",
-        "type": "not specified"
+        "color": "Unknown",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "A novel genetically encoded indicator for deciphering cytosolic and mitochondrial nitric oxide in live cells.",
@@ -1109,10 +1191,12 @@
         "doi": "https://doi.org/10.1016/j.bbrc.2025.151345",
         "journal": "Biochemical and biophysical research communications",
         "date": "2025",
+        "reasoning": "The title and abstract describe the development of a novel sensor, GefiNO, with specific protein detection capabilities and subcellular localization.",
+        "evidence_quote": "To address this, we have developed and characterized a novel genetically encoded NO fluorescence sensor, GefiNO, to investigate NO metabolism dynamics in living cells and subcellular organelles.",
         "is_new": true,
         "probe_name": "GefiNO",
-        "target": "Nitric oxide (NO)",
-        "color": "Fluorescence",
+        "target": "Nitric Oxide (NO)",
+        "color": "Fluorescent",
         "type": "Genetically Encoded Sensor"
     },
     {
@@ -1121,11 +1205,13 @@
         "doi": "https://doi.org/10.1002/anie.202418003",
         "journal": "Angewandte Chemie (International ed. in English)",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a new sensor for RNA methylation, with specific mention of its creation and functionality.",
+        "evidence_quote": "Here, we develop a genetically encoded live-cell RNA methylation sensor that can dynamically monitor RNA m<sup>6</sup>A level at single-cell resolution.",
         "is_new": true,
         "probe_name": "RNA methylation sensor",
-        "target": "RNA m^6A",
-        "color": "Not specified",
-        "type": "Genetically encoded"
+        "target": "RNA methylation",
+        "color": "Unknown",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Development of a Genetically Encoded Sensor for Arginine.",
@@ -1133,11 +1219,13 @@
         "doi": "https://doi.org/10.1021/acssensors.4c03174",
         "journal": "ACS sensors",
         "date": "2025",
+        "reasoning": "The title and abstract describe the development of a new sensor, ArgS1, with specific characteristics and applications.",
+        "evidence_quote": "Here we report ArgS1, a new Arg sensor.",
         "is_new": true,
         "probe_name": "ArgS1",
-        "target": "l-arginine (Arg)",
-        "color": "Ex488/405",
-        "type": "Genetically Encoded Sensor"
+        "target": "Arginine",
+        "color": "Unknown",
+        "type": "Unknown"
     },
     {
         "title": "Mapping Dynamic Protein Clustering with AIEgen-Active Chemigenetic Probe.",
@@ -1145,11 +1233,13 @@
         "doi": "https://doi.org/10.1002/anie.202422996",
         "journal": "Angewandte Chemie (International ed. in English)",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a bilateral-tailored chemigenetic probe, which is a new variant created by the authors.",
+        "evidence_quote": "Herein, we report a bilateral-tailored chemigenetic probe, in which an 'amphiphilic' aggregate-induced emission luminogen (AIEgen) QMSO<sub>3</sub>Cl is covalently conjugated to a protein tag that is genetically fused to protein-of-interest (POI).",
         "is_new": true,
-        "probe_name": "AIEgen-Active Chemigenetic Probe",
-        "target": "Protein clustering/disassembling",
-        "color": "Fluorescent",
-        "type": "Protein-tagged AIEgen-based"
+        "probe_name": "AIEgen QMSO<sub>3</sub>Cl",
+        "target": "Protein clustering",
+        "color": "Unknown",
+        "type": "Unknown"
     },
     {
         "title": "Non-contact confocal calcium imaging of <i>in vivo</i> murine corneal nerves.",
@@ -1169,11 +1259,13 @@
         "doi": "https://doi.org/10.1016/j.pacs.2024.100671",
         "journal": "Photoacoustics",
         "date": "2025",
+        "reasoning": "The title and abstract describe the development of a new near-infrared calcium ion indicator, NIR-GECO2G, with novel imaging applications.",
+        "evidence_quote": "Here, we study the noninvasive multimodal fluorescence and optoacoustic imaging performance of state-of-the-art NIR calcium ion indicator NIR-GECO2G in the mouse brain.",
         "is_new": true,
         "probe_name": "NIR-GECO2G",
         "target": "Calcium",
         "color": "Near-infrared",
-        "type": "Calcium indicator"
+        "type": "Intensometric"
     },
     {
         "title": "PinkyCaMP a mScarlet-based calcium sensor with exceptional brightness, photostability, and multiplexing capabilities.",
@@ -1181,11 +1273,13 @@
         "doi": "https://doi.org/10.1101/2024.12.16.628673",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
+        "reasoning": "The title and abstract describe the development of a new sensor, PinkyCaMP, with specific improvements over existing sensors.",
+        "evidence_quote": "Here, we present the development of PinkyCaMP, the first mScarlet-based Ca<sup>2+</sup> sensor that outperforms current red fluorescent sensors in brightness, photostability, signal-to-noise ratio, and compatibility with optogenetics and neurotransmitter imaging.",
         "is_new": true,
         "probe_name": "PinkyCaMP",
         "target": "Calcium",
         "color": "Red",
-        "type": "mScarlet-based"
+        "type": "Intensometric"
     },
     {
         "title": "RpH-ILV: Probe for lysosomal pH and acute LLOMe-induced membrane permeabilization in cell lines and <i>Drosophila</i>.",
@@ -1193,11 +1287,13 @@
         "doi": "https://doi.org/10.1126/sciadv.adr7325",
         "journal": "Science advances",
         "date": "2025",
+        "reasoning": "The title and abstract describe the development of a new ratiometric genetically encoded lysosomal pH probe, RpH-ILV.",
+        "evidence_quote": "Here, we developed and characterized a ratiometric genetically encoded lysosomal pH probe, RpH-ILV...",
         "is_new": true,
         "probe_name": "RpH-ILV",
-        "target": "lysosomal pH",
-        "color": "unknown",
-        "type": "ratiometric genetically encoded lysosomal pH probe"
+        "target": "Lysosomal pH",
+        "color": "Unknown",
+        "type": "Ratiometric"
     },
     {
         "title": "Genetically Encoded Fluorogenic DNA Aptamers for Imaging Metabolite in Living Cells.",
@@ -1205,11 +1301,13 @@
         "doi": "https://doi.org/10.1021/jacs.4c09855",
         "journal": "Journal of the American Chemical Society",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a new sensor, GEFDA, through genetic engineering and integration into a plasmid.",
+        "evidence_quote": "we report herein a genetically encoded fluorogenic DNA aptamer (GEFDA) sensor by linking a fluorogenic DNA aptamer for dimethylindole red with an ATP aptamer.",
         "is_new": true,
         "probe_name": "GEFDA",
         "target": "ATP",
         "color": "Red",
-        "type": "DNA Aptamer-based"
+        "type": "Intensometric"
     },
     {
         "title": "Single-Molecule Observation of Competitive Protein-Protein Interactions Utilizing a Nanopore.",
@@ -1217,11 +1315,13 @@
         "doi": "https://doi.org/10.1021/acsnano.4c13072",
         "journal": "ACS nano",
         "date": "2025",
+        "reasoning": "The title and abstract describe the development of a new sensor for protein-protein interactions, utilizing a genetically encoded nanopore sensor.",
+        "evidence_quote": "Here, we utilize a genetically encoded nanopore sensor to disentangle competitive protein-protein interactions (PPIs) in a one-on-one and label-free fashion.",
         "is_new": true,
-        "probe_name": "nanopore sensor",
-        "target": "protein-protein interactions",
-        "color": "not applicable",
-        "type": "genetically encoded"
+        "probe_name": "Genetically encoded nanopore sensor",
+        "target": "Protein-protein interactions",
+        "color": "Unknown",
+        "type": "Nanopore-based"
     },
     {
         "title": "Optogenetic stimulation and simultaneous optical mapping of membrane potential and calcium transients in human engineered cardiac spheroids.",
@@ -1229,11 +1329,13 @@
         "doi": "https://doi.org/10.1016/j.yjmcc.2024.12.003",
         "journal": "Journal of molecular and cellular cardiology",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a novel genetically encoded calcium indicator, jRCaMP1b.",
+        "evidence_quote": "The CaT indicator is genetically encoded.",
         "is_new": true,
         "probe_name": "jRCaMP1b",
         "target": "Calcium",
-        "color": "Green",
-        "type": "Genetically Encoded"
+        "color": "Unknown",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "All-optical mapping of Ca<sup>2+</sup> transport and homeostasis in dendrites.",
@@ -1241,11 +1343,13 @@
         "doi": "https://doi.org/10.1016/j.ceca.2024.102983",
         "journal": "Cell calcium",
         "date": "2025",
+        "reasoning": "The authors developed a new all-optical system using CapChR2 and FR-GECO1c, indicating new sensor development.",
+        "evidence_quote": "We developed an all-optical system for simultaneous targeted Ca<sup>2+</sup> import and Ca<sup>2+</sup> concentration mapping.",
         "is_new": true,
-        "probe_name": "FR-GECO1c",
+        "probe_name": "CapChR2 and FR-GECO1c",
         "target": "Calcium",
-        "color": "Far-red",
-        "type": "Calcium sensor"
+        "color": "Unknown",
+        "type": "Intensometric"
     },
     {
         "title": "Genetically encoded bioluminescent glucose indicator for biological research.",
@@ -1253,11 +1357,13 @@
         "doi": "https://doi.org/10.1016/j.bbrc.2024.151092",
         "journal": "Biochemical and biophysical research communications",
         "date": "2025",
+        "reasoning": "The title and abstract describe the development of a new bioluminescent glucose indicator, LOTUS-Glc, with specific applications and benefits mentioned.",
+        "evidence_quote": "Here, we developed a bioluminescent glucose indicator called LOTUS-Glc.",
         "is_new": true,
         "probe_name": "LOTUS-Glc",
         "target": "Glucose",
-        "color": "Bioluminescent",
-        "type": "Bioluminescent Glucose Indicator"
+        "color": "Unknown",
+        "type": "Bioluminescent"
     },
     {
         "title": "GlutaR: A High-Performance Fluorescent Protein-Based Sensor for Spatiotemporal Monitoring of Glutamine Dynamics In Vivo.",
@@ -1265,11 +1371,13 @@
         "doi": "https://doi.org/10.1002/anie.202416608",
         "journal": "Angewandte Chemie (International ed. in English)",
         "date": "2025",
+        "reasoning": "The abstract describes the development of a new sensor, GlutaR, through iterative screening and mutagenesis.",
+        "evidence_quote": "Here, we report the development of a genetically encoded fluorescent sensor and demonstrate how this GlnBP-cpYFP fusion \"GlutaR sensor\" undergoes glutamine-induced conformational changes reflected in detectable fluorescence responses.",
         "is_new": true,
         "probe_name": "GlutaR",
         "target": "Glutamine",
         "color": "Fluorescent",
-        "type": "Fluorescent Protein-Based"
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Quantitative dynamics of intracellular NMN by genetically encoded biosensor.",
@@ -1277,11 +1385,13 @@
         "doi": "https://doi.org/10.1016/j.bios.2024.116842",
         "journal": "Biosensors & bioelectronics",
         "date": "2025",
+        "reasoning": "The authors developed genetically encoded bioluminescent and fluorescent sensors by engineering NMN-responsive protein scaffolds.",
+        "evidence_quote": "Here we developed genetically encoded bioluminescent and fluorescent sensors to quantify subcellular NMN in live cells by engineering specific NMN-responsive protein scaffolds fused to luciferase and fluorescent proteins.",
         "is_new": true,
-        "probe_name": "NMN biosensor",
+        "probe_name": "NMN-responsive protein scaffolds fused to luciferase and fluorescent proteins",
         "target": "Nicotinamide mononucleotide (NMN)",
-        "color": "Bioluminescent and fluorescent",
-        "type": "Genetically encoded protein scaffold-based"
+        "color": "Unknown",
+        "type": "Bioluminescent and Fluorescent"
     },
     {
         "title": "Methods for Imaging Intracellular Calcium Signals in the Mouse Mammary Epithelium in Two and Three Dimensions.",
@@ -1301,11 +1411,13 @@
         "doi": "https://doi.org/10.1002/mabi.202400359",
         "journal": "Macromolecular bioscience",
         "date": "2025",
+        "reasoning": "The abstract describes engineering a new AAV-eluting polymer coating for expressing a calcium sensor (GCaMP) directly within the brain region of interest, indicating new development.",
+        "evidence_quote": "Here, an adeno-associated virus (AAV)-eluting polymer coating is engineered for gradient refractive index (GRIN) lenses enabling the expression of a genetically encoded calcium indicator (GCaMP) directly within the brain region of interest upon implantation of the lens.",
         "is_new": true,
         "probe_name": "GCaMP",
         "target": "Calcium",
-        "color": "Green",
-        "type": "Genetically Encoded Calcium Indicator"
+        "color": "Unknown",
+        "type": "Intensometric"
     },
     {
         "title": "CaBLAM! A high-contrast bioluminescent Ca<sup>2+</sup> indicator derived from an engineered <i>Oplophorus gracilirostris</i> luciferase.",
@@ -1313,11 +1425,13 @@
         "doi": "https://doi.org/10.1101/2023.06.25.546478",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2025",
+        "reasoning": "The abstract describes the creation of a new bioluminescent sensor, CaBLAM, through engineering and improvement over existing bioluminescent GECIs.",
+        "evidence_quote": "Here, we describe a new BL GECI, CaBLAM (Ca<sup>2+</sup> BioLuminescence Activity Monitor), that displays much higher dynamic range than previous BL GECIs and has a Ca<sup>2+</sup> affinity suitable for capturing physiological changes in cytosolic Ca<sup>2+</sup> concentration.",
         "is_new": true,
         "probe_name": "CaBLAM",
         "target": "Calcium",
-        "color": "Bioluminescent",
-        "type": "Luciferase-based"
+        "color": "Unknown",
+        "type": "Bioluminescent"
     },
     {
         "title": "Directed Evolution of a Genetically Encoded Indicator for Chloride.",
@@ -1325,6 +1439,8 @@
         "doi": "https://doi.org/10.1101/2024.11.25.624492",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2024",
+        "reasoning": "The authors describe the development of a new chloride-insensitive fluorescent protein, ChlorOFF, through directed evolution and mutagenesis.",
+        "evidence_quote": "As a proof-of-concept, here, we use random mutagenesis paired with anion walking to engineer a chloride-insensitive fluorescent protein named OFPxm into a functional indicator named ChlorOFF.",
         "is_new": true,
         "probe_name": "ChlorOFF",
         "target": "Chloride",
@@ -1337,8 +1453,10 @@
         "doi": "https://doi.org/10.3390/ijms252312493",
         "journal": "International journal of molecular sciences",
         "date": "2024",
+        "reasoning": "The authors designed new variants of GCaMP6, indicating new development.",
+        "evidence_quote": "In this work, we address two issues of calcium imaging by designing indicators based on the successful GCaMP6 backbone and the fluorescent protein BrUSLEE.",
         "is_new": true,
-        "probe_name": "GCaMP6s-BrUS",
+        "probe_name": "GCaMP6s-BrUS, GCaMP6s-BrUS-145",
         "target": "Calcium",
         "color": "Unknown",
         "type": "Fluorescence Lifetime-Based"
@@ -1361,10 +1479,12 @@
         "doi": "https://doi.org/10.1073/pnas.2415220121",
         "journal": "Proceedings of the National Academy of Sciences of the United States of America",
         "date": "2024",
+        "reasoning": "The abstract describes the development of a new genetically encoded ASAXS ruler, a novel sensor for protein dimensions.",
+        "evidence_quote": "To address this discrepancy, we introduce a genetically encoded anomalous SAXS (ASAXS) ruler, enabling simultaneous and direct measurements of <i>R</i><sub>G</sub> and <i>R</i><sub>E</sub> without assuming a specific structural model.",
         "is_new": true,
-        "probe_name": "genetically encoded anomalous SAXS ruler",
-        "target": "protein dimensions (R_g and R_e)",
-        "color": "not applicable",
+        "probe_name": "Genetically encoded ASAXS ruler",
+        "target": "Protein dimensions",
+        "color": "Unknown",
         "type": "SAXS-based"
     },
     {
@@ -1373,11 +1493,13 @@
         "doi": "https://doi.org/10.1101/2024.11.15.623698",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2024",
+        "reasoning": "The authors engineered a novel GEVI, 2Photron, based on a rhodopsin protein.",
+        "evidence_quote": "To address this gap, we explored diverse rhodopsin proteins as GEVIs and engineered a novel GEVI, 2Photron, based on a rhodopsin from the green algae Klebsormidium nitens.",
         "is_new": true,
         "probe_name": "2Photron",
-        "target": "membrane potential",
-        "color": "unknown",
-        "type": "rhodopsin-based"
+        "target": "Voltage",
+        "color": "Unknown",
+        "type": "Unknown"
     },
     {
         "title": "High-Performance Chemigenetic Potassium Ion Indicator.",
@@ -1385,11 +1507,13 @@
         "doi": "https://doi.org/10.1021/jacs.4c10917",
         "journal": "Journal of the American Chemical Society",
         "date": "2024",
+        "reasoning": "The title and abstract describe the development of a new chemigenetic K+ indicator, HaloKbp1 series, with specific characteristics and a new name.",
+        "evidence_quote": "Here, we introduce a series of chemigenetic K+ indicators, designated as the HaloKbp1 series...",
         "is_new": true,
         "probe_name": "HaloKbp1 series",
         "target": "Potassium ion (K+)",
         "color": "Red to far-red",
-        "type": "Chemigenetic"
+        "type": "Intensometric"
     },
     {
         "title": "Nuclear mTORC1 Live-Cell Sensor nTORSEL Reports Differential Nuclear mTORC1 Activity in Cell Lines.",
@@ -1397,11 +1521,13 @@
         "doi": "https://doi.org/10.3390/ijms252212117",
         "journal": "International journal of molecular sciences",
         "date": "2024",
+        "reasoning": "The authors developed a new sensor, nTORSEL, based on the phosphorylation of 4EBP1 by mTORC1 within the nucleus.",
+        "evidence_quote": "In this study, we developed a genetically encoded nmTORC1 sensor, termed nTORSEL...",
         "is_new": true,
         "probe_name": "nTORSEL",
-        "target": "eIF4E binding protein 1 (4EBP1)",
-        "color": "Fluorescent punctate pattern",
-        "type": "Phosphorylation-based"
+        "target": "Nuclear mTORC1",
+        "color": "Unknown",
+        "type": "Unknown"
     },
     {
         "title": "Mitochondrial ATP synthesis is essential for efficient gametogenesis in Plasmodium falciparum.",
@@ -1409,11 +1535,13 @@
         "doi": "https://doi.org/10.1038/s42003-024-07240-z",
         "journal": "Communications biology",
         "date": "2024",
+        "reasoning": "The abstract mentions the use of a 'genetically encoded ratiometric ATP sensor', indicating a new sensor was developed.",
+        "evidence_quote": "Additionally, using a genetically encoded ratiometric ATP sensor, we show that gametocytes can maintain cytoplasmic ATP homeostasis in the absence of mitochondrial respiration...",
         "is_new": true,
-        "probe_name": "ratiometric ATP sensor",
+        "probe_name": "Genetically encoded ratiometric ATP sensor",
         "target": "ATP",
-        "color": "not specified",
-        "type": "genetically encoded"
+        "color": "Unknown",
+        "type": "Ratiometric"
     },
     {
         "title": "A bright cyan fluorescence calcium indicator for mitochondrial calcium with minimal interference from physiological pH fluctuations.",
@@ -1421,11 +1549,13 @@
         "doi": "https://doi.org/10.52601/bpr.2024.240001",
         "journal": "Biophysics reports",
         "date": "2024",
+        "reasoning": "The abstract describes the development of a new GECI named TurCaMP with specific engineering and characterization.",
+        "evidence_quote": "Based on the bright variant of cyan fluorescence protein (CFP), mTurquoise2, we developed a GECI designated as TurCaMP.",
         "is_new": true,
         "probe_name": "TurCaMP",
         "target": "Calcium",
         "color": "Cyan",
-        "type": "GECI-based"
+        "type": "Intensometric"
     },
     {
         "title": "Decoding Insulin Secretory Granule Maturation Using Genetically Encoded pH Sensors.",
@@ -1433,11 +1563,13 @@
         "doi": "https://doi.org/10.1021/acssensors.4c01885",
         "journal": "ACS sensors",
         "date": "2024",
+        "reasoning": "The authors designed two genetically encoded fluorescence pH sensors, indicating new development.",
+        "evidence_quote": "We address this gap in knowledge by designing two genetically encoded fluorescence pH sensors...",
         "is_new": true,
-        "probe_name": "pH sensors",
+        "probe_name": "Genetically encoded fluorescence pH sensors",
         "target": "pH",
-        "color": "Fluorescent",
-        "type": "Genetically Encoded"
+        "color": "Unknown",
+        "type": "Unknown"
     },
     {
         "title": "Probing Electrostatic and Hydrophobic Associative Interactions in Cells.",
@@ -1445,11 +1577,13 @@
         "doi": "https://doi.org/10.1021/acs.jpcb.4c05990",
         "journal": "The journal of physical chemistry. B",
         "date": "2024",
+        "reasoning": "The abstract describes the development of a new genetically encoded probe with a circularly permuted green fluorescent protein, indicating a novel sensor.",
+        "evidence_quote": "Here, we develop a method to indicate electrostatic and hydrophobic associative interactions and map these interactions. The method relies on a genetically encoded probe containing a sensing peptide and a circularly permuted green fluorescent protein that provides a ratiometric readout.",
         "is_new": true,
-        "probe_name": "sensing peptide and circularly permuted green fluorescent protein",
-        "target": "electrostatic and hydrophobic associative interactions",
+        "probe_name": "Genetically encoded probe containing a sensing peptide and a circularly permuted green fluorescent protein",
+        "target": "Electrostatic and hydrophobic associative interactions",
         "color": "Green",
-        "type": "Genetically Encoded Sensor"
+        "type": "Ratiometric"
     },
     {
         "title": "Genetically encoded green fluorescent sensor for probing sulfate transport activity of solute carrier family 26 member a2 (Slc26a2) protein.",
@@ -1457,11 +1591,13 @@
         "doi": "https://doi.org/10.1038/s42003-024-07020-9",
         "journal": "Communications biology",
         "date": "2024",
+        "reasoning": "The abstract describes the development of a new sensor, Thyone, through protein engineering and mutagenesis.",
+        "evidence_quote": "Here, we report the development and characterization of a green fluorescent biosensor for sulfate named Thyone.",
         "is_new": true,
         "probe_name": "Thyone",
-        "target": "sulfate anion",
-        "color": "green",
-        "type": "fluorescent biosensor"
+        "target": "Sulfate",
+        "color": "Green",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Genetically Encoded Fluorescence Resonance Energy Transfer Biosensor for Live-Cell Visualization of Lamin A Phosphorylation at Serine 22.",
@@ -1469,11 +1605,13 @@
         "doi": "https://doi.org/10.34133/bmr.0091",
         "journal": "Biomaterials research",
         "date": "2024",
+        "reasoning": "The title and abstract describe the development of a novel sensor (LAPS) with specific characteristics and a new name assigned to it.",
+        "evidence_quote": "Herein, we developed a novel lamin A phosphorylation sensor (LAPS) based on fluorescence resonance energy transfer (FRET) with high sensitivity and specificity.",
         "is_new": true,
         "probe_name": "LAPS",
-        "target": "Lamin A phosphorylation at Serine 22 (pSer22)",
-        "color": "Fluorescent",
-        "type": "FRET-based"
+        "target": "Lamin A phosphorylation at Serine 22",
+        "color": "Unknown",
+        "type": "FRET"
     },
     {
         "title": "NeIle, a Genetically Encoded Indicator for Branched-Chain Amino Acids Based on mNeonGreen Fluorescent Protein and LIVBP Protein.",
@@ -1481,11 +1619,13 @@
         "doi": "https://doi.org/10.1021/acssensors.4c01055",
         "journal": "ACS sensors",
         "date": "2024",
+        "reasoning": "The title and abstract describe the development of a new sensor, NeIle, with specific engineering and characterization.",
+        "evidence_quote": "We developed a single fluorescent protein-based sensor for BCAAs, called NeIle...",
         "is_new": true,
         "probe_name": "NeIle",
         "target": "Branched-chain amino acids (BCAAs)",
-        "color": "Fluorescent",
-        "type": "Fluorescent protein-based"
+        "color": "Fluorescent (mNeonGreen)",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Genetically encoded epigenetic sensors for visualization of H3K9me3, H3K9ac and H3K4me1 histone modifications in living cells.",
@@ -1493,11 +1633,13 @@
         "doi": "https://doi.org/10.1016/j.bbrc.2024.150715",
         "journal": "Biochemical and biophysical research communications",
         "date": "2024",
+        "reasoning": "The authors designed and named three new red fluorescent sensors, indicating new development.",
+        "evidence_quote": "We designed three new red fluorescent sensors-MPP8-Red, AF9-Red and DPF3-Red-for live-cell visualization of patterns of H3K9me3, H3K8ac and H3K4me1, respectively.",
         "is_new": true,
         "probe_name": "MPP8-Red, AF9-Red, DPF3-Red",
-        "target": "H3K9me3, H3K9ac, H3K4me1",
+        "target": "H3K9me3, H3K8ac, H3K4me1",
         "color": "Red",
-        "type": "Genetically Encoded Epigenetic Sensors"
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Real-Time, Non-Invasive Monitoring of Neuronal Differentiation Using Intein-Enabled Fluorescence Signal Translocation in Genetically Encoded Stem Cell-Based Biosensors.",
@@ -1505,11 +1647,13 @@
         "doi": "https://doi.org/10.1002/adfm.202400394",
         "journal": "Advanced functional materials",
         "date": "2024",
+        "reasoning": "The abstract describes the development of a novel biosensor using intein-mediated protein engineering, which is a form of engineering.",
+        "evidence_quote": "Our research efforts focused on utilizing intein-mediated protein engineering to design and construct a highly sensitive biosensor capable of detecting a biomarker of neuronal differentiation, hippocalcin.",
         "is_new": true,
         "probe_name": "Hippocalcin Sensor",
-        "target": "Neuronal Differentiation Biomarker (Hippocalcin)",
-        "color": "Fluorescent",
-        "type": "Intein-Enabled Fluorescence Signal Translocation"
+        "target": "Neuronal Differentiation",
+        "color": "Unknown",
+        "type": "Unknown"
     },
     {
         "title": "A fast and responsive voltage indicator with enhanced sensitivity for unitary synaptic events.",
@@ -1517,11 +1661,13 @@
         "doi": "https://doi.org/10.1016/j.neuron.2024.08.019",
         "journal": "Neuron",
         "date": "2024",
+        "reasoning": "The title and abstract describe the development of a new sensor, ASAP5, with enhanced properties.",
+        "evidence_quote": "Here, we developed ASAP5 as a GEVI with enhanced activation kinetics and responsivity near resting membrane potentials for improved detection of both spiking and subthreshold activity.",
         "is_new": true,
         "probe_name": "ASAP5",
         "target": "Voltage",
         "color": "Unknown",
-        "type": "Voltage Imaging"
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "In vivo biosensing of subcellular pyruvate pools reveals photosynthesis-dependent metabolite dynamics in Nicotiana benthamiana.",
@@ -1529,11 +1675,13 @@
         "doi": "https://doi.org/10.1093/jxb/erae398",
         "journal": "Journal of experimental botany",
         "date": "2024",
+        "reasoning": "The abstract mentions the development of a genetically encoded pyruvate biosensor and its characterization, indicating a new sensor was created.",
+        "evidence_quote": "Recently, this problem has been addressed by the development of a genetically encoded pyruvate biosensor to provide first insights into the pyruvate dynamics in animal cells.",
         "is_new": true,
-        "probe_name": "Pyruvate biosensor",
+        "probe_name": "Genetically encoded pyruvate biosensor",
         "target": "Pyruvate",
         "color": "Unknown",
-        "type": "Genetically encoded"
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Decoding Arc transcription: a live-cell study of stimulation patterns and transcriptional output.",
@@ -1541,11 +1689,13 @@
         "doi": "https://doi.org/10.1101/lm.054024.124",
         "journal": "Learning & memory (Cold Spring Harbor, N.Y.)",
         "date": "2024",
+        "reasoning": "The abstract describes the use of a genetically encoded RNA indicator (GERI) mouse model, indicating the development of a new sensor.",
+        "evidence_quote": "Using a genetically encoded RNA indicator (GERI) mouse model that expresses endogenous Arc mRNA tagged with multiple GFPs",
         "is_new": true,
-        "probe_name": "GERI",
-        "target": "endogenous Arc mRNA",
-        "color": "Green",
-        "type": "RNA indicator"
+        "probe_name": "GERI mouse model",
+        "target": "Arc mRNA",
+        "color": "Green Fluorescent Protein (GFP)",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "A Modular Biosensor Design for Quantitative Measurement of Free Nedd8.",
@@ -1553,11 +1703,13 @@
         "doi": "https://doi.org/10.1021/acssensors.4c01130",
         "journal": "ACS sensors",
         "date": "2024",
+        "reasoning": "The authors developed a modular method for designing a new biosensor for free Nedd8 quantification, indicating a new sensor development.",
+        "evidence_quote": "We have developed a modular method to design genetically encoded biosensors that employs a target binding domain and two reporter domains positioned on opposite sides of the target binding site.",
         "is_new": true,
-        "probe_name": "Free Nedd8 Biosensor",
+        "probe_name": "Free Nedd8 Sensor",
         "target": "Free Nedd8",
-        "color": "Fluorescent or Split Nanoluciferase",
-        "type": "Target Binding and Reporter Domain Interaction"
+        "color": "Unknown",
+        "type": "Unknown"
     },
     {
         "title": "Genetically Encoded Trensor Circuits Report HeLa Cell Treatment with Polyplexed Plasmid DNA and Small-Molecule Transfection Modulators.",
@@ -1565,11 +1717,13 @@
         "doi": "https://doi.org/10.1021/acssynbio.4c00148",
         "journal": "ACS synthetic biology",
         "date": "2024",
+        "reasoning": "The authors describe the development of new Trensor circuits, genetically encoding mammalian transfection sensors with a specific trigger mechanism.",
+        "evidence_quote": "We sought to genetically encode mammalian transfection sensor (Trensor) circuits and test their utility in HeLa cells for detecting molecules and methods for their propensity to influence transfection.",
         "is_new": true,
         "probe_name": "Trensor circuits",
-        "target": "transfection efficiency",
-        "color": "Green",
-        "type": "promoter-based"
+        "target": "Transfection processes",
+        "color": "Green (GFP)",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Genetically encoded fluorescent sensors for visualizing polyamine levels, uptake, and distribution.",
@@ -1577,11 +1731,13 @@
         "doi": "https://doi.org/10.1101/2024.08.21.609037",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2024",
+        "reasoning": "The authors engineered and validated a new class of sensors, named iPASnFRs, indicating development of a new sensor.",
+        "evidence_quote": "Here we engineered, characterized, and validated the first genetically encoded biosensors for polyamines, named iPASnFRs.",
         "is_new": true,
         "probe_name": "iPASnFRs",
-        "target": "polyamines",
-        "color": "fluorescent",
-        "type": "genetically encoded"
+        "target": "Polyamines",
+        "color": "Fluorescent",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "A Vector Nanoplatform for the Bioimaging of Deep-Seated Tumors.",
@@ -1589,11 +1745,13 @@
         "doi": "https://doi.org/10.32607/actanaturae.27425",
         "journal": "Acta naturae",
         "date": "2024",
+        "reasoning": "The abstract describes the development of a new hybrid protein sensor, a BRET sensor, which is a novel creation by the authors.",
+        "evidence_quote": "A targeted nanoplatform based on HER2-specific liposomes whose internal environment contains a genetically encoded BRET sensor was developed in this study...",
         "is_new": true,
-        "probe_name": "BRET sensor",
-        "target": "Deep-seated tumors characterized by overexpression of human epidermal growth factor receptor type 2 (HER2)",
-        "color": "Red",
-        "type": "Bioluminescence resonance energy transfer (BRET)"
+        "probe_name": "Genetically encoded BRET sensor",
+        "target": "HER2-positive SKOV3.ip1 cells",
+        "color": "Red (from LSSmKate1)",
+        "type": "FRET"
     },
     {
         "title": "Probing PAC1 receptor activation across species with an engineered sensor.",
@@ -1601,11 +1759,13 @@
         "doi": "https://doi.org/10.7554/eLife.96496",
         "journal": "eLife",
         "date": "2024",
+        "reasoning": "The title and abstract describe the engineering of a novel sensor, PAClight1P78A, with specific characteristics.",
+        "evidence_quote": "Here, we engineered PAClight1P78A, a novel genetically encoded sensor based on a class-B1 GPCR (the human PAC1 receptor, hmPAC1R) endowed with high dynamic range (ΔF/F0 = 1100%), excellent ligand selectivity, and rapid activation kinetics (τON = 1.15 s).",
         "is_new": true,
         "probe_name": "PAClight1P78A",
-        "target": "PAC1 receptor activation",
+        "target": "PAC1 receptor",
         "color": "Unknown",
-        "type": "GPCR-based"
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Dopaminergic cAMP signaling in mouse olfactory bulb astrocytes.",
@@ -1625,11 +1785,13 @@
         "doi": "https://doi.org/10.1016/j.bbrc.2024.150449",
         "journal": "Biochemical and biophysical research communications",
         "date": "2024",
+        "reasoning": "The title and abstract describe the engineering and optimization of a new red fluorescent protein sensor, FiLa-Red, for lactate imaging.",
+        "evidence_quote": "In this paper, we engineered and optimized a red fluorescent protein sensor for l-lactate named FiLa-Red.",
         "is_new": true,
         "probe_name": "FiLa-Red",
-        "target": "l-lactate",
+        "target": "Lactate",
         "color": "Red",
-        "type": "Genetically Encoded Sensor"
+        "type": "Fluorescent"
     },
     {
         "title": "Adapting and optimizing GCaMP8f for use in Caenorhabditis elegans.",
@@ -1637,11 +1799,13 @@
         "doi": "https://doi.org/10.1093/genetics/iyae125",
         "journal": "Genetics",
         "date": "2024",
+        "reasoning": "The authors report the optimization and development of a new variant, GCaMP8f, for use in Caenorhabditis elegans.",
+        "evidence_quote": "Here, we present an optimized construct for C. elegans and use this to generate several strains expressing GCaMP8f (fast variant of the indicator).",
         "is_new": true,
         "probe_name": "GCaMP8f",
         "target": "Calcium",
-        "color": "Green",
-        "type": "Genetically Encoded Calcium Indicator"
+        "color": "Unknown",
+        "type": "Intensometric"
     },
     {
         "title": "In Vivo Visualization of Calcium Transients during Fertilization and Early Development in C. elegans.",
@@ -1649,11 +1813,13 @@
         "doi": "https://doi.org/10.3791/67141",
         "journal": "Journal of visualized experiments : JoVE",
         "date": "2024",
+        "reasoning": "The authors modified the existing sensor jGCaMP7s and created a new variant named 'CaFE', indicating new engineering and development.",
+        "evidence_quote": "We have modified the genetically encoded calcium indicator jGCaMP7s to fluorescently indicate the moment of fertilization within a living organism. We have termed this reporter 'CaFE' for Calcium during Fertilization in C. elegans.",
         "is_new": true,
-        "probe_name": "jGCaMP7s",
+        "probe_name": "CaFE",
         "target": "Calcium",
-        "color": "Fluorescent",
-        "type": "Genetically Encoded Calcium Indicator"
+        "color": "Unknown",
+        "type": "Intensometric"
     },
     {
         "title": "Exploring the potential of water channels for developing genetically encoded reporters and biosensors for diffusion-weighted MRI.",
@@ -1661,11 +1827,13 @@
         "doi": "https://doi.org/10.1016/j.jmr.2024.107743",
         "journal": "Journal of magnetic resonance (San Diego, Calif. : 1997)",
         "date": "2024",
+        "reasoning": "The authors introduced new water channels as diffusion-weighted reporter genes and designed first-in-class diffusion-based sensors.",
+        "evidence_quote": "We identified a number of new water channels that functioned as diffusion-weighted reporter genes. In addition, we show that loss-of-function variants of yeast and human aquaporins can be leveraged to design first-in-class diffusion-based sensors for detecting the activity of a model protease within living cells.",
         "is_new": true,
-        "probe_name": "Aquaporin-based diffusion-weighted reporter",
-        "target": "Water diffusion",
-        "color": "Not applicable",
-        "type": "Water channel-based"
+        "probe_name": "Diffusion-weighted reporter genes derived from new water channels",
+        "target": "Model protease activity",
+        "color": "Unknown",
+        "type": "Diffusion-based"
     },
     {
         "title": "Optogenetic techniques for understanding the gut peristalsis during chicken embryonic development.",
@@ -1685,11 +1853,13 @@
         "doi": "https://doi.org/10.3389/fbioe.2024.1407874",
         "journal": "Frontiers in bioengineering and biotechnology",
         "date": "2024",
+        "reasoning": "The authors developed novel sensors by fusing mNeonGreen with merP, indicating new engineering.",
+        "evidence_quote": "To address these limitations, we have developed novel sensors by fusing a circularly permutated version of the mNeonGreen green fluorescent protein with the merP mercury-binding protein from Gram-negative bacteria <i>Shigella flexneri</i>.",
         "is_new": true,
-        "probe_name": "NeMeHg",
-        "target": "mercury ions",
+        "probe_name": "NeMeHg, iNeMeHg",
+        "target": "Mercury ions",
         "color": "Green",
-        "type": "mNeonGreen green fluorescent protein-based"
+        "type": "Intensometric"
     },
     {
         "title": "Real-Time Measurement of a Weak Interaction of a Transcription Factor Motif with a Protein Hub at Single-Molecule Precision.",
@@ -1697,11 +1867,13 @@
         "doi": "https://doi.org/10.1021/acsnano.4c04857",
         "journal": "ACS nano",
         "date": "2024",
+        "reasoning": "The abstract describes the creation of a genetically encoded label-free sensor, indicating new development.",
+        "evidence_quote": "Here, we create a genetically encoded label-free sensor to identify the interaction between a motif of the MYC transcription factor, a primary cancer driver, and WDR5, a chromatin-associated protein hub.",
         "is_new": true,
-        "probe_name": "Genetically Encoded Label-Free Sensor",
+        "probe_name": "Genetically encoded label-free sensor",
         "target": "MYC transcription factor motif and WDR5",
-        "color": "Not specified",
-        "type": "Nanopore-based"
+        "color": "Unknown",
+        "type": "Unknown"
     },
     {
         "title": "Presynaptic sensor and silencer of peptidergic transmission reveal neuropeptides as primary transmitters in pontine fear circuit.",
@@ -1709,11 +1881,13 @@
         "doi": "https://doi.org/10.1016/j.cell.2024.06.035",
         "journal": "Cell",
         "date": "2024",
+        "reasoning": "The abstract describes the development of two new genetically encoded tools for monitoring and manipulating neuropeptide release.",
+        "evidence_quote": "Here, we report the development of two genetically encoded tools for investigating peptidergic transmission in behaving mice: a genetically encoded large dense core vesicle (LDCV) sensor that detects presynaptic neuropeptide release and a genetically encoded silencer that specifically degrades neuropeptides inside LDCVs.",
         "is_new": true,
-        "probe_name": "LDCV sensor",
-        "target": "neuropeptide release",
-        "color": "not specified",
-        "type": "neuropeptide-specific"
+        "probe_name": "Genetically encoded large dense core vesicle (LDCV) sensor and genetically encoded silencer",
+        "target": "Neuropeptide release",
+        "color": "Unknown",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Extremely Sensitive Genetically Encoded Temperature Indicator Enabling Measurement at the Organelle Level.",
@@ -1721,11 +1895,13 @@
         "doi": "https://doi.org/10.1021/acssensors.3c02658",
         "journal": "ACS sensors",
         "date": "2024",
+        "reasoning": "The authors developed a new GETI named gMELT, which involves engineering and naming a new variant.",
+        "evidence_quote": "Here, we developed a new GETI, gMELT...",
         "is_new": true,
         "probe_name": "gMELT",
         "target": "Temperature",
         "color": "Cyan and Yellow",
-        "type": "Förster resonance energy transfer (FRET) based"
+        "type": "FRET"
     },
     {
         "title": "Morphotype-specific calcium signaling in human microglia.",
@@ -1733,11 +1909,13 @@
         "doi": "https://doi.org/10.1186/s12974-024-03169-6",
         "journal": "Journal of neuroinflammation",
         "date": "2024",
+        "reasoning": "The abstract describes the development of a novel genetically-encoded ratiometric Ca2+ indicator.",
+        "evidence_quote": "We developed a novel genetically-encoded ratiometric Ca2+ indicator, targeting microglial cells in the freshly resected human tissue, organotypically cultured tissue slices and analyzed in situ ongoing Ca2+ signaling of decades-old microglia dwelling in their native microenvironment.",
         "is_new": true,
-        "probe_name": "ratiometric Ca<sup>2+</sup> indicator",
+        "probe_name": "Novel genetically-encoded ratiometric Ca2+ indicator",
         "target": "Calcium",
-        "color": "not specified",
-        "type": "Genetically Encoded Sensor"
+        "color": "Unknown",
+        "type": "Ratiometric"
     },
     {
         "title": "Gibberellin dynamics governing nodulation revealed using GIBBERELLIN PERCEPTION SENSOR 2 in Medicago truncatula lateral organs.",
@@ -1745,11 +1923,13 @@
         "doi": "https://doi.org/10.1093/plcell/koae201",
         "journal": "The Plant cell",
         "date": "2024",
+        "reasoning": "The title and abstract describe the development of a new sensor, GIBBERELLIN PERCEPTION SENSOR 2, with specific mention of its creation and use in a study.",
+        "evidence_quote": "In this study, we determine the cellular location and function of bioactive GA during nodule organogenesis using a genetically encoded second-generation GA biosensor, GIBBERELLIN PERCEPTION SENSOR 2 in Medicago truncatula.",
         "is_new": true,
         "probe_name": "GIBBERELLIN PERCEPTION SENSOR 2",
         "target": "Gibberellin",
-        "color": "Not specified",
-        "type": "Gibberellin biosensor"
+        "color": "Unknown",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Development of a genetically encoded NMT indicator for detection of mercury ions based on the green fluorescent protein mNeonGreen and metallothionein II from rat liver.",
@@ -1757,11 +1937,13 @@
         "doi": "https://doi.org/10.1016/j.heliyon.2024.e32814",
         "journal": "Heliyon",
         "date": "2024",
+        "reasoning": "The title and abstract describe the development of a novel sensor by engineering and directed evolution.",
+        "evidence_quote": "Here, we engineered a novel genetically encoded fluorescent NMT indicator for mercury ions by inserting the metallothionein II domain from rat liver into the bright green-yellow fluorescent protein mNeonGreen, followed by directed molecular evolution of the resulting sensor prototype in bacteria.",
         "is_new": true,
         "probe_name": "NMT indicator",
-        "target": "mercury ions",
-        "color": "green-yellow",
-        "type": "fluorescent protein-based"
+        "target": "Mercury ions",
+        "color": "Green-yellow",
+        "type": "Intensometric"
     },
     {
         "title": "Split Luciferase Molecular Tension Sensors for Bioluminescent Readout of Mechanical Forces in Biological Systems.",
@@ -1769,11 +1951,13 @@
         "doi": "https://doi.org/10.1021/acssensors.3c02664",
         "journal": "ACS sensors",
         "date": "2024",
+        "reasoning": "The authors report the development of a new sensor, PILATeS, which is a compact molecular tension sensor generating a bioluminescent signal.",
+        "evidence_quote": "Here, we report a compact molecular tension sensor that generates a bioluminescent signal in response to tension.",
         "is_new": true,
         "probe_name": "PILATeS",
-        "target": "mechanical forces",
-        "color": "bioluminescent",
-        "type": "split luciferase-based"
+        "target": "Mechanical forces",
+        "color": "Unknown",
+        "type": "Bioluminescent"
     },
     {
         "title": "Natural-Target-Mimicking Translocation-Based Fluorescent Sensor for Detection of SARS-CoV-2 PLpro Protease Activity and Virus Infection in Living Cells.",
@@ -1781,11 +1965,13 @@
         "doi": "https://doi.org/10.3390/ijms25126635",
         "journal": "International journal of molecular sciences",
         "date": "2024",
+        "reasoning": "The abstract clearly describes the development of a new sensor, PLpro-ERNuc, with specific design and testing.",
+        "evidence_quote": "Here, we developed a new genetically encoded fluorescent sensor, named PLpro-ERNuc, for detection of PLpro activity in living cells using a translocation-based readout.",
         "is_new": true,
         "probe_name": "PLpro-ERNuc",
-        "target": "SARS-CoV-2 PLpro protease activity and virus infection",
+        "target": "PLpro Protease Activity",
         "color": "Red and Green",
-        "type": "Translocation-based"
+        "type": "FRET"
     },
     {
         "title": "Multiplexed sequential imaging in living cells with orthogonal fluorogenic RNA aptamer/dye pairs.",
@@ -1793,11 +1979,13 @@
         "doi": "https://doi.org/10.1093/nar/gkae551",
         "journal": "Nucleic acids research",
         "date": "2024",
+        "reasoning": "The title and abstract describe the development of a new multiplexed imaging strategy, seqFRIES, with genetically encoded RNA aptamers and dye pairs.",
+        "evidence_quote": "Herein, we introduce a multiplexed imaging strategy, 'sequential Fluorogenic RNA Imaging-Enabled Sensor' (seqFRIES), which enables live-cell target detection via sequential rounds of imaging-and-stripping.",
         "is_new": true,
         "probe_name": "seqFRIES",
-        "target": "multiple orthogonal targets",
-        "color": "fluorescent",
-        "type": "RNA aptamer/dye pair-based"
+        "target": "Multiple orthogonal targets",
+        "color": "Unknown",
+        "type": "Genetically Encoded Sensor"
     },
     {
         "title": "Development of a genetically encoded sensor for probing endogenous nociceptin opioid peptide release.",
