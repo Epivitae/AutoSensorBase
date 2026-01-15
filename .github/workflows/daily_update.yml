@@ -41,5 +41,12 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "🤖 Daily ETL Update"
-            git push
+            
+            # === 新增修复逻辑 ===
+            # 1. 拉取远程 main 分支的最新代码
+            # 2. 使用 --rebase 将你的提交“嫁接”到最新代码之后
+            git pull --rebase origin main
+            
+            # 3. 推送到远程 main 分支
+            git push origin main
           fi
