@@ -5863,5 +5863,53 @@
         "target": "Protein Kinase",
         "color": "Fluorescent",
         "type": "Genetically Encoded"
+    },
+    {
+        "title": "Genetically encoded caspase sensor and RFP-LC3 for temporal analysis of apoptosis-autophagy.",
+        "journal": "International journal of biological macromolecules",
+        "date": "2024",
+        "doi": "https://doi.org/10.1016/j.ijbiomac.2023.128807",
+        "abstract": "The balance between pro-death and pro-survival signaling determines the fate of cells under a variety of pathological and physiological conditions. The pro-cell death signaling, apoptosis, and survival singling, autophagy work in an integrated manner for maintaining cell integrity. Their altered balance drives pathological conditions such as cancer, inflammatory disorders, and neurodegenerative diseases. Dissecting complex crosstalk between autophagy and apoptosis requires simultaneous detection of both events at a single cell level with good temporal resolution in real-time. Here, we have used two distinct fluorescent-based probes of caspase activation and autophagy for generating such sensor cells. Cells stably expressing RFP-LC3 as an autophagy marker were further stably expressed with a FRET-based probe for caspase activation with a nuclear localization signal. The functional validation and live-cell imaging of the sensor cells using selected treatments revealed that stress that induces rapid cell death often fails to induce autophagy signaling, and slow cell death induction triggers simultaneous autophagy signaling with caspase activation. The real-time imaging revealed the time-dependent shift of cells towards caspase activation while autophagy is inhibited confirming basal autophagy confers survival against apoptosis under stress conditions. Confocal imaging also revealed that cells under 3D culture condition maintain increased autophagy over monolayer cultures. High-throughput adaptability of the system extends its application for the screening of compounds that cause caspase activation, autophagy, or both demonstrating the potential utility of the sensor probe for diverse biological applications.",
+        "is_new": true,
+        "probe_name": "FRET-based probe for caspase activation with a nuclear localization signal",
+        "target": "caspase activation",
+        "color": "Fluorescent",
+        "type": "Genetically encoded fluorescent sensor"
+    },
+    {
+        "title": "A fluorescence-based binding assay for proteins using the cell surface as a sensing platform.",
+        "journal": "Analytical sciences : the international journal of the Japan Society for Analytical Chemistry",
+        "date": "2024",
+        "doi": "https://doi.org/10.1007/s44211-023-00476-5",
+        "abstract": "Protein-protein interaction (PPI) analysis is very important for elucidating the functions of proteins because many proteins execute their functions in living cells by interacting with one another. In PPI analysis, methods using the sensor chips are widely employed to obtain quantitative data. However, these methods require that the target proteins be immobilized on the sensor chips, and the immobilization processes can affect the binding of the target proteins to their binding partners. In the present work, we propose a PPI analysis system in which the surface of the living cells is utilized as a sensing platform. In our approach, the target protein is displayed on the cell surface by expressing it as a fusion protein with a membrane protein, and the PPI analysis is then conducted by applying its binding partner labeled with a fluorescent dye to the cell surface. We have constructed a model of this binding analysis system using the interaction between biotin protein ligase (BPL) and biotin carboxyl carrier protein (BCCP), where BCCP was displayed on the cell surface and BPL labeled with fluorescein was applied to the cell surface. Here, a red fluorescent protein, mApple, was attached to the C-terminus of the fusion protein of BCCP with a membrane protein. We evaluated the binding level of the labeled BPL by using the intensity ratios of fluorescence from fluorescein to that from mApple. We found that the binding level of the labeled BPL was stably evaluated at least across 60 min observation period and estimated the binding dissociation constant between BPL and BCCP by equilibrium analysis to be 0.33 ± 0.05 μM.",
+        "is_new": true,
+        "probe_name": "mApple",
+        "target": "Biotin carboxyl carrier protein (BCCP)",
+        "color": "Red",
+        "type": "Genetically encoded fluorescent sensor"
+    },
+    {
+        "title": "Monitoring Intracellular IP6 with a Genetically Encoded Fluorescence Biosensor.",
+        "journal": "ACS sensors",
+        "date": "2023",
+        "doi": "https://doi.org/10.1021/acssensors.3c00268",
+        "abstract": "Inositol hexakisphosphate (IP6), a naturally occurring metabolite of inositol with specific functions in different organelles or tissues, participates in numerous physiological processes and plays a key role in mammalian metabolic regulation. However, current IP6 detection methods, i.e., high-performance liquid chromatography and gel electrophoresis, require sample destruction and lack spatiotemporal resolution. Here, we construct and characterize a genetically encoded fluorescence biosensor named HIPSer that enables ratiometric quantitative IP6 detection in HEK293T cells and subcellular compartments. We demonstrate that HIPSer has a high sensitivity and relative selectivity for IP6 in vitro. We also provide proof-of-concept evidence that HIPSer can monitor IP6 levels in real time in HEK293T cells and can be targeted for IP6 detection in the nucleus of HEK293T cells. Moreover, HIPSer could also detect changes in IP6 content induced by chemical inhibition of IP6-metabolizing enzymes in HEK293T cells. Thus, HIPSer achieves spatiotemporally precise detection of fluctuations in endogenous IP6 in live cells and provides a versatile tool for mechanistic investigations of inositol phosphate functions in metabolism and signaling.",
+        "is_new": true,
+        "probe_name": "HIPSer",
+        "target": "Inositol hexakisphosphate (IP6)",
+        "color": "Fluorescent",
+        "type": "Genetically encoded fluorescence biosensor"
+    },
+    {
+        "title": "Mitochondrial temperature homeostasis resists external metabolic stresses.",
+        "journal": "eLife",
+        "date": "2023",
+        "doi": "https://doi.org/10.7554/eLife.89232",
+        "abstract": "Based on studies with a fluorescent reporter dye, Mito Thermo Yellow (MTY), and the genetically encoded gTEMP ratiometric fluorescent temperature indicator targeted to mitochondria, the temperature of active mitochondria in four mammalian and one insect cell line was estimated to be up to 15°C above that of the external environment to which the cells were exposed. High mitochondrial temperature was maintained in the face of a variety of metabolic stresses, including substrate starvation or modification, decreased ATP demand due to inhibition of cytosolic protein synthesis, inhibition of the mitochondrial adenine nucleotide transporter and, if an auxiliary pathway for electron transfer was available via the alternative oxidase, even respiratory poisons acting downstream of oxidative phosphorylation (OXPHOS) complex I. We propose that the high temperature of active mitochondria is an inescapable consequence of the biochemistry of OXPHOS and is homeostatically maintained as a primary feature of mitochondrial metabolism.",
+        "is_new": true,
+        "probe_name": "gTEMP",
+        "target": "Mitochondria",
+        "color": "Fluorescent",
+        "type": "Ratiometric Fluorescent Temperature Indicator"
     }
 ]

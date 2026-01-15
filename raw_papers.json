@@ -4460,7 +4460,7 @@
         "date": "2025",
         "doi": "https://doi.org/10.1101/2023.12.01.569590",
         "abstract": "<i>Drosophila</i> sLNv clock neurons release the co-packaged neuropeptides PDF and sNPF to regulate circadian behaviors (e.g., morning anticipation) and nighttime sleep<sup>1-3</sup>. Previous studies of membrane potential and cytoplasmic Ca<sup>2+</sup> at the soma suggested that sLNv neuron activity peaks at night<sup>4,5</sup>, but exocytosis of neuropeptide-containing dense-core vesicles (DCVs) at their terminals peaks hours later at midmorning<sup>6</sup>. To resolve the basis of the timing mismatch between somatic physiology and terminal exocytosis, recently developed probes were used to measure daily rhythms in sLNv neuron synaptic Ca<sup>2+</sup> and sNPF release. Remarkably, at midmorning after soma Ca<sup>2+</sup> has dropped, both Ca<sup>2+</sup> spiking and clock-dependent native neuropeptide release peak in the distal terminals of the protocerebrum. Furthermore, Ca<sup>2+</sup> in the soma and terminals differ in dependence on Ca<sup>2+</sup> influx. Finally, synaptic DCV exocytosis requires Ca<sup>2+</sup> spike activity at terminals that is not evident at the soma. These results lead to two striking conclusions. First, soma Ca<sup>2+</sup> recording, which is the focus of many circuit studies, is not indicative of presynaptic Ca<sup>2+</sup> and neuropeptide release in distal sLNv terminals. Second, daily clock- and activity-dependent sLNv terminal neuropeptide release occurs ~9-18 hours in advance of known sLNv neuropeptide effects on nighttime sleep and morning behavior.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -4469,7 +4469,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1101/2023.12.03.569799",
         "abstract": "To survive daily damage, the formation of actomyosin ring at the wound periphery is required to rapidly close cell wounds. Calcium influx is one of the start signals for these cell wound repair events. Here, we find that rapid recruitment of all three <i>Drosophila</i> calcium responding and phospholipid binding Annexin proteins (AnxB9, AnxB10, AnxB11) to distinct regions around the wound are regulated by the quantity of calcium influx rather than their binding to specific phospholipids. The distinct recruitment patterns of these Annexins regulate the subsequent recruitment of RhoGEF2 and RhoGEF3 through actin stabilization to form a robust actomyosin ring. Surprisingly, we find that reduced extracellular calcium and depletion of intracellular calcium affect cell wound repair differently, despite these two conditions exhibiting similar GCaMP signals. Thus, our results suggest that, in addition to initiating repair events, both the quantity and sources of calcium influx are important for precise Annexin spatiotemporal protein recruitment to cell wounds and efficient wound repair.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -4478,8 +4478,8 @@
         "date": "2024",
         "doi": "https://doi.org/10.1016/j.ijbiomac.2023.128807",
         "abstract": "The balance between pro-death and pro-survival signaling determines the fate of cells under a variety of pathological and physiological conditions. The pro-cell death signaling, apoptosis, and survival singling, autophagy work in an integrated manner for maintaining cell integrity. Their altered balance drives pathological conditions such as cancer, inflammatory disorders, and neurodegenerative diseases. Dissecting complex crosstalk between autophagy and apoptosis requires simultaneous detection of both events at a single cell level with good temporal resolution in real-time. Here, we have used two distinct fluorescent-based probes of caspase activation and autophagy for generating such sensor cells. Cells stably expressing RFP-LC3 as an autophagy marker were further stably expressed with a FRET-based probe for caspase activation with a nuclear localization signal. The functional validation and live-cell imaging of the sensor cells using selected treatments revealed that stress that induces rapid cell death often fails to induce autophagy signaling, and slow cell death induction triggers simultaneous autophagy signaling with caspase activation. The real-time imaging revealed the time-dependent shift of cells towards caspase activation while autophagy is inhibited confirming basal autophagy confers survival against apoptosis under stress conditions. Confocal imaging also revealed that cells under 3D culture condition maintain increased autophagy over monolayer cultures. High-throughput adaptability of the system extends its application for the screening of compounds that cause caspase activation, autophagy, or both demonstrating the potential utility of the sensor probe for diverse biological applications.",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Are acoustics enough? Semantic effects on auditory salience in natural scenes.",
@@ -4487,7 +4487,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.3389/fpsyg.2023.1276237",
         "abstract": "Auditory salience is a fundamental property of a sound that allows it to grab a listener's attention regardless of their attentional state or behavioral goals. While previous research has shed light on acoustic factors influencing auditory salience, the semantic dimensions of this phenomenon have remained relatively unexplored owing both to the complexity of measuring salience in audition as well as limited focus on complex natural scenes. In this study, we examine the relationship between acoustic, contextual, and semantic attributes and their impact on the auditory salience of natural audio scenes using a dichotic listening paradigm. The experiments present acoustic scenes in forward and backward directions; the latter allows to diminish semantic effects, providing a counterpoint to the effects observed in forward scenes. The behavioral data collected from a crowd-sourced platform reveal a striking convergence in temporal salience maps for certain sound events, while marked disparities emerge in others. Our main hypothesis posits that differences in the perceptual salience of events are predominantly driven by semantic and contextual cues, particularly evident in those cases displaying substantial disparities between forward and backward presentations. Conversely, events exhibiting a high degree of alignment can largely be attributed to low-level acoustic attributes. To evaluate this hypothesis, we employ analytical techniques that combine rich low-level mappings from acoustic profiles with high-level embeddings extracted from a deep neural network. This integrated approach captures both acoustic and semantic attributes of acoustic scenes along with their temporal trajectories. The results demonstrate that perceptual salience is a careful interplay between low-level and high-level attributes that shapes which moments stand out in a natural soundscape. Furthermore, our findings underscore the important role of longer-term context as a critical component of auditory salience, enabling us to discern and adapt to temporal regularities within an acoustic scene. The experimental and model-based validation of semantic factors of salience paves the way for a complete understanding of auditory salience. Ultimately, the empirical and computational analyses have implications for developing large-scale models for auditory salience and audio analytics.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -4496,7 +4496,7 @@
         "date": "2024",
         "doi": "https://doi.org/10.1016/j.mex.2023.102500",
         "abstract": "Incorporating appropriate pedagogical strategies has been instrumental in the development of a favorable learning environment for holistic learning, particularly in Science, Technology, Engineering, and Mathematics (STEM) education. However, there is growing evidence of the need to advance the existing methods, through more robust and comprehensive fieldwork grounded in design study. It has been shown that the lack of guidance in lesson planning using variation theory is also thought to require particular attention, as the accuracy of the student learning relies significantly on the planning of the lesson. However, little research has outlined the strategy to be followed for incorporating variation theory. This article proposes a method of preparing lesson plans to systematically implement the variation theory in STEM classrooms. The method seeks to design and implement current techniques as follows:•According to variation theory, teachers must create the necessary conditions for learning for the students to recognize what they are expected to learn.•To create the necessary conditions for learning, teachers define the key aspects of the topic to be covered and use different patterns of variations in teaching those contents, such as contrast, separation, generalization, and fusion.•Finally, teachers focus on the key aspects one by one or simultaneously to grab students' attention.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -4505,7 +4505,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1371/journal.pone.0292497",
         "abstract": "Supply chain finance is newly emerging concept and grab attend of financial sercive providers, buyers and suppliers. This study empirically examines the impact of supply chain finance solutions (SCFS), banks financial risk on financial service providers' financial performance using panel dataset of Asian Development Bank registered countries (Pakistan, China and Bangladesh) from 2012-2021. By breaking new ground, supply chain finance solution index is developed by combining several solutions to measure its impact on financial service provider financial performance. The results show a significant impact of supply chain finance solutions on financial performance of financial service providers. Furthermore, by offering SCF solutions a bank is able to reduce its financial risk for the external parties (e.g., investors, shareholders) This research encourages financial service providers (banks) to embrace the supply chain finance solution to enhance financial performance and allows them to evaluate their supply chain finance solutions investments as a technique to mitigate financial risk.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -4514,8 +4514,8 @@
         "date": "2024",
         "doi": "https://doi.org/10.1007/s44211-023-00476-5",
         "abstract": "Protein-protein interaction (PPI) analysis is very important for elucidating the functions of proteins because many proteins execute their functions in living cells by interacting with one another. In PPI analysis, methods using the sensor chips are widely employed to obtain quantitative data. However, these methods require that the target proteins be immobilized on the sensor chips, and the immobilization processes can affect the binding of the target proteins to their binding partners. In the present work, we propose a PPI analysis system in which the surface of the living cells is utilized as a sensing platform. In our approach, the target protein is displayed on the cell surface by expressing it as a fusion protein with a membrane protein, and the PPI analysis is then conducted by applying its binding partner labeled with a fluorescent dye to the cell surface. We have constructed a model of this binding analysis system using the interaction between biotin protein ligase (BPL) and biotin carboxyl carrier protein (BCCP), where BCCP was displayed on the cell surface and BPL labeled with fluorescein was applied to the cell surface. Here, a red fluorescent protein, mApple, was attached to the C-terminus of the fusion protein of BCCP with a membrane protein. We evaluated the binding level of the labeled BPL by using the intensity ratios of fluorescence from fluorescein to that from mApple. We found that the binding level of the labeled BPL was stably evaluated at least across 60 min observation period and estimated the binding dissociation constant between BPL and BCCP by equilibrium analysis to be 0.33 ± 0.05 μM.",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Harnessing the Materials Chemistry of Mesoporous Silicon Nanoparticles to Prepare \"Armor-Clad\" Enzymes.",
@@ -4523,7 +4523,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1021/acs.chemmater.3c02637",
         "abstract": "There is a growing interest in nanomaterials that can encapsulate enzymes while retaining their ability to function within the confines of a nanocage. Here porous silicon nanoparticles (pSiNPs) are evaluated as an enzyme cage, utilizing the aqueous chemistry of silicon to dynamically restructure the mesopore structure, immobilizing, and confining the enzyme. The common bioluminescent reporter enzyme nanoluciferase (Nluc) is used to evaluate two different trapping chemistries, and impacts on the stability and catalytic performance of the enzyme are compared with controls involving free enzyme and enzyme electrostatically adsorbed to a pSiNP host without the use of trapping chemistry. The two chemistries exploited in this study are (1) oxidative trapping, where mild aqueous oxidation of the elemental silicon skeleton in the mesoporous silicon host swells and restructures the pore walls, physically trapping the Nluc payload in a porous SiO<sub>2</sub> matrix, and (2) calcium ion-induced condensation, where localized precipitation of calcium silicate entraps the Nluc protein in a porous silicate matrix. The two trapping chemistries form robust nanoscale cages with substantially smaller pores (9.8 ± 0.4 and 8.8 ± 0.3 nm, respectively) compared to the pSiNP starting material (15.3 ± 1.8 nm), such that the enzyme does not leach from the pSiNPs in aqueous buffer or under assay conditions. Enzyme stability is substantially improved using the two trapping chemistries; the caged materials retain 30-45% activity after heating to 80 °C for 30 min or when exposed to organic solvents; either of these denaturing conditions result in complete or near-complete loss of activity for the free enzyme or for enzyme that is electrostatically adsorbed to pSiNPs. Finally, we explore the potential for the use of the Nluc-encapsulated nanocomposite as a cellular probe by demonstrating the luminescent reporting function of the nanoparticles in HeLa human cell cultures.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -4532,8 +4532,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1021/acssensors.3c00268",
         "abstract": "Inositol hexakisphosphate (IP6), a naturally occurring metabolite of inositol with specific functions in different organelles or tissues, participates in numerous physiological processes and plays a key role in mammalian metabolic regulation. However, current IP6 detection methods, i.e., high-performance liquid chromatography and gel electrophoresis, require sample destruction and lack spatiotemporal resolution. Here, we construct and characterize a genetically encoded fluorescence biosensor named HIPSer that enables ratiometric quantitative IP6 detection in HEK293T cells and subcellular compartments. We demonstrate that HIPSer has a high sensitivity and relative selectivity for IP6 in vitro. We also provide proof-of-concept evidence that HIPSer can monitor IP6 levels in real time in HEK293T cells and can be targeted for IP6 detection in the nucleus of HEK293T cells. Moreover, HIPSer could also detect changes in IP6 content induced by chemical inhibition of IP6-metabolizing enzymes in HEK293T cells. Thus, HIPSer achieves spatiotemporally precise detection of fluctuations in endogenous IP6 in live cells and provides a versatile tool for mechanistic investigations of inositol phosphate functions in metabolism and signaling.",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Mitochondrial temperature homeostasis resists external metabolic stresses.",
@@ -4541,8 +4541,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.7554/eLife.89232",
         "abstract": "Based on studies with a fluorescent reporter dye, Mito Thermo Yellow (MTY), and the genetically encoded gTEMP ratiometric fluorescent temperature indicator targeted to mitochondria, the temperature of active mitochondria in four mammalian and one insect cell line was estimated to be up to 15°C above that of the external environment to which the cells were exposed. High mitochondrial temperature was maintained in the face of a variety of metabolic stresses, including substrate starvation or modification, decreased ATP demand due to inhibition of cytosolic protein synthesis, inhibition of the mitochondrial adenine nucleotide transporter and, if an auxiliary pathway for electron transfer was available via the alternative oxidase, even respiratory poisons acting downstream of oxidative phosphorylation (OXPHOS) complex I. We propose that the high temperature of active mitochondria is an inescapable consequence of the biochemistry of OXPHOS and is homeostatically maintained as a primary feature of mitochondrial metabolism.",
-        "ai_analyzed": false,
-        "is_probe": false
+        "ai_analyzed": true,
+        "is_probe": true
     },
     {
         "title": "Identification of the first selective bioluminescent probe for real-time monitoring of carboxylesterase 2 <i>in vitro</i> and <i>in vivo</i>.",
