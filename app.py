@@ -322,7 +322,7 @@ def render_sidebar_content(data, theme):
 
 # ================= 7. 渲染主列表 =================
 def render_main_feed(data, theme, is_admin):
-    st.header("🚀 Latest Probes")
+    st.header("Latest Genetically Encoded Fluorescent Sensors")
     if not data:
         st.info("No data available.")
         return
@@ -372,7 +372,7 @@ def main():
     
     with st.sidebar:
         st.title("Auto Sensor Base")
-        st.caption("Automated Tracking System")
+        st.caption("AI-powered Tracking System")
         is_light = st.toggle("🌞 Light Mode / 🌜 Dark", value=False, key="theme_toggle")
 
     theme_config = get_theme_config(is_light)
