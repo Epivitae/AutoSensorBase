@@ -6,8 +6,8 @@ RAW_FILE = "raw_papers.json"
 
 def main():
     # ===在此处修改你想抓取的日期范围===
-    TARGET_START = "2023/01/01"
-    TARGET_END = "2023/12/31"
+    TARGET_START = "2020/01/01"
+    TARGET_END = "2022/12/31"
     # ===============================
 
     print(f"🚀 手动抓取模式: {TARGET_START} 至 {TARGET_END}")
