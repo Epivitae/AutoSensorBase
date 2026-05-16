@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Sensor Base</title>
+    <style>
+        /* ================= 1. 主题配色 (复刻 Streamlit Light Mode) ================= */
+        :root {
+            --bg-color: #F7F9FB;
+            --sidebar-bg: #FFFFFF;
+            --text-main: #2D3748;
+            --text-sidebar: #1A202C;
+            --meta-color: #718096;
+            --border-color: #E2E8F0;
+            --card-bg: #FFFFFF;
+            --btn-border: #CBD5E0;
+            --badge-target-bg: #E6FFFA;
+            --badge-target-text: #2C7A7B;
+            --badge-type-bg: #EDF2F7;
+            --badge-type-text: #4A5568;
+        }
+
+        body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: var(--bg-color); color: var(--text-main); display: flex; min-height: 100vh; }
+        
+        /* ================= 2. 布局 ================= */
+        .app-container { display: flex; width: 100%; }
+        
+        /* 侧边栏 */
+        .sidebar { width: 300px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); padding: 30px 20px; flex-shrink: 0; box-sizing: border-box; }
+        .sidebar h2 { margin-top: 0; color: var(--text-sidebar); font-size: 1.5rem; margin-bottom: 5px; }
+        .sidebar p.caption { color: var(--meta-color); font-size: 0.9rem; margin-bottom: 30px; }
+        
+        /* 控件 */
+        .filter-group { margin-bottom: 20px; }
+        .filter-group label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 8px; color: var(--text-sidebar); }
+        .filter-group select { width: 100%; padding: 10px; border: 1px solid var(--btn-border); border-radius: 6px; background-color: var(--bg-color); color: var(--text-main); outline: none; }
+        
+        /* 指标卡片 */
+        .metric-card { margin-top: 30px; padding: 20px 15px; background: rgba(0,0,0,0.02); border-radius: 12px; text-align: center; border: 1px solid var(--border-color); }
+        .metric-title { font-size: 0.8rem; color: var(--meta-color); letter-spacing: 1px; text-transform: uppercase; }
+        .metric-value { font-size: 2.5rem; font-weight: 800; color: var(--text-sidebar); margin: 5px 0; }
+        .metric-sub { font-size: 0.8rem; color: var(--meta-color); }
+
+        /* 团队信息 */
+        .team-footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--border-color); text-align: center; }
+        .team-footer div { font-size: 0.85rem; color: var(--text-sidebar); margin-bottom: 4px; }
+        .team-footer a { color: var(--text-sidebar); text-decoration: none; border-bottom: 1px dotted; }
+
+        /* 主内容区 */
+        .main-content { flex: 1; padding: 40px; max-width: 1000px; box-sizing: border-box; }
+        .main-content h1 { margin-top: 0; font-size: 1.8rem; margin-bottom: 30px; }
+
+        /* ================= 3. 探针卡片组件 ================= */
+        .sensor-card { background-color: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); display: flex; flex-direction: column; }
+        .card-header { display: flex; align-items: flex-start; gap: 15px; }
+        .color-dot { width: 14px; height: 14px; border-radius: 50%; flex-shrink: 0; margin-top: 6px; }
+        
+        .card-body { flex: 1; }
+        .probe-title { font-size: 1.25rem; font-weight: 700; color: var(--text-main); margin-bottom: 10px; }
+        
+        .badges-row { margin-bottom: 12px; display: flex; align-items: center; flex-wrap: wrap; gap: 8px; line-height: 1; }
+        .badge-target { background-color: var(--badge-target-bg); color: var(--badge-target-text); padding: 4px 10px; border-radius: 100px; font-size: 0.8rem; font-weight: 600; }
+        .badge-type { background-color: var(--badge-type-bg); color: var(--badge-type-text); padding: 4px 10px; border-radius: 100px; font-size: 0.8rem; }
+        .badge-new { background: linear-gradient(135deg, #FFD700 0%, #F59E0B 100%); color: white; padding: 3px 6px; border-radius: 4px; font-size: 0.7rem; font-weight: 800; box-shadow: 0 2px 5px rgba(245, 158, 11, 0.4); }
+        
+        .meta-info { font-size: 0.9rem; color: var(--meta-color); margin-bottom: 15px; }
+        
+        /* 折叠面板 (替代 st.expander) */
+        details { background: rgba(0,0,0,0.01); border-radius: 6px; border: 1px solid var(--border-color); padding: 10px 15px; }
+        summary { font-size: 0.9rem; font-weight: 600; cursor: pointer; color: var(--text-sidebar); outline: none; }
+        details p { font-size: 0.9rem; line-height: 1.6; color: var(--text-main); opacity: 0.85; margin-top: 10px; margin-bottom: 0; }
+
+        /* 按钮 */
+        .read-btn { align-self: flex-start; background-color: #fff; border: 1px solid var(--btn-border); color: var(--text-sidebar); padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 600; transition: all 0.2s; margin-top: 15px; text-align: center; width: 100px; }
+        .read-btn:hover { background-color: #F7FAFC; border-color: #A0AEC0; transform: translateY(-1px); }
+
+        /* 响应式：在小屏幕上隐藏侧边栏 */
+        @media (max-width: 768px) {
+            .app-container { flex-direction: column; }
+            .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border-color); }
+            .main-content { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="app-container">
+    <div class="sidebar">
+        <h2>Auto Sensor Base</h2>
+        <p class="caption">AI-powered Tracking System</p>
+        <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 20px 0;">
+        
+        <div class="filter-group">
+            <label for="target-filter">Target Molecule</label>
+            <select id="target-filter">
+                <option value="All">All</option>
+            </select>
+        </div>
+        
+        <div class="filter-group">
+            <label for="color-filter">Fluorescence Color</label>
+            <select id="color-filter">
+                <option value="All">All</option>
+            </select>
+        </div>
+
+        <div class="metric-card">
+            <div class="metric-title">TOTAL SENSORS</div>
+            <div class="metric-value" id="total-count">0</div>
+            <div class="metric-sub" id="year-range">(N/A - N/A)</div>
+        </div>
+
+        <div class="team-footer">
+            <div style="font-weight: 600;">Chimera Nano Sensor Team</div>
+            <div style="opacity: 0.8;">Institute of Neuroscience, CAS</div>
+            <div><a href="http://www.cns.ac.cn" target="_blank">www.cns.ac.cn</a></div>
+        </div>
+    </div>
+
+    <div class="main-content">
+        <h1>Latest Genetically Encoded Fluorescent Sensors</h1>
+        <div id="feed-container">
+            <p style="color: var(--meta-color);">⏳ Loading database...</p>
+        </div>
+    </div>
+</div>
+
+<script>
+    // ================= 核心逻辑 =================
+    let globalData = []; // 存储所有数据
+    let currentFilteredData = []; // 存储当前筛选后的数据
+    
+    // 分页控制
+    let currentPage = 1;
+    const itemsPerPage = 20; // 每次渲染 20 条，保证极速流畅
+
+    // 颜色映射逻辑
+    function getColorHex(colorName) {
+        if (!colorName) return "#D1D5DB";
+        const c = String(colorName).toLowerCase();
+        if (c.includes("green")) return "#10B981";
+        if (c.includes("red")) return "#EF4444";
+        if (c.includes("blue") || c.includes("cyan")) return "#3B82F6";
+        if (c.includes("yellow") || c.includes("gold")) return "#F59E0B";
+        if (c.includes("orange")) return "#F97316";
+        if (c.includes("purple")) return "#8B5CF6";
+        return "#D1D5DB";
+    }
+
+    // 初始化页面
+    async function init() {
+        try {
+            const response = await fetch('processed_probes.json');
+            globalData = await response.json();
+            
+            // 排序：按年份倒序
+            globalData.sort((a, b) => parseInt(b.date || 0) - parseInt(a.date || 0));
+            currentFilteredData = [...globalData];
+
+            populateFilters(globalData);
+            
+            // 首次渲染
+            document.getElementById('feed-container').innerHTML = '';
+            renderFeedChunk();
+            
+            // 监听筛选器变化
+            document.getElementById('target-filter').addEventListener('change', handleFilterChange);
+            document.getElementById('color-filter').addEventListener('change', handleFilterChange);
+
+        } catch (error) {
+            document.getElementById('feed-container').innerHTML = `<p style="color: red;">❌ Failed to load data. Ensure 'processed_probes.json' exists.</p>`;
+        }
+    }
+
+    // 填充下拉菜单选项
+    function populateFilters(data) {
+        const targets = new Set();
+        const colors = new Set();
+        
+        data.forEach(item => {
+            if (item.target) targets.add(item.target);
+            if (item.color) colors.add(item.color);
+        });
+
+        const targetSelect = document.getElementById('target-filter');
+        const colorSelect = document.getElementById('color-filter');
+
+        Array.from(targets).sort().forEach(t => targetSelect.add(new Option(t, t)));
+        Array.from(colors).sort().forEach(c => colorSelect.add(new Option(c, c)));
+    }
+
+    // 处理筛选逻辑 (重置分页)
+    function handleFilterChange() {
+        const targetVal = document.getElementById('target-filter').value;
+        const colorVal = document.getElementById('color-filter').value;
+
+        currentFilteredData = globalData.filter(item => {
+            const matchTarget = (targetVal === "All") || (String(item.target) === targetVal);
+            const matchColor = (colorVal === "All") || (String(item.color) === colorVal);
+            return matchTarget && matchColor;
+        });
+
+        // 重置为第一页，清空容器，重新渲染
+        currentPage = 1;
+        document.getElementById('feed-container').innerHTML = '';
+        renderFeedChunk();
+    }
+
+    // 分块渲染卡片列表 (核心性能优化)
+    function renderFeedChunk() {
+        const container = document.getElementById('feed-container');
+
+        // 移除旧的"加载更多"按钮(如果存在)
+        const oldLoadBtn = document.getElementById('load-more-btn');
+        if (oldLoadBtn) oldLoadBtn.remove();
+
+        if (currentFilteredData.length === 0) {
+            container.innerHTML = '<p style="color: var(--meta-color);">No sensors match your filters.</p>';
+            updateMetrics(0, "N/A", "N/A");
+            return;
+        }
+
+        const startIndex = (currentPage - 1) * itemsPerPage;
+        const endIndex = startIndex + itemsPerPage;
+        const itemsToRender = currentFilteredData.slice(startIndex, endIndex);
+        const currentYear = new Date().getFullYear();
+
+        // 使用 DocumentFragment 优化 DOM 插入性能
+        const fragment = document.createDocumentFragment();
+
+        itemsToRender.forEach(item => {
+            const year = parseInt(item.date);
+            const isNew = item.is_new || String(year) === String(currentYear) || String(year) === String(currentYear + 1);
+            const hexColor = getColorHex(item.color);
+            const title = item.probe_name && item.probe_name !== "Unknown" ? item.probe_name : item.title;
+
+            const card = document.createElement('div');
+            card.className = 'sensor-card';
+            card.innerHTML = `
+                <div class="card-header">
+                    <div class="color-dot" style="background-color: ${hexColor}; box-shadow: 0 0 0 2px ${hexColor}30;"></div>
+                    <div class="card-body">
+                        <div class="probe-title">${title} ${isNew ? '<span class="badge-new">NEW</span>' : ''}</div>
+                        
+                        <div class="badges-row">
+                            <span class="badge-target">${item.target || 'N/A'}</span>
+                            <span class="badge-type">${item.type || 'N/A'}</span>
+                        </div>
+                        
+                        <div class="meta-info">
+                            <i>${item.journal || 'Unknown Journal'}</i>
+                            <span style="color: var(--border-color); margin: 0 8px;">•</span>
+                            📅 ${item.date || 'N/A'}
+                        </div>
+
+                        <details>
+                            <summary>View Abstract</summary>
+                            <p>${item.abstract || 'No abstract available.'}</p>
+                        </details>
+                    </div>
+                </div>
+                ${item.doi && item.doi.includes('http') ? `<a href="${item.doi}" target="_blank" class="read-btn">Read Paper</a>` : ''}
+            `;
+            fragment.appendChild(card);
+        });
+
+        container.appendChild(fragment);
+
+        // 如果还有未渲染的数据，添加"加载更多"按钮
+        if (endIndex < currentFilteredData.length) {
+            const loadBtn = document.createElement('button');
+            loadBtn.id = 'load-more-btn';
+            loadBtn.innerText = `Load More (${currentFilteredData.length - endIndex} left)`;
+            loadBtn.style.cssText = `
+                width: 100%; padding: 12px; margin-top: 20px; background: #fff; 
+                border: 1px dashed var(--btn-border); border-radius: 8px; 
+                color: var(--meta-color); font-weight: 600; cursor: pointer;
+            `;
+            loadBtn.onmouseover = () => loadBtn.style.borderColor = '#A0AEC0';
+            loadBtn.onmouseout = () => loadBtn.style.borderColor = 'var(--btn-border)';
+            
+            loadBtn.onclick = () => {
+                currentPage++;
+                renderFeedChunk();
+            };
+            container.appendChild(loadBtn);
+        }
+
+        // 更新侧边栏统计数字
+        updateMetrics(currentFilteredData.length);
+    }
+
+    // 更新左侧指标统计
+    function updateMetrics(count) {
+        document.getElementById('total-count').innerText = count;
+        
+        let minYear = 9999;
+        let maxYear = 0;
+        currentFilteredData.forEach(item => {
+            const year = parseInt(item.date);
+            if (!isNaN(year)) {
+                if (year < minYear) minYear = year;
+                if (year > maxYear) maxYear = year;
+            }
+        });
+        
+        document.getElementById('year-range').innerText = count > 0 ? `(${minYear} - ${maxYear})` : "(N/A - N/A)";
+    }
+
+    // 启动应用
+    init();
+
+</script>
+</body>
+</html>
