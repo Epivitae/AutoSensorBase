@@ -7,7 +7,7 @@ on:
 jobs:
   add-probe:
     # 只处理带有 auto-add 标签的 issue
-    if: contains(github.event.issue.labels.*.name, 'auto-add')
+    if: startsWith(github.event.issue.title, '[New Probe]')
     runs-on: ubuntu-latest
     permissions:
       contents: write
