@@ -14,7 +14,7 @@ def analyze_one_paper(paper):
         return None
 
     # 🌟 构造 Gemini 官方 REST URL
-    url = f"[https://generativelanguage.googleapis.com/v1beta/models/](https://generativelanguage.googleapis.com/v1beta/models/){MODEL_NAME}:generateContent?key={api_key}"
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/{MODEL_NAME}:generateContent?key={api_key}"
     
     headers = {
         "Content-Type": "application/json"
@@ -101,6 +101,8 @@ def analyze_one_paper(paper):
             print(f"⚠️ API Error: HTTP {resp.status_code} - {resp.text}")
             
     except Exception as e:
-        print(f"⚠️ Network Error: {e}")
+        # 打印错误时，用 replace 把真实 Key 隐藏掉
+        safe_url = url.replace(api_key, "HIDDEN_KEY") if api_key else url
+        print(f"⚠️ Network Error (URL: {safe_url}): {e}")
     
     return None
