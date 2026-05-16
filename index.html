@@ -175,6 +175,8 @@
         } catch (error) {
             document.getElementById('feed-container').innerHTML = `<p style="color: red;">❌ Failed to load data. Ensure 'processed_probes.json' exists.</p>`;
         }
+
+        document.getElementById('download-csv-btn').addEventListener('click', downloadCSV);
     }
 
     // 填充下拉菜单选项
@@ -312,8 +314,72 @@
         document.getElementById('year-range').innerText = count > 0 ? `(${minYear} - ${maxYear})` : "(N/A - N/A)";
     }
 
+
+    function downloadCSV() {
+        if (!currentFilteredData || currentFilteredData.length === 0) {
+            alert("No data available to download under current filters!");
+            return;
+        }
+
+        // 1. 定义 CSV 的表头（根据你的 JSON 键值对齐）
+        const headers = ["Probe Name", "Target", "Color", "Type", "Journal", "Year", "DOI", "Paper Title"];
+        
+        // 2. 开始构建 CSV 字符串内容
+        let csvContent = headers.join(",") + "\n";
+
+        // 3. 循环遍历当前筛选出的所有探针数据
+        currentFilteredData.forEach(item => {
+            // 清理特殊字符和换行，防止破坏 CSV 结构；将英文双引号转义
+            const cleanStr = (str) => {
+                if (!str) return "";
+                let s = String(str).replace(/"/g, '""'); // 转义双引号
+                // 如果字段里包含逗号、换行或双引号，必须用双引号把整段文字包裹起来
+                if (s.includes(",") || s.includes("\n") || s.includes('"')) {
+                    s = `"${s}"`;
+                }
+                return s;
+            };
+
+            const row = [
+                cleanStr(item.probe_name),
+                cleanStr(item.target),
+                cleanStr(item.color),
+                cleanStr(item.type),
+                cleanStr(item.journal),
+                cleanStr(item.date),
+                cleanStr(item.doi),
+                cleanStr(item.title)
+            ];
+            
+            csvContent += row.join(",") + "\n";
+        });
+
+        // 4. 利用 Blob 并在头部加入 BOM (\uFEFF) 强行防止 Excel 打开时中文和希腊字母乱码
+        const blob = new Blob(["\uFEFF" + csvContent], { type: "text/csv;charset=utf-8;" });
+        
+        // 5. 创建临时的虚拟下载路径
+        const url = URL.createObjectURL(blob);
+        
+        // 6. 伪造 <a> 标签触发浏览器下载
+        const link = document.createElement("a");
+        link.href = url;
+        
+        // 动态命名：自动带上当天的年月日，非常正规
+        const today = new Date().toISOString().slice(0, 10).replace(/-/g, "");
+        link.setAttribute("download", `AutoSensorBase_Export_${today}.csv`);
+        
+        // 触发点击并销毁临时对象
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+        URL.revokeObjectURL(url);
+    }
+
+
     // 启动应用
     init();
+
+
 
 </script>
 </body>
