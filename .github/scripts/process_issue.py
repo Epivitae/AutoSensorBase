@@ -81,9 +81,17 @@ def main():
     print(f"⏳ 正在处理: {probe_name} ({doi})")
     
     # 获取人工选填的参数
+    # 获取人工选填的参数
     manual_target = extract_field(body, "检测底物")
-    manual_color = extract_field(body, "发光颜色")
     manual_type = extract_field(body, "探针类型")
+    
+    # 颜色提取的特殊逻辑处理
+    manual_color = extract_field(body, "发光颜色")
+    manual_color_custom = extract_field(body, "其他颜色")
+    
+    # 如果用户在下拉菜单选择了“其他”，则强制使用下方文本框里填写的颜色
+    if manual_color and "其他" in manual_color:
+        manual_color = manual_color_custom
     
     # 抓取文献元数据
     meta, err = fetch_pubmed(doi)

@@ -31,7 +31,7 @@ body:
     id: probe_color
     attributes:
       label: "发光颜色 (Color)"
-      description: "[选填] 选择探针颜色，如果不确定可保持默认，由 AI 提取"
+      description: "[选填] 选择探针颜色。如果不在列表中，请选择“其他”并在下方填写"
       options:
         - "由 AI 自动提取"
         - "Green"
@@ -40,13 +40,14 @@ body:
         - "Yellow"
         - "Orange"
         - "Purple"
+        - "其他 (请在下方填写)"
     validations:
       required: false
   - type: input
-    id: probe_type
+    id: probe_color_custom
     attributes:
-      label: "探针类型 (Type)"
-      description: "例如: GECI, GPCR-based, snifit. [选填] 留空则使用 AI 提取"
-      placeholder: "留空则使用 AI 提取"
+      label: "其他颜色 (Custom Color)"
+      description: "如果在上方选择了“其他”，请在此处输入具体的颜色（例如：Far-Red, NIR）"
+      placeholder: "例如: Far-Red"
     validations:
       required: false
