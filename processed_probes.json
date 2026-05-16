@@ -1,16 +1,5 @@
 [
-    {
-        "probe_name": "Citrate sensor",
-        "is_new": true,
-        "title": "PSMA PET in Active Surveillance: Initial Experiences and Future Directions.",
-        "journal": "Cancers",
-        "date": "2026",
-        "abstract": "<b>Background/Objectives</b>: We conducted an exploratory review of patients in our institutions who had undergone a PSMA PET/CT whilst on active surveillance, determining patient characteristics and trends. <b>Methods</b>: A retrospective cohort study of patients who were on active surveillance for low or favourable intermediate-risk prostate cancer and had a PSMA PET/CT done due to the presence of risk factors was performed. Risk factors that were an indication for PSMA PET/CT were: The presence of ISUP GG 2 disease, or ISUP GG1 disease with a PSA > 10 or a PI-RADS score of 4 or 5 on their MRI. <b>Results</b>: We identified 45 patients who underwent PSMA PET/CT whilst on active surveillance. Of these patients, 14 remained on active surveillance at the time of review, whilst 31 had progressed to definitive treatment. There was a significantly different distribution of PRIMARY scores between these two groups, although the average SUVMax was similar. In our practice, we found PSMA PET/CT to be particularly useful when performing confirmatory biopsies on patients who had normal MRI scans or were unable to go for the MRI at the time of diagnosis. <b>Conclusions</b>: PSMA PET/CT shows promise as a tool for active surveillance, particularly in men with risk factors for progressing to active treatment. However, our cohort was too small to draw definitive conclusions, and further research is needed.",
-        "doi": "https://doi.org/10.64898/2026.04.16.718871",
-        "target": "Unknown",
-        "color": "Unknown",
-        "type": "Unknown"
-    },
+    
     {
         "probe_name": "CaBLAM",
         "is_new": true,
