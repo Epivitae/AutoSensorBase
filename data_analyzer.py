@@ -2,26 +2,25 @@ import json
 import requests
 import os
 
-# 不要在这里读 Key，否则 import 的时候就定死了
-# API_KEY = os.environ.get("ZHIPU_API_KEY")  <-- 删掉这行
-
-API_URL = "https://open.bigmodel.cn/api/paas/v4/chat/completions"
-MODEL_NAME = "glm-4-flash" 
+# 锁定稳定版本模型，保障 GitHub Actions 自动化长治久安
+MODEL_NAME = "gemini-2.0-flash-001" 
 
 def analyze_one_paper(paper):
-    # ✅ 改到这里读取！每次调用函数时实时获取 Key
-    api_key = os.environ.get("ZHIPU_API_KEY")
+    # ✅ 每次调用函数时实时获取 Gemini Key
+    api_key = os.environ.get("GEMINI_API_KEY")
 
     if not api_key:
-        print("❌ Error: ZHIPU_API_KEY not found in environment variables.")
+        print("❌ Error: GEMINI_API_KEY not found in environment variables.")
         return None
 
+    # 🌟 构造 Gemini 官方 REST URL
+    url = f"[https://generativelanguage.googleapis.com/v1beta/models/](https://generativelanguage.googleapis.com/v1beta/models/){MODEL_NAME}:generateContent?key={api_key}"
+    
     headers = {
-        "Authorization": f"Bearer {api_key}", 
         "Content-Type": "application/json"
     }
     
-    # 🌟 终极版 Prompt (保持不变)
+    # 🌟 终极版 Prompt (保持你的原版优质 Prompt 不变)
     prompt = f"""
     You are a strict Senior Editor at *Nature Methods*. Your job is to filter papers to find ONLY those describing the **Development of NEW Genetically Encoded Fluorescent Sensors**.
     
@@ -64,24 +63,30 @@ def analyze_one_paper(paper):
     Result: {{"reasoning": "Title strongly implies a new class of sensors.", "is_new": true, "probe_name": "Serotonin Sensor (Unnamed)", "target": "Serotonin", "color": "Unknown", "type": "Genetically Encoded Sensor"}}
     """
     
+    # 🌟 适配 Gemini 的 Payload 结构
     payload = {
-        "model": MODEL_NAME,
-        "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.01,
-        "top_p": 0.1
+        "contents": [{
+            "parts": [{"text": prompt}]
+        }],
+        "generationConfig": {
+            "responseMimeType": "application/json", # 强制只输出纯 JSON，拒绝 Markdown 包装
+            "temperature": 0.01,
+            "topP": 0.1
+        }
     }
 
     try:
-        resp = requests.post(API_URL, headers=headers, json=payload, timeout=30)
+        resp = requests.post(url, headers=headers, json=payload, timeout=30)
         
         if resp.status_code == 200:
-            content = resp.json()['choices'][0]['message']['content']
-            clean_content = content.replace("```json", "").replace("```", "").strip()
+            # 🌟 解析 Gemini 的返回体路径
+            content = resp.json()['candidates'][0]['content']['parts'][0]['text']
             
             try:
-                result = json.loads(clean_content)
+                # 不再需要 replace("```json")，Gemini 在配置后会直接返回干净的 JSON 字符串
+                result = json.loads(content.strip())
                 
-                # --- Guardrail ---
+                # --- Guardrail (保持你的后处理逻辑) ---
                 if result.get('is_new'):
                     reasoning = result.get('reasoning', '').lower()
                     if "used" in reasoning and "existing" in reasoning and "develop" not in reasoning:
@@ -90,10 +95,10 @@ def analyze_one_paper(paper):
                 
                 return result
             except json.JSONDecodeError:
-                print(f"⚠️ JSON Parse Error: {clean_content[:50]}...")
+                print(f"⚠️ JSON Parse Error: {content[:50]}...")
                 return None
         else:
-            print(f"⚠️ API Error: {resp.status_code}")
+            print(f"⚠️ API Error: HTTP {resp.status_code} - {resp.text}")
             
     except Exception as e:
         print(f"⚠️ Network Error: {e}")

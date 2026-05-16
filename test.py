@@ -1,75 +1,75 @@
-import json
 import os
-import time
-import toml  # 引入 toml 读取库
-from data_analyzer import analyze_one_paper
+import json
+import requests
 
-RAW_FILE = "raw_papers.json"
-TEST_LIMIT = 50 
+# 1. 强行给 Python 挂上你配置好的本地代理隧道（保持你的代理软件开启）
+os.environ["HTTP_PROXY"] = "http://127.0.0.1:7890"  # 如果你的端口不是 7890，请改成你的真实端口
+os.environ["HTTPS_PROXY"] = "http://127.0.0.1:7890"
 
-# ================= 自动加载 Key (新增) =================
-if not os.environ.get("ZHIPU_API_KEY"):
+# 2. 换上你刚申请的、纯净的 AI Studio Gemini Key
+os.environ["GEMINI_API_KEY"] = "AIzaSyD-utT404JxrO4Me6LP35fp6Qrx7MEoj9Y"
+
+api_key = os.environ.get("GEMINI_API_KEY")
+print(f"📡 正在检测本地 Gemini API Key...")
+if not api_key or "你的新Key" in api_key:
+    print("❌ 错误：请先在代码中填入真实的 GEMINI_API_KEY！")
+    exit(1)
+
+# 模拟摘要
+mock_abstract = (
+    "Genetically encoded calcium indicators (GECIs) are critical tools for imaging neural activity. "
+    "Here we develop GCaMP9, a novel green fluorescent protein-based sensor with ultra-high sensitivity "
+    "and faster kinetics for monitoring intracellular Calcium dynamics in vivo."
+)
+
+def test_gemini_fixed(abstract):
+    # 🌟 严格对齐官方的标准 REST URL 格式
+    url = f"https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key={api_key}"
+    
+    headers = {
+        "Content-Type": "application/json"
+    }
+    
+    prompt = f"""Read this abstract and extract the fluorescent sensor's attributes.
+    Abstract: {abstract}
+    
+    Return JSON ONLY with these keys:
+    {{
+        "target": "What molecule is detected? (e.g. Dopamine, Calcium)",
+        "color": "Fluorescence color (Green, Red, Blue, Yellow, etc.)",
+        "type": "Sensor type (e.g. CPFP, GPCR-based, snifit)"
+    }}
+    If unsure, use "Unknown". Do NOT return Markdown block (do not include ```json)."""
+    
+    payload = {
+        "contents": [{
+            "parts": [{"text": prompt}]
+        }],
+        "generationConfig": {
+            "responseMimeType": "application/json", # 强行约束返回纯 JSON
+            "temperature": 0.1
+        }
+    }
+
+    print("\n🧠 正在向 Google Gemini 官方标准端点发送请求...")
     try:
-        secret_path = ".streamlit/secrets.toml"
-        if os.path.exists(secret_path):
-            with open(secret_path, "r", encoding="utf-8") as f:
-                config = toml.load(f)
-                if "ZHIPU_API_KEY" in config:
-                    os.environ["ZHIPU_API_KEY"] = config["ZHIPU_API_KEY"]
-                    print("✅ 已从 secrets.toml 加载 API Key")
-    except Exception as e:
-        print(f"⚠️ 无法加载 secrets.toml: {e}")
-# ====================================================
-
-def main():
-    print(f"🔬 准备进行 {TEST_LIMIT} 篇的小规模测试...\n")
-
-    if not os.path.exists(RAW_FILE):
-        print("❌ 没找到 raw_papers.json")
-        return
-
-    with open(RAW_FILE, "r", encoding="utf-8") as f:
-        all_papers = json.load(f)
-
-    # 挑选前 50 篇
-    target_batch = all_papers[:TEST_LIMIT]
-    
-    print(f"📦 选中了 {len(target_batch)} 篇文献进行测试。")
-    print("=" * 60)
-
-    new_probe_count = 0
-    
-    for i, paper in enumerate(target_batch):
-        title = paper.get('title', 'No Title')[:60]
-        print(f"[{i+1}/{TEST_LIMIT}] 分析中: {title}...")
-
-        try:
-            result = analyze_one_paper(paper)
-
-            if result:
-                is_new = result.get('is_new')
-                reasoning = result.get('reasoning', 'No reasoning provided')
-                probe_name = result.get('probe_name', 'N/A')
-
-                if is_new:
-                    print(f"   🎉 [判定: NEW] | 探针: {probe_name}")
-                    print(f"   🧠 推理: \033[92m{reasoning}\033[0m") 
-                    new_probe_count += 1
-                else:
-                    print(f"   ❌ [判定: REJECT]")
-                    print(f"   🧠 推理: \033[90m{reasoning}\033[0m") 
-            else:
-                print("   ⚠️ AI 响应为空 (可能是 Key 依然有问题)")
-
-        except Exception as e:
-            print(f"   ⚠️ 出错: {e}")
+        resp = requests.post(url, headers=headers, json=payload, timeout=15)
+        print(f"📬 服务器响应状态码: {resp.status_code}")
         
-        print("-" * 60)
-        time.sleep(0.5)
+        if resp.status_code == 200:
+            res_json = resp.json()
+            text_content = res_json['candidates'][0]['content']['parts'][0]['text']
+            return json.loads(text_content.strip()), None
+        else:
+            return None, f"HTTP {resp.status_code}: {resp.text}"
+    except Exception as e:
+        return None, f"连接异常: {str(e)}"
 
-    print(f"\n📊 测试结束！")
-    print(f"   样本数: {len(target_batch)}")
-    print(f"   新探针数: {new_probe_count}")
-
-if __name__ == "__main__":
-    main()
+# 执行
+result, error = test_gemini_fixed(mock_abstract)
+print("\n--- 📝 Gemini 测试报告 ---")
+if error:
+    print(f"❌ 测试失败！原因：{error}")
+else:
+    print("🎉 恭喜！Gemini 官方接口完全激活跑通！解析结果如下：")
+    print(json.dumps(result, indent=4, ensure_ascii=False))
