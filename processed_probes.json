@@ -1,5 +1,17 @@
 [
     {
+        "probe_name": "GCaMPJ",
+        "is_new": true,
+        "title": "Destabilized calcium dynamics visualized using the genetically-coded probe GCaMPJ in intact hearts of Calstabin2-null mice.",
+        "journal": "Frontiers in physiology",
+        "date": "2026",
+        "abstract": "Optical imaging of intracellular calcium ions (Ca<sup>2+</sup>) using Ca<sup>2+</sup>-sensitive dyes or genetically encoded Ca<sup>2+</sup> indicators (GECIs) offers high spatial and temporal resolution, and has revealed several critical mechanisms of Ca<sup>2+</sup> signaling in cardiomyocytes. However, little progress has been made in the imaging of global Ca<sup>2+</sup> events in intact mammalian hearts. To investigate the precise mechanisms of whole-heart arrhythmogenesis, highly sensitive macroscopic imaging tools are strictly required. Here, we utilized transgenic mice with cardiac-specific expression of GCaMPJ, an optimized high-fidelity Ca<sup>2+</sup> indicator without cardiotoxicity. This enhanced sensitivity enabled the macroscopic visualization of complex spiral and ripple Ca<sup>2+</sup> waves in intact hearts. Importantly, by deploying this advanced imaging platform in combination with genetic knockout and targeted protein degradation, we established the critical biological role of Calstabin in modulating Ca<sup>2+</sup> cycling in the intact heart. We further demonstrated that the pharmacological stabilization of the ryanodine receptor (RyR) complex prevents profound spatial discordance and ventricular arrhythmias involving chaotic Ca<sup>2+</sup> events.",
+        "doi": "https://doi.org/10.3389/fphys.2026.1787427",
+        "target": "Calcium",
+        "color": "Green",
+        "type": "GECI"
+    },
+    {
         "probe_name": "PinkyCaMP",
         "is_new": true,
         "title": "PinkyCaMP: an mScarlet-based calcium sensor with enhanced brightness, photostability and multiplexing capabilities.",
