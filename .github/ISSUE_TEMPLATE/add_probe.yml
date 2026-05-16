@@ -1,0 +1,21 @@
+name: "🧬 添加新探针 (Add New Probe)"
+description: "提交 DOI 和探针名称，机器人将自动处理并加入数据库"
+title: "[New Probe]: "
+labels: ["auto-add"]
+body:
+  - type: input
+    id: probe_name
+    attributes:
+      label: "探针名称 (Probe Name)"
+      description: "例如: GCaMP8, CaBLAM"
+      placeholder: "输入探针名称"
+    validations:
+      required: true
+  - type: input
+    id: probe_doi
+    attributes:
+      label: "论文 DOI"
+      description: "例如: 10.1038/s41592-024-02202-x"
+      placeholder: "输入完整 DOI 或 10.xxxx 格式"
+    validations:
+      required: true

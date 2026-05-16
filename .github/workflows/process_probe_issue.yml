@@ -1,0 +1,49 @@
+name: Process New Probe Issue
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  add-probe:
+    # 只处理带有 auto-add 标签的 issue
+    if: contains(github.event.issue.labels.*.name, 'auto-add')
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install biopython requests
+
+      - name: Process Issue and Update JSON
+        env:
+          ISSUE_BODY: ${{ github.event.issue.body }}
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+        run: |
+          python .github/scripts/process_issue.py
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add processed_probes.json
+          # 如果文件有变化才提交
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🤖 Auto-add probe from Issue #${{ github.event.issue.number }}" && git push)
+
+      - name: Close Issue
+        uses: peter-evans/close-issue@v3
+        with:
+          issue-number: ${{ github.event.issue.number }}
+          comment: "✅ 机器人已成功抓取并分析文献，探针数据已推送到主分支，网页即将自动刷新！"
