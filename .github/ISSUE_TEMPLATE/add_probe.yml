@@ -51,3 +51,11 @@ body:
       placeholder: "例如: Far-Red"
     validations:
       required: false
+  - type: input
+    id: probe_type
+    attributes:
+      label: "探针类型 (Type)"
+      description: "例如: GECI, GPCR-based, snifit. [选填] 留空则使用 AI 自动提取"
+      placeholder: "留空则使用 AI 提取"
+    validations:
+      required: false
