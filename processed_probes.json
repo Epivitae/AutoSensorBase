@@ -1,5 +1,17 @@
 [
     {
+        "probe_name": "PinkyCaMP",
+        "is_new": true,
+        "title": "PinkyCaMP: an mScarlet-based calcium sensor with enhanced brightness, photostability and multiplexing capabilities.",
+        "journal": "Nature methods",
+        "date": "2026",
+        "abstract": "Genetically encoded calcium (Ca<sup>2+</sup>) indicators (GECIs) are essential tools for monitoring neuronal activity, but the performance of red fluorescent GECIs has remained limited. In particular, many red indicators are relatively dim, produce low signal-to-noise ratios and can undergo unwanted photoswitching when exposed to blue light, restricting their use in all-optical experiments that combine imaging with optogenetics or multicolor imaging. Here we show the development of PinkyCaMP, a Ca<sup>2+</sup> sensor based on the bright red fluorescent protein mScarlet. PinkyCaMP exhibits markedly improved brightness, photostability and signal-to-noise ratio compared to existing red GECIs, while remaining fully compatible with blue-light-based optogenetic and dual-color imaging approaches. PinkyCaMP is well-tolerated by neurons, showing no detectable toxicity or aggregation, both in vitro and in vivo. PinkyCaMP enables a broad spectrum of imaging modalities, including single-photon methods, such as fiber photometry, widefield imaging and miniature microscopy imaging, as well as two-photon imaging in awake mice.",
+        "doi": "https://doi.org/10.1038/s41592-026-03065-2",
+        "target": "Calcium",
+        "color": "Red",
+        "type": "Unknown"
+    },
+    {
         "probe_name": "Citron1",
         "is_new": true,
         "title": "PSMA PET in Active Surveillance: Initial Experiences and Future Directions.",
