@@ -6,7 +6,7 @@ body:
   - type: input
     id: probe_name
     attributes:
-      label: "探针名称 (Probe Name)"
+      label: "探针名称"
       description: "例如: GCaMP8, CaBLAM"
       placeholder: "输入探针名称"
     validations:
@@ -19,3 +19,34 @@ body:
       placeholder: "输入完整 DOI 或 10.xxxx 格式"
     validations:
       required: true
+  - type: input
+    id: probe_target
+    attributes:
+      label: "检测底物 (Target)"
+      description: "例如: Calcium, Dopamine. [选填] 如果留空，将由 AI 尝试从摘要中提取"
+      placeholder: "留空则使用 AI 提取"
+    validations:
+      required: false
+  - type: dropdown
+    id: probe_color
+    attributes:
+      label: "发光颜色 (Color)"
+      description: "[选填] 选择探针颜色，如果不确定可保持默认，由 AI 提取"
+      options:
+        - "由 AI 自动提取"
+        - "Green"
+        - "Red"
+        - "Blue"
+        - "Yellow"
+        - "Orange"
+        - "Purple"
+    validations:
+      required: false
+  - type: input
+    id: probe_type
+    attributes:
+      label: "探针类型 (Type)"
+      description: "例如: GECI, GPCR-based, snifit. [选填] 留空则使用 AI 提取"
+      placeholder: "留空则使用 AI 提取"
+    validations:
+      required: false
