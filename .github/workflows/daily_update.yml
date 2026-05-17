@@ -27,8 +27,8 @@ jobs:
 
       - name: Run ETL pipeline
         env:
-          # ✅ 变量名和 Secret 名称都改为了 GEMINI_API_KEY
-          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
         run: python update_daily.py
 
       # === 保险措施：先把结果存起来 ===
