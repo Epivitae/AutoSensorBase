@@ -5,7 +5,7 @@
         "doi": "https://doi.org/10.1038/s41592-025-02972-0",
         "journal": "Nature methods",
         "date": "2026",
-        "ai_analyzed": true,
+        "ai_analyzed": false,
         "is_probe": true
     },
     {
@@ -14,7 +14,7 @@
         "doi": "https://doi.org/10.3389/fimmu.2025.1710128",
         "journal": "Frontiers in immunology",
         "date": "2025",
-        "ai_analyzed": true,
+        "ai_analyzed": false,
         "is_probe": true
     },
     {
