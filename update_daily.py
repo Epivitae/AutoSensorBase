@@ -37,8 +37,8 @@ secrets_path = ".streamlit/secrets.toml"
 if os.path.exists(secrets_path):
     try:
         secrets = toml.load(secrets_path)
-        if "ZHIPU_API_KEY" in secrets:
-            os.environ["ZHIPU_API_KEY"] = secrets["ZHIPU_API_KEY"]
+        if "DEEPSEEK_API_KEY" in secrets:
+            os.environ["DEEPSEEK_API_KEY"] = secrets["DEEPSEEK_API_KEY"]
             console.print("[success]✅ Successfully loaded API Key from secrets.toml[/]")
     except Exception as e:
         console.print(f"[error]⚠️ Failed to load secrets: {e}[/]")
