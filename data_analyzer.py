@@ -28,9 +28,18 @@ def analyze_one_paper(paper):
     You are an expert bioimage analyst. Your objective is to extract structured data ONLY if the paper describes the ORIGINAL DEVELOPMENT, ENGINEERING, or DIRECT OPTIMIZATION of a NEW genetically encoded fluorescent sensor (GEFS).
 
     ### CRITICAL RULES (Anti-Hallucination & Filtering)
-    1. NO FABRICATION: If the specific probe name, target, or color is NOT explicitly written in the text, you MUST output null for that field. Do not guess.
+    1. NO FABRICATION: If the specific probe name or target is NOT explicitly written in the text, you MUST output null for that field. Do not guess targets.
     2. REJECT APPLICATIONS: If the authors are merely USING an existing probe for physiological/biological experiments (e.g., "we utilized GCaMP", "we expressed..."), set "is_new" to false.
     3. REJECT NON-GEFS: Strictly reject chemical dyes, PET/CT radiotracers (e.g., PSMA), nanoparticle sensors, or physical electrodes. Set "is_new" to false.
+    
+    4. COLOR INFERENCE (CRITICAL): Abstracts often use biological jargon or specific nomenclature instead of basic color names. You MUST infer the base color category using these rules:
+       - Green: Explicitly mentions GFP, EGFP, sfGFP, mNeonGreen, YFP, Venus, "green fluorescent", or emission ~500-530nm. 
+         [NOMENCLATURE RULE]: If the probe name ends with suffixes like "-SnFR", "-CaMP", or starts with "i" (e.g., iGlucoSnFR, GCaMP) AND there is no indication of it being red-shifted, DEFAULT to "Green".
+       - Red: Explicitly mentions RFP, mCherry, mApple, mRuby, RGECO, "red fluorescent", or emission ~580-620nm. 
+         [NOMENCLATURE RULE]: Probe names starting with "R-", "jR-", or "m-" alongside a standard suffix (e.g., R-iGluSnFR, jRGECO) denote "Red".
+       - Cyan: CFP, mTurquoise, emission ~470-490nm.
+       - NIR: iRFP, miRFP, near-infrared, emission >650nm.
+       If multiple colors are developed, list the primary one or separate by a slash (e.g., "Green/Red"). Output `null` ONLY if no keywords or nomenclature rules apply.
 
     ### INPUT
     Title: {title}
@@ -42,43 +51,43 @@ def analyze_one_paper(paper):
     "is_new": boolean, // true ONLY if they developed/engineered a new GEFS
     "reasoning": string, // Max 15 words. Quote a short phrase proving development OR explaining why it's rejected.
     "probe_name": string | null, // Exact name (e.g., "PinkyCaMP"). If multiple, use the primary one.
-    "target": string | null, // e.g., "Calcium", "Dopamine". 
-    "color": string | null, // e.g., "Red", "Green". Null if unspecified.
-    "type": string | null // e.g., "Ion Sensor", "Metabolite Sensor", "Voltage Sensor".
+    "target": string | null, // e.g., "Calcium", "Dopamine", "Glucose". 
+    "color": string | null, // Base category: "Green", "Red", "Cyan", "Yellow", "NIR". Infer based on Rule 4. 
+    "type": string | null // e.g., "Ion Sensor", "Metabolite Sensor", "Voltage Sensor", "Neurotransmitter Sensor".
     }
 
     ### EXAMPLES (Study these classifications carefully)
 
-    [Example 1: True Positive - Development (Accept)]
-    Title: "A high-performance green fluorescent sensor for glutamate."
-    Abstract: "We engineered iGluSnFR3, a new variant with enhanced kinetics via targeted mutagenesis..."
+    [Example 1: Hard Case - Color Inference via Nomenclature]
+    Title: "iGlucoSnFR2: A genetically encoded fluorescent sensor for measuring glucose."
+    Abstract: "We have developed a second generation, genetically encoded intensity-based glucose sensing fluorescent reporter (iGlucoSnFR2)..."
     Output: {
     "is_new": true,
-    "reasoning": "Engineered a new variant iGluSnFR3 via targeted mutagenesis.",
-    "probe_name": "iGluSnFR3",
-    "target": "Glutamate",
-    "color": "Green",
+    "reasoning": "Developed a second generation glucose sensor iGlucoSnFR2.",
+    "probe_name": "iGlucoSnFR2",
+    "target": "Glucose",
+    "color": "Green", 
     "type": "Metabolite Sensor"
     }
 
-    [Example 2: Hard Negative - Application (Must Reject)]
+    [Example 2: True Positive - Standard Red Probe]
+    Title: "A red fluorescent voltage indicator with fast kinetics."
+    Abstract: "Here we report the development of JEDI-2P, a red-shifted voltage sensor with enhanced two-photon cross-section..."
+    Output: {
+    "is_new": true,
+    "reasoning": "Report the development of JEDI-2P, a red-shifted voltage sensor.",
+    "probe_name": "JEDI-2P",
+    "target": "Voltage",
+    "color": "Red",
+    "type": "Voltage Sensor"
+    }
+
+    [Example 3: Hard Negative - Application (Must Reject)]
     Title: "In vivo imaging of neural dynamics in awake mice."
     Abstract: "We expressed the calcium indicator GCaMP6s in the visual cortex to monitor activity..."
     Output: {
     "is_new": false,
     "reasoning": "Used an existing indicator GCaMP6s for biological monitoring; no new development.",
-    "probe_name": null,
-    "target": null,
-    "color": null,
-    "type": null
-    }
-
-    [Example 3: Irrelevant / Out of Scope (Must Reject)]
-    Title: "Synthesis of novel rhodamine derivatives for cell staining."
-    Abstract: "We synthesized a new chemical dye capable of crossing the plasma membrane..."
-    Output: {
-    "is_new": false,
-    "reasoning": "Synthesized a chemical dye, not a genetically encoded sensor.",
     "probe_name": null,
     "target": null,
     "color": null,

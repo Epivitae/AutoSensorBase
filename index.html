@@ -306,7 +306,7 @@
             const year = parseInt(item.date);
             const isNew = item.is_new || String(year) === String(currentYear) || String(year) === String(currentYear + 1);
             const hexColor = getColorHex(item.color);
-            const title = item.probe_name && item.probe_name !== "Unknown" ? item.probe_name : item.title;
+            const title = item.probe_name && item.probe_name !== "Unknown" ? item.probe_name : item.type;
 
             const card = document.createElement('div');
             card.className = 'sensor-card';
