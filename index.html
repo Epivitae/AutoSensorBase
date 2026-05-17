@@ -28,8 +28,31 @@
         .app-container { display: flex; width: 100%; }
         
         /* --- 侧边栏 --- */
-        .sidebar { width: 300px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); padding: 30px 20px; flex-shrink: 0; box-sizing: border-box; }
-        .sidebar h2 { margin-top: 0; color: var(--text-sidebar); font-size: 1.5rem; margin-bottom: 5px; display: flex; align-items: center; gap: 10px; }
+        .sidebar { 
+            width: 300px; 
+            background-color: var(--sidebar-bg); 
+            border-right: 1px solid var(--border-color); 
+            padding: 30px 20px; 
+            flex-shrink: 0; 
+            box-sizing: border-box; 
+            position: sticky;
+            top: 0;
+            height: 100vh; 
+            overflow-y: auto; 
+        }
+        
+        /* 核心修改：侧边栏标题超链接样式 */
+        .sidebar h2 { margin-top: 0; font-size: 1.5rem; margin-bottom: 5px; }
+        .sidebar h2 a { 
+            color: var(--text-sidebar); 
+            text-decoration: none; /* 去掉下划线 */
+            display: flex; 
+            align-items: center; 
+            gap: 10px; 
+            transition: opacity 0.2s; /* 添加悬停动画过渡 */
+        }
+        .sidebar h2 a:hover { opacity: 0.75; /* 鼠标悬停时微微变透明 */ }
+        
         .sidebar-logo { height: 1.5rem; width: auto; flex-shrink: 0; }
         .sidebar p.caption { color: var(--meta-color); font-size: 0.9rem; margin-bottom: 30px; margin-left: 0; }
         
@@ -51,10 +74,36 @@
         .main-content { flex: 1; padding: 40px; max-width: 1600px; box-sizing: border-box; margin: 0 auto; } 
         .main-content h1 { margin-top: 0; font-size: 1.8rem; margin-bottom: 30px; }
         
-        /* 智能网格布局 (修复手机端可能溢出的问题) */
+        /* BETA 徽章样式 */
+        .beta-badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 800;
+            color: #3182CE; /* 科技蓝文字 */
+            background-color: #EBF8FF; /* 极浅蓝背景 */
+            border: 1px solid #BEE3F8; /* 浅蓝边框增加精致感 */
+            padding: 3px 8px;
+            border-radius: 6px;
+            margin-left: 12px;
+            vertical-align: middle; /* 和主标题居中对齐 */
+            position: relative;
+            top: -3px; /* 稍微向上提一点点，视觉上更平衡 */
+            letter-spacing: 1px;
+        }
+
+        /* 👇 新增：主标题超链接样式 👇 */
+        .main-content h1 a {
+            color: var(--text-main);
+            text-decoration: none; /* 去掉下划线 */
+            transition: opacity 0.2s; /* 悬停动画 */
+        }
+        .main-content h1 a:hover {
+            opacity: 0.75; /* 鼠标放上去时有点击反馈 */
+        }
+
+        /* 智能网格布局 */
         #feed-container {
             display: grid;
-            /* 使用 min(100%, 320px) 确保在任何窄屏手机上都不会出现横向滚动条 */
             grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); 
             gap: 20px; 
             align-items: stretch; 
@@ -65,14 +114,14 @@
         .card-header { display: flex; align-items: flex-start; gap: 15px; flex: 1; }
         .color-dot { width: 14px; height: 14px; border-radius: 50%; flex-shrink: 0; margin-top: 6px; }
         
-        .card-body { flex: 1; min-width: 0; /* 防止内容撑破 flex 子项 */ }
+        .card-body { flex: 1; min-width: 0; }
         
-        /* 核心修改：内联流式布局 (紧凑排列名字、标签、期刊年份) */
+        /* 内联流式布局 */
         .probe-info-stream {
             display: flex;
             flex-wrap: wrap;
             align-items: center;
-            gap: 8px 10px; /* 上下间距8px，左右间距10px */
+            gap: 8px 10px; 
             margin-bottom: 15px;
             line-height: 1.2;
         }
@@ -95,10 +144,17 @@
         /* ================= 4. 移动端响应式优化 ================= */
         @media (max-width: 1024px) {
             .app-container { flex-direction: column; }
-            .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border-color); padding: 20px; }
+            .sidebar { 
+                width: 100%; 
+                border-right: none; 
+                border-bottom: 1px solid var(--border-color); 
+                padding: 20px; 
+                position: relative;
+                height: auto;
+                overflow: visible;
+            }
             .main-content { padding: 20px; }
             .main-content h1 { font-size: 1.5rem; }
-            /* 手机上强制单栏 */
             #feed-container { grid-template-columns: 1fr; }
         }
     </style>
@@ -107,7 +163,11 @@
 
 <div class="app-container">
     <div class="sidebar">
-        <h2><img src="/image/pulumi.svg" alt="Auto Sensor Base Logo" class="sidebar-logo">Auto Sensor Base</h2>
+        <h2>
+            <a href="https://sensor.cns.ac.cn">
+                <img src="/image/pulumi.svg" alt="Auto Sensor Base Logo" class="sidebar-logo">Auto Sensor Base
+            </a>
+        </h2>
         <p class="caption">AI-powered Biosensor Tracking System</p>
         <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 20px 0;">
         
@@ -143,7 +203,11 @@
     </div>
 
     <div class="main-content">
-        <!-- <h1>Latest Genetically Encoded Fluorescent Sensors</h1> -->
+        <h1>
+            <a href="https://sensor.cns.ac.cn">
+                The Living Database of Genetically Encoded Sensors<span class="beta-badge">BETA</span>
+            </a>
+        </h1>
         <div id="feed-container">
             <p style="color: var(--meta-color);">⏳ Loading database...</p>
         </div>
@@ -247,7 +311,6 @@
             const card = document.createElement('div');
             card.className = 'sensor-card';
             
-            // 核心变动：使用 probe-info-stream 容器，把名字、标签、期刊、年份全部塞进去让它自己流式换行
             card.innerHTML = `
                 <div class="card-header">
                     <div class="color-dot" style="background-color: ${hexColor}; box-shadow: 0 0 0 2px ${hexColor}30;"></div>
