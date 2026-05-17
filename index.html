@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auto Sensor Base</title>
+    <link rel="icon" href="/image/pulumi.svg" type="image/svg+xml">
     <style>
-        /* ================= 1. 主题配色 (复刻 Streamlit Light Mode) ================= */
+        /* ================= 1. 主题配色 ================= */
         :root {
             --bg-color: #F7F9FB;
             --sidebar-bg: #FFFFFF;
@@ -23,63 +24,82 @@
 
         body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: var(--bg-color); color: var(--text-main); display: flex; min-height: 100vh; }
         
-        /* ================= 2. 布局 ================= */
+        /* ================= 2. 全局布局 ================= */
         .app-container { display: flex; width: 100%; }
         
-        /* 侧边栏 */
+        /* --- 侧边栏 --- */
         .sidebar { width: 300px; background-color: var(--sidebar-bg); border-right: 1px solid var(--border-color); padding: 30px 20px; flex-shrink: 0; box-sizing: border-box; }
-        .sidebar h2 { margin-top: 0; color: var(--text-sidebar); font-size: 1.5rem; margin-bottom: 5px; }
-        .sidebar p.caption { color: var(--meta-color); font-size: 0.9rem; margin-bottom: 30px; }
+        .sidebar h2 { margin-top: 0; color: var(--text-sidebar); font-size: 1.5rem; margin-bottom: 5px; display: flex; align-items: center; gap: 10px; }
+        .sidebar-logo { height: 1.5rem; width: auto; flex-shrink: 0; }
+        .sidebar p.caption { color: var(--meta-color); font-size: 0.9rem; margin-bottom: 30px; margin-left: 0; }
         
-        /* 控件 */
+        /* 控件与指标 */
         .filter-group { margin-bottom: 20px; }
         .filter-group label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 8px; color: var(--text-sidebar); }
         .filter-group select { width: 100%; padding: 10px; border: 1px solid var(--btn-border); border-radius: 6px; background-color: var(--bg-color); color: var(--text-main); outline: none; }
         
-        /* 指标卡片 */
         .metric-card { margin-top: 30px; padding: 20px 15px; background: rgba(0,0,0,0.02); border-radius: 12px; text-align: center; border: 1px solid var(--border-color); }
         .metric-title { font-size: 0.8rem; color: var(--meta-color); letter-spacing: 1px; text-transform: uppercase; }
         .metric-value { font-size: 2.5rem; font-weight: 800; color: var(--text-sidebar); margin: 5px 0; }
         .metric-sub { font-size: 0.8rem; color: var(--meta-color); }
 
-        /* 团队信息 */
         .team-footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--border-color); text-align: center; }
         .team-footer div { font-size: 0.85rem; color: var(--text-sidebar); margin-bottom: 4px; }
         .team-footer a { color: var(--text-sidebar); text-decoration: none; border-bottom: 1px dotted; }
 
-        /* 主内容区 */
-        .main-content { flex: 1; padding: 40px; max-width: 1000px; box-sizing: border-box; }
+        /* --- 主内容区 --- */
+        .main-content { flex: 1; padding: 40px; max-width: 1600px; box-sizing: border-box; margin: 0 auto; } 
         .main-content h1 { margin-top: 0; font-size: 1.8rem; margin-bottom: 30px; }
+        
+        /* 智能网格布局 (修复手机端可能溢出的问题) */
+        #feed-container {
+            display: grid;
+            /* 使用 min(100%, 320px) 确保在任何窄屏手机上都不会出现横向滚动条 */
+            grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); 
+            gap: 20px; 
+            align-items: stretch; 
+        }
 
         /* ================= 3. 探针卡片组件 ================= */
-        .sensor-card { background-color: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 20px; margin-bottom: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); display: flex; flex-direction: column; }
-        .card-header { display: flex; align-items: flex-start; gap: 15px; }
+        .sensor-card { background-color: var(--card-bg); border: 1px solid var(--border-color); border-radius: 10px; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.02); display: flex; flex-direction: column; height: 100%; box-sizing: border-box; }
+        .card-header { display: flex; align-items: flex-start; gap: 15px; flex: 1; }
         .color-dot { width: 14px; height: 14px; border-radius: 50%; flex-shrink: 0; margin-top: 6px; }
         
-        .card-body { flex: 1; }
-        .probe-title { font-size: 1.25rem; font-weight: 700; color: var(--text-main); margin-bottom: 10px; }
+        .card-body { flex: 1; min-width: 0; /* 防止内容撑破 flex 子项 */ }
         
-        .badges-row { margin-bottom: 12px; display: flex; align-items: center; flex-wrap: wrap; gap: 8px; line-height: 1; }
-        .badge-target { background-color: var(--badge-target-bg); color: var(--badge-target-text); padding: 4px 10px; border-radius: 100px; font-size: 0.8rem; font-weight: 600; }
-        .badge-type { background-color: var(--badge-type-bg); color: var(--badge-type-text); padding: 4px 10px; border-radius: 100px; font-size: 0.8rem; }
+        /* 核心修改：内联流式布局 (紧凑排列名字、标签、期刊年份) */
+        .probe-info-stream {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            gap: 8px 10px; /* 上下间距8px，左右间距10px */
+            margin-bottom: 15px;
+            line-height: 1.2;
+        }
+        
+        .probe-title { font-size: 1.2rem; font-weight: 700; color: var(--text-main); }
+        .badge-target { background-color: var(--badge-target-bg); color: var(--badge-target-text); padding: 4px 10px; border-radius: 100px; font-size: 0.75rem; font-weight: 600; }
+        .badge-type { background-color: var(--badge-type-bg); color: var(--badge-type-text); padding: 4px 10px; border-radius: 100px; font-size: 0.75rem; }
         .badge-new { background: linear-gradient(135deg, #FFD700 0%, #F59E0B 100%); color: white; padding: 3px 6px; border-radius: 4px; font-size: 0.7rem; font-weight: 800; box-shadow: 0 2px 5px rgba(245, 158, 11, 0.4); }
+        .meta-text { font-size: 0.85rem; color: var(--meta-color); display: flex; align-items: center; gap: 6px; }
         
-        .meta-info { font-size: 0.9rem; color: var(--meta-color); margin-bottom: 15px; }
-        
-        /* 折叠面板 (替代 st.expander) */
-        details { background: rgba(0,0,0,0.01); border-radius: 6px; border: 1px solid var(--border-color); padding: 10px 15px; }
+        /* 摘要面板 */
+        details { background: rgba(0,0,0,0.01); border-radius: 6px; border: 1px solid var(--border-color); padding: 10px 15px; width: 100%; box-sizing: border-box; }
         summary { font-size: 0.9rem; font-weight: 600; cursor: pointer; color: var(--text-sidebar); outline: none; }
         details p { font-size: 0.9rem; line-height: 1.6; color: var(--text-main); opacity: 0.85; margin-top: 10px; margin-bottom: 0; }
 
         /* 按钮 */
-        .read-btn { align-self: flex-start; background-color: #fff; border: 1px solid var(--btn-border); color: var(--text-sidebar); padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 600; transition: all 0.2s; margin-top: 15px; text-align: center; width: 100px; }
+        .read-btn { align-self: flex-start; background-color: #fff; border: 1px solid var(--btn-border); color: var(--text-sidebar); padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 600; transition: all 0.2s; margin-top: 15px; text-align: center; }
         .read-btn:hover { background-color: #F7FAFC; border-color: #A0AEC0; transform: translateY(-1px); }
 
-        /* 响应式：在小屏幕上隐藏侧边栏 */
-        @media (max-width: 768px) {
+        /* ================= 4. 移动端响应式优化 ================= */
+        @media (max-width: 1024px) {
             .app-container { flex-direction: column; }
-            .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border-color); }
+            .sidebar { width: 100%; border-right: none; border-bottom: 1px solid var(--border-color); padding: 20px; }
             .main-content { padding: 20px; }
+            .main-content h1 { font-size: 1.5rem; }
+            /* 手机上强制单栏 */
+            #feed-container { grid-template-columns: 1fr; }
         }
     </style>
 </head>
@@ -87,8 +107,8 @@
 
 <div class="app-container">
     <div class="sidebar">
-        <h2>Auto Sensor Base</h2>
-        <p class="caption">AI-powered Tracking System</p>
+        <h2><img src="/image/pulumi.svg" alt="Auto Sensor Base Logo" class="sidebar-logo">Auto Sensor Base</h2>
+        <p class="caption">AI-powered Biosensor Tracking System</p>
         <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 20px 0;">
         
         <div class="filter-group">
@@ -123,7 +143,7 @@
     </div>
 
     <div class="main-content">
-        <h1>Latest Genetically Encoded Fluorescent Sensors</h1>
+        <!-- <h1>Latest Genetically Encoded Fluorescent Sensors</h1> -->
         <div id="feed-container">
             <p style="color: var(--meta-color);">⏳ Loading database...</p>
         </div>
@@ -131,15 +151,11 @@
 </div>
 
 <script>
-    // ================= 核心逻辑 =================
-    let globalData = []; // 存储所有数据
-    let currentFilteredData = []; // 存储当前筛选后的数据
-    
-    // 分页控制
+    let globalData = [];
+    let currentFilteredData = [];
     let currentPage = 1;
-    const itemsPerPage = 20; // 每次渲染 20 条，保证极速流畅
+    const itemsPerPage = 20;
 
-    // 颜色映射逻辑
     function getColorHex(colorName) {
         if (!colorName) return "#D1D5DB";
         const c = String(colorName).toLowerCase();
@@ -152,34 +168,28 @@
         return "#D1D5DB";
     }
 
-    // 初始化页面
     async function init() {
         try {
             const response = await fetch('processed_probes.json');
             globalData = await response.json();
             
-            // 排序：按年份倒序
             globalData.sort((a, b) => parseInt(b.date || 0) - parseInt(a.date || 0));
             currentFilteredData = [...globalData];
 
             populateFilters(globalData);
             
-            // 首次渲染
             document.getElementById('feed-container').innerHTML = '';
             renderFeedChunk();
             
-            // 监听筛选器变化
             document.getElementById('target-filter').addEventListener('change', handleFilterChange);
             document.getElementById('color-filter').addEventListener('change', handleFilterChange);
 
         } catch (error) {
             document.getElementById('feed-container').innerHTML = `<p style="color: red;">❌ Failed to load data. Ensure 'processed_probes.json' exists.</p>`;
         }
-
         document.getElementById('download-csv-btn').addEventListener('click', downloadCSV);
     }
 
-    // 填充下拉菜单选项
     function populateFilters(data) {
         const targets = new Set();
         const colors = new Set();
@@ -196,7 +206,6 @@
         Array.from(colors).sort().forEach(c => colorSelect.add(new Option(c, c)));
     }
 
-    // 处理筛选逻辑 (重置分页)
     function handleFilterChange() {
         const targetVal = document.getElementById('target-filter').value;
         const colorVal = document.getElementById('color-filter').value;
@@ -207,17 +216,13 @@
             return matchTarget && matchColor;
         });
 
-        // 重置为第一页，清空容器，重新渲染
         currentPage = 1;
         document.getElementById('feed-container').innerHTML = '';
         renderFeedChunk();
     }
 
-    // 分块渲染卡片列表 (核心性能优化)
     function renderFeedChunk() {
         const container = document.getElementById('feed-container');
-
-        // 移除旧的"加载更多"按钮(如果存在)
         const oldLoadBtn = document.getElementById('load-more-btn');
         if (oldLoadBtn) oldLoadBtn.remove();
 
@@ -231,8 +236,6 @@
         const endIndex = startIndex + itemsPerPage;
         const itemsToRender = currentFilteredData.slice(startIndex, endIndex);
         const currentYear = new Date().getFullYear();
-
-        // 使用 DocumentFragment 优化 DOM 插入性能
         const fragment = document.createDocumentFragment();
 
         itemsToRender.forEach(item => {
@@ -243,21 +246,21 @@
 
             const card = document.createElement('div');
             card.className = 'sensor-card';
+            
+            // 核心变动：使用 probe-info-stream 容器，把名字、标签、期刊、年份全部塞进去让它自己流式换行
             card.innerHTML = `
                 <div class="card-header">
                     <div class="color-dot" style="background-color: ${hexColor}; box-shadow: 0 0 0 2px ${hexColor}30;"></div>
                     <div class="card-body">
-                        <div class="probe-title">${title} ${isNew ? '<span class="badge-new">NEW</span>' : ''}</div>
                         
-                        <div class="badges-row">
-                            <span class="badge-target">${item.target || 'N/A'}</span>
-                            <span class="badge-type">${item.type || 'N/A'}</span>
-                        </div>
-                        
-                        <div class="meta-info">
-                            <i>${item.journal || 'Unknown Journal'}</i>
-                            <span style="color: var(--border-color); margin: 0 8px;">•</span>
-                            📅 ${item.date || 'N/A'}
+                        <div class="probe-info-stream">
+                            <span class="probe-title">${title}</span>
+                            ${isNew ? '<span class="badge-new">NEW</span>' : ''}
+                            ${item.target ? `<span class="badge-target">${item.target}</span>` : ''}
+                            ${item.type ? `<span class="badge-type">${item.type}</span>` : ''}
+                            <span class="meta-text"><i>${item.journal || 'Unknown'}</i></span>
+                            <span class="meta-text" style="color: var(--border-color);">•</span>
+                            <span class="meta-text">📅 ${item.date || 'N/A'}</span>
                         </div>
 
                         <details>
@@ -273,13 +276,14 @@
 
         container.appendChild(fragment);
 
-        // 如果还有未渲染的数据，添加"加载更多"按钮
         if (endIndex < currentFilteredData.length) {
             const loadBtn = document.createElement('button');
             loadBtn.id = 'load-more-btn';
             loadBtn.innerText = `Load More (${currentFilteredData.length - endIndex} left)`;
             loadBtn.style.cssText = `
-                width: 100%; padding: 12px; margin-top: 20px; background: #fff; 
+                grid-column: 1 / -1; 
+                width: calc(100% - 20px); max-width: 400px; justify-self: center;
+                padding: 12px; margin-top: 10px; background: #fff; 
                 border: 1px dashed var(--btn-border); border-radius: 8px; 
                 color: var(--meta-color); font-weight: 600; cursor: pointer;
             `;
@@ -292,17 +296,12 @@
             };
             container.appendChild(loadBtn);
         }
-
-        // 更新侧边栏统计数字
         updateMetrics(currentFilteredData.length);
     }
 
-    // 更新左侧指标统计
     function updateMetrics(count) {
         document.getElementById('total-count').innerText = count;
-        
-        let minYear = 9999;
-        let maxYear = 0;
+        let minYear = 9999, maxYear = 0;
         currentFilteredData.forEach(item => {
             const year = parseInt(item.date);
             if (!isNaN(year)) {
@@ -310,77 +309,41 @@
                 if (year > maxYear) maxYear = year;
             }
         });
-        
         document.getElementById('year-range').innerText = count > 0 ? `(${minYear} - ${maxYear})` : "(N/A - N/A)";
     }
-
 
     function downloadCSV() {
         if (!currentFilteredData || currentFilteredData.length === 0) {
             alert("No data available to download under current filters!");
             return;
         }
-
-        // 1. 定义 CSV 的表头（根据你的 JSON 键值对齐）
         const headers = ["Probe Name", "Target", "Color", "Type", "Journal", "Year", "DOI", "Paper Title"];
-        
-        // 2. 开始构建 CSV 字符串内容
         let csvContent = headers.join(",") + "\n";
-
-        // 3. 循环遍历当前筛选出的所有探针数据
+        
         currentFilteredData.forEach(item => {
-            // 清理特殊字符和换行，防止破坏 CSV 结构；将英文双引号转义
             const cleanStr = (str) => {
                 if (!str) return "";
-                let s = String(str).replace(/"/g, '""'); // 转义双引号
-                // 如果字段里包含逗号、换行或双引号，必须用双引号把整段文字包裹起来
-                if (s.includes(",") || s.includes("\n") || s.includes('"')) {
-                    s = `"${s}"`;
-                }
+                let s = String(str).replace(/"/g, '""');
+                if (s.includes(",") || s.includes("\n") || s.includes('"')) { s = `"${s}"`; }
                 return s;
             };
-
-            const row = [
-                cleanStr(item.probe_name),
-                cleanStr(item.target),
-                cleanStr(item.color),
-                cleanStr(item.type),
-                cleanStr(item.journal),
-                cleanStr(item.date),
-                cleanStr(item.doi),
-                cleanStr(item.title)
-            ];
-            
+            const row = [ cleanStr(item.probe_name), cleanStr(item.target), cleanStr(item.color), cleanStr(item.type), cleanStr(item.journal), cleanStr(item.date), cleanStr(item.doi), cleanStr(item.title) ];
             csvContent += row.join(",") + "\n";
         });
 
-        // 4. 利用 Blob 并在头部加入 BOM (\uFEFF) 强行防止 Excel 打开时中文和希腊字母乱码
         const blob = new Blob(["\uFEFF" + csvContent], { type: "text/csv;charset=utf-8;" });
-        
-        // 5. 创建临时的虚拟下载路径
         const url = URL.createObjectURL(blob);
-        
-        // 6. 伪造 <a> 标签触发浏览器下载
         const link = document.createElement("a");
         link.href = url;
-        
-        // 动态命名：自动带上当天的年月日，非常正规
         const today = new Date().toISOString().slice(0, 10).replace(/-/g, "");
         link.setAttribute("download", `AutoSensorBase_Export_${today}.csv`);
-        
-        // 触发点击并销毁临时对象
         document.body.appendChild(link);
         link.click();
         document.body.removeChild(link);
         URL.revokeObjectURL(url);
     }
 
-
-    // 启动应用
     init();
-
-
-
 </script>
 </body>
 </html>
