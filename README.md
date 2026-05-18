@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="https://img.icons8.com/fluency/96/dna-helix.png" alt="logo" width="100" height="100" />
+<img src="/image/pulumi.svg" alt="logo" width="100" height="100" />
 
-# 🧬 AutoSensorBase (ASB)
+# AutoSensorBase (ASB)
 ### 自动追踪全球最新遗传编码荧光探针数据库
 Automated Tracking System for Genetically Encoded Fluorescent Sensors
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/)
+
 ![Python](https://img.shields.io/badge/Python-3.9%2B-3776AB?logo=python&logoColor=white)
 ![Build Status](https://img.shields.io/github/actions/workflow/status/YOUR_USERNAME/AutoSensorBase/daily_update.yml?label=Daily%20Update&logo=github)
 ![Database Size](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FYOUR_USERNAME%2FAutoSensorBase%2Fmain%2Fprocessed_probes.json&query=%24.length&label=Probes&color=success)
@@ -38,7 +38,7 @@ Automated Tracking System for Genetically Encoded Fluorescent Sensors
 ## 📸 界面预览 (Screenshots)
 
 <div align="center">
-  <img src="https://via.placeholder.com/800x400.png?text=AutoSensorBase+Dashboard+Screenshot" alt="Dashboard" width="800" />
+  <img src="/image/snap.png" alt="Dashboard" width="600" />
 </div>
 
 ## 🛠️ 技术栈 (Tech Stack)
