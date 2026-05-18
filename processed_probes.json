@@ -4125,5 +4125,83 @@
         "target": "Voltage",
         "color": "Orange",
         "type": "Voltage Sensor"
+    },
+    {
+        "title": "Sources of Calcium at Connexin 36 Gap Junctions in the Retina.",
+        "journal": "eNeuro",
+        "date": "2023",
+        "doi": "https://doi.org/10.1523/ENEURO.0493-22.2023",
+        "abstract": "Synaptic plasticity is a fundamental feature of the CNS that controls the magnitude of signal transmission between communicating cells. Many electrical synapses exhibit substantial plasticity that modulates the degree of coupling within groups of neurons, alters the fidelity of signal transmission, or even reconfigures functional circuits. In several known examples, such plasticity depends on calcium and is associated with neuronal activity. Calcium-driven signaling is known to promote potentiation of electrical synapses in fish Mauthner cells, mammalian retinal AII amacrine cells, and inferior olive neurons, and to promote depression in thalamic reticular neurons. To measure local calcium dynamics <i>in situ</i>, we developed a transgenic mouse expressing a GCaMP calcium biosensor fused to Connexin 36 (Cx36) at electrical synapses. We examined the sources of calcium for activity-dependent plasticity in retina slices using confocal or Super-Resolution Radial Fluctuations imaging. More than half of Cx36-GCaMP gap junctions responded to puffs of glutamate with transient increases in fluorescence. The responses were strongly dependent on NMDA receptors, in keeping with known activity-dependent signaling in some amacrine cells. We also found that some responses depended on the activity of voltage-gated calcium channels, representing a previously unrecognized source of calcium to control retinal electrical synaptic plasticity. The high prevalence of calcium signals at electrical synapses in response to glutamate application indicates that a large fraction of electrical synapses has the potential to be regulated by neuronal activity. This provides a means to tune circuit connectivity dynamically based on local activity.",
+        "is_new": true,
+        "reasoning": "Developed a transgenic mouse expressing Cx36-GCaMP biosensor.",
+        "probe_name": "Cx36-GCaMP",
+        "target": "Calcium",
+        "color": "Green",
+        "type": "Ion Sensor"
+    },
+    {
+        "title": "Creation of Artificial Luciferase 60s from Sequential Insights and Their Applications to Bioassays.",
+        "journal": "Sensors (Basel, Switzerland)",
+        "date": "2023",
+        "doi": "https://doi.org/10.3390/s23146376",
+        "abstract": "In this study, a series of new artificial luciferases (ALucs) was created using sequential insights on missing peptide blocks, which were revealed using the alignment of existing ALuc sequences. Through compensating for the missing peptide blocks in the alignment, 10 sibling sequences were artificially fabricated and named from ALuc55 to ALuc68. The phylogenetic analysis showed that the new ALucs formed an independent branch that was genetically isolated from other natural marine luciferases. The new ALucs successfully survived and luminesced with native coelenterazine (nCTZ) and its analogs in living mammalian cells. The results showed that the bioluminescence (BL) intensities of the ALucs were interestingly proportional to the length of the appended peptide blocks. The computational modeling revealed that the appended peptide blocks created a flexible region near the active site, potentially modulating the enzymatic activities. The new ALucs generated various colors with maximally approximately 90 nm redshifted BL spectra in orange upon reaction with the authors' previously reported <b>1</b>- and <b>2</b>-series coelenterazine analogs. The utilities of the new ALucs in bioassays were demonstrated through the construction of single-chain molecular strain probes and protein fragment complementation assay (PCA) probes. The success of this study can guide new insights into how we can engineer and functionalize marine luciferases to expand the toolbox of optical readouts for bioassays and molecular imaging.",
+        "is_new": true,
+        "reasoning": "Created new artificial luciferases ALuc55 to ALuc68.",
+        "probe_name": "ALuc60",
+        "target": "Luciferase",
+        "color": "Orange",
+        "type": "Bioluminescent Sensor"
+    },
+    {
+        "title": "A modular chemigenetic calcium indicator enables in vivo functional imaging with near-infrared light.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2023",
+        "doi": "https://doi.org/10.1101/2023.07.18.549527",
+        "abstract": "Genetically encoded fluorescent calcium indicators have revolutionized neuroscience and other biological fields by allowing cellular-resolution recording of physiology during behavior. However, we currently lack bright, genetically targetable indicators in the near infrared that can be used in animals. Here, we describe WHaloCaMP, a modular chemigenetic calcium indicator built from bright dye-ligands and protein sensor domains that can be genetically targeted to specific cell populations. Fluorescence change in WHaloCaMP results from reversible quenching of the bound dye via a strategically placed tryptophan. WHaloCaMP is compatible with rhodamine dye-ligands that fluoresce from green to near-infrared, including several dye-ligands that efficiently label the central nervous system in animals. When bound to a near-infrared dye-ligand, WHaloCaMP1a is more than twice as bright as jGCaMP8s, and shows a 7× increase in fluorescence intensity and a 2.1 ns increase in fluorescence lifetime upon calcium binding. We use WHaloCaMP1a with near-infrared fluorescence emission to image Ca<sup>2+</sup> responses in flies and mice, to perform three-color multiplexed functional imaging of hundreds of neurons and astrocytes in zebrafish larvae, and to quantitate calcium concentration using fluorescence lifetime imaging microscopy (FLIM).",
+        "is_new": true,
+        "reasoning": "Describes WHaloCaMP, a modular chemigenetic calcium indicator.",
+        "probe_name": "WHaloCaMP",
+        "target": "Calcium",
+        "color": "NIR",
+        "type": "Ion Sensor"
+    },
+    {
+        "title": "Sensitive multicolor indicators for monitoring norepinephrine in vivo.",
+        "journal": "Nature methods",
+        "date": "2023",
+        "doi": "https://doi.org/10.1038/s41592-023-01959-z",
+        "abstract": "Genetically encoded indicators engineered from G-protein-coupled receptors are important tools that enable high-resolution in vivo neuromodulator imaging. Here, we introduce a family of sensitive multicolor norepinephrine (NE) indicators, which includes nLightG (green) and nLightR (red). These tools report endogenous NE release in vitro, ex vivo and in vivo with improved sensitivity, ligand selectivity and kinetics, as well as a distinct pharmacological profile compared with previous state-of-the-art GRAB<sub>NE</sub> indicators. Using in vivo multisite fiber photometry recordings of nLightG, we could simultaneously monitor optogenetically evoked NE release in the mouse locus coeruleus and hippocampus. Two-photon imaging of nLightG revealed locomotion and reward-related NE transients in the dorsal CA1 area of the hippocampus. Thus, the sensitive NE indicators introduced here represent an important addition to the current repertoire of indicators and provide the means for a thorough investigation of the NE system.",
+        "is_new": true,
+        "reasoning": "Introduce a family of sensitive multicolor NE indicators nLightG and nLightR.",
+        "probe_name": "nLightG",
+        "target": "Norepinephrine",
+        "color": "Green",
+        "type": "Neurotransmitter Sensor"
+    },
+    {
+        "title": "Highly specific and non-invasive imaging of Piezo1-dependent activity across scales using GenEPi.",
+        "journal": "Nature communications",
+        "date": "2023",
+        "doi": "https://doi.org/10.1038/s41467-023-40134-y",
+        "abstract": "Mechanosensing is a ubiquitous process to translate external mechanical stimuli into biological responses. Piezo1 ion channels are directly gated by mechanical forces and play an essential role in cellular mechanotransduction. However, readouts of Piezo1 activity are mainly examined by invasive or indirect techniques, such as electrophysiological analyses and cytosolic calcium imaging. Here, we introduce GenEPi, a genetically-encoded fluorescent reporter for non-invasive optical monitoring of Piezo1-dependent activity. We demonstrate that GenEPi has high spatiotemporal resolution for Piezo1-dependent stimuli from the single-cell level to that of the entire organism. GenEPi reveals transient, local mechanical stimuli in the plasma membrane of single cells, resolves repetitive contraction-triggered stimulation of beating cardiomyocytes within microtissues, and allows for robust and reliable monitoring of Piezo1-dependent activity in vivo. GenEPi will enable non-invasive optical monitoring of Piezo1 activity in mechanochemical feedback loops during development, homeostatic regulation, and disease.",
+        "is_new": true,
+        "reasoning": "Introduce GenEPi, a genetically-encoded fluorescent reporter for Piezo1 activity.",
+        "probe_name": "GenEPi",
+        "target": "Piezo1 activity",
+        "color": "Green",
+        "type": "Ion Sensor"
+    },
+    {
+        "title": "Bioluminescent Genetically Encoded Glutamate Indicators for Molecular Imaging of Neuronal Activity.",
+        "journal": "ACS synthetic biology",
+        "date": "2023",
+        "doi": "https://doi.org/10.1021/acssynbio.2c00687",
+        "abstract": "Genetically encoded optical sensors and advancements in microscopy instrumentation and techniques have revolutionized the scientific toolbox available for probing complex biological processes such as release of specific neurotransmitters. Most genetically encoded optical sensors currently used are based on fluorescence and have been highly successful tools for single-cell imaging in superficial brain regions. However, there remains a need to develop new tools for reporting neuronal activity <i>in vivo</i> within deeper structures without the need for hardware such as lenses or fibers to be implanted within the brain. Our approach to this problem is to replace the fluorescent elements of the existing biosensors with bioluminescent elements. This eliminates the need of external light sources to illuminate the sensor, thus allowing deeper brain regions to be imaged noninvasively. Here, we report the development of the first genetically encoded neurotransmitter indicators based on bioluminescent light emission. These probes were optimized by high-throughput screening of linker libraries. The selected probes exhibit robust changes in light output in response to the extracellular presence of the excitatory neurotransmitter glutamate. We expect this new approach to neurotransmitter indicator design to enable the engineering of specific bioluminescent probes for multiple additional neurotransmitters in the future, ultimately allowing neuroscientists to monitor activity associated with a specific neurotransmitter as it relates to behavior in a variety of neuronal and psychiatric disorders, among many other applications.",
+        "is_new": true,
+        "reasoning": "Report the development of the first bioluminescent glutamate indicators.",
+        "probe_name": null,
+        "target": "Glutamate",
+        "color": null,
+        "type": "Neurotransmitter Sensor"
     }
 ]
