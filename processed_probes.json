@@ -1,5 +1,17 @@
 [
     {
+        "probe_name": "eroGFP1.2",
+        "is_new": true,
+        "title": "An improved fluorescent indicator for monitoring intracellular redox potential.",
+        "journal": "Redox biology",
+        "date": "2026",
+        "abstract": "The intracellular redox balance, which is determined by the relative levels of oxidants and reductants, plays a crucial role in regulating various cellular processes. Genetically encoded redox-sensitive green fluorescent proteins (roGFPs) are invaluable tools for spatiotemporally monitoring intracellular redox potential. However, the relatively low fluorescence intensity and weak response of existing sensors have restricted their applications in subcellular organelles, such as the Golgi apparatus, and in living animals. In this study, we rationally engineered an enhanced roGFP variant (eroGFP1.2), which exhibited a more than fivefold increase in fluorescence brightness and a 50% greater dynamic range compared to the wild-type roGFP1 in both E. coli and HeLa cells. Using the eroGFP1.2 sensor, we calibrated redox potential across different subcellular compartments within HeLa cells. Furthermore, when fused to human glutaredoxin-1 (Grx1), the chimeric sensor enabled specific and sensitive detection of glutathione redox dynamics in living cells. We also employed eroGFP1.2 to monitor a reactive oxygen species (ROS) burst at the wound site following tailfin transection in larval zebrafish. This work advances our understanding of GFP-based biosensor optimization and provides a powerful, high-sensitivity tool for investigating thiol-disulfide redox regulation in live cells and intact organisms.",
+        "doi": "https://doi.org/10.1016/j.redox.2026.104147",
+        "target": "redox",
+        "color": "Green",
+        "type": "Redox Sensor"
+    },
+    {
         "probe_name": "GPR52-1.0",
         "is_new": true,
         "title": "Manual Verification Required",
