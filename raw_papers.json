@@ -3056,7 +3056,7 @@
         "doi": "https://doi.org/10.1093/nar/gkab993",
         "journal": "Nucleic acids research",
         "date": "2022",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3065,7 +3065,7 @@
         "doi": "https://doi.org/10.1093/plphys/kiab504",
         "journal": "Plant physiology",
         "date": "2022",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3074,7 +3074,7 @@
         "doi": "https://doi.org/10.1016/j.crmeth.2021.100092",
         "journal": "Cell reports methods",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3083,8 +3083,8 @@
         "doi": "https://doi.org/10.1093/function/zqab012",
         "journal": "Function (Oxford, England)",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Simultaneous two-photon imaging of action potentials and subthreshold inputs in vivo.",
@@ -3092,7 +3092,7 @@
         "doi": "https://doi.org/10.1038/s41467-021-27444-9",
         "journal": "Nature communications",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3101,7 +3101,7 @@
         "doi": "https://doi.org/10.1038/s41467-021-27249-w",
         "journal": "Nature communications",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3110,7 +3110,7 @@
         "doi": "https://doi.org/10.1186/s13041-021-00882-8",
         "journal": "Molecular brain",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3119,8 +3119,8 @@
         "doi": "https://doi.org/10.3791/62725",
         "journal": "Journal of visualized experiments : JoVE",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Whole-cell screening of oxidative enzymes using genetically encoded sensors.",
@@ -3128,7 +3128,7 @@
         "doi": "https://doi.org/10.1039/d1sc02578c",
         "journal": "Chemical science",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3137,8 +3137,8 @@
         "doi": "https://doi.org/10.1016/j.xpro.2021.100877",
         "journal": "STAR protocols",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Bioluminescent Sensors for Ca<sup>++</sup> Flux Imaging and the Introduction of a New Intensity-Based Ca<sup>++</sup> Sensor.",
@@ -3146,7 +3146,7 @@
         "doi": "https://doi.org/10.3389/fbioe.2021.773353",
         "journal": "Frontiers in bioengineering and biotechnology",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3155,7 +3155,7 @@
         "doi": "https://doi.org/10.1002/adbi.202100842",
         "journal": "Advanced biology",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3164,7 +3164,7 @@
         "doi": "https://doi.org/10.1021/acscentsci.1c00745",
         "journal": "ACS central science",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3173,7 +3173,7 @@
         "doi": "https://doi.org/10.1016/j.bbrc.2021.10.055",
         "journal": "Biochemical and biophysical research communications",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3182,8 +3182,8 @@
         "doi": "https://doi.org/10.1016/j.jphotobiol.2021.112331",
         "journal": "Journal of photochemistry and photobiology. B, Biology",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "A Genetically Encoded F-19 NMR Probe Reveals the Allosteric Modulation Mechanism of Cannabinoid Receptor 1.",
@@ -3191,8 +3191,8 @@
         "doi": "https://doi.org/10.1021/jacs.1c06847",
         "journal": "Journal of the American Chemical Society",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Genetically Encoded Sensor Cells for the Screening of Glucocorticoid Receptor (GR) Effectors in Herbal Extracts.",
@@ -3200,8 +3200,8 @@
         "doi": "https://doi.org/10.3390/bios11090341",
         "journal": "Biosensors",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "A genetically encoded sensor with improved fluorescence intensity for opioid detection at cellular resolution.",
@@ -3209,7 +3209,7 @@
         "doi": "https://doi.org/10.1039/d1cc04524e",
         "journal": "Chemical communications (Cambridge, England)",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3218,7 +3218,7 @@
         "doi": "https://doi.org/10.1002/advs.202101813",
         "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3227,8 +3227,8 @@
         "doi": "https://doi.org/10.3390/antiox10081305",
         "journal": "Antioxidants (Basel, Switzerland)",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Tuning Protein Dynamics to Sense Rapid Endoplasmic-Reticulum Calcium Dynamics.",
@@ -3236,7 +3236,7 @@
         "doi": "https://doi.org/10.1002/anie.202108443",
         "journal": "Angewandte Chemie (International ed. in English)",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3245,7 +3245,7 @@
         "doi": "https://doi.org/10.1021/jacs.1c07719",
         "journal": "Journal of the American Chemical Society",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3254,8 +3254,8 @@
         "doi": "https://doi.org/10.7554/eLife.69142",
         "journal": "eLife",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "A highly-sensitive genetically encoded temperature indicator exploiting a temperature-responsive elastin-like polypeptide.",
@@ -3263,7 +3263,7 @@
         "doi": "https://doi.org/10.1038/s41598-021-96049-5",
         "journal": "Scientific reports",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3272,8 +3272,8 @@
         "doi": "https://doi.org/10.1016/j.jneumeth.2021.109314",
         "journal": "Journal of neuroscience methods",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Monitoring Changes in the Oxidizing Milieu in the Endoplasmic Reticulum of Mammalian Cells Using HyPerER.",
@@ -3281,8 +3281,8 @@
         "doi": "https://doi.org/10.21769/BioProtoc.4076",
         "journal": "Bio-protocol",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Rational engineering of ratiometric calcium sensors with bright green and red fluorescent proteins.",
@@ -3290,7 +3290,7 @@
         "doi": "https://doi.org/10.1038/s42003-021-02452-z",
         "journal": "Communications biology",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3299,7 +3299,7 @@
         "doi": "https://doi.org/10.1007/s00216-021-03528-9",
         "journal": "Analytical and bioanalytical chemistry",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3308,8 +3308,8 @@
         "doi": "https://doi.org/10.3390/s21124144",
         "journal": "Sensors (Basel, Switzerland)",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "In vivo glucose imaging in multiple model organisms with an engineered single-wavelength sensor.",
@@ -3317,7 +3317,7 @@
         "doi": "https://doi.org/10.1016/j.celrep.2021.109284",
         "journal": "Cell reports",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3326,7 +3326,7 @@
         "doi": "https://doi.org/10.3389/fnut.2021.621273",
         "journal": "Frontiers in nutrition",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3335,7 +3335,7 @@
         "doi": "https://doi.org/10.21769/BioProtoc.3990",
         "journal": "Bio-protocol",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3344,7 +3344,7 @@
         "doi": "https://doi.org/10.1016/bs.mie.2021.03.003",
         "journal": "Methods in enzymology",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3353,7 +3353,7 @@
         "doi": "https://doi.org/10.1007/978-1-0716-1262-0_23",
         "journal": "Methods in molecular biology (Clifton, N.J.)",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3362,7 +3362,7 @@
         "doi": "https://doi.org/10.1021/acssensors.0c02318",
         "journal": "ACS sensors",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3371,8 +3371,8 @@
         "doi": "https://doi.org/10.1016/j.bios.2021.113378",
         "journal": "Biosensors & bioelectronics",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Rational Design of Allosteric Fluorogenic RNA Sensors for Cellular Imaging.",
@@ -3380,8 +3380,8 @@
         "doi": "https://doi.org/10.1007/978-1-0716-1499-0_11",
         "journal": "Methods in molecular biology (Clifton, N.J.)",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Generation of GCaMP6s-Expressing Zebrafish to Monitor Spatiotemporal Dynamics of Calcium Signaling Elicited by Heat Stress.",
@@ -3389,8 +3389,8 @@
         "doi": "https://doi.org/10.3390/ijms22115551",
         "journal": "International journal of molecular sciences",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Simultaneous Detection of Four Cell Cycle Phases with Live Fluorescence Imaging.",
@@ -3398,8 +3398,8 @@
         "doi": "https://doi.org/10.1007/978-1-0716-1258-3_3",
         "journal": "Methods in molecular biology (Clifton, N.J.)",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "A Protoplast-Based Bioassay to Quantify Strigolactone Activity in Arabidopsis Using StrigoQuant.",
@@ -3407,8 +3407,8 @@
         "doi": "https://doi.org/10.1007/978-1-0716-1429-7_16",
         "journal": "Methods in molecular biology (Clifton, N.J.)",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "FluoSTEPs: Fluorescent biosensors for monitoring compartmentalized signaling within endogenous microdomains.",
@@ -3416,7 +3416,7 @@
         "doi": "https://doi.org/10.1126/sciadv.abe4091",
         "journal": "Science advances",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3425,7 +3425,7 @@
         "doi": "https://doi.org/10.1016/j.chembiol.2021.04.022",
         "journal": "Cell chemical biology",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3434,8 +3434,8 @@
         "doi": "https://doi.org/10.1038/s42003-021-02106-0",
         "journal": "Communications biology",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Affinity Series of Genetically Encoded Förster Resonance Energy-Transfer Sensors for Sucrose.",
@@ -3443,7 +3443,7 @@
         "doi": "https://doi.org/10.1021/acssensors.0c02495",
         "journal": "ACS sensors",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3452,8 +3452,8 @@
         "doi": "https://doi.org/10.3390/bios11050137",
         "journal": "Biosensors",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Psychedelic-inspired drug discovery using an engineered biosensor.",
@@ -3461,7 +3461,7 @@
         "doi": "https://doi.org/10.1016/j.cell.2021.03.043",
         "journal": "Cell",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3470,7 +3470,7 @@
         "doi": "https://doi.org/10.1101/2021.04.20.440678",
         "journal": "bioRxiv : the preprint server for biology",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3479,7 +3479,7 @@
         "doi": "https://doi.org/10.1021/acsomega.1c00041",
         "journal": "ACS omega",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3488,7 +3488,7 @@
         "doi": "https://doi.org/10.1002/anie.202101731",
         "journal": "Angewandte Chemie (International ed. in English)",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3497,7 +3497,7 @@
         "doi": "https://doi.org/10.1038/s41586-021-03425-2",
         "journal": "Nature",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3506,7 +3506,7 @@
         "doi": "https://doi.org/10.1038/s41593-021-00823-7",
         "journal": "Nature neuroscience",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3515,7 +3515,7 @@
         "doi": "https://doi.org/10.3389/fmolb.2021.629773",
         "journal": "Frontiers in molecular biosciences",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3524,8 +3524,8 @@
         "doi": "https://doi.org/10.7554/eLife.56020",
         "journal": "eLife",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "POLArIS, a versatile probe for molecular orientation, revealed actin filaments associated with microtubule asters in early embryos.",
@@ -3533,7 +3533,7 @@
         "doi": "https://doi.org/10.1073/pnas.2019071118",
         "journal": "Proceedings of the National Academy of Sciences of the United States of America",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3542,7 +3542,7 @@
         "doi": "https://doi.org/10.1002/anie.202101262",
         "journal": "Angewandte Chemie (International ed. in English)",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3551,8 +3551,8 @@
         "doi": "https://doi.org/10.3791/62165",
         "journal": "Journal of visualized experiments : JoVE",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "A fast, high-affinity fluorescent serotonin biosensor engineered from a tick lipocalin.",
@@ -3560,7 +3560,7 @@
         "doi": "https://doi.org/10.1038/s41592-021-01078-7",
         "journal": "Nature methods",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3569,8 +3569,8 @@
         "doi": "https://doi.org/10.1016/j.fgb.2021.103540",
         "journal": "Fungal genetics and biology : FG & B",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Investigation into the difference in mitochondrial-cytosolic calcium coupling between adult cardiomyocyte and hiPSC-CM using a novel multifunctional genetic probe.",
@@ -3578,7 +3578,7 @@
         "doi": "https://doi.org/10.1007/s00424-021-02524-3",
         "journal": "Pflugers Archiv : European journal of physiology",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3587,8 +3587,8 @@
         "doi": "https://doi.org/10.1016/j.bpj.2021.01.035",
         "journal": "Biophysical journal",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Development of a novel fluorescent biosensor for dynamic monitoring of metabolic methionine redox status in cells and tissues.",
@@ -3596,7 +3596,7 @@
         "doi": "https://doi.org/10.1016/j.bios.2021.113031",
         "journal": "Biosensors & bioelectronics",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3605,7 +3605,7 @@
         "doi": "https://doi.org/10.1083/jcb.201911130",
         "journal": "The Journal of cell biology",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3614,7 +3614,7 @@
         "doi": "https://doi.org/10.1007/s00018-020-03712-7",
         "journal": "Cellular and molecular life sciences : CMLS",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3623,7 +3623,7 @@
         "doi": "https://doi.org/10.1021/acschemneuro.0c00643",
         "journal": "ACS chemical neuroscience",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3632,7 +3632,7 @@
         "doi": "https://doi.org/10.1038/s41467-020-20758-0",
         "journal": "Nature communications",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3641,7 +3641,7 @@
         "doi": "https://doi.org/10.1038/s41467-020-20754-4",
         "journal": "Nature communications",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3650,8 +3650,8 @@
         "doi": "https://doi.org/10.1093/jb/mvab002",
         "journal": "Journal of biochemistry",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Genetically Encoded Dual-Color Light-Up RNA Sensor Enabled Ratiometric Imaging of MicroRNA.",
@@ -3659,7 +3659,7 @@
         "doi": "https://doi.org/10.1021/acs.analchem.0c04588",
         "journal": "Analytical chemistry",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3668,7 +3668,7 @@
         "doi": "https://doi.org/10.1523/ENEURO.0185-20.2020",
         "journal": "eNeuro",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3677,8 +3677,8 @@
         "doi": "https://doi.org/10.1002/glia.23944",
         "journal": "Glia",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "A near-infrared genetically encoded calcium indicator for in vivo imaging.",
@@ -3686,7 +3686,7 @@
         "doi": "https://doi.org/10.1038/s41587-020-0710-1",
         "journal": "Nature biotechnology",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3695,8 +3695,8 @@
         "doi": "https://doi.org/10.1111/cmi.13282",
         "journal": "Cellular microbiology",
         "date": "2021",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Live imaging of intra-lysosome pH in cell lines and primary neuronal culture using a novel genetically encoded biosensor.",
@@ -3704,7 +3704,7 @@
         "doi": "https://doi.org/10.1080/15548627.2020.1771858",
         "journal": "Autophagy",
         "date": "2021",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3713,8 +3713,8 @@
         "doi": "https://doi.org/10.21769/BioProtoc.3773",
         "journal": "Bio-protocol",
         "date": "2020",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Live Mitochondrial or Cytosolic Calcium Imaging Using Genetically-encoded Cameleon Indicator in Mammalian Cells.",
@@ -3722,8 +3722,8 @@
         "doi": "https://doi.org/10.21769/BioProtoc.3504",
         "journal": "Bio-protocol",
         "date": "2020",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "FRCaMP, a Red Fluorescent Genetically Encoded Calcium Indicator Based on Calmodulin from Schizosaccharomyces Pombe Fungus.",
@@ -3731,7 +3731,7 @@
         "doi": "https://doi.org/10.3390/ijms22010111",
         "journal": "International journal of molecular sciences",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3740,8 +3740,8 @@
         "doi": "https://doi.org/10.1021/acssensors.0c01231",
         "journal": "ACS sensors",
         "date": "2020",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "An Improved HRPE-Based Transcriptional Output Reporter to Detect Hypoxia and Anoxia in Plant Tissue.",
@@ -3749,7 +3749,7 @@
         "doi": "https://doi.org/10.3390/bios10120197",
         "journal": "Biosensors",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3758,7 +3758,7 @@
         "doi": "https://doi.org/10.3390/biology9120430",
         "journal": "Biology",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3767,7 +3767,7 @@
         "doi": "https://doi.org/10.1021/acsomega.0c04868",
         "journal": "ACS omega",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3776,7 +3776,7 @@
         "doi": "https://doi.org/10.14348/molcells.2020.0144",
         "journal": "Molecules and cells",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3785,8 +3785,8 @@
         "doi": "https://doi.org/10.1167/iovs.61.13.10",
         "journal": "Investigative ophthalmology & visual science",
         "date": "2020",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "GPCR-Based Dopamine Sensors-A Detailed Guide to Inform Sensor Choice for In vivo Imaging.",
@@ -3794,8 +3794,8 @@
         "doi": "https://doi.org/10.3390/ijms21218048",
         "journal": "International journal of molecular sciences",
         "date": "2020",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Screening and Cellular Characterization of Genetically Encoded Voltage Indicators Based on Near-Infrared Fluorescent Proteins.",
@@ -3803,7 +3803,7 @@
         "doi": "https://doi.org/10.1021/acschemneuro.0c00046",
         "journal": "ACS chemical neuroscience",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3812,7 +3812,7 @@
         "doi": "https://doi.org/10.1021/acssynbio.0c00407",
         "journal": "ACS synthetic biology",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3821,7 +3821,7 @@
         "doi": "https://doi.org/10.3390/ijms21186883",
         "journal": "International journal of molecular sciences",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3830,7 +3830,7 @@
         "doi": "https://doi.org/10.1016/j.jbiotec.2020.09.008",
         "journal": "Journal of biotechnology",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3839,7 +3839,7 @@
         "doi": "https://doi.org/10.7554/eLife.57249",
         "journal": "eLife",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3848,8 +3848,8 @@
         "doi": "https://doi.org/10.3390/ijms21186610",
         "journal": "International journal of molecular sciences",
         "date": "2020",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "A novel weak acid activated probe for highly selective monitoring selenocysteine in living cells.",
@@ -3857,8 +3857,8 @@
         "doi": "https://doi.org/10.1016/j.talanta.2020.121287",
         "journal": "Talanta",
         "date": "2020",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Regulation of sleep homeostasis mediator adenosine by basal forebrain glutamatergic neurons.",
@@ -3866,8 +3866,8 @@
         "doi": "https://doi.org/10.1126/science.abb0556",
         "journal": "Science (New York, N.Y.)",
         "date": "2020",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Diffusible GRAPHIC to visualize morphology of cells after specific cell-cell contact.",
@@ -3875,7 +3875,7 @@
         "doi": "https://doi.org/10.1038/s41598-020-71474-0",
         "journal": "Scientific reports",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3884,7 +3884,7 @@
         "doi": "https://doi.org/10.1021/acscentsci.0c00518",
         "journal": "ACS central science",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3893,8 +3893,8 @@
         "doi": "https://doi.org/10.1186/s12896-020-00633-y",
         "journal": "BMC biotechnology",
         "date": "2020",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "The genetic Ca<sup>2+</sup> sensor GCaMP3 reveals multiple Ca<sup>2+</sup> stores differentially coupled to Ca<sup>2+</sup> entry in the human malaria parasite <i>Plasmodium falciparum</i>.",
@@ -3902,8 +3902,8 @@
         "doi": "https://doi.org/10.1074/jbc.RA120.014906",
         "journal": "The Journal of biological chemistry",
         "date": "2020",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Development of a Novel Blue Fluorescent Gene-encoded Calcium Indicator Modified from GCaMP3.",
@@ -3911,7 +3911,7 @@
         "doi": "https://doi.org/10.1007/s10895-020-02606-y",
         "journal": "Journal of fluorescence",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3920,8 +3920,8 @@
         "doi": "https://doi.org/10.1105/tpc.20.00241",
         "journal": "The Plant cell",
         "date": "2020",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "MiniVIPER Is a Peptide Tag for Imaging and Translocating Proteins in Cells.",
@@ -3929,7 +3929,7 @@
         "doi": "https://doi.org/10.1021/acs.biochem.0c00526",
         "journal": "Biochemistry",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3938,7 +3938,7 @@
         "doi": "https://doi.org/10.1021/acschemneuro.0c00342",
         "journal": "ACS chemical neuroscience",
         "date": "2020",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -3947,8 +3947,8 @@
         "doi": "https://doi.org/10.3390/ijms21155482",
         "journal": "International journal of molecular sciences",
         "date": "2020",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Imaging Intracellular <i>S</i>-Adenosyl Methionine Dynamics in Live Mammalian Cells with a Genetically Encoded Red Fluorescent RNA-Based Sensor.",
