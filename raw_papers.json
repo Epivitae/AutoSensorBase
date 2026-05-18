@@ -5756,8 +5756,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.psj.2023.103078",
         "abstract": "In order to minimize animal loss and economical loss, industrial poultry is heavily vaccinated against infectious agents. mRNA vaccination is an effective vaccination platform, yet little to no comprehensive, comparative studies in avians can be found. Nevertheless, poultry mRNA vaccination could prove to be very interesting due to the relatively low production cost, especially true when using self-amplifying mRNA (saRNA), and their extreme adaptability to new pathogens. The latter could be particularly useful when new pathogens join the stage or new variants arise. As a first step toward the investigation of saRNA vaccines in poultry, this study evaluates a luciferase-encoding saRNA in avian tracheal explants, conjunctival explants, primary chicken cecal cells and 18-day embryonated eggs. Naked saRNA in combination with RNase inhibitor and 2 different lipid-based formulations, that is, ionizable lipid nanoparticles (LNPs) and Lipofectamine Messenger Max, were evaluated. The saRNA-LNP formulation led to the highest bioluminescent signal in the tracheal explants, conjunctival explants and cecal cell cultures. A dose-response experiment with these saRNA-LNPs (33-900 ng/well) in these avian organoids and cells showed a nonlinear dose-response relationship. After in ovo administration, the highest dose of the saRNA-LNPs (5 µg) resulted in a visual expression as a weak bioluminescence signal could be seen. The other delivery approaches did not lead to a visual saRNA expression in the embryos. In conclusion, effective entry of saRNA encapsulated in LNPs followed by successful saRNA translation in poultry was established. Hence, mRNA vaccination in poultry could be possible, but further in vivo testing is needed.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Oesophageal pH capsule retention: case report and proposed endoscopic management.",
@@ -5765,7 +5765,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.ijscr.2023.108917",
         "abstract": "Gastro-oesophageal reflux disease (GORD) is a common chronic condition affecting up to 20 %. Proton pump inhibitor (PPI) is considered 1st line therapy however 10-40 % of patients do not respond adequately subsequently requiring further investigations. One of these investigations includes oesophageal pH testing via a wireless capsule placed into the oesophagus, which may remain there for up to 96 h before being self-displaced. Our report describes a rare case of oesophageal pH capsule retention and proposes a pragmatic approach to its management including endoscopic removal. A 33 year-old male attended our out-patient clinic with ongoing reflux symptoms and intermittent dysphagia. His response to first line therapy including lifestyle modifications and with PPIs was unsatisfactory thus a plan for an oesophageal Ph capsule study was agreed and performed. On day 4 post-procedure he reported severe dysphagia to solid foods. A Chest X-ray was performed which confirmed the presence of the capsule 7 days post-procedure. On day 12 post-procedure, gastroscopy and retrieval of the capsule was performed successfully. We recommend gastroenterologists use submucosal elevation in combination with manual traction in order to detach the capsule from the underlying mucosa, followed by retrieval using forceps to grab the thread-end of the capsule. We hope our report raises awareness for this rare complication as well as providing education to practicing gastroenterologists on a formal manoeuvre for successful endoscopic management of a retained oesophageal pH capsule.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -5774,7 +5774,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1182/blood.2023022213",
         "abstract": "[No Abstract]",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -5783,8 +5783,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1128/spectrum.05356-22",
         "abstract": "Human listeriosis is caused by consuming foods contaminated with the bacterial pathogen <i>Listeria monocytogenes</i>, leading to the development of a severe and life-threatening foodborne illness. Detection of <i>L. monocytogenes</i> present in food and food processing environments is crucial for preventing <i>Listeria</i> infection. The <i>L. monocytogenes</i> peptidoglycan hydrolase IspC anchors non-covalently to the bacterial surface through its C-terminal cell wall-binding domain (CWBD), CWBD<sub>IspC</sub>. This study explored the surface binding property of CWBD<sub>IspC</sub> to design, construct, characterize, and assess an affinity molecular probe for detecting <i>L. monocytogenes</i>. CWBD<sub>IspC</sub> recognized a cell wall ligand lipoteichoic acid that remains evenly displayed and mostly unoccupied on the bacterial surface for interaction with the exogenously added CWBD<sub>IspC</sub>. CWBD<sub>IspC</sub>, when fused to the enhanced green fluorescent protein reporter or covalently conjugated onto magnetic beads, exhibited the functionality as an antibody alternative for rapid detection and efficient separation of the pathogen.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Predictors of Participation in the U.S. Department of Agriculture Summer Meal Programs: An Examination of Outreach Strategies and Meal Distribution Methods During COVID-19.",
@@ -5792,7 +5792,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.focus.2023.100124",
         "abstract": "Significantly fewer children participate in the U.S. Department of Agriculture-sponsored summer meal programs than in the federal school meal programs during the academic year. During the summer of 2021, several pandemic-related waivers supported more flexible operations for summer meal programs, such as allowing grab-and-go meals and the distribution of meals for multiple days at once. This study assessed how summer meal site characteristics and geographically targeted outreach methods were associated with summer meals served in 2021 in Connecticut. Weekly meal count data were requested from all sponsors of the Summer Food Service Program and the National School Lunch Program Seamless Summer Option. Data were received from 78 sponsors with 763 sites. Geographically targeted outreach (e.g., billboards, bus ads, and flyers) was tracked by location each week. Mixed methods ANOVA was used to examine the predictive value of outreach efforts, program characteristics, and meal distribution methods on meals served each week. The program characteristics examined included the hours open per week, the number of weeks serving meals, the maximum number of meals distributed at one time, and the number of open and closed sites in a school district. Between June 21 and August 20, 2021, a total of 1,188,669 breakfasts and 1,389,347 lunches were served. Sites that were open more hours per week (mean=7.60 hours per week; range=0.17-35) and gave multiple meals to parents at each visit (mean=4.68 meals; range=1-15) reported greater rates of meal distribution. The outreach efforts assessed were not significantly associated with changes in meal distribution at nearby sites. The U.S. Department of Agriculture's waivers in response to COVID-19 permitted extended operating hours and multiple-meal distribution. These operational flexibilities should be considered for permanent regulation changes owing to their positive association with summer meal participation.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -5801,8 +5801,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1101/2023.09.23.559126",
         "abstract": "Increased brain levels of acetylcholine (ACh) are observed in subsets of patients with depression and increasing ACh levels chronically can precipitate stress-related behaviors in humans and animals. Conversely, optimal ACh levels are required for cognition and memory. We hypothesize that ACh signaling is important for encoding both appetitive and stress-relevant memories, but that excessive increases in ACh result in a negative encoding bias in which memory formation of a stressful event is aberrantly strengthened, potentially contributing to the excessive focus on negative experience that could lead to depressive symptoms. The medial prefrontal cortex (mPFC) is critical to control the limbic system to filter exteroceptive cues and stress-related circuits. We therefore evaluated the role of ACh signaling in the mPFC in a learned helplessness task in which mice were exposed to repeated inescapable stressors followed by an active avoidance task. Using fiber photometry with a genetically-encoded ACh sensor, we found that ACh levels in the mPFC during exposure to inescapable stressors were positively correlated with later escape deficits in an active avoidance test in males, but not females. Consistent with these measurements, we found that both pharmacologically- and chemogenetically-induced increases in mPFC ACh levels resulted in escape deficits in both male and female mice, whereas chemogenetic inhibition of ACh neurons projecting to the mPFC improved escape performance in males, but impaired escape performance in females. These results highlight the adaptive role of ACh release in stress response, but also support the idea that sustained elevated ACh levels contribute to maladaptive behaviors. Furthermore, mPFC ACh signaling may contribute to depressive symptomology differentially in males and females.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Automatic monitoring of whole-body neural activity in behaving <i>Hydra</i>.",
@@ -5810,8 +5810,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1101/2023.09.22.559063",
         "abstract": "The ability to record every spike from every neuron in a behaving animal is one of the holy grails of neuroscience. Here, we report coming one step closer towards this goal with the development of an end-to-end pipeline that automatically tracks and extracts calcium signals from individual neurons in the cnidarian <i>Hydra vulgaris</i>. We imaged dually labeled (nuclear tdTomato and cytoplasmic GCaMP7s) transgenic <i>Hydra</i> and developed an open-source Python platform (TraSE-IN) for the Tracking and Spike Estimation of Individual Neurons in the animal during behavior. The TraSE-IN platform comprises a series of modules that segments and tracks each nucleus over time and extracts the corresponding calcium activity in the GCaMP channel. Another series of signal processing modules allows robust prediction of individual spikes from each neuron's calcium signal. This complete pipeline will facilitate the automatic generation and analysis of large-scale datasets of single-cell resolution neural activity in <i>Hydra</i>, and potentially other model organisms, paving the way towards deciphering the neural code of an entire animal.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Backbone Cyclization of Flavin Mononucleotide-Based Fluorescent Protein Increases Fluorescence and Stability.",
@@ -5819,8 +5819,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.4014/jmb.2305.05011",
         "abstract": "Flavin mononucleotide-binding proteins or domains emit cyan-green fluorescence under aerobic and anaerobic conditions, but relatively low fluorescence and less thermostability limit their application as reporters. In this work, we incorporated the codon-optimized fluorescent protein from <i>Chlamydomonas reinhardtii</i> with two different linkers independently into the redox-responsive split intein construct, overexpressed the precursors in hyperoxic <i>Escherichia coli</i> SHuffle T7 strain, and cyclized the target proteins in vitro in the presence of the reducing agent. Compared with the purified linear protein, the cyclic protein with the short linker displayed enhanced fluorescence. In contrast, cyclized protein with incorporation of the long linker including the myc-tag and human rhinovirus 3C protease cleavable sequence emitted slightly increased fluorescence compared with the protein linearized with the protease cleavage. The cyclic protein with the short linker also exhibited increased thermal stability and exopeptidase resistance. Moreover, induction of the target proteins in an oxygen-deficient culture rendered fluorescent <i>E. coli</i> BL21 (DE3) cells brighter than those overexpressing the linear construct. Thus, the cyclic reporter can hopefully be used in certain thermophilic anaerobes.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Locations of membrane protein production in a cyanobacterium.",
@@ -5828,8 +5828,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1128/jb.00209-23",
         "abstract": "Cyanobacteria show an unusually complex prokaryotic cell structure including a distinct intracytoplasmic membrane system, the thylakoid membranes that are the site of the photosynthetic light reactions. The thylakoid and plasma membranes have sharply distinct proteomes, but the mechanisms that target proteins to a specific membrane remain poorly understood. Here, we investigate the locations of translation of thylakoid and plasma membrane proteins in the model unicellular cyanobacterium <i>Synechococcus elongatus</i> PCC 7942. We use fluorescent <i>in situ</i> hybridization to probe the locations of mRNAs encoding membrane-integral proteins, plus Green Fluorescent Protein tagging of the RplL subunit to reveal the location of ribosomes under different conditions. We show that membrane-integral thylakoid and plasma membrane proteins are translated in different locations. Thylakoid membrane proteins are translated in patches at the innermost thylakoid membrane surface facing the nucleoid. However, different proteins are translated in different patches, even when they are subunits of the same multiprotein complex. This implies that translation is distributed over the proximal thylakoid surface, with newly inserted proteins migrating within the membrane prior to incorporation into complexes. mRNAs encoding plasma membrane proteins form patches at the plasma membrane. Ribosomes can be observed at similar locations near the thylakoid and plasma membranes, with more ribosomes near the plasma membrane when conditions force rapid production of plasma membrane proteins. There must be routes for ribosomes and mRNAs past the thylakoids to the plasma membrane. We infer a system to chaperone plasma membrane mRNAs to prevent their translation prior to arrival at the correct membrane. IMPORTANCE Cyanobacteria have a complex and distinct membrane system within the cytoplasm, the thylakoid membranes that house the photosynthetic light reactions. The thylakoid and plasma membranes contain distinct sets of proteins, but the steps that target proteins to the two membranes remain unclear. Knowledge of the protein sorting rules will be crucial for the biotechnological re-engineering of cyanobacterial cells, and for understanding the evolutionary development of the thylakoids. Here, we probe the subcellular locations of the mRNAs that encode cyanobacterial membrane proteins and the ribosomes that translate them. We show that thylakoid and plasma membrane proteins are produced at different locations, providing the first direct evidence for a sorting mechanism that operates prior to protein translation.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Sexually dimorphic oxytocin receptor-expressing (OXTR) neurons in the anteroventral periventricular nucleus (AVPV) in the postpartum female mouse are involved in maternal behavior.",
@@ -5837,8 +5837,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1111/jne.13337",
         "abstract": "Maternal care is crucial for the survival and development of offspring. Oxytocin modulates maternal behavior by binding to oxytocin receptors (OXTRs) in various parts of the brain. Previously, we showed that OXTRs are expressed in the anteroventral periventricular nucleus (AVPV) of female, but not male mice. Because the AVPV is involved in the regulation of maternal behavior and oxytocin enhances its induction, this finding leads to the hypothesis that the female specific population of OXTR neurons in the AVPV regulates maternal behavior. To address this hypothesis, OXTR-Venus reporter mice were used to assess if expression levels of OXTR in the AVPV are changed during the postpartum period. The total number of OXTR-Venus neurons was significantly greater in postpartum dams compared to virgin females. To assess efferent projections of the AVPV-OXTR neurons, a Cre-dependent fluorescent protein (tdTomato) expressing a viral vector was injected into one side of the AVPV of female OXTR-Cre mice. Fibers expressing tdTomato were found in hypothalamic areas containing oxytocin neurons (the supraoptic and paraventricular nuclei) and the midbrain areas (the ventral tegmental area and periaqueductal gray) that are involved in the regulation of maternal motivation. To assess if activity of the AVPV-OXTR neurons is involved in the regulation of maternal behaviors, a chemogenetic approach was employed. Specific inhibition of activity of AVPV-OXTR neurons completely abolished pup retrieval and nest building behaviors. Collectively, these findings demonstrate that AVPV-OXTR neurons in postpartum female mice constitute an important node in the neural circuitry that regulates maternal behavior.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Heme sensing and trafficking in fungi.",
@@ -5846,7 +5846,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.fbr.2022.09.002",
         "abstract": "Fungal pathogens cause life-threatening diseases in humans, and the increasing prevalence of these diseases emphasizes the need for new targets for therapeutic intervention. Nutrient acquisition during infection is a promising target, and recent studies highlight the contributions of endomembrane trafficking, mitochondria, and vacuoles in the sensing and acquisition of heme by fungi. These studies have been facilitated by genetically encoded biosensors and other tools to quantitate heme in subcellular compartments and to investigate the dynamics of trafficking in living cells. In particular, the applications of biosensors in fungi have been extended beyond the detection of metabolites, cofactors, pH, and redox status to include the detection of heme. Here, we focus on studies that make use of biosensors to examine mechanisms of heme uptake and degradation, with guidance from the model fungus <i>Saccharomyces cerevisiae</i> and an emphasis on the pathogenic fungi <i>Candida albicans</i> and <i>Cryptococcus neoformans</i> that threaten human health. These studies emphasize a role for endocytosis in heme uptake, and highlight membrane contact sites involving mitochondria, the endoplasmic reticulum and vacuoles as mediators of intracellular iron and heme trafficking.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -5855,8 +5855,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1007/s43188-023-00191-3",
         "abstract": "Autophagy play contradictory roles in cellular transformation. We previously found that the knockout (KO) of autophagy-related 5 (Atg5), which is essential for autophagy, leads to the malignant transformation of NIH 3T3 cells. In this study, we explored the mechanism by which autophagy contributes to this malignant transformation using two transformed cell lines, Atg5 KO and Ras-NIH 3T3. Monomeric red fluorescent protein-green fluorescent protein-light chain 3 reporter and Cyto-ID staining revealed that Ras-NIH 3T3 cells exhibited higher basal autophagy activity than NIH 3T3 cells. Additionally, transformed cells, regardless of their Atg5 KO status, were more sensitive to autophagy inhibitors (SBI-0206965, chloroquine, and obatoclax) than the untransformed NIH 3T3 cells, suggesting that the transformed cells are more autophagy-dependent than the normal cells. Loss of Atg5 improved the cell viability and mobility, especially in Ras-NIH 3T3 cells. Furthermore, we discovered that autophagy was alternatively induced in a Rab9-dependent manner in Ras-NIH 3T3 and NIH 3T3/Atg5 KO cells. In particular, Atg5 KO cells showed reduced mTOR-mediated phosphorylation of Akt (pAkt S473), indicating the mTOR-independent occurrence of alternative autophagy in Atg5 KO cells. Therefore, our study provides evidence that alternative autophagy may contribute to tumorigenesis in cells with an impaired Atg5-dependent autophagy pathway. The online version contains supplementary material available at 10.1007/s43188-023-00191-3.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Reporter Coxsackievirus A5 Expressing iLOV Fluorescent Protein or Luciferase Used for Rapid Neutralizing Assay in Cells and Living Imaging in Mice.",
@@ -5864,8 +5864,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.3390/v15091868",
         "abstract": "Coxsackievirus A5 (CV-A5) is a re-emerging enterovirus that causes hand, foot, and mouth disease in children under five years of age. CV-A5-M14-611 is a mouse-adapted strain that can infect orally and lead to the death of 14-day-old mice. Here, recombinants based on CV-A5-M14-611 were constructed carrying three reporter genes in different lengths. Smaller fluorescent marker proteins, light, oxygen, voltage sensing (iLOV), and nano luciferase (Nluc) were proven to be able to express efficiently in vitro. However, the recombinant with the largest insertion of the red fluorescence protein gene (DsRed) was not rescued. The construction strategy of reporter viruses was to insert the foreign genes between the C-terminus of VP1 and the N-terminus of 2A genes and to add a 2A protease cleavage domain at both ends of the insertions. The iLOV-tagged or Nluc-tagged recombinants, CV-A5-iLOV or CV-A5-Nluc, exhibited a high capacity for viral replication, genetic stability in cells and pathogenicity in mice. They were used to establish a rapid, inexpensive and convenient neutralizing antibody assay and greatly facilitated virus neutralizing antibody titration. Living imaging was performed on mice with CV-A5-Nluc, which exhibited specific bioluminescence in virus-disseminated organs, while fluorescence induced by CV-A5-iLOV was weakly detected. The reporter-gene-tagged CV-A5 can be used to study the infection and mechanisms of CV-A5 pathogenicity in a mouse model. They can also be used to establish rapid and sensitive assays for detecting neutralizing antibodies.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "An Integrated Research-Clinical BSL-2 Platform for a Live SARS-CoV-2 Neutralization Assay.",
@@ -5873,8 +5873,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.3390/v15091855",
         "abstract": "A reliable and efficient serological test is crucial for monitoring neutralizing antibodies against SARS-CoV-2 and its variants of concern (VOCs). Here, we present an integrated research-clinical platform for a live SARS-CoV-2 neutralization assay, utilizing highly attenuated SARS-CoV-2 (Δ3678_WA1-spike). This strain contains mutations in viral transcription regulation sequences and deletion in the open-reading-frames 3, 6, 7, and 8, allowing for safe handling in biosafety level 2 (BSL-2) laboratories. Building on this backbone, we constructed a genetically stable reporter virus (mGFP Δ3678_WA1-spike) by incorporating a modified green fluorescent protein sequence (mGFP). We also constructed mGFP Δ3678_BA.5-spike and mGFP Δ3678_XBB.1.5-spike by substituting the WA1 spike with variants BA.5 and XBB.1.5 spike, respectively. All three viruses exhibit robust fluorescent signals in infected cells and neutralization titers in an optimized fluorescence reduction neutralization assay that highly correlates with a conventional plaque reduction assay. Furthermore, we established that a streamlined robot-aided Bench-to-Clinics COVID-19 Neutralization Test workflow demonstrated remarkably sensitive, specific, reproducible, and accurate characteristics, allowing the assessment of neutralization titers against SARS-CoV-2 variants within 24 h after sample receiving. Overall, our innovative approach provides a valuable avenue for large-scale testing of clinical samples against SARS-CoV-2 and VOCs at BSL-2, supporting pandemic preparedness and response strategies.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Increasing the Consumption of Environmentally Friendly Foods in a University Dining Hall Using Menu Item Placement.",
@@ -5882,7 +5882,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.3390/nu15183873",
         "abstract": "Creating a decision-making environment that promotes sustainable food choices is a priority for both the individual and society. This study aimed at encouraging plant-based menu choices by re-ordering the menu according to the carbon footprint values. The project was conducted in a grab-and-go eatery at a large United States public university, where students could order their meals choosing among different menu options that were customizable with various ingredients. The order of menu ingredients was changed twice: for five weeks, from the most to the least impactful in terms of carbon footprint; subsequently, for another five weeks the order was reversed. At both times, all sales data were recorded. A total of 279,219 and 288,527 items were selected, respectively, during the first and the second intervention. A significant association was found between menu re-ordering and customers' choices for almost all food categories considered. Overall, despite beef choices not changing, results showed that students were more likely to choose low-carbon options when these were placed at the beginning, emphasizing that food selections were impacted by ingredient placement on the menu list. These findings highlight the need for a multi-level strategy focused on raising students' awareness of the environmental impact of animal-based foods, particularly beef.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -5891,8 +5891,8 @@
         "date": "2024",
         "doi": "https://doi.org/10.1093/procel/pwad049",
         "abstract": "Non-human primates (NHPs) are increasingly used in preclinical trials to test the safety and efficacy of biotechnology therapies. Nonetheless, given the ethical issues and costs associated with this model, it would be highly advantageous to use NHP cellular models in clinical studies. However, developing and maintaining the naïve state of primate pluripotent stem cells (PSCs) remains difficult as does in vivo detection of PSCs, thus limiting biotechnology application in the cynomolgus monkey. Here, we report a chemically defined, xeno-free culture system for culturing and deriving monkey PSCs in vitro. The cells display global gene expression and genome-wide hypomethylation patterns distinct from monkey-primed cells. We also found expression of signaling pathways components that may increase the potential for chimera formation. Crucially for biomedical applications, we were also able to integrate bioluminescent reporter genes into monkey PSCs and track them in chimeric embryos in vivo and in vitro. The engineered cells retained embryonic and extra-embryonic developmental potential. Meanwhile, we generated a chimeric monkey carrying bioluminescent cells, which were able to track chimeric cells for more than 2 years in living animals. Our study could have broad utility in primate stem cell engineering and in utilizing chimeric monkey models for clinical studies.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Development of a thermophilic host-vector system for the production of recombinant proteins at elevated temperatures.",
@@ -5900,8 +5900,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1007/s00253-023-12805-9",
         "abstract": "Geobacillus spp. are moderate thermophiles that can efficiently produce recombinant proteins. Considering the protein production exhibited by these species, we searched for robust promoters in Geobacillus kaustophilus HTA426. Transcriptome data revealed that several genes were highly expressed during the proliferative phase; their promoters were characterized using reporter assays with Venus fluorescent protein (VFP). The results suggested that the cspD promoter (P<sub>cspD</sub>) directed robust vfp expression at 60°C in G. kaustophilus. Although cspD potentially encodes a cold-shock protein, P<sub>cspD</sub> functioned at elevated temperatures. The promoter strongly functioned even in Escherichia coli; this prevented the cloning of some genes (e.g., vfp) downstream of it on a plasmid vector via E. coli-based genetic manipulation. Consequently, we generated a mutated P<sub>cspD</sub> that functioned inefficiently in E. coli and constructed the pGKE124 plasmid using the mutant promoter. The plasmid could carry vfp in E. coli and afford the production of VFP in G. kaustophilus at a yield of 390 mg/L. pGKE124 directed a similar production in other thermophilic species; the highest yield was observed in Geobacillus thermodenitrificans K1041. Several proteins could be produced using a system involving G. thermodenitrificans K1041 and pGKE124. Notably, the extracellular production of xylanase at a yield of 1 g/L was achieved using this system. Although the leaky production of nonsecretory proteins was observed, we developed a simple process to collectively purify recombinant proteins from the intracellular and extracellular fractions. The findings presented there propose an effective host-vector system for the production of recombinant proteins at elevated temperatures. KEY POINTS: • A thermophilic system to produce recombinant proteins was constructed. • The system produced diverse proteins using inexpensive media at elevated temperatures. • The system produced an extracellular protein at a yield of 1 g/L of culture.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Genetically Encoded Fluorescent Probe for Detection of Heme-Induced Conformational Changes in Cytochrome c.",
@@ -5909,8 +5909,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.3390/bios13090890",
         "abstract": "Cytochrome c (Cytc) is a key redox protein for energy metabolism and apoptosis in cells. The activation of Cytc is composed of several steps, including its transfer to the mitochondrial membrane, binding to cytochrome c heme lyase (CCHL) and covalent attachment to heme. The spectroscopic methods are often applied to study the structural changes of Cytc. However, they require the isolation of Cytc from cells and have limited availability under physiological conditions. Despite recent studies to elucidate the tightly regulated folding mechanism of Cytc, the role of these events and their association with different conformational states remain elusive. Here, we provide a genetically encoded fluorescence method that allows monitoring of the conformational changes of Cytc upon binding to heme and CCHL. Cerulean and Venus fluorescent proteins attached at the N and C terminals of Cytc can be used to determine its unfolded, intermediate, and native states by measuring FRET amplitude. We found that the noncovalent interaction of heme in the absence of CCHL induced a shift in the FRET signal, indicating the formation of a partially folded state. The higher concentration of heme and coexpression of CCHL gave rise to the recovery of Cytc native structure. We also found that Cytc was weakly associated with CCHL in the absence of heme. As a result, a FRET-based fluorescence approach was demonstrated to elucidate the mechanism of heme-induced Cytc conformational changes with spatiotemporal resolution and can be applied to study its interaction with small molecules and other protein partners in living cells.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "A Novel High-Content Screening Assay Identified Belinostat as Protective in a FSGS-Like Zebrafish Model.",
@@ -5918,8 +5918,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1681/ASN.0000000000000235",
         "abstract": "FSGS affects the complex three-dimensional morphology of podocytes, resulting in loss of filtration barrier function and the development of sclerotic lesions. Therapies to treat FSGS are limited, and podocyte-specific drugs are unavailable. To address the need for treatments to delay or stop FSGS progression, researchers are exploring the repurposing of drugs that have been approved by the US Food and Drug Administration (FDA) for other purposes. To identify drugs with potential to treat FSGS, we used a specific zebrafish screening strain to combine a high-content screening (HCS) approach with an in vivo model. This zebrafish screening strain expresses nitroreductase and the red fluorescent protein mCherry exclusively in podocytes (providing an indicator for podocyte depletion), as well as a circulating 78 kDa vitamin D-binding enhanced green fluorescent protein fusion protein (as a readout for proteinuria). To produce FSGS-like lesions in the zebrafish, we added 80 µ M metronidazole into the fish water. We used a specific screening microscope in conjunction with advanced image analysis methods to screen a library of 138 drugs and compounds (including some FDA-approved drugs) for podocyte-protective effects. Promising candidates were validated to be suitable for translational studies. After establishing this novel in vivo HCS assay, we identified seven drugs or compounds that were protective in our FSGS-like model. Validation experiments confirmed that the FDA-approved drug belinostat was protective against larval FSGS. Similar pan-histone deacetylase inhibitors also showed potential to reproduce this effect. Using an FSGS-like zebrafish model, we developed a novel in vivo HCS assay that identified belinostat and related pan-histone deacetylase inhibitors as potential candidates for treating FSGS.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Feedforward attentional selection in sensory cortex.",
@@ -5927,7 +5927,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1038/s41467-023-41745-1",
         "abstract": "Salient objects grab attention because they stand out from their surroundings. Whether this phenomenon is accomplished by bottom-up sensory processing or requires top-down guidance is debated. We tested these alternative hypotheses by measuring how early and in which cortical layer(s) neural spiking distinguished a target from a distractor. We measured synaptic and spiking activity across cortical columns in mid-level area V4 of male macaque monkeys performing visual search for a color singleton. A neural signature of attentional capture was observed in the earliest response in the input layer 4. The magnitude of this response predicted response time and accuracy. Errant behavior followed errant selection. Because this response preceded top-down influences and arose in the cortical layer not targeted by top-down connections, these findings demonstrate that feedforward activation of sensory cortex can underlie attentional priority.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -5936,7 +5936,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1128/mbio.01157-23",
         "abstract": "Intracellular calcium signaling plays an important role in the resistance and adaptation to stresses encountered by fungal pathogens within the host. This study reports the optimization of the GCaMP fluorescent calcium reporter for live-cell imaging of dynamic calcium responses in single cells of the pathogen, <i>Candida albicans</i>, for the first time. Exposure to membrane, osmotic or oxidative stress generated both specific changes in single cell intracellular calcium spiking and longer calcium transients across the population. Repeated treatments showed that calcium dynamics become unaffected by some stresses but not others, consistent with known cell adaptation mechanisms. By expressing GCaMP in mutant strains and tracking the viability of individual cells over time, the relative contributions of key signaling pathways to calcium flux, stress adaptation, and cell death were demonstrated. This reporter, therefore, permits the study of calcium dynamics, homeostasis, and signaling in <i>C. albicans</i> at a previously unattainable level of detail.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -5945,8 +5945,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.3791/65793",
         "abstract": "The coronavirus disease 2019 pandemic (COVID-19) has highlighted the need for rapid assays to accurately measure the infectivity of emerging SARS-CoV-2 variants and the effectiveness of vaccine-induced neutralizing antibodies against viral variants. These assays are essential for pandemic surveillance and validating vaccines and variant-specific boosters. This manuscript demonstrates the application of a novel hybrid alphavirus-SARS-CoV-2 pseudovirus (Ha-CoV-2) for quick quantification of SARS-CoV-2 variant infectivity and vaccine-induced neutralizing antibodies to viral variants. Ha-CoV-2 is a SARS-CoV-2 virus-like particle consisting of viral structural proteins (S, M, N, and E) and a fast-expressing RNA genome derived from an alphavirus, Semliki Forest Virus (SFV). Ha-CoV-2 also contains both green fluorescent protein (GFP) and luciferase reporter genes that allow for quick quantification of viral infectivity. As an example, the infectivity of the SARS-CoV-2 Delta (B.1.617.2) and the Omicron (B.1.1.529) variants are quantified, and their sensitivities to a neutralizing antibody (27VB) are also measured. These examples demonstrate the great potential of Ha-CoV-2 as a robust platform for rapid quantification of SARS-CoV-2 variants and their susceptibility to neutralizing antibodies.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Optical profiling of autonomous Ca<sup>2+</sup> nanodomains generated by lysosomal TPC2 and TRPML1.",
@@ -5954,8 +5954,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.ceca.2023.102801",
         "abstract": "Multiple families of Ca<sup>2+</sup>-permeable channels co-exist on lysosomal Ca<sup>2+</sup> stores but how each family couples to its own unique downstream physiology is unclear. We have therefore investigated the Ca<sup>2+</sup>-signalling architecture underpinning different channels on the same vesicle that drive separate pathways, using phagocytosis as a physiological stimulus. Lysosomal Ca<sup>2+</sup>-channels are a major Ca<sup>2+</sup> source driving particle uptake in macrophages, but different channels drive different aspects of Fc-receptor-mediated phagocytosis: TPC2 couples to dynamin activation, whilst TRPML1 couples to lysosomal exocytosis. We hypothesised that they are driven by discrete local plumes of Ca<sup>2+</sup> around open channels (Ca<sup>2+</sup> nanodomains). To test this, we optimized Ca<sup>2+</sup>-nanodomain recordings by screening panels of genetically encoded Ca<sup>2+</sup> indicators (GECIs) fused to TPC2 to monitor the [Ca<sup>2+</sup>] next to the channel. Signal calibration accounting for the distance of the GECI from the channel mouth reveals that, during phagocytosis, TPC2 generates local Ca<sup>2+</sup> nanodomains around itself of up to 42 µM, nearly a hundred-fold greater than the global cytosolic [Ca<sup>2+</sup>] rise. We further show that TPC2 and TRPML1, though on the same lysosomes, generate autonomous Ca<sup>2+</sup> nanodomains of high [Ca<sup>2+</sup>] that are largely insulated from one another, a platform allowing their discrete Ca<sup>2+</sup>-decoding to promote unique respective physiologies.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Loading characteristics of streptavidin on polypropylene capillary channeled polymer fibers and capture performance towards biotinylated proteins.",
@@ -5963,8 +5963,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1007/s00216-023-04948-5",
         "abstract": "The development of higher-throughput, potentially lower-cost means to isolate proteins, for a variety of end uses, is of continuing emphasis. Polypropylene (PP) capillary-channeled polymer (C-CP) fiber columns are modified with the biotin-binding protein streptavidin (SAV) to capture biotinylated proteins. The loading characteristics of SAV on fiber supports were determined using breakthrough curves and frontal analysis. Based on adsorption data, a 3-min on-column loading at a flow rate of 0.5 mL min<sup>-1</sup> (295.2 cm h<sup>-1</sup>) with a SAV feed concentration of 0.5 mg mL<sup>-1</sup> produces a SAV loading capacity of 1.4 mg g<sup>-1</sup> fiber. SAV has an incredibly high affinity for the small-molecule biotin (10<sup>-14</sup> M), such that this binding relationship can be exploited by labeling a target protein with biotin via an Avi-tag. To evaluate the capture of the biotinylated proteins on the modified PP surface, the biotinylated versions of bovine serum albumin (b-BSA) and green fluorescent protein (b-GFP) were utilized as probe species. The loading buffer composition and flow rate were optimized towards protein capture. The non-ionic detergent Tween-20 was added to the deposition solutions to minimize non-specific binding. Values of 0.25-0.50% (v/v) Tween-20 in PBS exhibited better capture efficiency, while minimizing the non-specific binding for b-BSA and b-GFP, respectively. The C-CP fiber platform has the potential to provide a fast and low-cost method to capture targeted proteins for applications including protein purification or pull-down assays.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Search for Exotic Higgs Boson Decays H→AA→4γ with Events Containing Two Merged Diphotons in Proton-Proton Collisions at sqrt[s]=13  TeV.",
@@ -5972,7 +5972,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1103/PhysRevLett.131.101801",
         "abstract": "We present the first direct search for exotic Higgs boson decays H→AA, A→γγ in events with two photonlike objects. The hypothetical particle A is a low-mass spin-0 particle decaying promptly to a merged diphoton reconstructed as a single photonlike object. We analyze the data collected by the CMS experiment at sqrt[s]=13  TeV corresponding to an integrated luminosity of 136  fb^{-1}. No excess above the estimated background is found. We set upper limits on the branching fraction B(H→AA→4γ) of (0.9-3.3)×10^{-3} at 95% confidence level for masses of A in the range 0.1-1.2 GeV.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -5981,7 +5981,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.jinorgbio.2023.112368",
         "abstract": "Heme is the most abundant source of iron in the human body and is actively scavenged by bacterial pathogens during infections. Corynebacterium diphtheriae and other species of actinobacteria scavenge heme using cell wall associated and secreted proteins that contain Conserved Region (CR) domains. Here we report the development of a fluorescent sensor to measure heme transfer from the C-terminal CR domain within the HtaA protein (CR2) to other hemoproteins within the heme-uptake system. The sensor contains the CR2 domain inserted into the β2 to β3 turn of the Enhanced Green Fluorescent Protein (EGFP). A 2.45 Å crystal structure reveals the basis of heme binding to the CR2 domain via iron-tyrosyl coordination and shares conserved structural features with CR domains present in Corynebacterium glutamicum. The structure and small angle X-ray scattering experiments are consistent with the sensor adopting a V-shaped structure that exhibits only small fluctuations in inter-domain positioning. We demonstrate heme transfer from the sensor to the CR domains located within the HtaA or HtaB proteins in the heme-uptake system as measured by a ∼ 60% increase in sensor fluorescence and native mass spectrometry.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -5990,8 +5990,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1073/pnas.2309328120",
         "abstract": "We used electrophysiology and Ca<sup>2+</sup> channel tethering to evaluate the performance of jGCaMP8 genetically encoded Ca<sup>2+</sup> indicators (GECIs). Orai1 Ca<sup>2+</sup> channel-jGCaMP8 fusions were transfected into HEK 293A cells and jGCaMP8 fluorescence responses recorded by simultaneous total internal reflection fluorescence microscopy and whole-cell patch clamp electrophysiology. Noninactivating currents from the Orai1 Y80E mutant provided a steady flux of Ca<sup>2+</sup> controlled on a millisecond time scale by step changes in membrane potential. Test pulses to -100 mV produced Orai1 Y80E-jGCaMP8f fluorescence traces that unexpectedly declined by ~50% over 100 ms before reaching a stable plateau. Testing of Orai1-jGCaMP8f using unroofed cells further demonstrated that rapid and partial fluorescence inactivation is a property of the indicator itself, rather than channel function. Photoinactivation spontaneously recovered over 5 min in the dark, and recovery was accelerated in the absence of Ca<sup>2+</sup>. Mutational analysis of residues near the tripeptide fluorophore of jGCaMP8f pointed to a mechanism: Q69M/C70V greatly increased (~90%) photoinactivation, reminiscent of fluorescent protein fluorophore cis-trans photoswitching. Indeed, 405-nm illumination of jGCaMP8f or 8m/8s/6f led to immediate photorecovery, and simultaneous illumination with 405 and 488-nm light blocked photoinactivation. Subsequent mutagenesis produced a variant, V203Y, that lacks photoinactivation but largely preserves the desirable properties of jGCaMP8f. Our results point to caution in interpreting rapidly changing Ca<sup>2+</sup> signals using jGCaMP8 and earlier series GECIs, suggest strategies to avoid photoswitching, and serve as a starting point to produce more photostable, and thus more accurate, GECI derivatives.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "A Novel Dual-Reporter System Reveals Distinct Characteristics of Exosome-Mediated Protein Secretion in Human Cells.",
@@ -5999,8 +5999,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1186/s12575-023-00219-w",
         "abstract": "Exosomes, a special subtype of extracellular vesicles derived from human cells, serve as vital mediators of intercellular communication by transporting diverse bioactive cargos, including proteins and enzymes. However, the underlying mechanisms governing exosome secretion and regulation remain poorly understood. In this study, we employed a dual-reporter system consisting of bioluminescent Gaussia luciferase and fluorescent proteins to investigate the dynamics and regulation of exosome secretion in cultured human cells. Our results demonstrated that the engineered dual-reporters effectively monitored both exosome-mediated and ER-Golgi-mediated secretory pathways in a specific and quantitative manner. Notably, we observed distinct characteristics of exosome-mediated protein secretion, including significantly lower capacity and different dynamics compared to the ER-Golgi pathway. This phenomenon was observed in human kidney 293T cells and liver HepG2 cells, emphasizing the conserved nature of exosome-mediated secretion across cell types. Furthermore, we investigated the impact of brefeldin A (BFA), an inhibitor of ER-to-Golgi membrane trafficking, on protein secretion. Interestingly, BFA inhibited protein secretion via the ER-Golgi pathway while stimulating exosome-mediated protein secretion under same experimental conditions. Collectively, our study highlights the utility of the dual-reporter system for real-time monitoring and quantitative analysis of protein secretion through conventional ER-Golgi and unconventional exosome pathways. Moreover, our findings unveil distinct features of exosome-mediated protein secretion, shedding light on its differential capacity, dynamics, and regulatory mechanisms compared to ER-Golgi-mediated proteins in human cells.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Range shift verification in spot scanning proton therapy using gamma electron vertex imaging.",
@@ -6008,7 +6008,7 @@
         "date": "2024",
         "doi": "https://doi.org/10.1002/mp.16739",
         "abstract": "In proton therapy, a highly steep distal dose penumbra can be utilized for dose conformity, given the Bragg peak characteristic of protons. However, the location of the Bragg peak in patients (i.e., the beam range) is very sensitive to range uncertainty. Even a small shift of beam range can produce a significant variation of delivered dose to tumor and normal tissues, thus degrading treatment quality and threatening patient safety. This range uncertainty issue, therefore, is one of the important aspects to be managed in proton therapy. For better management of range uncertainty, range verification has been widely studied, and prompt gamma imaging (PGI) is considered one of the promising methods in that effort. In this context, a PGI system named the gamma electron vertex imaging (GEVI) system was developed and recently upgraded for application to pencil-beam scanning (PBS) proton therapy. Here, we report the first experimental results using the therapeutic spot scanning proton beams. A homogeneous slab phantom and an anthropomorphic phantom were employed. Spherical and cubic planning target volumes (PTVs) were defined. Various range shift scenarios were introduced. Prompt gamma (PG) measurement was synchronized with beam irradiation. The measured PG distributions were aggregated to improve the PG statistics. The range shift was estimated based on the relative change of the centroid in the measured PG distribution. The estimated range shifts were analyzed by range shift mapping, confidence interval (CI) estimation, and statistical hypothesis testing. The range shift mapping results showed an obvious measured range shift tendency following the true shift values. However, some fluctuations were found for spots that had still-low PG statistics after spot aggregation. The 99% CI distributions showed clearly distributed range shift measurement data. The overall accuracy and precision for all investigated scenarios were 0.36 and 0.20 mm, respectively. The results of one-sample t-tests confirmed that every shift scenario could be observed up to 1 mm of shift. The ANOVA results proved that the measured range shift data could be discriminated from one another, except for 16 (of 138) comparison cases having 1-2 mm shift differences. This study demonstrated the feasibility of the GEVI system for measurement of range shift in spot scanning proton therapy. Our experimental results showed that the proton beam can be measured up to 1 mm of range shift with high accuracy and precision. We believe that the GEVI system is one of the most promising PGI systems for in vivo range verification. Further research for application to more various cases and patient treatments is planned.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6017,7 +6017,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1103/PhysRevLett.131.091803",
         "abstract": "The first observation of the production of W^{±}W^{±} bosons from double parton scattering processes using same-sign electron-muon and dimuon events in proton-proton collisions is reported. The data sample corresponds to an integrated luminosity of 138  fb^{-1} recorded at a center-of-mass energy of 13 TeV using the CMS detector at the CERN LHC. Multivariate discriminants are used to distinguish the signal process from the main backgrounds. A binned maximum likelihood fit is performed to extract the signal cross section. The measured cross section for production of same-sign W bosons decaying leptonically is 80.7±11.2(stat) _{-8.6}^{+9.5}(syst)±12.1(model)  fb, whereas the measured fiducial cross section is 6.28±0.81(stat)±0.69(syst)±0.37(model)  fb. The observed significance of the signal is 6.2 standard deviations above the background-only hypothesis.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6026,7 +6026,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1103/PhysRevLett.131.091903",
         "abstract": "A search for the rare η→μ^{+}μ^{-}μ^{+}μ^{-} double-Dalitz decay is performed using a sample of proton-proton collisions, collected by the CMS experiment at the CERN LHC with high-rate muon triggers during 2017 and 2018 and corresponding to an integrated luminosity of 101  fb^{-1}. A signal having a statistical significance well in excess of 5 standard deviations is observed. Using the η→μ^{+}μ^{-} decay as normalization, the branching fraction B(η→μ^{+}μ^{-}μ^{+}μ^{-})=[5.0±0.8(stat)±0.7(syst)±0.7(B_{2μ})]×10^{-9} is measured, where the last term is the uncertainty in the normalization channel branching fraction. This work achieves an improved precision of over 5 orders of magnitude compared to previous results, leading to the first measurement of this branching fraction, which is found to agree with theoretical predictions.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6035,7 +6035,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.21769/BioProtoc.4805",
         "abstract": "In this article, we provide a method to isolate embryonic melanoblasts from reporter mouse strains. The mice from which these cells are isolated are bred into the <i>ROSA26</i><sup>mT/mG</sup> reporter background, which results in green fluorescent protein (GFP) expression in the targeted melanoblast population. These cells are isolated and purified by fluorescence-activated cell sorting using GFP fluorescence. We also provide a method to culture the purified melanoblasts for further analysis. This method yields > 99% purity melanoblasts specifically targeted, and can be used for a variety of studies, including gene expression, clonogenic experiments, and biological assays, such as viability, capacity for directional migration, or differentiation into melanin-producing melanocytic cells.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6044,8 +6044,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1002/cbic.202300401",
         "abstract": "RNA-guided protease activity was recently discovered in the type III-E CRISPR-Cas systems (Craspase), providing a novel platform for engineering a protein probe instead of the commonly used nucleic acid probe in nucleic acid detection assays. Here, by adapting a fluorescence readout technique using the affinity- and fluorescent protein dual-tagged Csx30 protein substrate, we have established an assay monitoring Csx30 cleavage by target ssRNA-activated Craspase. Four Craspase-based nucleic acid detection systems for genes from severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2), norovirus, and the influenza virus (IFV) were reconstituted with demonstrated specificity. The assay could reliably detect target ssRNAs at concentrations down to 25 pM, which could be further improved approximately 15 000-fold (ca. 2 fM) by incorporating a recombinase polymerase isothermal preamplification step. Importantly, the species-specific substrate cleavage specificity of Craspase enabled multiplexed diagnosis, as demonstrated by the reconstituted composite systems for simultaneous detection of two genes from the same virus (SARS-CoV-2, spike and nsp12) or two types of viruses (SARS-CoV-2 and IFV). The assay could be further expanded by diversifying the fluorescent tags in the substrate and including Craspase systems from various species, thus potentially providing an easily adaptable platform for clinical diagnosis.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Evaluation of ceramic passive samplers using a mixed-mode strong cation-exchange sorbent to monitor polar contaminants in river water.",
@@ -6053,7 +6053,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.chroma.2023.464348",
         "abstract": "Although most of the analytical methods developed for the monitoring of contaminants in environmental waters are based on discrete grab sampling, an alternative of increasing interest is the use of passive sampling. Methods based on passive sampling provide the sampling and pre-concentration of the analytes in-situ, which makes the sample treatment less time consuming and costly than using discrete grab sampling. In this study, ceramic passive samplers (CPSs) using mixed-mode strong cation-exchange sorbent (Oasis MCX) as retention phase were evaluated for the determination of a group of 21 therapeutic and illicit drugs and some of their metabolites in river water samples that were determined by liquid chromatography-tandem mass spectrometry. After assessing the stability of the analytes, the CPSs were calibrated for 9 days with bottled water and river water, obtaining, for the 19 stable compounds, sample rates (Rs) ranging between 0.180 and 1.767 mL/day and diffusion coefficients (De) between 2.02E-8 and 2.81E-7 cm<sup>2</sup>/s. Once calibrated, CPSs were deployed for the determination of contaminants in the Ebre River, with good reproducibility, and some of the analytes were determined, including amongst others, gabapentin at 76 ng/L, caffeine at 203 ng/L or diclofenac amine at 57 ng/L. The passive sampling method herein presented is simple and feasible and allows the time-integrated analysis of pharmaceuticals and drugs at trace levels in river water. This study opens the possibility of using other mixed-mode sorbents or other types of sorbents as retaining phase on CPSs for the determination of very polar contaminants in water.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6062,8 +6062,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1002/jmv.29087",
         "abstract": "Understanding the cellular host factors that promote and inhibit viral entry is important for identifying viral countermeasures. CRISPR whole-genome screens can be used to rapidly discover host factors that contribute to or impair viral entry. However, when using live viruses and cellular lethality for selection, these screens can identify an overwhelming number of genes without specificity for the stage of the viral infection cycle. New screening methods are needed to identify host machinery contributing to specific steps of viral infection. Here, we developed a CRISPR whole-genome screen and counter-screen strategy based on a pseudoviral platform that allowed identification of genes specific to severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) spike and vesicular stomatitis virus glycoprotein (VSV-G) mediated entry. Screening of SARS-CoV-2 spike and VSV-G on the same lentiviral pseudovirus allowed the identification of entry-specific genes relative to genes associated with retro-transcription, integration, and reporter expression from the lentiviral pseudovirus. Second, a Cre-Gag fusion protein packaged into the pseudovirus was used to bypass retro-transcription and integration by directly activating a floxed fluorescent protein reporter upon entry  reduced the number of gene hits and increase specificity for viral entry. Our approach correctly identified SARS-CoV-2 and VSV-G receptors ACE2 and low-density lipoprotein receptors, respectively, and distinguished genes associated with retroviral reporter expression from envelope-mediated entry. Moreover, the CRE-Gag fusion/flox reporter increased the screen specificity for viral entry-associated genes. Validation of a few hits demonstrates that this approach distinguishes envelope-specific host factors from genes affecting reporter expression. Overall, this approach provides a new strategy for identifying host genes influencing viral entry without the confounding complexity of live-viral screens which produce long gene lists associated with all aspects of viral pathogenesis and replication.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "A Deep Learning Approach for Neuronal Cell Body Segmentation in Neurons Expressing GCaMP Using a Swin Transformer.",
@@ -6071,8 +6071,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1523/ENEURO.0148-23.2023",
         "abstract": "Neuronal cell body analysis is crucial for quantifying changes in neuronal sizes under different physiological and pathologic conditions. Neuronal cell body detection and segmentation mainly rely on manual or pseudo-manual annotations. Manual annotation of neuronal boundaries is time-consuming, requires human expertise, and has intra/interobserver variances. Also, determining where the neuron's cell body ends and where the axons and dendrites begin is taxing. We developed a deep-learning-based approach that uses a state-of-the-art shifted windows (Swin) transformer for automated, reproducible, fast, and unbiased 2D detection and segmentation of neuronal somas imaged in mouse acute brain slices by multiphoton microscopy. We tested our Swin algorithm during different experimental conditions of low and high signal fluorescence. Our algorithm achieved a mean Dice score of 0.91, a precision of 0.83, and a recall of 0.86. Compared with two different convolutional neural networks, the Swin transformer outperformed them in detecting the cell boundaries of GCamP6s expressing neurons. Thus, our Swin transform algorithm can assist in the fast and accurate segmentation of fluorescently labeled neuronal cell bodies in thick acute brain slices. Using our flexible algorithm, researchers can better study the fluctuations in neuronal soma size during physiological and pathologic conditions.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Exploring the extent to which shared mechanisms contribute to motion-position illusions.",
@@ -6080,7 +6080,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1167/jov.23.10.8",
         "abstract": "Motion-position illusions (MPIs) are visual motion illusions in which motion signals bias the perceived position of an object. Due to phenomenological similarities between these illusions, previous research has assumed that some are caused by common mechanisms. However, this assumption has yet to be directly tested. This study investigates this assumption by exploiting between-participant variations in illusion magnitude. During two sessions, 106 participants viewed the flash-lag effect, luminance flash-lag effect, Fröhlich effect, flash-drag effect, flash-grab effect, motion-induced position shift, twinkle-goes effect, and the flash-jump effect. For each effect, the magnitude of the illusion was reliable within participants, strongly correlating between sessions. When the pairwise correlations of averaged illusions magnitudes were explored, two clusters of statistically significant positively correlated illusions were identified. The first cluster comprised the flash-grab effect, motion-induced position shift, and twinkle-goes effect. The second cluster comprised the Fröhlich and flash-drag effect. The fact that within each of these two clusters, individual differences in illusion magnitude were correlated suggests that these clusters may reflect shared underlying mechanisms. An exploratory factor analysis provided additional evidence that these correlated clusters shared an underlying factor, with each cluster loading onto their own factor. Overall, our results reveal that, contrary to the prevailing perspective in the literature, while some motion-position illusions share processes, most of these illusions are unlikely to reflect any shared processes, instead implicating unique mechanisms.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6089,8 +6089,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.jve.2023.100343",
         "abstract": "A better understanding of HIV-1 latency is a research priority in HIV cure research. Conversely, little is known about the latency characteristics of HIV-2, the closely related human lentivirus. Though both viruses cause AIDS, HIV-2 infection progresses more slowly with significantly lower viral loads, even when corrected for CD4<sup>+</sup> T cell counts. Hence a direct comparison of latency characteristics between HIV-1 and HIV-2 could provide important clues towards a functional cure. Transduction of SupT1 cells with single-round HIV-1 and HIV-2 viruses with an enhanced green fluorescent protein (eGFP) reporter showed higher levels of eGFP expression for HIV-2 than HIV-1, while HIV-1 expression appeared more cytotoxic. To compare HIV-1 and HIV-2 gene expression, latency and reactivation in more detail, we have generated HIV-2 OGH, a replication deficient, near full- length, double reporter virus that discriminates latently and productively infected cells in cell culture. This construct is based on HIV-1 OGH, and to our knowledge, first of its kind for HIV-2. Using this construct we have observed a higher eGFP expression for HIV-2, but higher losses of HIV-1 transduced cells in SupT1 and Jurkat cells and a reduced sensitivity of HIV-2 for reactivation with TNF-α. In addition, we have analysed HIV-2 integration sites and their epigenetic environment. HIV-1 and HIV-2 share a preference for actively transcribed genes in gene-dense regions and favor active chromatin marks while disfavoring methylation markers associated with heterochromatin. In conclusion the HIV-2 OGH construct provides an interesting tool for studying HIV-2 expression, latency and reactivation. As simian immunodeficiency virus (SIV) and HIV-2 have been proposed to model a functional HIV cure, a better understanding of the mechanisms governing HIV-2 and SIV latency will be important to move forward. Further research is needed to investigate if HIV-2 uses similar mechanisms as HIV-1 to achieve its integration site selectivity.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Animal Models for Toxoplasma gondii Infection.",
@@ -6098,8 +6098,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1002/cpz1.871",
         "abstract": "Toxoplasma gondii is an obligate intracellular protozoan parasite that commonly infects mammals and birds throughout the world. This protocol describes murine models of acute T. gondii infection, toxoplasmic encephalitis and toxoplasma retinochoroiditis. T. gondii infection in severe combined immunodeficient (SCID) mice, deficient in T and B cells, has allowed for the study of T cell-independent mechanisms of defense against intracellular organisms, as described here. The uracil auxotroph strain cps1-1 and temperature-sensitive mutant strains of T. gondii induce protection against challenge with virulent strains of the parasite. They have allowed studies of immunization and adoptive-transfer experiments. A protocol is provided for infection with these mutant strains. The EGS strain of T. gondii has the unique feature of spontaneously forming tissue cysts in cell culture. Dual fluorescent reporter stains of this strain have allowed the study of tachyzoite to bradyzoite transitions in vitro and in vivo. A protocol for in vitro and in vivo growth of this strain and tissue cyst isolation is provided. Genetic manipulation of T. gondii and mice has led to the development of parasites that express fluorescent proteins as well as mice with fluorescently labeled leukocytes. This together with the use of T. gondii that express model antigens and transgenic mice that express the appropriate T cell receptor have facilitated the in vivo study of parasite host-interaction. In addition, parasites that express bioluminescent markers have made it possible to study the dynamics of infection in real time using bioluminescence imaging. Support protocols present methodology for evaluation of progression of infection and immune response to the parasite that includes these newer methodologies. In addition, support protocols address the maintenance of T. gondii tissue cysts and tachyzoites, as well as preparation of T. gondii lysate antigens. © 2023 The Authors. Current Protocols published by Wiley Periodicals LLC. Basic Protocol 1: Induction of acute T. gondii infection in mice Basic Protocol 2: Model of toxoplasmic encephalitis and toxoplasma retinochoroiditis in chronically infected mice Basic Protocol 3: Assessment of T. gondii invasion into neural tissue Basic Protocol 4: T. gondii infection in scid/scid (SCID) mice Basic Protocol 5: Infection with the uracil auxotroph strain CPS1-1 or the temperature-sensitive TS-4 strain of T. gondii Basic Protocol 6: In vivo and in vitro maintenance of the EGS strain of T. gondii Support Protocol 1: Assessment of progression of infection and immune response to T. gondii Support Protocol 2: Maintenance of a bank of T. gondii cysts of the ME49 strain Support Protocol 3: Maintenance of T. gondii tachyzoites using human foreskin fibroblasts Support Protocol 4: Maintenance of T. gondii tachyzoites in mice Support Protocol 5: Preparation of T. gondii lysate antigens Support Protocol 6: Isolation of T. gondii tissue cysts from brain.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Space wandering in the rodent default mode network.",
@@ -6107,7 +6107,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1101/2023.08.31.555793",
         "abstract": "The default mode network (DMN) is a large-scale brain network known to be suppressed during a wide range of cognitive tasks. However, our comprehension of its role in naturalistic and unconstrained behaviors has remained elusive because most research on the DMN has been conducted within the restrictive confines of MRI scanners. Here we use multisite GCaMP fiber photometry with simultaneous videography to probe DMN function in awake, freely exploring rats. We examined neural dynamics in three core DMN nodes- the retrosplenial cortex, cingulate cortex, and prelimbic cortex- as well as the anterior insula node of the salience network, and their association with the rats' spatial exploration behaviors. We found that DMN nodes displayed a hierarchical functional organization during spatial exploration, characterized by stronger coupling with each other than with the anterior insula. Crucially, these DMN nodes encoded the kinematics of spatial exploration, including linear and angular velocity. Additionally, we identified latent brain states that encoded distinct patterns of time-varying exploration behaviors and discovered that higher linear velocity was associated with enhanced DMN activity, heightened synchronization among DMN nodes, and increased anticorrelation between the DMN and anterior insula. Our findings highlight the involvement of the DMN in collectively and dynamically encoding spatial exploration in a real-world setting. Our findings challenge the notion that the DMN is primarily a \"task-negative\" network disengaged from the external world. By illuminating the DMN's role in naturalistic behaviors, our study underscores the importance of investigating brain network function in ecologically valid contexts.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6116,8 +6116,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.jbiotec.2023.09.002",
         "abstract": "Hypoxia-inducible promoters of a wide range of activities are desirable for fine-tuning gene expression in response to oxygen limitation, especially for the Crabtree negative yeast Pichia pastoris (Komagataella phaffii) with a high oxygen consumption rate in large-scale fermentations. Here we constructed a hypoxia-inducible promoter library for P. pastoris through error-prone PCR of Pichia stipitis ADH2 promoter (Ps<sub>ADH2</sub>). The library of 30 selected promoters showing 0.4- to 5.5-fold of the Ps<sub>ADH2</sub> activity was obtained through high-throughput screening in microplates using the reporter yeast-enhanced green fluorescent protein. Two strong promoters, AM23 and AM30, were further characterized in shake flask cultures at high and low dissolved oxygen levels. They responded more sensitively to the low dissolved oxygen level, achieving a 4.6-, 7.9-fold and 3.6-, 7.7-fold higher fluorescence intensity and transcript level, respectively, than the wild-type Ps<sub>ADH2</sub>. Their hypoxia-inducible properties were confirmed with two additional reporters: β-galactosidase and Vitreoscilla hemoglobin, to demonstrate the broad applicability of the promoter library. During the typical fermentation process in shake flasks, the promoter AM30 showed strong expression with cell growth and decreased oxygen levels, without any additional chemical inducers or operations. Since the potent industrial host P. pastoris is recognized as an easy to scale-up system, it is reasonable to expect that the obtained hypoxia-inducible promoter library may have great potential to enable convenient regulation of gene expression under industrial fermentations which are usually run under oxygen limitation due to high cell density cultivations.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Development of The Navigator: A Lagrangian sensing system to characterize surface freshwater ecosystems.",
@@ -6125,7 +6125,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.watres.2023.120577",
         "abstract": "Most freshwater aquatic studies rely on Eulerian monitoring, i.e., water quality and quantity are monitored using grab samples or semi-continuous sensors deployed at fixed cross-sections. While Eulerian monitoring is practical, it provides a limited understanding of spatial and temporal heterogeneity. We designed and built The Navigator, a Lagrangian (i.e., along a flow path) monitoring system that offers cost-effective solutions for in-situ, real-time data collection in surface freshwater ecosystems. The Navigator features a suite of technologies, including an autonomous surface vehicle with GPS and LTE connectivity, water quality sensors, a depth sonar, a camera, and a webpage dashboard to visualize real-time data. With these technologies, The Navigator provides insight into where, how, and why water quality and quantity change over time and space as it moves with the current or follows user-specified pathways. We tested The Navigator monitoring water quality parameters at high spatial-temporal resolution in multiple surface water bodies in New Mexico (USA) to: (1) identify water quality changes associated with land use changes along a 7th-order reach in the Rio Grande, (2) identify the fate of wildfire disturbances ∼175 km downstream of a burned watershed affected by the largest wildfire ever recorded in the state, (3) monitor the water quality of a recreational fishing pond in the City of Albuquerque. Our three successful tests confirm that The Navigator is an affordable (USD 5,101 in 2023) monitoring system that can be used to address questions involving mass and energy balances in surface waters.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6134,7 +6134,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.3390/nano13172396",
         "abstract": "Metal-based high-touch surfaces used for diverse applications in everyday use, like handrails, playground grab handles, doorknobs, ATM touch pads, and desks, are the most common targets for pollution with a variety of microbes; there is thus a need to improve their antimicrobial properties, an issue which has become a challenge in recent years, particularly after the COVID-19 pandemic. According to the World Health Organization (WHO), drug-resistant pathogens are one of the main concerns to global health today, as they lead to longer hospital stays and increased medical costs. Generally, the development of antimicrobial surfaces is related to the utilization of chemical methods via deposition on surfaces in the forms of various types of coatings. However, the addition of chemical substances onto a surface can induce unwanted effects, since it causes surface chemistry changes and, in some cases, cannot provide long-lasting results. A novel approach of utilising ultra-short laser radiation for the treatment of metallic surfaces by inducing a variety of micro- and nanostructuration is elaborated upon in the current research, estimating the optimum relation between the wettability and roughness characteristics for the creation of antimicrobial properties for such high-touch surfaces. In the current study, AISI 304-304L stainless steel metal was used as a benchmark material. Surface texturing via laser ablation with femtosecond laser pulses is an effective method, since it enables the formation of a variety of surface patterns, along with the creation of bimodal roughness, in one-step processing. In this investigation, a precise approach toward developing hydrophobic stainless steel surfaces with tunable adherence using femtosecond laser-induced modification is described. The impact of basic femtosecond laser processing parameters, like the scanning velocity, laser energy, and wettability properties of the laser-processed stainless steel samples, are examined. It is identified that the topography and morphology of laser-induced surface structures can be efficiently changed by adapting the laser processing parameters to create structures, which facilitate the transfer of surface properties from extremely low to high surface wettability.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6143,8 +6143,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.neuropharm.2023.109705",
         "abstract": "Volatile anesthetics alter presynaptic function through effects on Ca<sup>2+</sup> influx and neurotransmitter release. These actions are proposed to play important roles in their pleiotropic neurophysiological effects including immobility, unconsciousness and amnesia. Nitric oxide and cyclic guanosine monophosphate (NO/cGMP) signaling has been implicated in presynaptic mechanisms, and disruption of NO/cGMP signaling has been shown to alter sensitivity to volatile anesthetics in vivo. We investigated volatile anesthetic actions NO/cGMP signaling in relation to presynaptic function in cultured rat hippocampal neurons using pharmacological tools and genetically encoded biosensors and sequestering probes of cGMP levels. Using the fluorescent cGMP biosensor cGull, we found that electrical stimulation-evoked NMDA-type glutamate receptor-independent presynaptic cGMP transients were inhibited 33.2% by isoflurane (0.51 mM) and 26.4% by sevoflurane (0.57 mM) (p < 0.0001) compared to control stimulation without anesthetic. Stimulation-evoked cGMP transients were blocked by the nonselective inhibitor of nitric oxide synthase N-ω-nitro-l-arginine, but not by the selective neuronal nitric oxide synthase inhibitor N5-(1-imino-3-butenyl)-l-ornithine. Isoflurane and sevoflurane inhibition of stimulation-evoked increases in presynaptic Ca<sup>2+</sup> concentration, measured with synaptophysin-GCaMP6f, and of synaptic vesicle exocytosis, measured with synaptophysin-pHlourin, was attenuated in neurons expressing the cGMP scavenger protein sponge (inhibition of exocytosis reduced by 54% for isoflurane and by 53% for sevoflurane). The anesthetic-induced reduction in presynaptic excitability was partially occluded by inhibition of HCN channels, a cGMP-modulated excitatory ion channel that can facilitate glutamate release. We propose that volatile anesthetics depress presynaptic cGMP signaling and downstream effectors like HCN channels that are essential to presynaptic function and excitability. These findings identify novel mechanisms by which volatile anesthetics depress synaptic transmission via second messenger signaling involving the NO/cGMP pathway in hippocampal neurons.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Development of a HiBiT-tagged reporter hepatitis E virus and its utility as an antiviral drug screening platform.",
@@ -6152,8 +6152,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1128/jvi.00508-23",
         "abstract": "Previously, we developed an infectious hepatitis E virus (HEV) harboring the nanoKAZ gene in the hypervariable region of the open reading frame 1 (ORF1) of the HEV3b (JE03-1760F/P10) genome and demonstrated the usefulness for screening anti-HEV drugs that inhibit the early infection process. In the present study, we constructed another reporter HEV (HEV3b-HiBiT) by placing a minimized HiBiT tag derived from NanoLuc luciferase at the 3'-end of the viral capsid (ORF2) coding sequence. It replicated efficiently in PLC/PRF/5 cells, produced membrane-associated particles identical to those of the parental virus, and was genetically stable and infectious. The HiBiT tag was fused to both secreted ORF2s (ORF2s-HiBiT) and ORF2c capsid protein (ORF2c-HiBiT). The ORF2c-HiBiT formed membrane-associated HEV particles (eHEV3b-HiBiT). By treating these particles with digitonin, we demonstrated that the HiBiT tag was expressed on the surface of capsid and was present inside the lipid membrane. To simplify the measurement of luciferase activity and provide a more convenient screening platform, we constructed an ORF2s-defective mutant (HEV3b-HiBiT/ΔORF2s) in which the secreted ORF2s are suppressed. We used this system to evaluate the effects of introducing small interfering RNAs and treatment with an inhibitor or accelerator of exosomal release on HEV egress and demonstrated that the effects on virus release can readily be analyzed. Therefore, HEV3b-HiBiT and HEV3b-HiBiT/ΔORF2s reporters may be useful for investigating the virus life cycle and can serve as a more convenient screening platform to search for candidate drugs targeting the late stage of HEV infection such as particle formation and release. IMPORTANCE The construction of recombinant infectious viruses harboring a stable luminescence reporter gene is essential for investigations of the viral life cycle, such as viral replication and pathogenesis, and the development of novel antiviral drugs. However, it is difficult to maintain the stability of a large foreign gene inserted into the viral genome. In the present study, we successfully generated a recombinant HEV harboring the 11-amino acid HiBiT tag in the ORF2 coding region and demonstrated the infectivity, efficient virus growth, particle morphology, and genetic stability, suggesting that this recombinant HEV is useful for <i>in vitro</i> assays. Furthermore, this system can serve as a more convenient screening platform for anti-HEV drugs. Thus, an infectious recombinant HEV is a powerful approach not only for elucidating the molecular mechanisms of the viral life cycle but also for the screening and development of novel antiviral agents.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "A hybrid CPU/GPU method for Hartree-Fock self-consistent-field calculation.",
@@ -6161,7 +6161,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1063/5.0156934",
         "abstract": "The calculation of two-electron repulsion integrals (ERIs) is a crucial aspect of Hartree-Fock calculations. In computing the ERIs of varying angular momentum, both the central processing unit (CPU) and the graphics processing unit (GPU) have their respective advantages. To accelerate the ERI evaluation and Fock matrix generation, a hybrid CPU/GPU method has been proposed to maximize the computational power of both CPU and GPU while overlapping the CPU and GPU computations. This method employs a task queue where each task corresponds to ERIs with the same angular momentum. The queue begins with ERIs of low angular momentum, which are computationally efficient on GPUs, and ends with ERIs of high angular momentum, which are better suited for CPU computation. CPUs and GPUs dynamically grab and complete tasks from the start and end of the queue using OpenMP dynamic scheduling until all tasks are finished. The hybrid CPU/GPU computation offers the advantage of enabling calculations with arbitrary angular momentum. Test calculations showed that the hybrid CPU/GPU algorithm is more efficient than \"GPU-only\" when using a single GPU. However, as more GPUs are involved, the advantage diminishes or disappears. The scaling exponents of the hybrid method were slightly higher than \"GPU-only,\" but the pre-exponent factor was significantly lower, making the hybrid method more effective overall.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6170,8 +6170,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1038/s41684-023-01238-6",
         "abstract": "In vivo bioluminescence imaging (BLI) has been an invaluable noninvasive method to visualize molecular and cellular behaviors in laboratory animals. Bioluminescent reporter mice harboring luciferases for general use have been limited to a classical luciferase, Luc2, from Photinus pyralis, and have been extremely powerful for various in vivo studies. However, applicability of reporter mice for in vivo BLI could be further accelerated by increasing light intensity through the use of other luciferases and/or by improving the biodistribution of their substrates in the animal body. Here we created two Cre-dependent reporter mice incorporating luciferases oFluc derived from Pyrocoeli matsumurai and Akaluc, both of which had been reported previously to be brighter than Luc2 when using appropriate substrates; we then tested their bioluminescence in neural tissues and other organs in living mice. When expressed throughout the body, both luciferases emitted an intense yellow (oFluc) or far-red (Akaluc) light easily visible to the naked eye. oFluc and Akaluc were similarly bright in the pancreas for in vivo BLI; however, Akaluc was superior to oFluc for brain imaging, because its substrate, AkaLumine-HCl, was distributed to the brain more efficiently than the oFluc substrate, D-luciferin. We also demonstrated that the lights produced by oFluc and Akaluc were sufficiently spectrally distinct from each other for dual-color imaging in a single living mouse. Taken together, these novel bioluminescent reporter mice are an ideal source of cells with bright bioluminescence and may facilitate in vivo BLI of various tissues/organs for preclinical and biomedical research in combination with a wide variety of Cre-driver mice.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Chemogenetic Silencing of Na<sub>V</sub>1.8-Positive Sensory Neurons Reverses Chronic Neuropathic and Bone Cancer Pain in FLEx PSAM<sup>4</sup>-GlyR Mice.",
@@ -6179,8 +6179,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1523/ENEURO.0151-23.2023",
         "abstract": "Drive from peripheral neurons is essential in almost all pain states, but pharmacological silencing of these neurons to effect analgesia has proved problematic. Reversible gene therapy using long-lived chemogenetic approaches is an appealing option. We used the genetically activated chloride channel PSAM<sup>4</sup>-GlyR to examine pain pathways in mice. Using recombinant AAV9-based delivery to sensory neurons, we found a reversal of acute pain behavior and diminished neuronal activity using <i>in vitro</i> and <i>in vivo</i> GCaMP imaging on activation of PSAM<sup>4</sup>-GlyR with varenicline. A significant reduction in inflammatory heat hyperalgesia and oxaliplatin-induced cold allodynia was also observed. Importantly, there was no impairment of motor coordination, but innocuous von Frey sensation was inhibited. We generated a transgenic mouse that expresses a CAG-driven FLExed PSAM<sup>4</sup>-GlyR downstream of the <i>Rosa26</i> locus that requires Cre recombinase to enable the expression of PSAM<sup>4</sup>-GlyR and tdTomato. We used Na<sub>V</sub>1.8 Cre to examine the role of predominantly nociceptive Na<sub>V</sub>1.8+ neurons in cancer-induced bone pain (CIBP) and neuropathic pain caused by chronic constriction injury (CCI). Varenicline activation of PSAM<sup>4</sup>-GlyR in Na<sub>V</sub>1.8-positive neurons reversed CCI-driven mechanical, thermal, and cold sensitivity. Additionally, varenicline treatment of mice with CIBP expressing PSAM<sup>4</sup>-GlyR in Na<sub>V</sub>1.8+ sensory neurons reversed cancer pain as assessed by weight-bearing. Moreover, when these mice were subjected to acute pain assays, an elevation in withdrawal thresholds to noxious mechanical and thermal stimuli was detected, but innocuous mechanical sensations remained unaffected. These studies confirm the utility of PSAM<sup>4</sup>-GlyR chemogenetic silencing in chronic pain states for mechanistic analysis and potential future therapeutic use.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Screening for Novel Type 2 Ryanodine Receptor Inhibitors by Endoplasmic Reticulum Ca<sup>2+</sup> Monitoring.",
@@ -6188,8 +6188,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1124/molpharm.123.000720",
         "abstract": "Type 2 ryanodine receptor (RyR2) is a Ca<sup>2+</sup> release channel on the endoplasmic (ER)/sarcoplasmic reticulum that plays a central role in the excitation-contraction coupling in the heart. Hyperactivity of RyR2 has been linked to ventricular arrhythmias in patients with catecholaminergic polymorphic ventricular tachycardia and heart failure, where spontaneous Ca<sup>2+</sup> release via hyperactivated RyR2 depolarizes diastolic membrane potential to induce triggered activity. In such cases, drugs that suppress RyR2 activity are expected to prevent the arrhythmias, but there is no clinically available RyR2 inhibitors at present. In this study, we searched for RyR2 inhibitors from a well-characterized compound library using a recently developed ER Ca<sup>2+</sup>-based assay, where the inhibition of RyR2 activity was detected by the increase in ER Ca<sup>2+</sup> signals from R-CEPIA1er, a genetically encoded ER Ca<sup>2+</sup> indicator, in RyR2-expressing HEK293 cells. By screening 1535 compounds in the library, we identified three compounds (chloroxylenol, methyl orsellinate, and riluzole) that greatly increased the ER Ca<sup>2+</sup> signal. All of the three compounds suppressed spontaneous Ca<sup>2+</sup> oscillations in RyR2-expressing HEK293 cells and correspondingly reduced the Ca<sup>2+</sup>-dependent [<sup>3</sup>H]ryanodine binding activity. In cardiomyocytes from RyR2-mutant mice, the three compounds effectively suppressed abnormal Ca<sup>2+</sup> waves without substantial effects on the action-potential-induced Ca<sup>2+</sup> transients. These results confirm that ER Ca<sup>2+</sup>-based screening is useful for identifying modulators of ER Ca<sup>2+</sup> release channels and suggest that RyR2 inhibitors have potential to be developed as a new category of antiarrhythmic drugs. SIGNIFICANCE STATEMENT: We successfully identified three compounds having RyR2 inhibitory action from a well-characterized compound library using an endoplasmic reticulum Ca<sup>2+</sup>-based assay, and demonstrated that these compounds suppressed arrhythmogenic Ca<sup>2+</sup> wave generation without substantially affecting physiological action-potential induced Ca<sup>2+</sup> transients in cardiomyocytes. This study will facilitate the development of RyR2-specific inhibitors as a potential new class of drugs for life-threatening arrhythmias induced by hyperactivation of RyR2.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Mitapivat reprograms the RBC metabolome and improves anemia in a mouse model of hereditary spherocytosis.",
@@ -6197,7 +6197,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1172/jci.insight.172656",
         "abstract": "Hereditary spherocytosis (HS) is the most common, nonimmune, hereditary, chronic hemolytic anemia after hemoglobinopathies. The genetic defects in membrane function causing HS lead to perturbation of the RBC metabolome, with altered glycolysis. In mice genetically lacking protein 4.2 (4.2-/-; Epb42), a murine model of HS, we showed increased expression of pyruvate kinase (PK) isoforms in whole and fractioned RBCs in conjunction with abnormalities in the glycolytic pathway and in the glutathione (GSH) system. Mitapivat, a PK activator, metabolically reprogrammed 4.2-/- mouse RBCs with amelioration of glycolysis and the GSH cycle. This resulted in improved osmotic fragility, reduced phosphatidylserine positivity, amelioration of RBC cation content, reduction of Na/K/Cl cotransport and Na/H-exchange overactivation, and decrease in erythroid vesicles release in vitro. Mitapivat treatment significantly decreased erythrophagocytosis and beneficially affected iron homeostasis. In mild-to-moderate HS, the beneficial effect of splenectomy is still controversial. Here, we showed that splenectomy improves anemia in 4.2-/- mice and that mitapivat is noninferior to splenectomy. An additional benefit of mitapivat treatment was lower expression of markers of inflammatory vasculopathy in 4.2-/- mice with or without splenectomy, indicating a multisystemic action of mitapivat. These findings support the notion that mitapivat treatment should be considered for symptomatic HS.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6206,7 +6206,7 @@
         "date": "2024",
         "doi": "https://doi.org/10.1016/j.biopsych.2023.08.021",
         "abstract": "Both psychostimulant use and engagement with probabilistic schedules of reward sensitize the mesocorticolimbic dopamine (DA) system. Such behaviors may act synergistically to explain the high comorbidity between stimulant use and gambling disorder. The salient audiovisual stimuli of modern electronic gambling may exacerbate the situation. To probe these interactions, we sensitized ventral tegmental area DA neurons via chronic chemogenetic stimulation while rats (n = 134) learned a rat gambling task in the presence or absence of casino-like cues. The same rats then learned to self-administer cocaine. In a separate cohort (n = 25), we confirmed that our chemogenetic methods sensitized the locomotor response to cocaine and potentiated phasic excitability of ventral tegmental area DA neurons through in vivo electrophysiological recordings. In the absence of cues, sensitization promoted risk taking in both sexes. When rewards were cued, sensitization expedited the development of a risk-preferring phenotype in males while attenuating cue-induced risk taking in females. While these results provide further confirmation that ventral tegmental area DA neurons critically modulate risky decision making, they also reveal stark sex differences in the decisional impact that dopaminergic signals exert when winning outcomes are cued. As previously observed, risky decision making on the cued rat gambling task increased as both males and females learned to self-administer cocaine. The combination of DA sensitization and win-paired cues while gambling led to significantly greater cocaine taking, but these rats did not show any increase in risky choice as a result. Therefore, cocaine and heavily cued gambles may partially substitute for each other once the DA system has been rendered labile through sensitization, thereby compounding addiction risk across modalities.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6215,8 +6215,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1242/bio.060030",
         "abstract": "In multicellular organisms, metabolic coordination across multiple tissues and cell types is essential to satisfy regionalized energetic requirements and respond coherently to changing environmental conditions. However, most metabolic assays require the destruction of the biological sample, with a concomitant loss of spatial information. Fluorescent metabolic sensors and probes are among the most user-friendly techniques for collecting metabolic information with spatial resolution. In a previous work, we have adapted to an animal system, Drosophila melanogaster, genetically encoded metabolic FRET-based sensors that had been previously developed in single-cell systems. These sensors provide semi-quantitative data on the stationary concentrations of key metabolites of the bioenergetic metabolism: lactate, pyruvate, and 2-oxoglutarate. The use of these sensors in intact organs required the development of an image processing method that minimizes the contribution of spatially complex autofluorescence patterns, that would obscure the FRET signals. In this article, we show step by step how to design FRET-based sensor experiments and how to process the fluorescence signal to obtain reliable FRET values.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Colloidal tubular microrobots for cargo transport and compression.",
@@ -6224,7 +6224,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1073/pnas.2304685120",
         "abstract": "Microrobot swarms have seen increased interest in recent years due to their potentials for in vivo delivery and imaging with cooperative propulsion modes and enhanced imaging signals. Yet most swarms developed so far are limited to dense particle aggregates, far simpler than complicated three-dimensional assemblies of anisotropic particles. Here, we show via assembly path design that complex hollow tubular structures can be assembled from simple isotropic colloidal spheres and those complicated, metastable, microtubes can be formed from simple, energetically favorable colloidal membranes. The assembled microtubes can remain intact and roll under a precessing magnetic field, with propulsion directions and velocities precisely controlled by field components. The hollow spaces inside enable these tubular microrobots to grab, transport, and release cargos on command. We also demonstrate unique compressing and uncompressing capabilities with our tubular microrobots, making them effective microtweezers. Our work shows that complicated microrobots can be transformed from simple assemblies, providing an insight on building micromachines.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6233,7 +6233,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1007/978-1-0716-3393-9_12",
         "abstract": "Fluorescence polarization (FP) assays can be used to identify small-molecule inhibitors that bind to SH2 domain-containing proteins. We have developed FP assays by which to identify inhibitors of the SH2 domains of the two closely-related transcription factors STAT5a and STAT5b. Point mutation of selected amino acids in the putative binding site of the protein is a valuable tool by which to gain insight into the molecular mechanism of binding. In this chapter, we describe the cloning and application of point mutant proteins in order to transfer the binding preference of selected SH2 domain-binding STAT5b inhibitors to STAT5a, with results that highlight the importance of considering a role for residues outside the SH2 domain in contributing to the binding interactions of SH2 domain inhibitors.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6242,7 +6242,7 @@
         "date": "2025",
         "doi": "https://doi.org/10.1101/2023.08.24.554619",
         "abstract": "Collecting lymphatic vessels (cLVs) exhibit spontaneous contractions with a pressure-dependent frequency, but the identity of the lymphatic pacemaker cell is still debated. Here we combined immunofluorescence and scRNAseq analyses with electrophysiological methods to examine the cellular constituents of the mouse cLV wall and assess whether any cell type exhibited morphological and functional processes characteristic of pacemaker cells. We employed inducible Cre (iCre) mouse models to target specific cell populations including c-kitCreER <sup><i>T2</i></sup> to target interstitial cells of Cajal like cells; <i>PdgfrβCreER</i> <sup><i>T2</i></sup> to target pericyte-like cells; <i>PdgfrαCreER</i> <sup><i>TM</i></sup> to target CD34<sup>+</sup> adventitial cells; and <i>Myh11CreER</i> <sup><i>T2</i></sup> to target lymphatic muscle cells (LMCs) directly. These inducible Cre lines were crossed to the fluorescent reporter ROSA26mT/mG, the genetically encoded Ca<sup>2+</sup> sensor GCaMP6f, and the light-activated cation channel rhodopsin2 (ChR2). Only LMCs consistently, but heterogeneously, displayed spontaneous Ca<sup>2+</sup> events during the diastolic period of the contraction cycle, and whose frequency was modulated in a pressure-dependent manner. Further, optogenetic depolarization with ChR2 only induced propagated contractions in LMCs. Membrane potential recordings in LMCs demonstrated that the rate of diastolic depolarization significantly correlated with contraction frequency. These findings support the conclusion that LMCs, or a subset of LMCs, are responsible for mouse cLV pacemaking.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6251,7 +6251,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1101/2023.08.24.554559",
         "abstract": "Dopamine (DA) plays multiple roles in a wide range of physiological and pathological processes via a vast network of dopaminergic projections. To fully dissect the spatiotemporal dynamics of DA release in both dense and sparsely innervated brain regions, we developed a series of green and red fluorescent GPCR activation-based DA (GRAB<sub>DA</sub>) sensors using a variety of DA receptor subtypes. These sensors have high sensitivity, selectivity, and signal-to-noise properties with subsecond response kinetics and the ability to detect a wide range of DA concentrations. We then used these sensors in freely moving mice to measure both optogenetically evoked and behaviorally relevant DA release while measuring neurochemical signaling in the nucleus accumbens, amygdala, and cortex. Using these sensors, we also detected spatially resolved heterogeneous cortical DA release in mice performing various behaviors. These next-generation GRAB<sub>DA</sub> sensors provide a robust set of tools for imaging dopaminergic activity under a variety of physiological and pathological conditions.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -6260,7 +6260,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1080/19382014.2023.2252855",
         "abstract": "Somatostatin is a paracrine modulator of insulin secretion and beta cell function with pleotropic effects on glucose homeostasis. The mechanism of somatostatin-mediated communication between delta and beta cells is not well-understood, which we address in this study via the ciliary somatostatin receptor 3 (SSTR3). Primary cilia are membrane organelles that act as signaling hubs in islets by virtue of their subcellular location and enrichment in signaling proteins such as G-protein coupled receptors (GPCRs). We show that SSTR3, a ciliary GPCR, mediates somatostatin suppression of insulin secretion in mouse islets. Quantitative analysis of calcium flux using a mouse model of genetically encoded beta cell-specific GCaMP6f calcium reporter shows that somatostatin signaling alters beta cell calcium flux after physiologic glucose stimulation, an effect that depends on endogenous SSTR3 expression and the presence of intact primary cilia on beta cells. Comparative <i>in vitro</i> studies using SSTR isoform antagonists demonstrate a role for SSTR3 in mediating somatostatin regulation of insulin secretion in mouse islets. Our findings support a model in which ciliary SSTR3 mediates a distinct pathway of delta-to-beta cell regulatory crosstalk and may serve as a target for paracrine modulation.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6269,7 +6269,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.scitotenv.2023.166731",
         "abstract": "Accurate prediction of radionuclide migration directed by colloids in a repository environment is critical for the long-term safety assessment of radioactive waste disposal. Yet, there remains a paucity of research focusing on the migration and release processes of radionuclides combined with colloids associated with the repository, e.g., granite, and especially fracture-filling materials (FFMs). Further, the impact of heterogeneity on radionuclide migration in these media remains unclear. Thus, laboratory-scale column experiments were conducted to explore the migration behaviors of Eu(III) and bentonite colloids (BCs) in both homogeneously and heterogeneously configured columns. It was observed that the migration of BCs can be influenced by the configuration of media and ionic strength of solution. FFMs exhibited a higher retardation capacity for BCs than granite, and the retention ability of the heterogenous media (Granite-FFMs) was intermediate between that of granite and FFMs. The retardation of BCs increased with increasing ionic strength. Despite the \"irreversibility\" of Eu(III) adsorption on these media with insensitivity on ionic strength, the presence of BCs can grab the immobilized Eu(III) and carry more amount of adsorbed Eu(III) into the mobile phase at higher ionic strength. Even with the rinse of BCs flow, FFMs still revealed a better retardation ability for Eu(III) than granite. These findings are essential for predicting the geological fate and the release risk of radionuclides in the Beishan repository environment.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6278,7 +6278,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1007/s10661-023-11790-w",
         "abstract": "Microplastics (MPs) and their impacts have been extensively studied in the Mediterranean region. However, more research has yet to be conducted on assessing the extent of microplastic (MP) pollution in the eastern Aegean Sea, specifically in Izmir Bay. This study aims to evaluate the current state of MP pollution in surface water and sediment samples collected from Izmir Bay. Ten sampling stations were specifically selected, including locations near stream discharge points, maritime transportation piers, and port areas. Surface water samples were collected using a manta trawl net, while sediment samples were obtained using a Van Veen grab. The mean MP abundances in surface water ranged from 1,083,882 to 8,091,684 items/km<sup>2</sup>. Fragment type MPs were dominant. In terms of size category, it was found that MP s of 500µm size were dominant. The dominant color of MPs was white. ATR-FTIR analyses revealed that polyethylene and polypropylene were the dominant polymer types. MP concentrations in sediment ranged from 2,125 to 4,925 items/m<sup>2</sup>, with fiber-type MPs being the most abundant. Black-colored MPs were found to dominate in sediment samples. Overall, the MP levels in Izmir Bay were higher than previous studies findings. Therefore, it is crucial to conduct long-term monitoring studies to obtain more consistent and reliable data on MP pollution levels in Izmir Bay.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6287,8 +6287,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.34172/bi.2023.24195",
         "abstract": "In this work, a flexible, and wearable point-of-care (POC) device integrated on a pain relief patch as wearable colorimetric sensors have been developed for sweat analysis, such as lactic acid, sodium ions, and pH simultaneously. Herein, the patch has still functioned as pain relief, while it allows for sweat monitoring during exercise, and in daily activities. It was constructed on cotton cloth using wax printing technology (batik stamp) as cloth-based microfluidic devices (CMDs). Here, it uses micro volumes of samples to perform the reaction in the sensing zones, where the sensitive reagents are immobilized so that it can collect and analyze the sweat (lactic acid, sodium ions, and pH) as the model for sweat analytes. The colorimetric analysis was conducted via a smartphone camera by using a free app (Color Grab) for a color image analysis that uses for quantitative analysis or naked eye for semi-qualitative analysis. The ∆RGB value of the CMDS shows the excellent linear correlation vs analytes concentration, where the coefficient of correlations was found for lactic acid (R<sup>2</sup> = 0.994), sodium ion (R<sup>2</sup> = 0.998), and pH (R<sup>2</sup> = 0.994). The ∆RGB value shows the appropriate color value for the linear correlation of the analyte target concentrations in the sweat samples. Here, the limit of detection (LOD) was found at 45.73 µg/mL for lactic acid and 56.46 µg/mL for sodium ions. The reproducibility was found at 0.79% and 0.89%, for lactic acid and sodium ions respectively. It was applied for sweat analysis during exercise, and the results show in agreement with the standard methods used in a clinical laboratory.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Oncomodulin regulates spontaneous calcium signalling and maturation of afferent innervation in cochlear outer hair cells.",
@@ -6296,7 +6296,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1113/JP284690",
         "abstract": "Cochlear outer hair cells (OHCs) are responsible for the exquisite frequency selectivity and sensitivity of mammalian hearing. During development, the maturation of OHC afferent connectivity is refined by coordinated spontaneous Ca<sup>2+</sup> activity in both sensory and non-sensory cells. Calcium signalling in neonatal OHCs can be modulated by oncomodulin (OCM, β-parvalbumin), an EF-hand calcium-binding protein. Here, we investigated whether OCM regulates OHC spontaneous Ca<sup>2+</sup> activity and afferent connectivity during development. Using a genetically encoded Ca<sup>2+</sup> sensor (GCaMP6s) expressed in OHCs in wild-type (Ocm<sup>+/+</sup> ) and Ocm knockout (Ocm<sup>-/-</sup> ) littermates, we found increased spontaneous Ca<sup>2+</sup> activity and upregulation of purinergic receptors in OHCs from Ocm<sup>-/-</sup> cochlea immediately following birth. The afferent synaptic maturation of OHCs was delayed in the absence of OCM, leading to an increased number of ribbon synapses and afferent fibres on Ocm<sup>-/-</sup> OHCs before hearing onset. We propose that OCM regulates the spontaneous Ca<sup>2+</sup> signalling in the developing cochlea and the maturation of OHC afferent innervation. KEY POINTS: Cochlear outer hair cells (OHCs) exhibit spontaneous Ca<sup>2+</sup> activity during a narrow period of neonatal development. OHC afferent maturation and connectivity requires spontaneous Ca<sup>2+</sup> activity. Oncomodulin (OCM, β-parvalbumin), an EF-hand calcium-binding protein, modulates Ca<sup>2+</sup> signals in immature OHCs. Using transgenic mice that endogenously expressed a Ca<sup>2+</sup> sensor, GCaMP6s, we found increased spontaneous Ca<sup>2+</sup> activity and upregulated purinergic receptors in Ocm<sup>-/-</sup> OHCs. The maturation of afferent synapses in Ocm<sup>-/-</sup> OHCs was also delayed, leading to an upregulation of ribbon synapses and afferent fibres in Ocm<sup>-/-</sup> OHCs before hearing onset. We propose that OCM plays an important role in modulating Ca<sup>2+</sup> activity, expression of Ca<sup>2+</sup> channels and afferent innervation in developing OHCs.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6305,8 +6305,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1111/acel.13965",
         "abstract": "Nicotinamide adenine dinucleotide (NAD<sup>+</sup> ) level has been associated with various age-related diseases and its pharmacological modulation emerges as a potential approach for aging intervention. But human NAD<sup>+</sup> landscape exhibits large heterogeneity. The lack of rapid, low-cost assays limits the establishment of whole-blood NAD<sup>+</sup> baseline and the development of personalized therapies, especially for those with poor responses towards conventional NAD<sup>+</sup> supplementations. Here, we developed an automated NAD<sup>+</sup> analyzer for the rapid measurement of NAD<sup>+</sup> with 5 μL of capillary blood using recombinant bioluminescent sensor protein and automated optical reader. The minimal invasiveness of the assay allowed a frequent and decentralized mapping of real-world NAD<sup>+</sup> dynamics. We showed that aerobic sport and NMN supplementation increased whole-blood NAD<sup>+</sup> and that male on average has higher NAD<sup>+</sup> than female before the age of 50. We further revealed the long-term stability of human NAD<sup>+</sup> baseline over 100 days and identified major real-world NAD<sup>+</sup> -modulating behaviors.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Determination of organic contaminants in L'Albufera Natural Park using microporous polyethylene tube passive samplers: An environmental risk assessment.",
@@ -6314,7 +6314,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.scitotenv.2023.166594",
         "abstract": "L'Albufera Natural Park (Valencia, Spain) is a protected wetland of international significance that provides critical habitats to endemic and threatened bird and plant species. This study aims to use multiple cross-validation techniques to generate an accurate estimation of the environmental risk of organic contaminants (OCs) in an internationally important coastal wetland, to identify compounds of concern and their potential sources and risk factors. Microporous polyethylene tube (MPT) passive samplers were deployed at 12 locations across L'Albufera Natural Park with concurrent grab samples collected. A subset of MPT samplers were also analysed by an additional laboratory in Australia to widen the range of contaminants and assess interlaboratory reproducibility of results. Forty-three pesticides, 20 pharmaceuticals and personal care products (PPCPs), 20 per-and polyfluoroalkyl substances (PFAS) and 4 organophosphorus flame retardants (OPFRs) were detected in the MPT samplers. The fungicides tebuconazole and difenoconazole were detected at the highest concentrations in passive samplers (maximum concentrations, 153 ng sampler<sup>-1</sup> and 106 ng sampler<sup>-1</sup>, respectively). Several other pesticides were detected in all locations (mean concentrations >1 ng sampler<sup>-1</sup>). The compounds fenamiphos, propyzamide, difenoconazole, propiconazole, metsulfuron methyl, sodium bis (perfluorohexyl) phosphinate (6:6 PFPiA), 6:2 fluorotelomer sulfonamide alkylbetaine (6:2 FTAB), 6:2 fluorotelomersulfonate (6:2 FTS), citalopram desmethyl and citalopram were reported in the wetland for the first time. Spatial distribution analysis revealed higher pesticide concentrations in the North of L'Albufera. A risk quotient (RQ) analysis showed that ibuprofen is of concern in the area. Overall, the MPT sampling approach is promising as a risk assessment tool for better understanding the transport and fate of OCs in protected areas.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6323,7 +6323,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.3389/fpsyg.2023.1195649",
         "abstract": "War has profound and deep-rooted ramifications for individuals and societies. War-induced post-traumatic stress disorder (PTSD) is highly prevalent in Kosovo. This study aimed to obtain insights into the prevalence of perceived PTSD symptoms and their relation to the traumatic experiences of two generations: parents (survivors of the Kosovo War) and youth (children born after the Kosovo War), with an emphasis on the Albanian ethnic group. These experiences were then compared to understand intergenerational trauma. The study also aimed to identify the factors affecting PTSD prevalence, the role of social support, and the participants' experience with mental health services. A total of 237 Kosovar Albanians (121 parents, 116 youth) from all seven districts of Kosovo were included in this study. Study variables were measured using the PTSD Checklist, the Life Events Checklist, Criterion A, and the Multidimensional Scale of Perceived Social Support. The results revealed that the youth had significantly higher levels of perceived PTSD symptoms and lower levels of perceived support than their parents. Youth whose parents had PTSD were more prone to experiencing PTSD symptoms than those whose parents did not have PTSD. These youth also experienced significantly more traumatic situations, such as exposure to sudden violent death or accidental death, assault with a weapon, sexual assault, and captivity. Participants with perceived PTSD and lower perceived social support needed mental health interventions significantly more than those without PTSD symptoms. The findings emphasize the importance of addressing the intergenerational nature of PTSD and identifying factors affecting its prevalence, including social support and access to mental health services. The study underscores the need for a comprehensive approach to examine the complex and diverse nature of PTSD and its impact on individuals, families, and communities, especially in conflict-prone or conflict-affected societies.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6332,7 +6332,7 @@
         "date": "2022",
         "doi": "https://doi.org/10.12688/mep.19182.2",
         "abstract": "According to self-determination theory (SDT), environments which support the basic psychological needs for autonomy, competence, and relatedness will facilitate autonomous motivation, learning, and wellness. On the other hand, environments which introduce external controls and power dynamics into the equation will do the opposite. Educational studies support these principles, yet most have focused on learners' need satisfaction as a passive process (e.g., via support or hindrance by educators), rather than the agentic pursuit that SDT emphasizes. In this commentary, I draw on my experience as a practicing physician and SDT researcher, and focus on how medical learners can \"grab\" more autonomy when the learning environment does not support it. I present a hypothetical case of a preceptor whose teaching style is controlling and unfortunately well-known to medical learners. I then unpack the case and outline different strategies that medical learners can use to navigate this type of interpersonal conflict.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6341,7 +6341,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.4149/BLL_2023_101",
         "abstract": "We investigated various methods for image segmentation and image processing for the segmentation of MRI of human medical data, as well as bioinformatics for the segmentation of brain cell details, in this work. The goal is to demonstrate and bring various mathematical analyses for medical and biological image analysis. We proposed new software and methods for improving the segmentation of biological and medical data. This way, we can find new ways to improve the diagnostic process in medical data and improve results in cell and iron diagnostics. We present the GrabCut algorithm as well as new, improved software for this part, a fuzzy approach and fuzzy processing of tissues, and finally machine‑learning techniques with neural networks. We implemented the new software in the C++ programming language for the Grab cut algorithm. Consequently, we present a fuzzy approach to the diagnosis of image data in Matlab. Finally, a deep learning-based approach is used, with a U-Net-based segmentation architecture proposed to measure the various brain cell parameters. We will be able to proceed with data that we were unable to proceed when using other methods. As a result, we improved biological and medical data segmentation to obtain better boundaries and sharper edges on the objects. There is still space to extend these methods to other medical and biological applications (Tab. 1, Fig. 34, Ref. 46). Keywords: segmentation; image processing; fuzzy segmentation, GrabCut, deep learning.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6350,8 +6350,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1186/s12974-023-02871-1",
         "abstract": "Individuals who have experienced mild traumatic brain injuries (mTBIs) suffer from several comorbidities, including chronic pain. Despite extensive studies investigating the underlying mechanisms of mTBI-associated chronic pain, the role of inflammation in long-term pain after mTBIs is not fully elucidated. Given the shifting dynamics of inflammation, it is important to understand the spatial-longitudinal changes in inflammatory processes following mTBIs and their effects on TBI-related pain. We utilized a recently developed transgenic caspase-1 luciferase reporter mouse model to monitor caspase-1 activation through a thinned skull window in the in vivo setting following three closed-head mTBI events. Organotypic coronal brain slice cultures and acutely dissociated dorsal root ganglion (DRG) cells provided tissue-relevant context of inflammation signal. Mechanical allodynia was assessed by mechanical withdrawal threshold to von Frey and thermal hyperalgesia withdrawal latency to radiant heat. Mouse grimace scale (MGS) was used to detect spontaneous or non-evoked pain. In some experiments, mice were prophylactically treated with MCC950, a potent small molecule inhibitor of NLRP3 inflammasome assembly to inhibit injury-induced inflammatory signaling. Bioluminescence spatiotemporal dynamics were quantified in the head and hind paws, and caspase-1 activation was confirmed by immunoblot. Immunofluorescence staining was used to monitor the progression of astrogliosis and microglial activation in ex vivo brain tissue following repetitive closed-head mTBIs. Mice with repetitive closed-head mTBIs exhibited significant increases of the bioluminescence signals within the brain and paws in vivo for at least one week after each injury. Consistently, immunoblotting and immunofluorescence experiments confirmed that mTBIs led to caspase-1 activation, astrogliosis, and microgliosis. Persistent changes in MGS and hind paw withdrawal thresholds, indicative of pain states, were observed post-injury in the same mTBI animals in vivo. We also observed enhanced inflammatory responses in ex vivo brain slice preparations and DRG for at least 3 days following mTBIs. In vivo treatment with MCC950 significantly reduced caspase-1 activation-associated bioluminescent signals in vivo and decreased stimulus-evoked and non-stimulus evoked nociception. Our findings suggest that the inflammatory states in the brain and peripheral nervous system following repeated mTBIs are coincidental with the development of nociceptive sensitization, and that these events can be significantly reduced by inhibition of NLRP3 inflammasome activation.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Mechanical stimuli activate gene expression via a cell envelope stress sensing pathway.",
@@ -6359,7 +6359,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1038/s41598-023-40897-w",
         "abstract": "Mechanosensitive mechanisms are often used to sense damage to tissue structure, stimulating matrix synthesis and repair. While this kind of mechanoregulatory process is well recognized in eukaryotic systems, it is not known whether such a process occurs in bacteria. In Vibrio cholerae, antibiotic-induced damage to the load-bearing cell wall promotes increased signaling by the two-component system VxrAB, which stimulates cell wall synthesis. Here we show that changes in mechanical stress within the cell envelope are sufficient to stimulate VxrAB signaling in the absence of antibiotics. We applied mechanical forces to individual bacteria using three distinct loading modalities: extrusion loading within a microfluidic device, direct compression and hydrostatic pressure. In all cases, VxrAB signaling, as indicated by a fluorescent protein reporter, was increased in cells submitted to greater magnitudes of mechanical loading, hence diverse forms of mechanical stimuli activate VxrAB signaling. Reduction in cell envelope stiffness following removal of the endopeptidase ShyA led to large increases in cell envelope deformation and substantially increased VxrAB response, further supporting the responsiveness of VxrAB. Our findings demonstrate a mechanosensitive gene regulatory system in bacteria and suggest that mechanical signals may contribute to the regulation of cell wall homeostasis.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6368,7 +6368,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.ijpharm.2023.123343",
         "abstract": "The use of nucleic acids to treat various brain diseases could offer new therapeutic modalities, providing the nucleic acids may be effectively delivered to areas of the brain using non-toxic vectors. In this study, we present evidence that genes may be successfully delivered in a dose-dependent manner via the nose, primarily to the cerebral cortex using a 6-O-glycolchitosan (GC) formulation of plasmid DNA. Positively charged (zeta potential = +13 - + 25 mV) GC-DNA nanoparticles of 100-500 nm in diameter with favourable cell biocompatibility were shown to deliver the reporter Green Fluorescent Protein (GFP) plasmid to the U87MG cell line and the resulting protein expression was not significantly different from that obtained with Lipofectamine 2000. On intranasal delivery of GC-luciferase-plasmid nanoparticles to Balb/ C mice at 4 doses, ranging from 0.02 to 0.1 mg/ kg, luciferase activity was observed qualitatively in intact mouse brains, 48 h after intranasal, using the IV-VIS visualisation. In further confirmation of brain delivery, dose-dependent protein expression was quantified in multiple brain areas 48 h after dosing; with protein expression seen mainly in the cerebral cortex and striatum and following expression levels: cerebral cortex = olfactory bulb > striatum > brain stem > mid brain = cerebellum. No protein expression was observed in the liver and lungs of dosed animals. GC-DNA protein expression was not significantly different to that observed with Lipofectamine 2000. These results demonstrate that GC-DNA nanoparticles are able to deliver genes preferably to specific brain regions such as the cerebral cortex and striatum; offering the possibility of using genes to treat a range of neurological disorders using a non-invasive method of dosing.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6377,7 +6377,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1002/acn3.51881",
         "abstract": "Status epilepticus (SE) requires rapid intervention to prevent cerebral injury and mortality. The ketogenic diet, which bypasses glycolysis, is a promising remedy for patients with refractory SE. We tested the role of glycolytic lactate production in sustaining SE. Extracellular lactate and glucose concentration during a seizure and SE in vivo was measured using lactate and glucose biosensors. A lactate dehydrogenase inhibitor, oxamate, blocked pyruvate to lactate conversion during SE. Video-EEG recordings evaluated seizure duration, severity, and immunohistochemistry was used to determine neuronal loss. Genetically encoded calcium indicator GCaMP7 was used to study the effect of oxamate on CA1 pyramidal neurons in vitro. Spontaneous excitatory postsynaptic currents (sEPSCs) were recorded from CA1 neurons to study oxamate's impact on neurotransmission. The extracellular glucose concentration dropped rapidly during seizures, and lactate accumulated in the extracellular space. Inhibition of pyruvate to lactate conversion with oxamate terminated SE in mice. There was less neuronal loss in treated compared to control mice. Oxamate perfusion decreased tonic and phasic neuronal activity of GCaMP7-expressing CA1 pyramidal neurons in vitro. Oxamate application reduced the frequency, but not amplitude of sEPSCs recorded from CA1 neurons, suggesting an effect on the presynaptic glutamatergic neurotransmission. A single seizure and SE stimulate lactate production. Diminishing pyruvate to lactate conversion with oxamate terminated SE and reduced associated neuronal death. Oxamate reduced neuronal excitability and excitatory neurotransmission at the presynaptic terminal. Glycolytic lactate production sustains SE and is an attractive therapeutic target.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6386,8 +6386,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.3390/v15081762",
         "abstract": "Zika virus (ZIKV) is a type of RNA virus that belongs to the Flaviviridae family. We have reported the construction of a DNA-launched replicon of the Asian-lineage Natal RGN strain and the production of single-round infectious particles (SRIPs) via the combination of prM/E virus-like particles with the replicon. The main objective of the study was to engineer the ZIKV replicon as mammalian expression vectors and evaluate the potential of ZIKV mini-replicon-based SRIPs as delivery vehicles for heterologous gene expression in vitro and in vivo. The mini-replicons contained various genetic elements, including NS4B, an NS5 methyltransferase (MTase) domain, and an NS5 RNA-dependent RNA polymerase (RdRp) domain. Among these mini-replicons, only ZIKV mini-replicons 2 and 3, which contained the full NS5 and NS4B-NS5 genetic elements, respectively, exhibited the expression of reporters (green fluorescent protein (GFP) and cyan fluorescent protein-yellow fluorescent fusion protein (CYP)) and generated self-replicating RNAs. When the mini-replicons were transfected into the cells expressing ZIKV prM/E, this led to the production of ZIKV mini-replicon-based SRIPs. ZIKV mini-replicon 3 SRIPs showed a significantly higher yield titer and a greater abundance of self-replicating replicon RNAs when compared to ZIKV mini-replicon 2 SRIPs. Additionally, there were disparities in the dynamics of CYP expression and cytotoxic effects observed in various infected cell types between ZIKV mini-replicon 2-CYP and 3-CYP SRIPs. In particular, ZIKV mini-replicon 3-CYP SRIPs led to a substantial decrease in the survival rates of infected cells at a MOI of 2. An in vivo gene expression assay indicated that hACE2 expression was detected in the lung and brain tissues of mice following the intravenous administration of ZIKV mini-replicon 3-hACE2 SRIPs. Overall, this study highlights the potential of ZIKV mini-replicon-based SRIPs as promising vehicles for gene delivery applications in vitro and in vivo.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "In Vivo Imaging Sheds Light on the Susceptibility and Permissivity of <i>Carassius auratus</i> to Cyprinid Herpesvirus 2 According to Developmental Stage.",
@@ -6395,8 +6395,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.3390/v15081746",
         "abstract": "Cyprinid herpesvirus 2 (CyHV-2) is a virus that causes mass mortality in economically important <i>Carassius</i> spp. However, there have been no comprehensive studies into host susceptibility or permissivity with respect to developmental stage, and the major portal of viral entry into the host is still unclear. To help bridge these knowledge gaps, we developed the first ever recombinant strain of CyHV-2 expressing bioluminescent and fluorescent reporter genes. Infection of <i>Carassius auratus</i> hosts with this recombinant by immersion facilitated the exploitation of various in vivo imaging techniques to establish the spatiotemporal aspects of CyHV-2 replication at larval, juvenile, and adult developmental stages. While less susceptible than later developmental stages, larvae were most permissive to CyHV-2 replication, leading to rapid systemic infection and high mortality. Permissivity to CyHV-2 decreased with advancing development, with adults being the least permissive and, thus, also exhibiting the least mortality. Across all developmental stages, the skin was the most susceptible and permissive organ to infection at the earliest sampling points post-infection, indicating that it represents the major portal of entry into these hosts. Collectively these findings provide important fundamental insights into CyHV-2 pathogenesis and epidemiology in <i>Carassius auratus</i> with high relevance to other related economically important virus-host models.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Robust Interval Prediction of Intermittent Demand for Spare Parts Based on Tensor Optimization.",
@@ -6404,7 +6404,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.3390/s23167182",
         "abstract": "Demand for spare parts, which is triggered by element failure, project schedule and reliability demand, etc., is a kind of sensing data to the aftermarket service of large manufacturing enterprises. Prediction of the demand for spare parts plays a crucial role in inventory management and lifecycle quality management for the aftermarket service of large-scale manufacturing enterprises. In real-life applications, however, demand for spare parts occurs randomly and fluctuates greatly, and the demand sequence shows obvious intermittent distribution characteristics. Additionally, due to factors such as reporting mistakes made by personnel or environmental changes, the actual data of the demand for spare parts are prone to abnormal variations. It is thus hard to capture the evolutional pattern of the demand for spare parts by traditional time series forecasting methods. The reliability of prediction results is also reduced. To address these concerns, this paper proposes a tensor optimization-based robust interval prediction method of intermittent time series for the aftersales demand for spare parts. First, using the advantages of tensor decomposition to effectively mine intrinsic information from raw data, a sequence-smoothing network based on tensor decomposition and a stacked autoencoder is proposed. Tucker decomposition is applied to the hidden features of the encoder, and the obtained core tensor is reconstructed through the decoder, thus allowing us to smooth outliers in the original demand sequence. An alternating optimization algorithm is further designed to find the optimal sequence feature representation and tensor decomposition factors for the extraction of the evolutionary trend of the intermittent series. Second, an adaptive interval prediction algorithm with a dynamic update mechanism is designed to obtain point prediction values and prediction intervals for the demand sequence, thereby improving the reliability of the forecast. The proposed method is validated using the actual aftersales data from a large engineering manufacturing enterprise in China. The experimental results demonstrate that, compared with typical time series prediction methods, the proposed method can effectively grab the evolutionary trend of various intermittent series and improve the accuracy of predictions made with small-sample intermittent series. Moreover, the proposed method provides a reliable elastic prediction interval when distortion occurs in the prediction results, offering a new solution for intelligent planning decisions related to spare parts in practical maintenance.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6413,7 +6413,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.3390/ma16165517",
         "abstract": "Textiles composed of fibers can have their mechanical properties adjusted by changing the arrangement of the fibers, such as strength and flexibility. Particularly, in the case of smart textiles incorporating active materials, various deformations could be created based on fiber patterns that determine the directivity of active materials. In this study, we design a smart fiber-based textile actuator with a chain structure and evaluate its actuation characteristics. Smart fiber composed of shape memory alloy (SMA) generates deformation when the electric current is applied, causing the phase transformation of SMA. We fabricated the smart chain column and evaluated its actuating mechanism based on the size of the chain and the number of rows. In addition, a crochet textile actuator was designed using interlooping smart chains and developed into a soft gripper that can grab objects. With experimental verifications, this study provides an investigation of the relationship between the chain actuator's deformation, actuating force, actuator temperature, and strain. The results of this study are expected to be relevant to textile applications, wearable devices, and other technical fields that require coordination with the human body. Additionally, it is expected that it can be utilized to configure a system capable of flexible operation by combining rigid elements such as batteries and sensors with textiles.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6422,8 +6422,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.3390/ijms241612547",
         "abstract": "Ca<sup>2+</sup> leak from cardiomyocyte sarcoplasmic reticulum (SR) via hyperactive resting cardiac ryanodine receptor channels (RyR2) is pro-arrhythmic. An exogenous peptide (DPc10) binding promotes leaky RyR2 in cardiomyocytes and reports on that endogenous state. Conversely, calmodulin (CaM) binding inhibits RyR2 leak and low CaM affinity is diagnostic of leaky RyR2. These observations have led to designing a FRET biosensor for drug discovery targeting RyR2. We used FRET to clarify the molecular mechanism driving the DPc10-CaM interdependence when binding RyR2 in SR vesicles. We used donor-FKBP12.6 (D-FKBP) to resolve RyR2 binding of acceptor-CaM (A-CaM). In low nanomolar Ca<sup>2+</sup>, DPc10 decreased both FRET<sub>max</sub> (under saturating [A-CaM]) and the CaM/RyR2 binding affinity. In micromolar Ca<sup>2+</sup>, DPc10 decreased FRET<sub>max</sub> without affecting CaM/RyR2 binding affinity. This correlates with the analysis of fluorescence-lifetime-detected FRET, indicating that DPc10 lowers occupancy of the RyR2 CaM-binding sites in nanomolar (not micromolar) Ca<sup>2+</sup> and lengthens D-FKBP/A-CaM distances independent of [Ca<sup>2+</sup>]. To observe DPc10/RyR2 binding, we used acceptor-DPc10 (A-DPc10). CaM weakens A-DPc10/RyR2 binding, with this effect being larger in micromolar versus nanomolar Ca<sup>2+</sup>. Moreover, A-DPc10/RyR2 binding is cooperative in a CaM- and FKBP-dependent manner, suggesting that both endogenous modulators promote concerted structural changes between RyR2 protomers for channel regulation. Aided by the analysis of cryo-EM structures, these insights inform further development of the DPc10-CaM paradigm for therapeutic discovery targeting RyR2.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Variable Cre Recombination Efficiency in Placentas of Cyp19-Cre ROSA<sup>mT/mG</sup> Transgenic Mice.",
@@ -6431,8 +6431,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.3390/cells12162096",
         "abstract": "The aromatase-Cre recombinase (Cyp19-Cre) transgenic mouse model has been extensively used for placenta-specific gene inactivation. In a pilot study, we observed unexpected phenotypes using this mouse strain, which prompted an extensive characterization of Cyp19-Cre placental phenotypes using ROSA<sup>mT/mG</sup> transgenic reporter mice. The two strains were mated to generate bi-transgenic Cyp19-Cre;ROSA<sup>mT/mG</sup> mice following a standard transgenic breeding scheme, and placental and fetal tissues were analyzed on embryonic day 17.5. Both maternal and paternal Cre inheritance were analyzed by mating the respective Cyp19-Cre and ROSA<sup>mT/mG</sup> males and females. The genotype results showed the expected percentage of Cyp19-Cre;ROSA<sup>mT/mG</sup> fetuses (73%) and Cre mRNA was expressed in all of the Cyp19-Cre placentas. However, surprisingly, only about 50% of the Cyp19-Cre;ROSA<sup>mT/mG</sup> placentas showed Cre-mediated recombinase activity as demonstrated by placental enhanced green fluorescent protein (EGFP) expression. Further genetic excision analysis of the placentas revealed consistent results showing the absence of excision of the tdTomato in all of the Cyp19-Cre;ROSA<sup>mT/mG</sup> placentas lacking EGFP expression. Moreover, among the EGFP-expressing placentas, there was wide variability in recombination efficiency, even in placentas from the same litter, leading to a mosaic pattern of EGFP expression in different zones and cell types of the placentas. In addition, we observed a significantly higher percentage of Cre recombination activity in placentas with maternal Cre inheritance. Our results show frequent mosaicism, inconsistent recombination activity, and parent-of-origin effects in placentas from Cyp19-Cre;ROSA<sup>mT/mG</sup> mice, suggesting that tail-biopsy genotype results may not necessarily indicate the excision of floxed genes in Cyp19-Cre positive placentas. Thus, placenta-specific mutagenesis studies using the Cyp19-Cre model require extensive characterization and careful interpretation of the placental phenotypes for each floxed allele.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "A simple, fast, and cost-effective smartphone-based digital imaging method for quantification of lidocaine hydrochloride in pharmaceutical formulations.",
@@ -6440,7 +6440,7 @@
         "date": "2024",
         "doi": "https://doi.org/10.1016/j.pharma.2023.08.007",
         "abstract": "A simple, highly specific, accurate and fast method by smartphone-based digital imaging was developed for estimating lidocaine hydrochloride in pharmaceutical formulations. To obtain the images, a Galaxy A03 Core smartphone and an image acquisition device developed in the laboratory were used to control the incident factors in reproducibility of the measurements. The processing of the images was carried out with the Color Grab application. Finally, the absorbance values were calculated using the RGB intensity values of blank, standard, and sample solutions. The proposed method was compared with spectroscopic and chromatographic methods. The reaction between copper and lidocaine hydrochloride was characterized, showing better results in an equimolar ratio and maintaining the pH of the solution above 11.5. The use of the device for the capture of digital images allowed to control those sensitive parameters for reproducibility so that the analytical measurements showed adequate precision and accuracy. Validation of the main parameters of the method showed compliance with acceptance criteria. The application of the method for the analysis of injectable samples achieved reliable results, which were statistically similar to other reference instrumental methods. The proposed method presented figures of merit in relation to linearity, precision, selectivity, accuracy, and robustness; it was carried out by designing and manufacturing a device for capturing digital images on a smartphone, which were analyzed to obtain RGB intensity values. These data are finally used to calculate absorbance values of solutions. All these elements provide this work with innovative characteristics in the field of analysis for control of pharmaceutical formulations.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6449,7 +6449,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1103/PhysRevLett.131.061801",
         "abstract": "A search for the standard model Higgs boson decaying to a charm quark-antiquark pair, H→cc[over ¯], produced in association with a leptonically decaying V (W or Z) boson is presented. The search is performed with proton-proton collisions at sqrt[s]=13  TeV collected by the CMS experiment, corresponding to an integrated luminosity of 138  fb^{-1}. Novel charm jet identification and analysis methods using machine learning techniques are employed. The analysis is validated by searching for Z→cc[over ¯] in VZ events, leading to its first observation at a hadron collider with a significance of 5.7 standard deviations. The observed (expected) upper limit on σ(VH)B(H→cc[over ¯]) is 0.94 (0.50_{-0.15}^{+0.22})pb at 95% confidence level (C.L.), corresponding to 14 (7.6_{-2.3}^{+3.4}) times the standard model prediction. For the Higgs-charm Yukawa coupling modifier, κ_{c}, the observed (expected) 95% C.L. interval is 1.1<|κ_{c}|<5.5 (|κ_{c}|<3.4), the most stringent constraint to date.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6458,8 +6458,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1089/hum.2023.005",
         "abstract": "Adeno-associated virus (AAV) is a powerful gene therapy vector that has been used in several FDA-approved therapies as well as in multiple clinical trials. This vector has high therapeutic versatility with the ability to deliver genetic payloads to a variety of human tissue types, yet there is currently a lack of transgene expression control once the virus is administered. There are also times when transgene expression is too low for the desired therapeutic outcome, necessitating high viral dose administration resulting in possible immunological complications. Herein, we validate a chemically controllable AAV transgene expression technology <i>in vitro</i> that utilizes bifunctional molecules known as chemical epigenetic modifiers (CEMs). These compounds employ endogenous epigenetic machinery to specifically enhance transgene expression of episomal DNA. A recombinant AAV (rAAV) was designed to both deliver the reporter transgene as well as deliver a synthetic zinc finger (ZFs) protein fused to FK506 binding protein (FKBP). These synthetic ZFs target a DNA-binding array sequence upstream of the promoter expressing the AAV transgene to specifically enhance AAV transgene expression in the presence of a CEM. The transcriptional activating compound CEM87 functions by recruiting the epigenetic transcription activator bromodomain-containing protein 4 (BRD4), increasing AAV transgene activity up to fivefold in a dose-dependent manner in HEK293T cells. The highest levels of transgene product activity are seen 24 h following CEM87 treatment. Additionally, the CEM87-mediated enhancement of different transgene products with either Luciferase or green fluorescent protein (GFP) was observed in multiple cell lines and enhancement of transgene expression was capsid serotype independent. The impact of CEM87 activity can be disrupted through drug removal or chemical recruitment site competition with FK506, thus demonstrating the reversibility of the impact of CEM87 on transgene expression. Collectively, this chemically controllable rAAV transgene technology provides temporal gene expression control that could increase the safety and efficiency of AAV-based research and therapies.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Modeling the Intent to Interact With VR Using Physiological Features.",
@@ -6467,7 +6467,7 @@
         "date": "2024",
         "doi": "https://doi.org/10.1109/TVCG.2023.3308787",
         "abstract": "Mixed-Reality (XR) technologies promise a user experience (UX) that rivals the interactive experience with the real-world. The key facilitators in the design of such a natural UX are that the interaction has zero lag and that users experience no excess mental load. This is difficult to achieve due to technical constraints such as motion-to-photon latency as well as false-positives during gesture-based interaction. In this paper, we explored the use of physiological features to model the user's intent to interact with a virtual reality (VR) environment. Accurate predictions about when users want to express an interaction intent could overcome the limitations of an interactive device that lags behind the intention of a user. We computed time-domain features from electroencephalography (EEG) and electromyography (EMG) recordings during a grab-and-drop task in VR and cross-validated a Linear Discriminant Analysis (LDA) for three different combinations of (1) EEG, (2) EMG and (3) EEG-EMG features. We found the classifiers to detect the presence of a pre-movement state from background idle activity reflecting the users' intent to interact with the virtual objects (EEG: 62 % ± 10 %, EMG: 72 % ± 9 %, EEG-EMG: 69 % ± 10 %) above simulated chance level. The features leveraged in our classification scheme have a low computational cost and are especially useful for fast decoding of users' mental states. Our work is a further step towards a useful classification of users' intent to interact, as a high temporal resolution and speed of detection is crucial. This facilitates natural experiences through zero-lag adaptive interfaces.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6476,7 +6476,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1140/epjc/s10052-023-11753-y",
         "abstract": "Multijet events at large transverse momentum (<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>p</mi><mtext>T</mtext></msub></math>) are measured at <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msqrt><mi>s</mi></msqrt><mo>=</mo><mn>13</mn><mspace></mspace><mtext>Te</mtext><mspace></mspace><mtext>V</mtext></mrow></math> using data recorded with the CMS detector at the LHC, corresponding to an integrated luminosity of <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mn>36.3</mn><mrow><mspace></mspace><msup><mtext>fb</mtext><mrow><mo>-</mo><mn>1</mn></mrow></msup></mrow></mrow></math>. The multiplicity of jets with <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><msub><mi>p</mi><mtext>T</mtext></msub><mo>></mo><mn>50</mn><mspace></mspace><mtext>Ge</mtext><mspace></mspace><mtext>V</mtext></mrow></math> that are produced in association with a high-<math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>p</mi><mtext>T</mtext></msub></math> dijet system is measured in various ranges of the <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>p</mi><mtext>T</mtext></msub></math> of the jet with the highest transverse momentum and as a function of the azimuthal angle difference <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow><mi>Δ</mi><msub><mi>ϕ</mi><mrow><mn>1</mn><mo>,</mo><mn>2</mn></mrow></msub></mrow></math> between the two highest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>p</mi><mtext>T</mtext></msub></math> jets in the dijet system. The differential production cross sections are measured as a function of the transverse momenta of the four highest <math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msub><mi>p</mi><mtext>T</mtext></msub></math> jets. The measurements are compared with leading and next-to-leading order matrix element calculations supplemented with simulations of parton shower, hadronization, and multiparton interactions. In addition, the measurements are compared with next-to-leading order matrix element calculations combined with transverse-momentum dependent parton densities and transverse-momentum dependent parton shower.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6485,7 +6485,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.3390/biomimetics8040381",
         "abstract": "The Mayfly Optimization Algorithm (MOA), as a new biomimetic metaheuristic algorithm with superior algorithm framework and optimization methods, plays a remarkable role in solving optimization problems. However, there are still shortcomings of convergence speed and local optimization in this algorithm. This paper proposes a metaheuristic algorithm for continuous and constrained global optimization problems, which combines the MOA, the Aquila Optimizer (AO), and the opposition-based learning (OBL) strategy, called AOBLMOA, to overcome the shortcomings of the MOA. The proposed algorithm first fuses the high soar with vertical stoop method and the low flight with slow descent attack method in the AO into the position movement process of the male mayfly population in the MOA. Then, it incorporates the contour flight with short glide attack and the walk and grab prey methods in the AO into the positional movement of female mayfly populations in the MOA. Finally, it replaces the gene mutation behavior of offspring mayfly populations in the MOA with the OBL strategy. To verify the optimization ability of the new algorithm, we conduct three sets of experiments. In the first experiment, we apply AOBLMOA to 19 benchmark functions to test whether it is the optimal strategy among multiple combined strategies. In the second experiment, we test AOBLMOA by using 30 CEC2017 numerical optimization problems and compare it with state-of-the-art metaheuristic algorithms. In the third experiment, 10 CEC2020 real-world constrained optimization problems are used to demonstrate the applicability of AOBLMOA to engineering design problems. The experimental results show that the proposed AOBLMOA is effective and superior and is feasible in numerical optimization problems and engineering design problems.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6494,7 +6494,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.3390/bios13080767",
         "abstract": "Despite G protein-coupled receptors (GPCRs) being important theapeutic targets, the signaling properties of many GPCRs remain poorly characterized. GPCR activation primarily initiates heterotrimeric G protein signaling. To detect ligand-induced G protein activation, Bioluminescence Resonance Energy Transfer (BRET)-based biosensors were previously developed. Here, we designed a novel set of Nanoluciferase (NLuc) BRET-based biosensors (REGA-SIGN) that covers all Gα protein families (i.e., Gα<sub>i/o</sub>, Gα<sub>Ss/L</sub>, Gα<sub>12/13</sub> and Gα<sub>q/15</sub>). REGA-SIGN uses NLuc as a bioluminescent donor and LSS-mKATE2, a red-shifted fluorophore, as an acceptor. Due to the enhanced spectral separation between donor and acceptor emission and the availability of a stable substrate for NLuc, this donor-acceptor pair enables sensitive kinetic assessment of G protein activity. After optimization, the NLuc integration sites into the Gα subunit largely corresponded with previously reported integration sites, except for Gα<sub>Ss/L</sub> for which we describe an alternative NLuc insertion site. G protein rescue experiments validated the biological activity of these Gα donor proteins. Direct comparison between EGFP and LSS-mKATE2 as acceptor fluorophores revealed improved sensitivity for nearly all G protein subtypes when using the latter one. Hence, REGA-SIGN can be used as a panel of kinetic G protein biosensors with high sensitivity.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -6503,7 +6503,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1177/22799036231193071",
         "abstract": "The COVID-19 pandemic brought changes to primary school lunches leading to concerns over nutritional quality and uptake of lunches by vulnerable children. Regional data from Tayside, Scotland, showed that only 55% of children who were eligible for free school meals took these (normal uptake pre-pandemic was 66%). The current work aimed to identify teachers' perceptions of meal provisioning in primary schools during the first year of the COVID-19 pandemic. A cross-sectional online survey was carried out among primary school teachers across Tayside, Scotland. Using an online survey (21 questions combining multiple choice formats and open text) and interviews, primary school teachers shared their views on food quality, quantity, meal choices and factors influencing uptake of primary school lunches. Interviews were recorded, transcribed and thematically analysed with respect to factors influencing consumption. The survey was completed by 41 teachers and 8 participated in a follow up interview. Around one-third (29%) of primary school teachers believed the quality of lunches had decreased and cited poor appearance of food, use of takeaway containers and food wastage. The lunch format was viewed negatively principally relating to the substitution of hot lunches with cold sandwiches, portion sizes, choice and perceived value for money. Concerns were expressed about acceptability and how far the meals contributed to food security. Further work on food provisioning is needed in order to identify ways to provide a nutritional safety net for vulnerable children.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6512,8 +6512,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1523/JNEUROSCI.0625-23.2023",
         "abstract": "Chemogenetic tools provide an opportunity to manipulate neuronal activity and behavior selectively and repeatedly in nonhuman primates (NHPs) with minimal invasiveness. Designer Receptors Exclusively Activated by Designer Drugs (DREADDs) are one example that is based on mutated muscarinic acetylcholine receptors. Another channel-based chemogenetic system available for neuronal modulation in NHPs uses pharmacologically selective actuator modules (PSAMs), which are selectively activated by pharmacologically selective effector molecules (PSEMs). To facilitate the use of the PSAM/PSEM system, the selection and dosage of PSEMs should be validated and optimized for NHPs. To this end, we used a multimodal imaging approach. We virally expressed excitatory PSAM (PSAM4-5HT3) in the striatum and the primary motor cortex (M1) of two male macaque monkeys, and visualized its location through positron emission tomography (PET) with the reporter ligand [<sup>18</sup>F]ASEM. Chemogenetic excitability of neurons triggered by two PSEMs (uPSEM817 and uPSEM792) was evaluated using [<sup>18</sup>F]fluorodeoxyglucose-PET imaging, with uPSEM817 being more efficient than uPSEM792. Pharmacological magnetic resonance imaging (phMRI) showed that increased brain activity in the PSAM4-expressing region began ∼13 min after uPSEM817 administration and continued for at least 60 min. Our multimodal imaging data provide valuable information regarding the manipulation of neuronal activity using the PSAM/PSEM system in NHPs, facilitating future applications.<b>SIGNIFICANCE STATEMENT</b> Like other chemogenetic tools, the ion channel-based system called pharmacologically selective actuator module/pharmacologically selective effector molecule (PSAM/PSEM) allows remote manipulation of neuronal activity and behavior in living animals. Nevertheless, its application in nonhuman primates (NHPs) is still limited. Here, we used multitracer positron emission tomography (PET) imaging and pharmacological magnetic resonance imaging (phMRI) to visualize an excitatory chemogenetic ion channel (PSAM4-5HT3) and validate its chemometric function in macaque monkeys. Our results provide the optimal agonist, dose, and timing for chemogenetic neuronal manipulation, facilitating the use of the PSAM/PSEM system and expanding the flexibility and reliability of circuit manipulation in NHPs in a variety of situations.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "DRAM1 confers resistance to <i>Salmonella</i> infection.",
@@ -6521,8 +6521,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1080/27694127.2023.2242715",
         "abstract": "DRAM1 is an infection inducible autophagy modulator, previously shown to promote autophagic and lysosomal defense responses against the intracellular pathogen <i>Mycobacterium marinum</i>. However, its possible role in other anti-bacterial autophagic mechanisms remains unknown. Recently, LC3-associated phagocytosis (LAP) has emerged as autophagy-related mechanism that targets bacteria directly in phagosomes. Our previous work established LAP as the main autophagic mechanism by which macrophages restrict growth of <i>Salmonella</i> Typhimurium in a systemically infected zebrafish host. We therefore employed this infection model to investigate the possible role of Dram1 in LAP. Morpholino knockdown or CRISPR/Cas9-mediated mutation of Dram1 led to reduced host survival and increased bacterial burden during <i>S</i>. Typhimurium infection. In contrast, overexpression of <i>dram1</i> by mRNA injection curtailed <i>Salmonella</i> replication and reduced mortality of the infected host. During the early response to infection, GFP-Lc3-<i>Salmonella</i> associations were reduced in <i>dram1</i> knockdown or mutant embryos, and increased by <i>dram1</i> overexpression. Since LAP is known to require the activity of the phagosomal NADPH oxidase, we used a <i>Salmonella</i> biosensor strain to detect bacterial exposure to reactive oxygen species (ROS) and found that the ROS response was largely abolished with deficiency of <i>dram1</i>, while it was increased with <i>dram1</i> overexpression. Corroborating these results in a mammalian model, the LC3 and ROS responses to <i>Salmonella</i> were similarly reduced or increased by knockdown or overexpression of <i>Dram1</i>, respectively, in murine RAW264.7 macrophages. Together, these results demonstrate the host protective role of Dram1/DRAM1 during <i>S</i>. Typhimurium infection and suggest a functional link between Dram1/DRAM1 and the induction of LAP. <b>Abbreviations:</b> ATG8: Autophagy related protein 8; ATG16: Autophagy related protein 16; CFU: colony-forming unit; DRAM1: DNA damage regulated autophagy modulator gene 1; dpf: days post fertilization; GFP: green fluorescent protein; hpi: hours post infection; LAP: LC3 associated phagocytosis; LC3, microtubule-associated protein 1 light chain 3; NADPH: Nicotinamide dinucleotide phosphate; p53: Tumor suppressor protein 53: ROS; reactive oxygen species; <i>S</i>. Typhimurium: <i>Salmonella</i> enterica serovar Typhimurium; TIPTP: 2(tetrahydroindazolyl) phenoxy-N-(thiadiazolyl)propenamide 2; UVRAG: UV radiation resistance associated protein.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Collaborative SAR Modeling and Prospective In Vitro Validation of Oxidative Stress Activation in Human HepG2 Cells.",
@@ -6530,8 +6530,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1021/acs.jcim.3c00220",
         "abstract": "Oxidative stress is the consequence of an abnormal increase of reactive oxygen species (ROS). ROS are generated mainly during the metabolism in both normal and pathological conditions as well as from exposure to xenobiotics. Xenobiotics can, on the one hand, disrupt molecular machinery involved in redox processes and, on the other hand, reduce the effectiveness of the antioxidant activity. Such dysregulation may lead to oxidative damage when combined with oxidative stress overpassing the cell capacity to detoxify ROS. In this work, a green fluorescent protein (GFP)-tagged nuclear factor erythroid 2-related factor 2 (NRF2)-regulated sulfiredoxin reporter (Srxn1-GFP) was used to measure the antioxidant response of HepG2 cells to a large series of drug and drug-like compounds (2230 compounds). These compounds were then classified as positive or negative depending on cellular response and distributed among different modeling groups to establish structure-activity relationship (SAR) models. A selection of models was used to prospectively predict oxidative stress induced by a new set of compounds subsequently experimentally tested to validate the model predictions. Altogether, this exercise exemplifies the different challenges of developing SAR models of a phenotypic cellular readout, model combination, chemical space selection, and results interpretation.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "In Vivo Imaging of Nipah Virus Infection in Small Animal Rodent Models.",
@@ -6539,7 +6539,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1007/978-1-0716-3283-3_11",
         "abstract": "In vivo imaging system (IVIS) is a powerful tool for the study of infectious diseases, providing the ability to non-invasively follow viral infection in an individual animal over time. Recombinant henipaviruses expressing bioluminescent or fluorescent reporter proteins can be used both to monitor the spatial and temporal progression of Nipah virus (NiV) infection in vivo as well as in ex vivo tissues. Virally produced luciferases react with systemically administered substrate to produce bioluminescence that can then be detected via IVIS imaging, while fluorescent reporters inherently generate detectable fluorescence without a substrate. Here we describe protocols applying bioluminescent or fluorescent reporter expressing recombinant viruses to in vivo or ex vivo imaging of NiV infection.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6548,8 +6548,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1101/2023.08.07.552303",
         "abstract": "Inhibitory neurons embedded within mammalian neural circuits shape breathing, walking, chewing, and other rhythmic motor behaviors. At the core of the neural circuit controlling breathing is the preBötzinger Complex (preBötC), a nucleus in the ventrolateral medulla necessary for generation of inspiratory rhythm. In the preBötC, a recurrently connected network of glutamatergic Dbx1-derived (Dbx1 <sup>+</sup> ) neurons generates rhythmic inspiratory drive. Functionally and anatomically intercalated among Dbx1 <sup>+</sup> preBötC neurons are GABAergic (GAD1/2 <sup>+</sup> ) and glycinergic (GlyT2 <sup>+</sup> ) neurons, whose roles in breathing remain unclear. To elucidate the inhibitory microcircuits within preBötC, we first characterized the spatial distribution of molecularly-defined inhibitory preBötC subpopulations in double reporter mice expressing either the red fluorescent protein tdTomato or EGFP in GlyT2 <sup>+</sup> , GAD1 <sup>+</sup> , or GAD2 <sup>+</sup> neurons. We found that, in postnatal mice, the majority of inhibitory preBötC neurons expressed a combination of GlyT2 and GAD2 while a much smaller subpopulation also expressed GAD1. To determine the functional role of these subpopulations, we used holographic photostimulation, a patterned illumination technique with high spatiotemporal resolution, in rhythmically active medullary slices from neonatal Dbx1 <sup>tdTomato</sup> ;GlyT2 <sup>EGFP</sup> and Dbx1 <sup>tdTomato</sup> ;GAD1 <sup>EGFP</sup> double reporter mice. Stimulation of 4 or 8 preBötC GlyT2 <sup>+</sup> neurons during endogenous rhythm prolonged the interburst interval in a phase-dependent manner and increased the latency to burst initiation when bursts were evoked by stimulation of Dbx1 <sup>+</sup> neurons. In contrast, stimulation of 4 or 8 preBötC GAD1 <sup>+</sup> neurons did not affect interburst interval or latency to burst initiation. Instead, photoactivation of GAD1 <sup>+</sup> neurons during the inspiratory burst prolonged endogenous and evoked burst duration and decreased evoked burst amplitude. We conclude that the majority of preBötC inhibitory neurons express both GlyT2 and GAD2 and modulate breathing rhythm by delaying burst initiation while a smaller GAD1 <sup>+</sup> subpopulation shapes inspiratory patterning by altering burst duration and amplitude.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Determination of the Isotopic Composition of Aqueous Mercury in a Paddy Ecosystem Using Diffusive Gradients in Thin Films.",
@@ -6557,8 +6557,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1021/acs.analchem.3c01356",
         "abstract": "Measuring the isotopic composition of Hg in natural waters is challenging due to the ultratrace level of aqueous Hg (ng L<sup>-1</sup>). At least 5 ng of Hg mass is required for Hg isotopic analysis. Given the low Hg concentration in natural waters, a large volume of water (>10 L) is typically needed. The conventional grab sampling method is time-consuming, laborious, and prone to contamination during transportation and preconcentration steps. In this study, a DGT (diffusive gradients in thin films) method based on aminopropyl and mercaptopropyl bi-functionalized SBA-15 nanoparticles was developed and extended to determine the concentration and isotopic composition of aqueous Hg for the first time. The results of laboratory analysis showed that Hg adsorption by DGT induces ∼ -0.2‰ mass-dependent fractionation (MDF) and little mass-independent fractionation (MIF). The magnitude of MDF exhibits a dependence on the diffusion-layer thickness of DGT. Since Hg-MDF can occur in a broad range of environmental processes, monitoring the δ<sup>202</sup>Hg of aqueous Hg using the DGT method should be performed with caution. Field results show consistent MIF signatures (Δ<sup>199</sup>Hg) between the DGT and conventional grab sampling method. The developed DGT method serves as a passive sampling method that effectively characterizes the MIF of Hg in waters to understand the biogeochemical cycle of Hg at contaminated sites.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "High-speed multiplane confocal microscopy for voltage imaging in densely labeled neuronal populations.",
@@ -6566,8 +6566,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1038/s41593-023-01408-2",
         "abstract": "Genetically encoded voltage indicators (GEVIs) hold immense potential for monitoring neuronal population activity. To date, best-in-class GEVIs rely on one-photon excitation. However, GEVI imaging of dense neuronal populations remains difficult because out-of-focus background fluorescence produces low contrast and excess noise when paired with conventional one-photon widefield imaging methods. To address this challenge, we developed an imaging system capable of efficient, high-contrast GEVI imaging at near-kHz rates and demonstrate it for in vivo and ex vivo imaging applications in the mouse neocortex. Our approach uses simultaneous multiplane imaging to monitor activity within contiguous tissue volumes with no penalty in speed or requirement for high excitation power. This approach, multi-Z imaging with confocal detection (MuZIC), permits high signal-to-noise ratio voltage imaging in densely labeled neuronal populations and is compatible with imaging through micro-optics. Moreover, it minimizes artifacts associated with concurrent imaging and optogenetic photostimulation for all-optical electrophysiology.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Mucosal IgA immune complex induces immunomodulatory responses in allergic airway and intestinal T<sub>H</sub>2 disease.",
@@ -6575,7 +6575,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.jaci.2023.08.006",
         "abstract": "IgA is the most abundant immunoglobulin at the mucosal surface and although its role in regulating mucosal immunity is not fully understood, its presence is associated with protection from developing allergic disease. We sought to determine the role of IgA immune complexes for therapeutic application to mucosal allergic responses. Trinitrophenol (TNP)-specific IgA immune complexes were applied, using TNP-coupled ovalbumin (OVA), to airway and gut mucosal surfaces in systemically sensitized allergic animals to regulate allergen challenge responses. Animals were assessed for both pathologic and immune-mediated responses in the lung and gut, respectively, using established mouse models. The mucosal application of IgA immune complexes in the lung and gut with TNP-OVA regulated T<sub>H</sub>2-driven allergic response in the lung and gut, reducing T<sub>H</sub>2 cytokines and mucus (lung) as well as diarrhea and temperature loss (gut), but increasing IL-10 and the number of regulatory T cells. The IgA-OVA immune complex did not alter peanut-induced anaphylaxis, indicating antigen specificity. Using OVA-specific DO.11-green fluorescent protein IL-4 reporter mouse-derived T<sub>H</sub>2-skewed cells in a transfer model demonstrated that mucosal IgA immune complex treatment reduced T<sub>H</sub>2-cell expansion and increased the number of regulatory T cells. To address a potential mechanism of action, TGF-β and IL-10 were induced in bone marrow-derived dendritic cells when they were exposed to IgA immune complex, suggesting a regulatory phenotype induced in dendritic cells that also led to an altered primary T-cell-mediated response in in vitro OVA-specific assays. These studies highlight one possible mechanism of how allergen-specific IgA may provide a regulatory signal to reduce the development of allergic responses in the lung and gut.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6584,7 +6584,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.3791/64932",
         "abstract": "Tomsits, P., Schuttler, D., Kaab, S., Clauss, S., Voigt, N. Isolation of high quality murine atrial and ventricular myocytes for simultaneous measurements of Ca2+ transients and L-Type calcium current. Journal of Visualized Experiments. (165), 10.3791/61964 (2020). Seibertz, F., Reynolds, M., Voigt, N. Single-Cell optical action potential measurement in human induced pluripotent stem cell-derived cardiomyocytes. Journal of Visualized Experiments. (166), 10.3791/61890 (2020). Xia, R. et al. Isolation and culture of resident cardiac macrophages from the murine sinoatrial and atrioventricular node. Journal of Visualized Experiments. (171), 10.3791/62236 (2021). Xia, R. et al. Whole-Mount immunofluorescence staining, confocal imaging and 3D reconstruction of the sinoatrial and atrioventricular node in the mouse. Journal of Visualized Experiments. (166), 10.3791/62058 (2020). Kumar, P., Si, M., Paulhus, K., Glasscock, E. Microelectrode array recording of sinoatrial node firing rate to identify intrinsic cardiac pacemaking defects in mice. Journal of Visualized Experiments. (173), 10.3791/62735 (2021). Scherschel, K. et al. Location, dissection, and analysis of the murine stellate ganglion. Journal of Visualized Experiments. (166), 10.3791/62026 (2020). Shimura, D., Hunter, J., Katsumata, M., Shaw, R. M. Removal of an internal translational start site from mRNA while retaining expression of the full-length protein. Journal of Visualized Experiments. (181), 10.3791/63405 (2022). Rotzer, R. D. et al. Implantation of combined telemetric ECG and blood pressure transmitters to determine spontaneous baroreflex sensitivity in conscious mice. Journal of Visualized Experiments. (168), 10.3791/62101 (2021). Tomsits, P. et al. Analyzing long-term electrocardiography recordings to detect arrhythmias in mice. Journal of Visualized Experiments. (171), 10.3791/62386 (2021). Grab, M. et al. Development and evaluation of 3D-printed cardiovascular phantoms for interventional planning and training. Journal of Visualized Experiments. (167), 10.3791/62063 (2021).",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6593,7 +6593,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.dib.2023.109456",
         "abstract": "The Alexander micro-estuary, located at the eastern edge of the Mediterranean Sea, is a typical example of small water bodies that suffer from a combination of urban and agricultural pollution, and overuse of its natural water sources. It is∼6.5 km long, with maximum depth of 3 m and maximum width of 45 m. To evaluate the anthropogenic stress on the system and its ability to mitigate pollution, water samples were collected within the framework of Ruppin's Estuarine and Coastal Observatory [1]. Water samples were collected from the estuary head, which drains about 510 km<sup>2</sup>, and at a point 300 m upstream from the estuary mouth before water flows into the Mediterranean Sea. A total of 236 stormwater and 44 base-flow water samples between December 2016 and December 2018. Stormwater samples were collected every 0.25 - 4 h along the entire course of the flow events using an automated samplers (Sigma 900, Hach Company, Loveland CO, USA; and ISCO 3700 Full-Size Portable Sampler, Teledyne, Lincoln, NE, USA). Base-flow samples were taken once a month using a horizontal grab sampler (5 L, model 110B, OceanTest Equipment, Fort Lauderdale, FL, USA). All samples were filtered using 90mmGF/F filters (nominal pore size of 0.7 µm, MGF, Sartorius, Göttingen, Germany) and immediately frozen (-20°C) before chemical analysis. Chemical analysis was performed using liquid chromatography with high-resolution mass spectrometry (LC-HRMS) analysis using a QExactive Plus hybrid FT mass spectrometer coupled with a Dionex Ultimate 3000 RS UPLC (Thermo Fisher Scientific, Waltham, MA, USA). The targeted analysis, which included 15 fungicides, 25 herbicides, 18 Insecticides, and 19 pharmaceuticals, concluded with a total of 21,142 entries. All entries are organized in a worksheet, along with location, date, flood section duration, discharge rate, and the total water volume discharged during the relevant period. The provided data offers an opportunity to explore the sources, transport, and impact of a large mixture of organic pollutants in a confined aquatic system located in an urbanized coastal environment.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6602,8 +6602,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1016/j.pep.2023.106352",
         "abstract": "Insolubility and low expression are typical bottlenecks in the production of proteins for studying their function and structure using X-ray crystallography or nuclear magnetic resonance spectroscopy. Cold-active enzymes from polar microorganisms have unique structural features that render them unstable and thermolabile, and are responsible for decreased protein yield in heterologous expression systems. To address these challenges, we developed a heterologous protein expression system using a psychrophilic organism, Psychrobacter sp. PAMC 21119, as a protein expression host with its own promoter. We screened 11 promoters and evaluated their strength using quantitative real-time polymerase chain reaction and a reporter system harboring the SfGFP gene. The highest expression was achieved using promoters RH96_RS13655 (P21119_20930) and RH96_RS15090 (P21119_23410), regardless of the temperature used. The p20930 strain exhibited a maximum expression level 19.6-fold higher than that of its control at 20 °C and produced approximately 0.5 mg of protein per gram of dry cell weight. To our knowledge, this is the first report of a low-temperature recombinant protein expression system developed using Psychrobacter sp. that can be used to express various difficult-to-express and cold-active proteins.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Azimuthal Correlations within Exclusive Dijets with Large Momentum Transfer in Photon-Lead Collisions.",
@@ -6611,7 +6611,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1103/PhysRevLett.131.051901",
         "abstract": "The structure of nucleons is multidimensional and depends on the transverse momenta, spatial geometry, and polarization of the constituent partons. Such a structure can be studied using high-energy photons produced in ultraperipheral heavy-ion collisions. The first measurement of the azimuthal angular correlations of exclusively produced events with two jets in photon-lead interactions at large momentum transfer is presented, a process that is considered to be sensitive to the underlying nuclear gluon polarization. This study uses a data sample of ultraperipheral lead-lead collisions at sqrt[s_{NN}]=5.02  TeV, corresponding to an integrated luminosity of 0.38  nb^{-1}, collected with the CMS experiment at the LHC. The measured second harmonic of the correlation between the sum and difference of the two jet transverse momentum vectors is found to be positive, and rising, as the dijet transverse momentum increases. A well-tuned model that has been successful at describing a wide range of proton scattering data from the HERA experiments fails to describe the observed correlations, suggesting the presence of gluon polarization effects.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6620,8 +6620,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1523/ENEURO.0114-23.2023",
         "abstract": "Volatile anesthetics reduce excitatory synaptic transmission by both presynaptic and postsynaptic mechanisms which include inhibition of depolarization-evoked increases in presynaptic Ca<sup>2+</sup> concentration and blockade of postsynaptic excitatory glutamate receptors. The presynaptic sites of action leading to reduced electrically evoked increases in presynaptic Ca<sup>2+</sup> concentration and Ca<sup>2+</sup>-dependent exocytosis are unknown. Endoplasmic reticulum (ER) of Ca<sup>2+</sup> release via ryanodine receptor 1 (RyR1) and uptake by SERCA are essential for regulation intracellular Ca<sup>2+</sup> and are potential targets for anesthetic action. Mutations in sarcoplasmic reticulum (SR) release channels mediate volatile anesthetic-induced malignant hyperthermia (MH), a potentially fatal pharmacogenetic condition characterized by unregulated Ca<sup>2+</sup> release and muscle hypermetabolism. However, the impact of MH mutations on neuronal function are unknown. We used primary cultures of postnatal hippocampal neurons to analyze volatile anesthetic-induced changes in ER Ca<sup>2+</sup> dynamics using a genetically encoded ER-targeted fluorescent Ca<sup>2+</sup> sensor in both rat and mouse wild-type (WT) neurons and in mouse mutant neurons harboring the <i>RYR1</i> T4826I MH-susceptibility mutation. The volatile anesthetic isoflurane reduced both baseline and electrical stimulation-evoked increases in ER Ca<sup>2+</sup> concentration in neurons independent of its depression of presynaptic cytoplasmic Ca<sup>2+</sup> concentrations. Isoflurane and sevoflurane, but not propofol, depressed depolarization-evoked increases in ER Ca<sup>2+</sup> concentration significantly more in mouse <i>RYR1</i> T4826I mutant neurons than in wild-type neurons. The <i>RYR1</i> T4826I mutant neurons also showed markedly greater isoflurane-induced reductions in presynaptic cytosolic Ca<sup>2+</sup> concentration and synaptic vesicle (SV) exocytosis. These findings implicate RyR1 as a molecular target for the effects of isoflurane on presynaptic Ca<sup>2+</sup> handling.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Orange/far-red hybrid voltage indicators with reduced phototoxicity enable reliable long-term imaging in neurons and cardiomyocytes.",
@@ -6629,7 +6629,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1073/pnas.2306950120",
         "abstract": "Hybrid voltage indicators (HVIs) are chemogenetic sensors that combines the superior photophysical properties of organic dyes and the genetic targetability of protein sensors to report transient membrane voltage changes. They exhibit boosted sensitivity in excitable cells such as neurons and cardiomyocytes. However, the voltage signals recorded during long-term imaging are severely diminished or distorted due to phototoxicity and photobleaching issues. To capture stable electrophysiological activities over a long time, we employ cyanine dyes conjugated with a cyclooctatetraene (COT) molecule as the fluorescence reporter of HVI. The resulting orange-emitting HVI-COT-Cy3 enables high-fidelity voltage imaging for up to 30 min in cultured primary neurons with a sensitivity of ~ -30% ΔF/F<sub>0</sub> per action potential (AP). It also maximally preserves the signal of individual APs in cardiomyocytes. The far-red-emitting HVI-COT-Cy5 allows two-color voltage/calcium imaging with GCaMP6s in neurons and cardiomyocytes for 15 min. We leverage the HVI-COT series with reduced phototoxicity and photobleaching to evaluate the impact of drug candidates on the electrophysiology of excitable cells.",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": true
     },
     {
@@ -6638,7 +6638,7 @@
         "date": "2023",
         "doi": "https://doi.org/10.1182/blood.2023021593",
         "abstract": "[No Abstract]",
-        "ai_analyzed": false,
+        "ai_analyzed": true,
         "is_probe": false
     },
     {
@@ -6647,8 +6647,8 @@
         "date": "2023",
         "doi": "https://doi.org/10.1021/acs.analchem.3c02245",
         "abstract": "Genotoxic impurities (GTIs) occurred in drugs, and food and environment pose a threat to human health. Accurate and sensitive evaluation of GTIs is of significance. Ames assay is the existing gold standard method. However, the pathogenic bacteria model lacks metabolic enzymes and requires mass GTIs, leading to insufficient safety, accuracy, and sensitivity. Whole-cell microbial sensors (WCMSs) can use normal strains to simulate the metabolic environment, achieving safe, sensitive, and high-throughput detection and evaluation for GTIs. Here, based on whether GTIs causing DNA alkylation required metabolic enzymes or not, two DNA repair-responsive engineered WCMS systems were constructed including <i>Escherichia coli</i>-WCMS and yeast-WCMS. A DNA repair-responsive promoter as a sensing element was coupled with an enhanced green fluorescent protein as a reporter to construct plasmids for introduction into WCMS. The <i>ada</i> promoter was screened out in the <i>E. coli</i>-WCMS, while the <i>MAG1</i> promoter was selected for the yeast-WCMS. Different <i>E. coli</i> and yeast strains were modified by gene knockout and mutation to eliminate the interference and enhance the GTI retention in cells and further improved the sensitivity. Finally, GTI consumption of WCMS for the evaluation of methyl methanesulfonate (MMS) and nitrosamines was decreased to 0.46-8.53 μg and 0.068 ng-2.65 μg, respectively, decreasing 2-3 orders of magnitude compared to traditional methods. This study provided a novel approach to measure GTIs with different DNA damage pathways at a molecular level and facilitated the high-throughput screening and sensitive evaluation of GTIs.",
-        "ai_analyzed": false,
-        "is_probe": true
+        "ai_analyzed": true,
+        "is_probe": false
     },
     {
         "title": "Monitoring of cyanobacterial breakthrough and accumulation by in situ phycocyanin probe system within full-scale treatment plants.",

@@ -4073,5 +4073,57 @@
         "target": null,
         "color": null,
         "type": "Protein Sensor"
+    },
+    {
+        "title": "Development and atomic structure of a new fluorescence-based sensor to probe heme transfer in bacterial pathogens.",
+        "journal": "Journal of inorganic biochemistry",
+        "date": "2023",
+        "doi": "https://doi.org/10.1016/j.jinorgbio.2023.112368",
+        "abstract": "Heme is the most abundant source of iron in the human body and is actively scavenged by bacterial pathogens during infections. Corynebacterium diphtheriae and other species of actinobacteria scavenge heme using cell wall associated and secreted proteins that contain Conserved Region (CR) domains. Here we report the development of a fluorescent sensor to measure heme transfer from the C-terminal CR domain within the HtaA protein (CR2) to other hemoproteins within the heme-uptake system. The sensor contains the CR2 domain inserted into the β2 to β3 turn of the Enhanced Green Fluorescent Protein (EGFP). A 2.45 Å crystal structure reveals the basis of heme binding to the CR2 domain via iron-tyrosyl coordination and shares conserved structural features with CR domains present in Corynebacterium glutamicum. The structure and small angle X-ray scattering experiments are consistent with the sensor adopting a V-shaped structure that exhibits only small fluctuations in inter-domain positioning. We demonstrate heme transfer from the sensor to the CR domains located within the HtaA or HtaB proteins in the heme-uptake system as measured by a ∼ 60% increase in sensor fluorescence and native mass spectrometry.",
+        "is_new": true,
+        "reasoning": "Report development of a fluorescent sensor for heme transfer.",
+        "probe_name": null,
+        "target": "Heme",
+        "color": "Green",
+        "type": "Metabolite Sensor"
+    },
+    {
+        "title": "Improved dual-color GRAB sensors for monitoring dopaminergic activity <i>in vivo</i>.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2023",
+        "doi": "https://doi.org/10.1101/2023.08.24.554559",
+        "abstract": "Dopamine (DA) plays multiple roles in a wide range of physiological and pathological processes via a vast network of dopaminergic projections. To fully dissect the spatiotemporal dynamics of DA release in both dense and sparsely innervated brain regions, we developed a series of green and red fluorescent GPCR activation-based DA (GRAB<sub>DA</sub>) sensors using a variety of DA receptor subtypes. These sensors have high sensitivity, selectivity, and signal-to-noise properties with subsecond response kinetics and the ability to detect a wide range of DA concentrations. We then used these sensors in freely moving mice to measure both optogenetically evoked and behaviorally relevant DA release while measuring neurochemical signaling in the nucleus accumbens, amygdala, and cortex. Using these sensors, we also detected spatially resolved heterogeneous cortical DA release in mice performing various behaviors. These next-generation GRAB<sub>DA</sub> sensors provide a robust set of tools for imaging dopaminergic activity under a variety of physiological and pathological conditions.",
+        "is_new": true,
+        "reasoning": "Developed a series of green and red GRAB_DA sensors.",
+        "probe_name": "GRAB_DA",
+        "target": "Dopamine",
+        "color": "Green/Red",
+        "type": "Neurotransmitter Sensor"
+    },
+    {
+        "title": "REGA-SIGN: Development of a Novel Set of NanoBRET-Based G Protein Biosensors.",
+        "journal": "Biosensors",
+        "date": "2023",
+        "doi": "https://doi.org/10.3390/bios13080767",
+        "abstract": "Despite G protein-coupled receptors (GPCRs) being important theapeutic targets, the signaling properties of many GPCRs remain poorly characterized. GPCR activation primarily initiates heterotrimeric G protein signaling. To detect ligand-induced G protein activation, Bioluminescence Resonance Energy Transfer (BRET)-based biosensors were previously developed. Here, we designed a novel set of Nanoluciferase (NLuc) BRET-based biosensors (REGA-SIGN) that covers all Gα protein families (i.e., Gα<sub>i/o</sub>, Gα<sub>Ss/L</sub>, Gα<sub>12/13</sub> and Gα<sub>q/15</sub>). REGA-SIGN uses NLuc as a bioluminescent donor and LSS-mKATE2, a red-shifted fluorophore, as an acceptor. Due to the enhanced spectral separation between donor and acceptor emission and the availability of a stable substrate for NLuc, this donor-acceptor pair enables sensitive kinetic assessment of G protein activity. After optimization, the NLuc integration sites into the Gα subunit largely corresponded with previously reported integration sites, except for Gα<sub>Ss/L</sub> for which we describe an alternative NLuc insertion site. G protein rescue experiments validated the biological activity of these Gα donor proteins. Direct comparison between EGFP and LSS-mKATE2 as acceptor fluorophores revealed improved sensitivity for nearly all G protein subtypes when using the latter one. Hence, REGA-SIGN can be used as a panel of kinetic G protein biosensors with high sensitivity.",
+        "is_new": true,
+        "reasoning": "Designed a novel set of NLuc BRET-based biosensors REGA-SIGN.",
+        "probe_name": "REGA-SIGN",
+        "target": "G protein",
+        "color": "Red",
+        "type": "G Protein Sensor"
+    },
+    {
+        "title": "Orange/far-red hybrid voltage indicators with reduced phototoxicity enable reliable long-term imaging in neurons and cardiomyocytes.",
+        "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+        "date": "2023",
+        "doi": "https://doi.org/10.1073/pnas.2306950120",
+        "abstract": "Hybrid voltage indicators (HVIs) are chemogenetic sensors that combines the superior photophysical properties of organic dyes and the genetic targetability of protein sensors to report transient membrane voltage changes. They exhibit boosted sensitivity in excitable cells such as neurons and cardiomyocytes. However, the voltage signals recorded during long-term imaging are severely diminished or distorted due to phototoxicity and photobleaching issues. To capture stable electrophysiological activities over a long time, we employ cyanine dyes conjugated with a cyclooctatetraene (COT) molecule as the fluorescence reporter of HVI. The resulting orange-emitting HVI-COT-Cy3 enables high-fidelity voltage imaging for up to 30 min in cultured primary neurons with a sensitivity of ~ -30% ΔF/F<sub>0</sub> per action potential (AP). It also maximally preserves the signal of individual APs in cardiomyocytes. The far-red-emitting HVI-COT-Cy5 allows two-color voltage/calcium imaging with GCaMP6s in neurons and cardiomyocytes for 15 min. We leverage the HVI-COT series with reduced phototoxicity and photobleaching to evaluate the impact of drug candidates on the electrophysiology of excitable cells.",
+        "is_new": true,
+        "reasoning": "Employ cyanine dyes conjugated with COT as fluorescence reporter of HVI.",
+        "probe_name": "HVI-COT-Cy3",
+        "target": "Voltage",
+        "color": "Orange",
+        "type": "Voltage Sensor"
     }
 ]
