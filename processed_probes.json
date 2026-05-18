@@ -1,5 +1,17 @@
 [
     {
+        "probe_name": "hpGRISZ",
+        "is_new": true,
+        "title": "An Ultraresponsive Green Biosensor for Robust in Vivo Imaging of Synaptic Zinc Dynamics.",
+        "journal": "ACS sensors",
+        "date": "2026",
+        "abstract": "Despite its crucial role in neurotransmission and neural processing, direct in vivo measurement of Zn<sup>2+</sup> transients has been hindered by the limited responsiveness and stability of available fluorescent indicators. Here, we report hpGRISZ (<u>h</u>igh-<u>p</u>erformance <u>gr</u>een <u>i</u>ndicator for <u>s</u>ynaptic <u>Z</u>n<sup>2+</sup>), an ultraresponsive, thermostable, turn-on green fluorescent biosensor engineered for high brightness, large dynamic range, and affinity tuned for detecting extracellular synaptic Zn<sup>2+</sup> release. We comprehensively characterized hpGRISZ in vitro, in mammalian cells, and in vivo. A membrane-anchored version of hpGRISZ traffics robustly to the cell surface under physiological conditions, where it retains strong responsiveness and enables robust wide-field, two-photon, and fiber photometry recordings in awake mice. Using hpGRISZ, we visualized synaptic Zn<sup>2+</sup> dynamics across multiple brain regions and neuronal circuits, revealing direct evidence of Zn<sup>2+</sup> signaling during auditory processing in the cortex and during aversive responses in the amygdala. hpGRISZ thus establishes a versatile platform for dissecting the spatiotemporal dynamics of synaptic Zn<sup>2+</sup> and its roles in neural circuit function in vivo.",
+        "doi": "https://doi.org/10.1021/acssensors.5c04244",
+        "target": "Zn2+",
+        "color": "Green",
+        "type": "Ion sensor"
+    },
+    {
         "probe_name": "eroGFP1.2",
         "is_new": true,
         "title": "An improved fluorescent indicator for monitoring intracellular redox potential.",
