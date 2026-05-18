@@ -7107,5 +7107,18 @@
         "target": "PARP1",
         "color": "Green/Red",
         "type": "Protein Sensor"
+    },
+    {
+        "title": "Allosteric Biosensors Unravel GTPase-Effector Feedback.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.05.05.722960",
+        "abstract": "Fluorescent biosensors that report protein conformation <i>in vivo</i> have been invaluable for understanding how the spatio-temporal dynamics of signaling controls cells. However, for GTPases these biosensors report the activated conformation using reagents that block the binding of downstream proteins, generating dominant negative effects and altering normal cell physiology. We present here a generalizable design to make GTPase biosensors (AlloRac1 and AlloCdc42), in which a circularly permuted fluorescent protein is inserted into a conserved loop allosterically connected to the effector binding site, generating activity-dependent fluorescence without blocking ligand interactions. The Rac1 biosensor showed that effector interactions led to increased Rac1 activation, indicating an auto-regulatory positive feedback made visible by the new biosensor design. This feedback regulated the kinetics and localization of Rac1 activity, including Rac1 activity gradients that controlled motility. Feedback was generated through Rac1 interaction with the effector Pak1, which led to further activation of Rac1 by the guanine exchange factor β-Pix. The new biosensor approach enables quantitative imaging of previously obscure spatio-temporal dynamics in GTPase regulation.",
+        "is_new": true,
+        "reasoning": "Present a generalizable design to make GTPase biosensors AlloRac1 and AlloCdc42.",
+        "probe_name": "AlloRac1",
+        "target": "Rac1",
+        "color": "Green",
+        "type": "Protein Activity Sensor"
     }
 ]
