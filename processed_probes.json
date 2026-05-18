@@ -1,5 +1,17 @@
 [
     {
+        "probe_name": "FruValSen",
+        "is_new": true,
+        "title": "Genetically encoded FRET sensor for fructosyl valine detection in living cells.",
+        "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+        "date": "2026",
+        "abstract": "Diabetes mellitus requires reliable glycation monitoring, yet tools for monitoring glycation dynamics in real-time within living cells are lacking. Fructosyl valine (FV), a direct indicator of HbA1c glycation, represents a promising target for alternative detection strategies. In this study, a genetically encoded FRET-based biosensor, Fructosyl Valine Sensor (FruValSen), was developed for quantifying FV. The sensor incorporates fructosyl amino acid binding protein SocA between ECFP and Venus, where FV-induced conformational changes modulate the ratiometric fluorescence signal. FruValSen remained stable under alkaline pH conditions in 20 mM MOPS buffer, exhibiting consistent performance across pH variations. The sensor exhibited high specificity for FV, with no significant response to non-glycated sugars, free amino acids, or metal ions. The wild-type sensor achieved a binding affinity (Kd) of 1.6 nM, with a dynamic range of 10 pM to 300 μM, covering physiologically relevant FV concentrations, detecting FV as low as 10 pM and surpassing reported SocA-based sensors. Site-directed mutagenesis of residues I166 and W256 generated affinity variants with altered detection ranges. Confocal microscopy and ratiometric imaging confirmed successful expression in bacterial, yeast, and mammalian cells, with clear cytosolic localization in yeast. Time-dependent FRET analysis in living cells showed a progressive increase in the fluorescence ratio followed by saturation, indicating efficient intracellular FV binding and dynamic response. The sensor was successfully applied for real-time monitoring of FV dynamics at the single-cell level across biological systems. FruValSen provides a sensitive, specific, and real-time platform for non-invasive FV detection in living cells, with relevance for diabetes research.",
+        "doi": "https://doi.org/10.1016/j.saa.2026.127887",
+        "target": "fructosyl valine",
+        "color": "Unknown",
+        "type": "Metabolites Sensor"
+    },
+    {
         "probe_name": "tr-GECIs",
         "is_new": true,
         "title": "Time-Resolved Genetically Encoded Indicators toward Quantitative Imaging of Calcium Dynamics in Living Cells.",
