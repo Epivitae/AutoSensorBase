@@ -53,7 +53,38 @@ The system uses **GitHub Actions** to crawl the latest literature from PubMed da
 If you want to run this project locally:
 
 1.  **Clone the repository**
-    ```bash
+    '''bash
     git clone https://github.com/YOUR_USERNAME/AutoSensorBase.git
     cd AutoSensorBase
+    '''
 
+2.  **Install dependencies**
+    '''bash
+    pip install -r requirements.txt
+    '''
+
+3.  **Configure API Key**
+    Set your LLM API Key (e.g., Zhipu or DeepSeek) in the local environment variables.
+
+4.  **Run the web interface**
+    '''bash
+    streamlit run app.py
+    '''
+
+## 👥 Maintainers
+
+This project is developed and maintained by the **Chimera Sensor Team** at the **Chinese Academy of Sciences (CAS)**.
+
+We are committed to developing novel genetically encoded biosensors to decipher complex neural signals and metabolic networks.
+
+* **Institution**: Institute of Neuroscience (ION), CAS
+* **Official Website**: [www.cns.ac.cn](http://www.cns.ac.cn)
+* **Contact Us**: wangk@ion.ac.cn
+
+## 📄 License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+<div align="center">
+  <sub>Built with ❤️ by the Scientific Community.</sub>
+</div>
