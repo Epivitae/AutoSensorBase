@@ -1,5 +1,17 @@
 [
     {
+        "probe_name": "icBTnC2",
+        "is_new": true,
+        "title": "Manual Verification Required",
+        "journal": "Unknown",
+        "date": "2026",
+        "abstract": "No abstract available.",
+        "doi": "https://doi.org/10.1002/pro.70499Digital Object Identifier (DOI)",
+        "target": "Calcium",
+        "color": "Green",
+        "type": "Ion sensor"
+    },
+    {
         "probe_name": "GEVI",
         "is_new": true,
         "title": "Live virus neutralizing antibodies against pre and post Omicron strains in food and retail workers in Québec, Canada.",
