@@ -1,5 +1,17 @@
 [
     {
+        "probe_name": "GPR52-1.0",
+        "is_new": true,
+        "title": "Manual Verification Required",
+        "journal": "Unknown",
+        "date": "2026",
+        "abstract": "No abstract available.",
+        "doi": "https://doi.org/10.64898/2026.03.11.711017",
+        "target": "GPR52 Ligand",
+        "color": "Green",
+        "type": "Samll Molecule"
+    },
+    {
         "probe_name": "FruValSen",
         "is_new": true,
         "title": "Genetically encoded FRET sensor for fructosyl valine detection in living cells.",
