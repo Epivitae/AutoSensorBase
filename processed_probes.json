@@ -1,5 +1,17 @@
 [
     {
+        "probe_name": "GEVI",
+        "is_new": true,
+        "title": "Live virus neutralizing antibodies against pre and post Omicron strains in food and retail workers in Québec, Canada.",
+        "journal": "Heliyon",
+        "date": "2024",
+        "abstract": "Measuring the ability of SARS-CoV-2 antibodies to neutralize live viruses remains an effective approach to quantify the level of protection of individuals. We assessed the neutralization activity against the ancestral SARS-CoV-2, Delta, Omicron BA.1, BA.2, BA.2.12.1, BA.4 and BA.5 strains, in 280 vaccinated restaurant/bar, grocery and hardware store workers in Québec, Canada. Participants were recruited during the emergence of Omicron BA.1 variant. The neutralizing activity of participant sera was assessed by microneutralization assay. Serum neutralizing antibody (NtAb) titers of all participants against the ancestral SARS-CoV-2 strain were comparable with those against Delta variant (ranges of titers 10-2032 and 10-2560, respectively), however, their response was significantly reduced against Omicron BA.1, BA2, BA.2.12.1, BA.4 and BA.5 (10-1016, 10-1016, 10-320, 10-80 and 10-254, respectively). Individuals who received 2 doses of vaccine had significantly reduced NtAb titers against all SARS-CoV-2 strains compared to those infected and then vaccinated (≥1 dose), vaccinated (≥2 doses) and then infected, or those who received 3 doses of vaccine. Participants vaccinated with 2 or 3 doses of vaccine and then infected had the highest NtAb titers against all SARS-CoV-2 strains tested. We assessed for the first time the NtAb response in food and retail workers. We found that vaccination prior to the emergence of Omicron BA.1 was associated with higher neutralizing activity against pre-Omicron variants, suggesting the importance of updating vaccines to increase antibody response against new SARS-CoV-2 variants. Vaccination followed by infection was associated with higher neutralizing activity against all SARS-CoV-2 strains tested.",
+        "doi": "https://doi.org/10.1016/j.bpj.2025.11.927",
+        "target": "Voltage",
+        "color": "Unknown",
+        "type": "Voltage sensor"
+    },
+    {
         "probe_name": "hpGRISZ",
         "is_new": true,
         "title": "An Ultraresponsive Green Biosensor for Robust in Vivo Imaging of Synaptic Zinc Dynamics.",
