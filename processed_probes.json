@@ -1,5 +1,17 @@
 [
     {
+        "probe_name": "tr-GECIs",
+        "is_new": true,
+        "title": "Time-Resolved Genetically Encoded Indicators toward Quantitative Imaging of Calcium Dynamics in Living Cells.",
+        "journal": "ACS sensors",
+        "date": "2026",
+        "abstract": "Quantitative imaging of dynamic concentrations of cellular ions and metabolites is fundamental to understanding signaling networks. However, applications of intensity-based biosensors are fundamentally confounded by their dependence on probe concentration and excitation intensity. To address this challenge, we report a class of time-resolved genetically encoded calcium indicators (tr-GECIs)tr-CCaMP, tr-GCaMP, and tr-RCaMP. These sensors convert calcium levels into changes in fluorescence lifetime, a photophysical parameter intrinsically insensitive to variations in probe concentration or excitation light intensity. Our design maintains high brightness in both Ca<sup>2+</sup>-bound and Ca<sup>2+</sup>-free states, enabling robust detection via fluorescence lifetime imaging microscopy (FLIM). Engineering key residues near the chromophore and optimizing linkers yielded broad lifetime dynamic ranges: 2.14 ns for tr-CCaMP, 1.32 ns for tr-GCaMP, and 1.57 ns for tr-RCaMP. The sensors cover complementary Ca<sup>2+</sup> affinity ranges with <i>K</i><sub>d</sub> values from 23.8 nM to 416 nM at 37 °C, allowing concentration determination from tens of nanomolars to micromolars. We applied tr-GECIs to map resting Ca<sup>2+</sup> in proximity to multiple organelles and uncovered localized microdomains near organelle membranes, suggesting sites of active Ca<sup>2+</sup> exchange. Unlike ratiometric or FRET sensors, tr-GECIs require only a single optical channel, simplifying multiplexed imaging. This work establishes a generalizable platform for developing lifetime-based biosensors, facilitating quantitative analysis of cellular signaling events with high spatial precision.",
+        "doi": "https://doi.org/10.1021/acssensors.5c03953",
+        "target": "Calcium",
+        "color": "Green",
+        "type": "Ion Sensor"
+    },
+    {
         "title": "CaBLAM: a high-contrast bioluminescent Ca<sup>2+</sup> indicator derived from an engineered Oplophorus gracilirostris luciferase.",
         "abstract": "Monitoring intracellular calcium is central to understanding cell signaling across nearly all cell types and organisms. Fluorescent genetically encoded calcium indicators (GECIs) remain the standard tools for in vivo calcium imaging, but require intense excitation light, leading to photobleaching, background autofluorescence and phototoxicity. Bioluminescent GECIs, which generate light enzymatically, eliminate these artifacts but have been constrained by low dynamic range and suboptimal calcium affinities. Here we show that CaBLAM ('calcium bioluminescence activity monitor'), an engineered bioluminescent calcium indicator, achieves an order-of-magnitude improvement in signal contrast and a tunable affinity matched to physiological cytosolic calcium. CaBLAM enables single-cell and subcellular activity imaging at video frame rates in cultured neurons and sustained imaging over hours in awake, behaving animals. These capabilities establish CaBLAM as a robust and general alternative to fluorescent GECIs, extending calcium imaging to regimes where excitation light is undesirable or infeasible.",
         "doi": "https://doi.org/10.1038/s41592-025-02972-0",
