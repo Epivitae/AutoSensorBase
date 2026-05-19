@@ -7120,5 +7120,18 @@
         "target": "Rac1",
         "color": "Green",
         "type": "Protein Activity Sensor"
+    },
+    {
+        "title": "Mtb-Timer: a fluorescent reporter to visualize <i>Mycobacterium tuberculosis</i> replication and antibiotic responses.",
+        "journal": "mSystems",
+        "date": "2026",
+        "doi": "https://doi.org/10.1128/msystems.01796-25",
+        "abstract": "Despite the importance of monitoring <i>Mycobacterium tuberculosis</i> (Mtb) replication and antibiotic responses at the single-cell level, available tools to accurately monitor single Mtb replication are limited. Here, we report the development of Mtb-Timer, a fluorescent reporter in Mtb that exploits the intrinsic green-to-red photoconversion of the Timer protein as a proxy for Mtb replication. We generated an Mtb H37Rv strain expressing Timer (Timer<sup>Mtb</sup>) and monitored <i>in vitro</i> Mtb replication at the single-cell level by imaging and flow cytometry. Moreover, we show that exposure to the first-line anti-tuberculosis antibiotics isoniazid, rifampicin, ethambutol, and pyrazinamide resulted in a dose-dependent green-to-red photoconversion by imaging and flow cytometry. When we tested Mtb-Timer <i>in cellulo</i> using primary human monocyte-derived macrophages, we observed that intracellular Mtb populations displayed a striking phenotypic heterogeneity. Single-cell Mtb-Timer green-to-red ratios analyzed by both fixed and live imaging revealed intracellular Mtb populations with high green-to-red ratios. In contrast, treatment with antibiotics showed a decrease in green-to-red ratios in a dose-dependent manner by imaging and flow cytometry. Collectively, these results establish Mtb-Timer as a robust tool for monitoring Mtb replication and antibiotic responses, both <i>in vitro</i> and <i>in cellulo</i>, by imaging and flow cytometry. Tuberculosis treatment is challenging in part because <i>Mycobacterium tuberculosis</i> (Mtb) populations are phenotypically heterogeneous. Within the same infection, bacterial cells can exist in different physiological states, from actively replicating to slow-growing or non-replicating forms. To better study these processes, we developed and validated Mtb-Timer, a fluorescent reporter that enables visualization of bacterial growth dynamics. The system is based on a fluorescent protein that changes color over time: newly synthesized protein emits green fluorescence (GFP) and gradually shifts to red (DsRed) as it matures. The green-to-red fluorescence ratio, therefore, reflects bacterial replication activity. Using microscopy and flow cytometry in both <i>in vitro</i> cultures and infected macrophages (<i>in cellulo</i>), Mtb-Timer enables the quantification of distinct bacterial subpopulations and the real-time monitoring of the green-to-red fluorescence ratio and bacterial burden during treatment with first-line antibiotics.",
+        "is_new": true,
+        "reasoning": "Report the development of Mtb-Timer, a fluorescent reporter in Mtb.",
+        "probe_name": "Mtb-Timer",
+        "target": "Replication",
+        "color": "Green/Red",
+        "type": "Reporter"
     }
 ]
