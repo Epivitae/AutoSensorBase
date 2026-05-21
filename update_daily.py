@@ -122,7 +122,7 @@ def main():
         processed_dois_set.add(normalize_doi(item.get('doi')))
     
     # 设定批处理大小
-    BATCH_SIZE = 100 
+    BATCH_SIZE = 600 
     batch = pending_list[:BATCH_SIZE]
     
     # === 🔥 展示统计面板 ===
