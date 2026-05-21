@@ -55,7 +55,7 @@ Automated Tracking System for Genetically Encoded Fluorescent Sensors
 
 1.  **克隆仓库**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/AutoSensorBase.git](https://github.com/YOUR_USERNAME/AutoSensorBase.git)
+    git clone [https://github.com/Epivitae/AutoSensorBase.git](https://github.com/Epivitae/AutoSensorBase.git)
     cd AutoSensorBase
     ```
 
