@@ -30535,5 +30535,23 @@
         "abstract": "The μ-opioid receptor (MOR) is a key therapeutic target for pain management. However, robust tools for real-time bidirectional monitoring of MOR activation remain limited. Here, we report GEgMOR, a genetically encoded fluorescent biosensor developed via a rational design strategy combining artificial intelligence (AlphaFold3) with genetic engineering. This strategy drastically reduced the number of required mutant constructs from thousands to merely 239, markedly enhancing the efficiency and precision of biosensor development. GEgMOR exhibits outstanding performance in live-cell assays, with a maximum fluorescence response (ΔF/F<sub>0</sub> = 472.8%) 8.6-fold higher than the current state-of-the-art MOR sensor, nanomolar affinity (EC<sub>50</sub> = 39.67 nM), rapid kinetics (τ<sub>on</sub> ≈ 1.7 s, τ<sub>off</sub> ≈ 4.9 s) and high opioid specificity, and excellent photostability under both one-photon and two-photon excitation. Further validation in SH-SY5Y and PC12 neuronal cell models confirmed that the core functional properties of GEgMOR are well maintained in a neuronal cellular context. Notably, GEgMOR enables the first real-time, continuous, and bidirectional monitoring of MOR conformational changes upon agonist activation and antagonist inhibition in a single system. This overcomes the limitations of discontinuous, indirect readouts in conventional stepwise assays. Beyond serving as a powerful dynamic MOR imaging tool, this biosensor establishes a scalable cell-based platform for MOR ligand profiling and drug candidate screening. Our work not only provides a powerful imaging and functional analysis tool for MOR research but also establishes a generalizable strategy to accelerate G protein-coupled receptor (GPCR) biosensor development and advance drug discovery.",
         "ai_analyzed": true,
         "is_probe": true
+    },
+    {
+        "title": "G protein-coupled receptor 75 mediates depression-like behaviors and HPA axis hyperactivity through an excitatory arcuate-paraventricular nucleus circuit.",
+        "journal": "Acta pharmacologica Sinica",
+        "date": "2026",
+        "doi": "https://doi.org/10.1038/s41401-026-01824-7",
+        "abstract": "Metabolic dysregulation is a core pathological feature of and a major risk factor for depression. In this study, the role of G protein-coupled receptor 75 (GPR75), a brain-enriched metabolic sensor, in the pathogenesis of depression was explored and its potential role as a therapeutic target was evaluated. In chronic social defeat stress (CSDS) models, GPR75 expression was specifically upregulated in the arcuate nucleus glutamatergic (ARC<sup>Vglut2</sup>) neurons of susceptible mice, a finding corroborated by analyses of postmortem brains from patients with depression. Conditional (GPR75-cKO) or local (GPR75-lKO) genetic knockout of GPR75 in these neurons resulted in robust antidepressant-like effects, alleviation of depression-like behaviors, and normalization of the hypothalamic-pituitary-adrenal (HPA) axis function. Pharmacological inhibition of GPR75 with an antagonist (AAA) elicited similar antidepressant-like effects. Conversely, overexpression or activation of GPR75 in ARC<sup>Vglut2</sup> neurons promoted depression-like behaviors in naïve mice. Mechanistically, GPR75 signaling acts through the Gαq-PLCβ-IP3R1 pathway to enhance Ca²⁺ release from the endoplasmic reticulum and increase neuronal excitability. This facilitates glutamate release in the paraventricular nucleus (PVN), resulting in HPA axis activation. Chemogenetic inhibition of ARC<sup>Vglut2</sup> neurons or the ARC<sup>Vglut2</sup>-PVN circuit replicated the antidepressant-like effects of GPR75 ablation, whereas their activation abolished these benefits. These findings establish GPR75 expression in ARC<sup>Vglut2</sup> neurons as a critical mediator of depression and a potential target for novel antidepressants.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Single patient record: Alarm raised over ministerial power grab of health data with potential fines for non-compliers.",
+        "journal": "BMJ (Clinical research ed.)",
+        "date": "2026",
+        "doi": "https://doi.org/10.1136/bmj-2026-235862",
+        "abstract": "[No Abstract Available Yet]",
+        "ai_analyzed": true,
+        "is_probe": false
     }
 ]
