@@ -1,61 +1,66 @@
-name: "🧬 添加新探针 (Add New Probe)"
-description: "提交 DOI 和探针名称，机器人将自动处理并加入数据库"
+name: "🧬 Add New Probe"
+description: "Submit a DOI and probe name. The bot will automatically process and add it to the database."
 title: "[New Probe]: "
 labels: ["auto-add"]
 body:
   - type: input
-    id: probe_name
-    attributes:
-      label: "探针名称"
-      description: "例如: GCaMP8, CaBLAM"
-      placeholder: "输入探针名称"
-    validations:
-      required: true
-  - type: input
     id: probe_doi
     attributes:
-      label: "论文 DOI"
-      description: "例如: 10.1038/s41592-024-02202-x"
-      placeholder: "输入完整 DOI 或 10.xxxx 格式"
+      label: "Paper DOI"
+      description: "e.g., 10.1038/s41592-024-02202-x. This is the ONLY required field."
+      placeholder: "Enter full DOI or 10.xxxx format"
     validations:
-      required: true
+      required: true 
+
+  - type: input
+    id: probe_name
+    attributes:
+      label: "Probe Name"
+      description: "[Optional] e.g., GCaMP8, CaBLAM. Leave blank to let AI extract it from the paper."
+      placeholder: "Leave blank for AI extraction"
+    validations:
+      required: false
+
   - type: input
     id: probe_target
     attributes:
-      label: "检测底物 (Target)"
-      description: "例如: Calcium, Dopamine. [选填] 如果留空，将由 AI 尝试从摘要中提取"
-      placeholder: "留空则使用 AI 提取"
+      label: "Target"
+      description: "[Optional] e.g., Calcium, Dopamine. Leave blank to let AI extract it."
+      placeholder: "Leave blank for AI extraction"
     validations:
       required: false
+
   - type: dropdown
     id: probe_color
     attributes:
-      label: "发光颜色 (Color)"
-      description: "[选填] 选择探针颜色。如果不在列表中，请选择“其他”并在下方填写"
+      label: "Emission Color"
+      description: "[Optional] Select the emission color. Leave as default to let AI extract it."
       options:
-        - "由 AI 自动提取"
+        - "Auto (Extract by AI)"
         - "Green"
         - "Red"
         - "Blue"
         - "Yellow"
         - "Orange"
         - "Purple"
-        - "其他 (请在下方填写)"
+        - "Other (Fill below)"
     validations:
       required: false
+
   - type: input
     id: probe_color_custom
     attributes:
-      label: "其他颜色 (Custom Color)"
-      description: "如果在上方选择了“其他”，请在此处输入具体的颜色（例如：Far-Red, NIR）"
-      placeholder: "例如: Far-Red"
+      label: "Custom Color"
+      description: "[Optional] If you selected 'Other' above, enter the specific color here (e.g., Far-Red, NIR)."
+      placeholder: "e.g., Far-Red"
     validations:
       required: false
+
   - type: input
     id: probe_type
     attributes:
-      label: "探针类型 (Type)"
-      description: "例如: GECI, GPCR-based, snifit. [选填] 留空则使用 AI 自动提取"
-      placeholder: "留空则使用 AI 提取"
+      label: "Probe Type"
+      description: "[Optional] e.g., Ion Sensor, GPCR-based. Leave blank to let AI classify it."
+      placeholder: "Leave blank for AI classification"
     validations:
       required: false

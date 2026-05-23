@@ -164,3 +164,101 @@ def analyze_one_paper(paper):
     print("   ❌ 多次请求失败，放弃该篇文献。")
     time.sleep(4.5)
     return None
+
+
+
+# --- 以下为你原有的代码，不要改动 ---
+# import json
+# import requests
+# import os
+# import time
+# MODEL_NAME = "deepseek-chat"
+# def analyze_one_paper(paper): 
+#     ...你写好的 DeepSeek 调用逻辑...
+# --- 原有代码结束 ---
+
+
+# --- 以下为新增的 3 个函数 ---
+def fetch_paper_metadata(doi):
+    """Fetch Title, Abstract, Journal, Year from Semantic Scholar using DOI."""
+    clean_doi = doi.replace("https://doi.org/", "").strip()
+    url = f"https://api.semanticscholar.org/graph/v1/paper/DOI:{clean_doi}?fields=title,abstract,journal,year"
+    
+    print(f"🔍 Fetching metadata for DOI: {clean_doi}...")
+    try:
+        resp = requests.get(url, timeout=20)
+        if resp.status_code == 200:
+            data = resp.json()
+            journal_info = data.get('journal')
+            journal_name = journal_info.get('name') if journal_info else "Unknown Journal"
+            
+            return {
+                "title": data.get('title', ''),
+                "abstract": data.get('abstract', ''),
+                "journal": journal_name,
+                "date": str(data.get('year', ''))
+            }
+        else:
+            print(f"❌ Failed to fetch metadata: HTTP {resp.status_code}")
+            return None
+    except Exception as e:
+        print(f"❌ Network error during fetch: {e}")
+        return None
+
+def clean_input(val):
+    """Clean blank or default inputs from GitHub Issue."""
+    if not val:
+        return None
+    val = val.strip()
+    if val in ["", "_No response_", "None", "Auto (Extract by AI)"]:
+        return None
+    return val
+
+def process_issue_pipeline(user_inputs):
+    """
+    Main pipeline: merges user form inputs with AI extraction.
+    Calls fetch_paper_metadata and your original analyze_one_paper.
+    """
+    doi = user_inputs.get("probe_doi")
+    if not doi:
+        print("❌ Error: DOI is missing.")
+        return None
+
+    # 1. Fetch paper info
+    paper_meta = fetch_paper_metadata(doi)
+    if not paper_meta or not paper_meta.get("abstract"):
+        print("❌ Error: Could not fetch abstract. AI analysis aborted.")
+        return None
+
+    # 2. Call your existing DeepSeek function
+    ai_result = analyze_one_paper(paper_meta)
+    if not ai_result:
+        print("⚠️ AI Analysis returned None, using fallback.")
+        ai_result = {"is_new": False, "reasoning": "AI Analysis Failed.", "probe_name": None, "target": None, "color": None, "type": None}
+
+    # 3. Merge: User input > AI Result
+    final_json = {
+        "title": paper_meta["title"],
+        "abstract": paper_meta["abstract"],
+        "doi": f"https://doi.org/{doi.replace('https://doi.org/', '').strip()}",
+        "journal": paper_meta["journal"],
+        "date": paper_meta["date"],
+        "is_new": ai_result.get("is_new", False),
+        "reasoning": ai_result.get("reasoning", "")
+    }
+
+    final_json["probe_name"] = clean_input(user_inputs.get("probe_name")) or ai_result.get("probe_name")
+    final_json["target"] = clean_input(user_inputs.get("probe_target")) or ai_result.get("target")
+
+    user_color = clean_input(user_inputs.get("probe_color"))
+    if user_color == "Other (Fill below)":
+        final_json["color"] = clean_input(user_inputs.get("probe_color_custom")) or ai_result.get("color")
+    elif user_color:
+        final_json["color"] = user_color
+    else:
+        final_json["color"] = ai_result.get("color")
+
+    final_json["type"] = clean_input(user_inputs.get("probe_type")) or ai_result.get("type")
+
+    return final_json
+
