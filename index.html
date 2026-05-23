@@ -41,17 +41,16 @@
             overflow-y: auto; 
         }
         
-        /* 核心修改：侧边栏标题超链接样式 */
         .sidebar h2 { margin-top: 0; font-size: 1.5rem; margin-bottom: 5px; }
         .sidebar h2 a { 
             color: var(--text-sidebar); 
-            text-decoration: none; /* 去掉下划线 */
+            text-decoration: none; 
             display: flex; 
             align-items: center; 
             gap: 10px; 
-            transition: opacity 0.2s; /* 添加悬停动画过渡 */
+            transition: opacity 0.2s; 
         }
-        .sidebar h2 a:hover { opacity: 0.75; /* 鼠标悬停时微微变透明 */ }
+        .sidebar h2 a:hover { opacity: 0.75; }
         
         .sidebar-logo { height: 1.5rem; width: auto; flex-shrink: 0; }
         .sidebar p.caption { color: var(--meta-color); font-size: 0.9rem; margin-bottom: 30px; margin-left: 0; }
@@ -74,34 +73,31 @@
         .main-content { flex: 1; padding: 40px; max-width: 1600px; box-sizing: border-box; margin: 0 auto; } 
         .main-content h1 { margin-top: 0; font-size: 1.8rem; margin-bottom: 30px; }
         
-        /* BETA 徽章样式 */
         .beta-badge {
             display: inline-block;
             font-size: 0.75rem;
             font-weight: 800;
-            color: #3182CE; /* 科技蓝文字 */
-            background-color: #EBF8FF; /* 极浅蓝背景 */
-            border: 1px solid #BEE3F8; /* 浅蓝边框增加精致感 */
+            color: #3182CE; 
+            background-color: #EBF8FF; 
+            border: 1px solid #BEE3F8; 
             padding: 3px 8px;
             border-radius: 6px;
             margin-left: 12px;
-            vertical-align: middle; /* 和主标题居中对齐 */
+            vertical-align: middle; 
             position: relative;
-            top: -3px; /* 稍微向上提一点点，视觉上更平衡 */
+            top: -3px; 
             letter-spacing: 1px;
         }
 
-        /* 👇 新增：主标题超链接样式 👇 */
         .main-content h1 a {
             color: var(--text-main);
-            text-decoration: none; /* 去掉下划线 */
-            transition: opacity 0.2s; /* 悬停动画 */
+            text-decoration: none; 
+            transition: opacity 0.2s; 
         }
         .main-content h1 a:hover {
-            opacity: 0.75; /* 鼠标放上去时有点击反馈 */
+            opacity: 0.75; 
         }
 
-        /* 智能网格布局 */
         #feed-container {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(min(100%, 320px), 1fr)); 
@@ -116,7 +112,6 @@
         
         .card-body { flex: 1; min-width: 0; }
         
-        /* 内联流式布局 */
         .probe-info-stream {
             display: flex;
             flex-wrap: wrap;
@@ -132,12 +127,10 @@
         .badge-new { background: linear-gradient(135deg, #FFD700 0%, #F59E0B 100%); color: white; padding: 3px 6px; border-radius: 4px; font-size: 0.7rem; font-weight: 800; box-shadow: 0 2px 5px rgba(245, 158, 11, 0.4); }
         .meta-text { font-size: 0.85rem; color: var(--meta-color); display: flex; align-items: center; gap: 6px; }
         
-        /* 摘要面板 */
         details { background: rgba(0,0,0,0.01); border-radius: 6px; border: 1px solid var(--border-color); padding: 10px 15px; width: 100%; box-sizing: border-box; }
         summary { font-size: 0.9rem; font-weight: 600; cursor: pointer; color: var(--text-sidebar); outline: none; }
         details p { font-size: 0.9rem; line-height: 1.6; color: var(--text-main); opacity: 0.85; margin-top: 10px; margin-bottom: 0; }
 
-        /* 按钮 */
         .read-btn { align-self: flex-start; background-color: #fff; border: 1px solid var(--btn-border); color: var(--text-sidebar); padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 600; transition: all 0.2s; margin-top: 15px; text-align: center; }
         .read-btn:hover { background-color: #F7FAFC; border-color: #A0AEC0; transform: translateY(-1px); }
 
@@ -170,6 +163,7 @@
         </h2>
         <p class="caption">AI-powered Biosensor Tracking System</p>
 
+        <!-- 修复了提前闭合的 p 标签 -->
         <p id="last-update" style="color: #a766ad; font-weight: 600; font-size: 0.8rem; margin-top: -25px; margin-bottom: 30px; margin-left: 0;">
             Last update: Fetching...
         </p>
@@ -248,36 +242,24 @@
         return "#D1D5DB";
     }
 
-
-
-    // 👇 新增函数：通过 GitHub API 获取最新 Commit 时间 👇
-    async function fetchLastUpdate() {
+    async function init() {
         try {
-            // 请求你的仓库的 commits 接口，只获取最新的一条
-            const response = await fetch('https://api.github.com/repos/Epivitae/AutoSensorBase/commits?per_page=1');
-            const data = await response.json();
+            // 添加时间戳防止强缓存，确保每次获取最新的 JSON 状态
+            const fetchUrl = 'processed_probes.json?t=' + new Date().getTime();
+            const response = await fetch(fetchUrl);
             
-            if (data && data.length > 0) {
-                // 提取 commit 的时间戳
-                const commitDate = new Date(data[0].commit.committer.date);
-                
-                // 格式化为 YYYY-MM-DD
+            // 直接读取响应头中的最后修改时间（完美避开 GitHub API 限制）
+            const lastModified = response.headers.get('Last-Modified');
+            if (lastModified) {
+                const commitDate = new Date(lastModified);
                 const year = commitDate.getFullYear();
                 const month = String(commitDate.getMonth() + 1).padStart(2, '0');
                 const day = String(commitDate.getDate()).padStart(2, '0');
-                
                 document.getElementById('last-update').innerText = `Last update: ${year}-${month}-${day}`;
+            } else {
+                document.getElementById('last-update').innerText = `Last update: Live`;
             }
-        } catch (error) {
-            console.error("Failed to fetch last commit date:", error);
-            document.getElementById('last-update').innerText = "Last update: Unknown";
-        }
-    }
 
-    // 修改你原有的 init 函数，在里面加上 fetchLastUpdate() 的调用
-    async function init() {
-        try {
-            const response = await fetch('processed_probes.json');
             globalData = await response.json();
             
             globalData.sort((a, b) => parseInt(b.date || 0) - parseInt(a.date || 0));
@@ -293,14 +275,10 @@
 
         } catch (error) {
             document.getElementById('feed-container').innerHTML = `<p style="color: red;">❌ Failed to load data. Ensure 'processed_probes.json' exists.</p>`;
+            document.getElementById('last-update').innerText = "Last update: Unknown";
         }
         document.getElementById('download-csv-btn').addEventListener('click', downloadCSV);
-        
-        // 👇 在这里调用更新时间的函数 👇
-        fetchLastUpdate();
     }
-
-    init();
 
     function populateFilters(data) {
         const targets = new Set();
@@ -454,6 +432,7 @@
         URL.revokeObjectURL(url);
     }
 
+    // 仅保留页面底部这一个调用
     init();
 </script>
 </body>
