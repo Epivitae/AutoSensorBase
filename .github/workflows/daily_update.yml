@@ -38,6 +38,7 @@ jobs:
           path: |
             raw_papers.json
             processed_probes.json
+            update_meta.json
           retention-days: 7 
 
       - name: Commit and Push changes

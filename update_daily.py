@@ -16,8 +16,9 @@ from rich.progress import (
 from rich.theme import Theme
 
 # 引入你的业务逻辑模块
-from data_fetcher import fetch_broad_probe_papers
+from data_fetcher import fetch_broad_probe_papers, save_update_timestamp
 from data_analyzer import analyze_one_paper
+
 
 RAW_FILE = "raw_papers.json"
 PROCESSED_FILE = "processed_probes.json"
@@ -220,6 +221,8 @@ def main():
         summary_table.add_row("Existing Updated", str(updated_probe_count), style="yellow")
         
         console.print(Panel(summary_table, title="Pipeline Completed", border_style="green"))
+
+    save_update_timestamp()
 
 if __name__ == "__main__":
     main()

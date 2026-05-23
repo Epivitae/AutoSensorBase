@@ -1,9 +1,25 @@
 import time
 from Bio import Entrez
-import datetime
+from datetime import datetime, timezone, timedelta
 
 # 设置邮箱
 Entrez.email = "wangk@ion.ac.cn"
+
+
+def save_update_timestamp():
+    # 设定为北京时间 (UTC+8)
+    tz_utc_8 = timezone(timedelta(hours=8))
+    current_time = datetime.now(tz_utc_8).strftime("%Y-%m-%d %H:%M")
+    
+    meta_info = {
+        "last_update": current_time
+    }
+    
+    with open("update_meta.json", "w", encoding="utf-8") as f:
+        json.dump(meta_info, f, ensure_ascii=False, indent=2)
+        
+    print(f"✅ Timestamp updated: {current_time}")
+
 
 def fetch_broad_probe_papers(days_back=5):
     """
