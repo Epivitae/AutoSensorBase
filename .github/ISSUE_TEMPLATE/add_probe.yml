@@ -12,6 +12,17 @@ body:
     validations:
       required: true 
 
+
+  - type: textarea
+    id: probe_abstract
+    attributes:
+      label: "Paper Abstract (Fallback)"
+      description: "[Optional] If the paper is very new or from Elsevier, the bot might fail to fetch the abstract automatically. You can paste the abstract here to ensure successful processing."
+      placeholder: "Paste the abstract here if you think the bot might fail to fetch it..."
+    validations:
+      required: false
+
+
   - type: input
     id: probe_name
     attributes:
