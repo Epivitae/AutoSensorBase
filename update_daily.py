@@ -114,6 +114,8 @@ def main():
     if not pending_list:
         print_stats(total_docs, analyzed_docs, pending_count, 0, new_raw_count)
         console.print("[bold green]✅ All caught up. Workflow finished.[/]")
+        save_update_timestamp()
+        
         return
 
     processed_data = load_json(PROCESSED_FILE)
