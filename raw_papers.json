@@ -30553,5 +30553,32 @@
         "abstract": "[No Abstract Available Yet]",
         "ai_analyzed": true,
         "is_probe": false
+    },
+    {
+        "title": "First Evidence for Mixing-Induced CP Violation in B_{s}^{0}→J/ψϕ(1020) Decays in pp Collisions at sqrt[s]=13  TeV.",
+        "journal": "Physical review letters",
+        "date": "2026",
+        "doi": "https://doi.org/10.1103/ctqx-vxrj",
+        "abstract": "A novel machine-learning-based flavor-tagging algorithm combining same-side and opposite-side tagging is used to obtain the equivalent of 27 500 tagged B_{s}^{0}→J/ψϕ(1020) decays from pp collisions at sqrt[s]=13  TeV, collected by the CMS experiment and corresponding to an integrated luminosity of 96.5  fb^{-1}. A time- and flavor-dependent angular analysis of the μ^{+}μ^{-}K^{+}K^{-} final state, consistent with a ϕ(1020)→K^{+}K^{-} decay, is used to measure parameters of the B_{s}^{0}-B[over ¯]_{s}^{0} system. The weak phase is measured to be ϕ_{s}=-73±22(stat)±10(syst)  mrad, which, combined with the sqrt[s]=8  TeV CMS result, gives ϕ_{s}=-75±23  mrad. This value differs from zero by 3.2 standard deviations, providing the first evidence for mixing-induced CP violation in B_{s}^{0}→J/ψϕ(1020) decays. All measured physics parameters are found to agree with standard model predictions where available.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Search for Light Pseudoscalar Bosons, Pair-Produced in Higgs Boson Decays in the Four-Electron Final State in Proton-Proton Collisions at sqrt[s]=13  TeV.",
+        "journal": "Physical review letters",
+        "date": "2026",
+        "doi": "https://doi.org/10.1103/r53x-8fqp",
+        "abstract": "A search for pairs of light neutral pseudoscalar bosons (A) resulting from the decay of a Higgs boson is performed. The search is conducted using LHC proton-proton collision data at sqrt[s]=13  TeV, collected with the CMS detector in 2016-2018 and corresponding to an integrated luminosity of 138  fb^{-1}. The A boson decays into a highly collimated electron-positron pair. A novel multivariate algorithm using tracks and calorimeter information is developed to identify these distinctive signatures, and events are selected with two such merged electron-positron pairs. No significant excess above the standard model background predictions is observed. Upper limits on the branching fraction for H→AA→4e are set at 95% confidence level, for masses between 10 and 100 MeV and proper decay lengths below 100  μm, reaching branching fraction sensitivities as low as 10^{-5}. This is the first search for Higgs boson decays to four electrons via light pseudoscalars at the LHC. It significantly improves the experimental sensitivity to axionlike particles with masses below 100 MeV .",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Evolution of a central dopamine circuit underlies adaptation of a light-evoked sensorimotor response in the blind cavefish.",
+        "journal": "Science advances",
+        "date": "2026",
+        "doi": "https://doi.org/10.1126/sciadv.adv3770",
+        "abstract": "Adaptive behaviors emerge in novel environments through functional changes in neural circuits. While relationships between circuit function and behavior are well studied, how evolution shapes circuits to drive behavioral adaptation is poorly understood. The Mexican cavefish, <i>Astyanax mexicanus</i>, provides a unique genetically tractable model, with above ground eyed surface fish and multiple blind cavefish populations that have evolved in darkness. These differences in environment and vision offer a way to examine how neural circuits evolve. We examine differences in detection and behavioral responses to the nonvisual effects of light in cave and surface <i>A. mexicanus</i>. Both populations exhibit photokinesis: Surface fish become hyperactive after darkness, and cavefish after illumination. Using whole-brain functional imaging aligned to an established <i>Astyanax</i> brain atlas, we identify the caudal posterior tuberculum as key to light- and dark-induced photokinesis. Pan-neuronal GCaMP imaging shows that dark-sensitive neurons in surface fish are light-sensitive in cavefish. Light sensing depends on dopamine signaling, suggesting that a conserved dopamine circuit mediates photokinesis and highlighting <i>Astyanax</i> as a model for sensory adaptation.",
+        "ai_analyzed": true,
+        "is_probe": false
     }
 ]
