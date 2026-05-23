@@ -176,7 +176,13 @@
                 <option value="All">All</option>
             </select>
         </div>
-        
+
+        <div class="filter-group">
+            <label for="search-input">Search Database</label>
+            <input type="text" id="search-input" placeholder="Type name, journal, or abstract..." 
+                style="width: 100%; padding: 10px; border: 1px solid var(--btn-border); border-radius: 6px; box-sizing: border-box;">
+        </div>
+                
         <div class="filter-group">
             <label for="color-filter">Fluorescence Color</label>
             <select id="color-filter">
@@ -310,6 +316,50 @@
         document.getElementById('feed-container').innerHTML = '';
         renderFeedChunk();
     }
+
+
+    // 建议：定义一个全局的 filter 对象来统一管理状态
+const currentFilters = {
+    search: "",
+    target: "All",
+    color: "All"
+};
+
+function performSearch() {
+    const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    
+    currentFilteredData = globalData.filter(item => {
+        // 1. 组合所有需要搜索的字段（包括 abstract, journal, probe_name 等）
+        const searchableContent = [
+            item.probe_name, 
+            item.target, 
+            item.journal, 
+            item.abstract, 
+            item.type
+        ].join(" ").toLowerCase();
+        
+        // 2. 逻辑合并：同时满足搜索词 + 下拉菜单过滤
+        const matchSearch = searchableContent.includes(searchTerm);
+        const matchTarget = (currentFilters.target === "All") || (String(item.target) === currentFilters.target);
+        const matchColor = (currentFilters.color === "All") || (String(item.color) === currentFilters.color);
+        
+        return matchSearch && matchTarget && matchColor;
+    });
+
+    currentPage = 1;
+    document.getElementById('feed-container').innerHTML = '';
+    renderFeedChunk();
+}
+
+// 绑定输入框事件（加一个简单的防抖，防止输入过快触发重绘）
+let debounceTimer;
+document.getElementById('search-input').addEventListener('input', (e) => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+        performSearch();
+    }, 200); // 200ms 防抖
+});
+
 
     function renderFeedChunk() {
         const container = document.getElementById('feed-container');
