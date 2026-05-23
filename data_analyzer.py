@@ -217,29 +217,45 @@ def clean_input(val):
 def process_issue_pipeline(user_inputs):
     """
     Main pipeline: merges user form inputs with AI extraction.
-    Calls fetch_paper_metadata and your original analyze_one_paper.
     """
     doi = user_inputs.get("probe_doi")
     if not doi:
         print("❌ Error: DOI is missing.")
         return None
 
-    # 1. Fetch paper info
-    paper_meta = fetch_paper_metadata(doi)
-    if not paper_meta or not paper_meta.get("abstract"):
-        print("❌ Error: Could not fetch abstract. AI analysis aborted.")
-        return None
+    # 1. 获取用户手动填写的摘要（如果有的话）
+    user_abstract = clean_input(user_inputs.get("probe_abstract"))
 
-    # 2. Call your existing DeepSeek function
+    # 2. 尝试自动抓取文献基础信息 (Title, Journal, Year, Abstract)
+    paper_meta = fetch_paper_metadata(doi)
+    
+    # 如果完全抓取失败，我们需要创建一个空字典来兜底，避免后面的逻辑报错
+    if not paper_meta:
+        print("⚠️ Failed to fetch any metadata. Falling back to default empty values.")
+        paper_meta = {"title": "Unknown Title", "abstract": "", "journal": "Unknown Journal", "date": "Unknown Year"}
+
+    # 3. 🌟 摘要兜底逻辑：人工填写优先 > 自动抓取 > 两者皆空则报错
+    final_abstract = user_abstract or paper_meta.get("abstract", "")
+    
+    if not final_abstract:
+        print("❌ Error: Could not fetch abstract, and no manual abstract was provided. AI analysis aborted.")
+        return None
+        
+    # 将确认好的摘要更新回 meta 字典，准备喂给 AI
+    paper_meta["abstract"] = final_abstract
+    
+    print(f"ℹ️ Abstract ready (Length: {len(final_abstract)} chars). Proceeding to AI analysis...")
+
+    # 4. 调用你的 DeepSeek AI 分析逻辑
     ai_result = analyze_one_paper(paper_meta)
     if not ai_result:
         print("⚠️ AI Analysis returned None, using fallback.")
         ai_result = {"is_new": False, "reasoning": "AI Analysis Failed.", "probe_name": None, "target": None, "color": None, "type": None}
 
-    # 3. Merge: User input > AI Result
+    # 5. 合并: 用户输入优先 > AI 提取结果
     final_json = {
         "title": paper_meta["title"],
-        "abstract": paper_meta["abstract"],
+        "abstract": final_abstract, # 使用最终决定好的摘要
         "doi": f"https://doi.org/{doi.replace('https://doi.org/', '').strip()}",
         "journal": paper_meta["journal"],
         "date": paper_meta["date"],
@@ -261,4 +277,3 @@ def process_issue_pipeline(user_inputs):
     final_json["type"] = clean_input(user_inputs.get("probe_type")) or ai_result.get("type")
 
     return final_json
-
