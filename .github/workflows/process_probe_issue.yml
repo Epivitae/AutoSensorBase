@@ -83,6 +83,13 @@ jobs:
                   with open(db_path, 'w', encoding='utf-8') as f:
                       json.dump(db, f, indent=4, ensure_ascii=False)
                   print('✅ 成功将新探针写入 processed_probes.json')
+                  
+                  # 👇 新增：只有在成功写入新数据时，才同步打上最新的时间戳
+                  try:
+                      from data_fetcher import save_update_timestamp
+                      save_update_timestamp()
+                  except Exception as e:
+                      print(f'⚠️ 更新时间戳失败: {e}')
               else:
                   print('⚠️ 该探针 (DOI) 已存在于数据库中，跳过写入。')
           else:
@@ -94,4 +101,4 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
           commit_message: "🤖 auto-add: New probe added from issue #${{ github.event.issue.number }}"
-          file_pattern: 'processed_probes.json'
+          file_pattern: 'processed_probes.json update_meta.json'
