@@ -171,17 +171,19 @@
         <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 20px 0;">
         
         <div class="filter-group">
+            <label for="search-input">Search Database</label>
+            <input type="text" id="search-input" placeholder="Type name, journal, or abstract..." 
+                style="width: 100%; padding: 10px; border: 1px solid var(--btn-border); border-radius: 6px; box-sizing: border-box;">
+        </div>
+
+        <div class="filter-group">
             <label for="target-filter">Target Molecule</label>
             <select id="target-filter">
                 <option value="All">All</option>
             </select>
         </div>
 
-        <div class="filter-group">
-            <label for="search-input">Search Database</label>
-            <input type="text" id="search-input" placeholder="Type name, journal, or abstract..." 
-                style="width: 100%; padding: 10px; border: 1px solid var(--btn-border); border-radius: 6px; box-sizing: border-box;">
-        </div>
+
                 
         <div class="filter-group">
             <label for="color-filter">Fluorescence Color</label>
