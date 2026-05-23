@@ -252,22 +252,24 @@
 
     async function init() {
         try {
-            // 添加时间戳防止强缓存，确保每次获取最新的 JSON 状态
-            const fetchUrl = 'processed_probes.json?t=' + new Date().getTime();
-            const response = await fetch(fetchUrl);
-            
-            // 直接读取响应头中的最后修改时间（完美避开 GitHub API 限制）
-            const lastModified = response.headers.get('Last-Modified');
-            if (lastModified) {
-                const commitDate = new Date(lastModified);
-                const year = commitDate.getFullYear();
-                const month = String(commitDate.getMonth() + 1).padStart(2, '0');
-                const day = String(commitDate.getDate()).padStart(2, '0');
-                document.getElementById('last-update').innerText = `Last update: ${year}-${month}-${day}`;
-            } else {
+            // 👇 1. 获取时间戳 (新增这部分逻辑)
+            try {
+                const metaUrl = 'update_meta.json?t=' + new Date().getTime();
+                const metaResponse = await fetch(metaUrl);
+                if (metaResponse.ok) {
+                    const metaData = await metaResponse.json();
+                    document.getElementById('last-update').innerText = `Last update: ${metaData.last_update}`;
+                } else {
+                    document.getElementById('last-update').innerText = `Last update: Live`;
+                }
+            } catch (e) {
+                console.warn("Could not fetch meta update time", e);
                 document.getElementById('last-update').innerText = `Last update: Live`;
             }
 
+            // 👇 2. 继续获取探针数据 (原有逻辑稍作简化)
+            const fetchUrl = 'processed_probes.json?t=' + new Date().getTime();
+            const response = await fetch(fetchUrl);
             globalData = await response.json();
             
             globalData.sort((a, b) => parseInt(b.date || 0) - parseInt(a.date || 0));
