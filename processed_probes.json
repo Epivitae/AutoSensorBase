@@ -7133,5 +7133,44 @@
         "target": "Replication",
         "color": "Green/Red",
         "type": "Reporter"
+    },
+    {
+        "title": "Ketal-Bridged Rhodamines as a New Scaffold for Near-Infrared Chemigenetic Indicators with Enhanced Fluorogenicity.",
+        "journal": "Journal of the American Chemical Society",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/jacs.6c00412",
+        "abstract": "Chemigenetic indicators could combine the spectral tunability and photostability of small-molecule dyes with precise genetically encoded labels and provide crucial tools for biological imaging, but current indicators still have limitations in fluorogenicity, photostability and synthetic complexity. We report a new type of NIR chemigenetic indicators via engineering ketal-bridged rhodamines. We demonstrate that the ketal-bridged rhodamines exhibit distinct NIR excitation and emission, superior brightness, improved photostability and enhanced fluorogenicity upon binding to self-labeling protein HaloTag. We also introduce a new \"bridge addition\" strategy for facile synthesis of these ketal-bridged rhodamines with high overall yields. The ketal-bridged rhodamine based chemigenetic indicators show high fluorescence activation ratios in live cell imaging, allowing highly fluorogenic imaging of proteins in varying subcellular organelles and super-resolution imaging of subcellular structures and dynamics via structured illumination microscopy (SIM). The versatility of the chemigenetic indicator also enables imaging of RNA and translocation into phase granules and kinase activity through a phase separation approach. The ketal-bridged rhodamine fluorophores could enrich the chemigenetic toolboxes, affording a promising scaffold for new indicators with improved contrast in bioimaging and biosensing applications.",
+        "is_new": true,
+        "reasoning": "Report a new type of NIR chemigenetic indicators via engineering ketal-bridged rhodamines.",
+        "probe_name": null,
+        "target": null,
+        "color": "NIR",
+        "type": "Chemigenetic Indicator"
+    },
+    {
+        "title": "A versatile method for designing biosensors via regulatory domains of allosteric enzymes.",
+        "journal": "Nature communications",
+        "date": "2026",
+        "doi": "https://doi.org/10.1038/s41467-026-73277-9",
+        "abstract": "Genetically encoded fluorescent biosensors (GEFBs) are invaluable tools for spatiotemporal metabolite monitoring in cellular metabolism, yet their development for many key metabolites is hampered by a lack of specific biorecognition elements. Here, we report a versatile strategy to engineer metabolite-responsive GEFBs by leveraging the allosteric properties of regulatory domains from allosteric enzymes. Using regulatory domains from chorismate mutase, 2-acetolactate synthase, and D-citramalate synthase as biorecognition elements, we construct three biosensors for specific L-phenylalanine, L-valine, and L-isoleucine detection. We further demonstrate that multi-ligand-binding regulatory domains can be exploited to derive diverse specific biosensors, and apply this strategy to develop two S-adenosyl-L-methionine biosensors and an S-methyl-5'-thioadenosine biosensor. We also showcase the utility of these biosensors for real-time, in situ tracking of target metabolites in living cells, as well as bioprocess monitoring and clinical diagnostics. Overall, this study establishes a flexible strategy that provides insights to construct GEFBs targeting other metabolites.",
+        "is_new": true,
+        "reasoning": "Report a versatile strategy to engineer metabolite-responsive GEFBs.",
+        "probe_name": null,
+        "target": "L-phenylalanine, L-valine, L-isoleucine, S-adenosyl-L-methionine, S-methyl-5'-thioadenosine",
+        "color": "Green",
+        "type": "Metabolite Sensor"
+    },
+    {
+        "title": "Rational design of a genetically encoded fluorescent biosensor for real-time and bidirectional detection of μ-opioid receptor signaling.",
+        "journal": "Biosensors & bioelectronics",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.bios.2026.118813",
+        "abstract": "The μ-opioid receptor (MOR) is a key therapeutic target for pain management. However, robust tools for real-time bidirectional monitoring of MOR activation remain limited. Here, we report GEgMOR, a genetically encoded fluorescent biosensor developed via a rational design strategy combining artificial intelligence (AlphaFold3) with genetic engineering. This strategy drastically reduced the number of required mutant constructs from thousands to merely 239, markedly enhancing the efficiency and precision of biosensor development. GEgMOR exhibits outstanding performance in live-cell assays, with a maximum fluorescence response (ΔF/F<sub>0</sub> = 472.8%) 8.6-fold higher than the current state-of-the-art MOR sensor, nanomolar affinity (EC<sub>50</sub> = 39.67 nM), rapid kinetics (τ<sub>on</sub> ≈ 1.7 s, τ<sub>off</sub> ≈ 4.9 s) and high opioid specificity, and excellent photostability under both one-photon and two-photon excitation. Further validation in SH-SY5Y and PC12 neuronal cell models confirmed that the core functional properties of GEgMOR are well maintained in a neuronal cellular context. Notably, GEgMOR enables the first real-time, continuous, and bidirectional monitoring of MOR conformational changes upon agonist activation and antagonist inhibition in a single system. This overcomes the limitations of discontinuous, indirect readouts in conventional stepwise assays. Beyond serving as a powerful dynamic MOR imaging tool, this biosensor establishes a scalable cell-based platform for MOR ligand profiling and drug candidate screening. Our work not only provides a powerful imaging and functional analysis tool for MOR research but also establishes a generalizable strategy to accelerate G protein-coupled receptor (GPCR) biosensor development and advance drug discovery.",
+        "is_new": true,
+        "reasoning": "Report GEgMOR, a genetically encoded fluorescent biosensor for MOR.",
+        "probe_name": "GEgMOR",
+        "target": "μ-opioid receptor",
+        "color": "Green",
+        "type": "GPCR Sensor"
     }
 ]
