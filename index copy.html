@@ -65,32 +65,6 @@
         .metric-value { font-size: 2.5rem; font-weight: 800; color: var(--text-sidebar); margin: 5px 0; }
         .metric-sub { font-size: 0.8rem; color: var(--meta-color); }
 
-        /* 新增 Submit Button 样式 */
-        .submit-btn { 
-            width: 100%; 
-            padding: 10px; 
-            margin-top: 10px; 
-            background-color: var(--sidebar-bg); 
-            color: var(--text-sidebar); 
-            border: 1px solid var(--border-color); 
-            border-radius: 6px; 
-            font-weight: 600; 
-            font-size: 0.85rem; 
-            cursor: pointer; 
-            display: flex; 
-            align-items: center; 
-            justify-content: center; 
-            gap: 8px; 
-            text-decoration: none; 
-            box-sizing: border-box; 
-            transition: all 0.2s ease; 
-        }
-        .submit-btn:hover { 
-            border-color: #3B82F6; 
-            color: #3B82F6; 
-            background-color: #F8FAFC; 
-        }
-
         .team-footer { margin-top: 50px; padding-top: 20px; border-top: 1px solid var(--border-color); text-align: center; }
         .team-footer div { font-size: 0.85rem; color: var(--text-sidebar); margin-bottom: 4px; }
         .team-footer a { color: var(--text-sidebar); text-decoration: none; border-bottom: 1px dotted; }
@@ -189,6 +163,7 @@
         </h2>
         <p class="caption">AI-powered Biosensor Tracking System</p>
 
+        <!-- 修复了提前闭合的 p 标签 -->
         <p id="last-update" style="color: #a766ad; font-weight: 600; font-size: 0.8rem; margin-top: -25px; margin-bottom: 30px; margin-left: 0;">
             Last update: Fetching...
         </p>
@@ -207,6 +182,8 @@
                 <option value="All">All</option>
             </select>
         </div>
+
+
                 
         <div class="filter-group">
             <label for="color-filter">Fluorescence Color</label>
@@ -230,16 +207,6 @@
             </svg>
             Download Filtered List (CSV)
         </button>
-
-        <a href="https://github.com/Epivitae/AutoSensorBase/issues/new?template=add_probe.yml" target="_blank" rel="noopener noreferrer" class="submit-btn">
-            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                <polyline points="14 2 14 8 20 8"></polyline>
-                <line x1="12" y1="18" x2="12" y2="12"></line>
-                <line x1="9" y1="15" x2="15" y2="15"></line>
-            </svg>
-            Submit a Sensor
-        </a>
 
         <div class="team-footer">
             <div style="font-weight: 600;">Chimera Nano Sensor Team</div>
@@ -285,6 +252,7 @@
 
     async function init() {
         try {
+            // 👇 1. 获取时间戳 (新增这部分逻辑)
             try {
                 const metaUrl = 'update_meta.json?t=' + new Date().getTime();
                 const metaResponse = await fetch(metaUrl);
@@ -299,6 +267,7 @@
                 document.getElementById('last-update').innerText = `Last update: Live`;
             }
 
+            // 👇 2. 继续获取探针数据 (原有逻辑稍作简化)
             const fetchUrl = 'processed_probes.json?t=' + new Date().getTime();
             const response = await fetch(fetchUrl);
             globalData = await response.json();
@@ -353,43 +322,47 @@
     }
 
 
-    const currentFilters = {
-        search: "",
-        target: "All",
-        color: "All"
-    };
+    // 建议：定义一个全局的 filter 对象来统一管理状态
+const currentFilters = {
+    search: "",
+    target: "All",
+    color: "All"
+};
 
-    function performSearch() {
-        const searchTerm = document.getElementById('search-input').value.toLowerCase();
+function performSearch() {
+    const searchTerm = document.getElementById('search-input').value.toLowerCase();
+    
+    currentFilteredData = globalData.filter(item => {
+        // 1. 组合所有需要搜索的字段（包括 abstract, journal, probe_name 等）
+        const searchableContent = [
+            item.probe_name, 
+            item.target, 
+            item.journal, 
+            item.abstract, 
+            item.type
+        ].join(" ").toLowerCase();
         
-        currentFilteredData = globalData.filter(item => {
-            const searchableContent = [
-                item.probe_name, 
-                item.target, 
-                item.journal, 
-                item.abstract, 
-                item.type
-            ].join(" ").toLowerCase();
-            
-            const matchSearch = searchableContent.includes(searchTerm);
-            const matchTarget = (currentFilters.target === "All") || (String(item.target) === currentFilters.target);
-            const matchColor = (currentFilters.color === "All") || (String(item.color) === currentFilters.color);
-            
-            return matchSearch && matchTarget && matchColor;
-        });
-
-        currentPage = 1;
-        document.getElementById('feed-container').innerHTML = '';
-        renderFeedChunk();
-    }
-
-    let debounceTimer;
-    document.getElementById('search-input').addEventListener('input', (e) => {
-        clearTimeout(debounceTimer);
-        debounceTimer = setTimeout(() => {
-            performSearch();
-        }, 200); 
+        // 2. 逻辑合并：同时满足搜索词 + 下拉菜单过滤
+        const matchSearch = searchableContent.includes(searchTerm);
+        const matchTarget = (currentFilters.target === "All") || (String(item.target) === currentFilters.target);
+        const matchColor = (currentFilters.color === "All") || (String(item.color) === currentFilters.color);
+        
+        return matchSearch && matchTarget && matchColor;
     });
+
+    currentPage = 1;
+    document.getElementById('feed-container').innerHTML = '';
+    renderFeedChunk();
+}
+
+// 绑定输入框事件（加一个简单的防抖，防止输入过快触发重绘）
+let debounceTimer;
+document.getElementById('search-input').addEventListener('input', (e) => {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(() => {
+        performSearch();
+    }, 200); // 200ms 防抖
+});
 
 
     function renderFeedChunk() {
@@ -513,6 +486,7 @@
         URL.revokeObjectURL(url);
     }
 
+    // 仅保留页面底部这一个调用
     init();
 </script>
 </body>
