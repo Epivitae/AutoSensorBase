@@ -102,3 +102,11 @@ jobs:
         with:
           commit_message: "🤖 auto-add: New probe added from issue #${{ github.event.issue.number }}"
           file_pattern: 'processed_probes.json update_meta.json'
+
+      # 6. 🌟 自动关闭 Issue 并留言
+      - name: Close Issue
+        env:
+          # 使用 GitHub 自动提供的 Token 进行鉴权
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          gh issue close ${{ github.event.issue.number }} --comment "✅ 探针数据已成功处理并写入数据库，系统自动关闭此 Issue。"
