@@ -301,9 +301,26 @@
 
             const fetchUrl = 'processed_probes.json?t=' + new Date().getTime();
             const response = await fetch(fetchUrl);
-            globalData = await response.json();
-            
-            globalData.sort((a, b) => parseInt(b.date || 0) - parseInt(a.date || 0));
+            const rawData = await response.json();
+
+            // 1. 遍历原始数据，给每个探针加上一个 originalIndex 属性，记录它在 JSON 中的原始位置
+            globalData = rawData.map((item, index) => {
+                return { ...item, originalIndex: index };
+            });
+
+            // 2. 执行多条件排序
+            globalData.sort((a, b) => {
+                // 条件 1：比较年份 (降序：大年份在前)
+                const yearDiff = parseInt(b.date || 0) - parseInt(a.date || 0);
+                
+                if (yearDiff !== 0) {
+                    return yearDiff; // 如果年份不同，直接按年份排序结果返回
+                } else {
+                    // 条件 2：如果年份相同，比较原始索引 (降序：后出现的排前面)
+                    return b.originalIndex - a.originalIndex; 
+                }
+            });
+
             currentFilteredData = [...globalData];
 
             populateFilters(globalData);
