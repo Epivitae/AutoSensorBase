@@ -7174,11 +7174,11 @@
         "type": "GPCR Sensor"
     },
     {
-        "title": "A Far-Red FRET biosensor for AMPK enables multiplexed imaging of single-cell bioenergetic homeostasis",
-        "abstract": "Metabolic homeostasis has been studied primarily at the tissue and organism level, identifying molecular control mechanisms such as the energy charge-sensing kinase AMPK. Feedback loops involving AMPK and other regulators align cellular ATP generation and consumption, determining energetic balance. Recent work has demonstrated surprising oscillatory dynamics in AMPK activity, revealing unidentified kinetic modulation in single-cell homeostatic behaviour. However, probing the kinetic mechanisms of intracellular feedback requires simultaneous observation of multiple energetic parameters, and such experiments are precluded by the shared wavelength band occupied by most metabolic biosensors. We have overcome this obstacle by constructing a red-shifted FRET-based AMPK activity biosensor, RAMPKAR2, that is comparable to existing FRET-based AMPK activity biosensors. Multiplexed imaging of RAMPKAR2 with PercevalHR, which detects ATP/ADP ratio, confirmed that the kinetics of AMPK activity and ATP/ADP ratio are tightly coupled, with a lag of less than 6 minutes at the single-cell level. Pairing of RAMPKAR with HYlight, which detects the glycolytic intermediate fructose 1,6-bisphosphate (FBP), revealed that glycolytic activity co-oscillates with AMPK, shifted by ∼1.5 hours, and that these oscillations are suppressed by sustained AMPK activity. Together these data advance a model in which temporally offset increases in glycolytic ATP supply and AMPK deactivation contribute to single-cell oscillations.",
-        "doi": "https://doi.org/10.64898/2026.05.13.723899",
-        "journal": "bioRxiv",
+        "title": "A Far-Red FRET biosensor for AMPK enables multiplexed imaging of single-cell bioenergetic homeostasis.",
+        "journal": "bioRxiv : the preprint server for biology",
         "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.05.13.723899",
+        "abstract": "Metabolic homeostasis has been studied primarily at the tissue and organism level, identifying molecular control mechanisms such as the energy charge-sensing kinase AMPK. Feedback loops involving AMPK and other regulators align cellular ATP generation and consumption, determining energetic balance. Recent work has demonstrated surprising oscillatory dynamics in AMPK activity, revealing unidentified kinetic modulation in single-cell homeostatic behaviour. However, probing the kinetic mechanisms of intracellular feedback requires simultaneous observation of multiple energetic parameters, and such experiments are precluded by the shared wavelength band occupied by most metabolic biosensors. We have overcome this obstacle by constructing a red-shifted FRET-based AMPK activity biosensor, RAMPKAR2, that is comparable to existing FRET-based AMPK activity biosensors. Multiplexed imaging of RAMPKAR2 with PercevalHR, which detects ATP/ADP ratio, confirmed that the kinetics of AMPK activity and ATP/ADP ratio are tightly coupled, with a lag of less than 6 minutes at the single-cell level. Pairing of RAMPKAR with HYlight, which detects the glycolytic intermediate fructose 1,6-bisphosphate (FBP), revealed that glycolytic activity co-oscillates with AMPK, shifted by ∼1.5 hours, and that these oscillations are suppressed by sustained AMPK activity. Together these data advance a model in which temporally offset increases in glycolytic ATP supply and AMPK deactivation contribute to single-cell oscillations.",
         "is_new": true,
         "reasoning": "Constructed a red-shifted FRET-based AMPK activity biosensor, RAMPKAR2.",
         "probe_name": "RAMPKAR2",
@@ -7211,5 +7211,18 @@
         "target": "Calcium",
         "color": "Red",
         "type": "Ion Sensor"
+    },
+    {
+        "title": "In situ spatiotemporal tracking of endogenous protein dynamics with allosteric genetically encoded biosensor in living cells.",
+        "journal": "Biosensors & bioelectronics",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.bios.2026.118829",
+        "abstract": "Proteins' functions are dictated by their abundance and unique subcellular localization, necessitating analysis under native conditions. Current imaging approaches often rely on overexpression or genome editing, which work for exogenous or modified proteins, risk introducing artifacts, and fail to reveal the true roles of native proteins in situ. Imaging of endogenous, unmanipulated proteins in living cells remains extremely scarce. Herein, an allosteric biosensor comprising a protein of interest (POI) recognizing aptamer and a dual-locked fluorogenic aptamer module, termed the spatiotemporal tracking endogenous proteins (Step), is developed. The intracellular circular Step (circStep) system translates a single POI-aptamer binding event into an allosteric switch that simultaneously unlocks two caged fluorogenic aptamers (M18), which restore their active conformations and yield a robust fluorescent signal, enabling high-fidelity, real-time tracking of native POI localization and abundance fluctuations. By remodeling the aptamer into an allosteric switch, the design lowers background, curbs off-target binding and sharpens POI specificity. Importantly, it also enables spatiotemporal dynamic tracking of protein translocation by directly visualizing the process of the nucleocytoplasmic transport of POI, establishing a robust, imaging-based high-throughput platform that accurately screens drugs by artificially manipulating protein relocalization. Therefore, this plug-and-play circStep, which monitors the native protein dynamics without perturbing its expression or localization and leaves POI function intact, expands the current toolbox for investigating the authentic functions of proteins and accelerate drug discovery, especially for therapies that reprogram protein localization.",
+        "is_new": true,
+        "reasoning": "Developed an allosteric biosensor (Step/circStep) for endogenous protein tracking.",
+        "probe_name": "Step",
+        "target": "Protein of interest (POI)",
+        "color": "Green",
+        "type": "Protein Sensor"
     }
 ]
