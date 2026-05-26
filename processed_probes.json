@@ -7224,5 +7224,31 @@
         "target": "Protein of interest (POI)",
         "color": "Green",
         "type": "Protein Sensor"
+    },
+    {
+        "title": "Genetically Encoded Fluorescent Biosensors Enable Noninvasive Real-Time Visualization of Nitrate Dynamics in Intact Living Plants.",
+        "journal": "Biosensors",
+        "date": "2026",
+        "doi": "https://doi.org/10.3390/bios16050243",
+        "abstract": "Nitrate (NO<sub>3</sub><sup>-</sup>) serves as a pivotal molecule with dual functions in nutrient supply and signaling during plant growth and development. Precise monitoring of its spatiotemporal dynamics in planta is therefore essential for dissecting the regulatory mechanisms underlying plant nitrogen metabolism. However, conventional nitrate detection methods suffer from inherent limitations, including destructive sampling, insufficient spatiotemporal resolution, and an inability to achieve real-time whole-plant monitoring. Here, we report a genetically encoded nitrate biosensor, designated NitNRCL1, constructed using a split firefly luciferase complementation system. Functional validation in both prokaryotic and eukaryotic systems demonstrates that NitNRCL1 responds to changes in nitrate availability and generates stable chemiluminescent signals in bacteria and diverse plant species. Importantly, NitNRCL1 enables non-invasive, real-time, and whole-plant monitoring of nitrate levels in living plants. Using NitNRCL1, we successfully imaged the spatiotemporal dynamics of nitrate signaling in <i>Arabidopsis thaliana</i>. Collectively, our findings establish NitNRCL1 as a robust and novel tool for investigating nitrate transport, signaling, and metabolic pathways in plants. This biosensor advances our mechanistic understanding of plant nitrate biology and provides a technical foundation for breeding nitrogen-use-efficient crops and developing precision fertilization strategies.",
+        "is_new": true,
+        "reasoning": "Report a genetically encoded nitrate biosensor NitNRCL1.",
+        "probe_name": "NitNRCL1",
+        "target": "Nitrate",
+        "color": null,
+        "type": "Metabolite Sensor"
+    },
+    {
+        "title": "A highly sensitive genetically encoded red cAMP sensor for multiplex imaging in vivo.",
+        "journal": "Nature communications",
+        "date": "2026",
+        "doi": "https://doi.org/10.1038/s41467-026-73138-5",
+        "abstract": "Circularly permuted green fluorescent protein (cpGFP)-based high-performance cAMP sensors have enabled real-time monitoring of cAMP dynamics with high spatiotemporal resolution in living animals. However, their utility is hampered by significant spectral overlap with other green/yellow fluorescent indicators and blue/cyan light-activated optogenetic actuators, limiting their compatibility in multiplexed imaging applications. While existing red cAMP sensors offer great spectral separation, they often suffer from a limited dynamic range ( < 1.5-fold in HEK293T cells), low cellular brightness, aggregation, or significant blue-light-induced photoactivation. Here, we report R-Flamp1, a red cAMP sensor with a large dynamic range ( > 10-fold in HEK293T cells), enhanced cellular brightness, appropriate cAMP affinity (K<sub>d</sub> ~1.9 μM), subsecond response kinetics, and minimal photoactivation under blue or cyan light exposure. Using R-Flamp1, we visualized region-specific cAMP dynamics, and when paired with green indicators, revealed differential activation patterns between cAMP and neuromodulators or calcium using two-photon imaging and fiber photometry during various behaviors. These findings provide valuable insights into the role of cAMP signaling in complex behaviors.",
+        "is_new": true,
+        "reasoning": "Report R-Flamp1, a red cAMP sensor with large dynamic range.",
+        "probe_name": "R-Flamp1",
+        "target": "cAMP",
+        "color": "Red",
+        "type": "Metabolite Sensor"
     }
 ]
