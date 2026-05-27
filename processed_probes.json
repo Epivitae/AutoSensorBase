@@ -7250,5 +7250,18 @@
         "target": "cAMP",
         "color": "Red",
         "type": "Metabolite Sensor"
+    },
+    {
+        "title": "Affinity Peptide-Based Circularly Permuted Fluorescent Protein Biosensors Loaded in a Microfluidic System for Systemic Lupus Erythematosus Diagnosis.",
+        "journal": "Sensors (Basel, Switzerland)",
+        "date": "2026",
+        "doi": "https://doi.org/10.3390/s26103024",
+        "abstract": "Systemic lupus erythematosus (SLE) is a chronic autoimmune disease, with anti-double-stranded DNA (anti-dsDNA) antibodies as its serological biomarkers. However, conventional anti-dsDNA antibody detection methods, which mainly rely on antibody-binding assays, often suffer from limited sensitivity and specificity, cumbersome procedures, and poor suitability for accurate clinical analysis. Herein, we developed an integrated detection system combining a circularly permuted fluorescent protein (cpFP)-based biosensor with a microfluidic chip for rapid and reliable anti-dsDNA antibody detection. The biosensor, cpR-dsAb-C1, was engineered from mApple by inserting an affinity peptide identified through phage display, enabling specific recognition of the variable region of anti-dsDNA antibodies. The biosensor exhibited good sensitivity, specificity, and anti-interference capability. Furthermore, integration of cpR-dsAb-C1 with a polydimethylsiloxane (PDMS)-based microfluidic chip yielded a microfluidic detection platform with good linearity for rapid antibody analysis. Clinical validation showed significantly higher anti-dsDNA antibody levels in patients with SLE than in healthy controls, and the results were consistent with those obtained using routine clinical methods, with an accuracy exceeding 95%. Overall, this system provides a promising low-cost, efficient, and accurate strategy for the early diagnosis and dynamic monitoring of SLE.",
+        "is_new": true,
+        "reasoning": "Engineered cpR-dsAb-C1 from mApple with affinity peptide.",
+        "probe_name": "cpR-dsAb-C1",
+        "target": "Anti-dsDNA antibodies",
+        "color": "Red",
+        "type": "Antibody Sensor"
     }
 ]
