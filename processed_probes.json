@@ -7187,15 +7187,15 @@
         "type": "Kinase Activity Sensor"
     },
     {
-        "title": "Redesign of Calmodulin for Genetically Encoded Zn\n 2+\n Sensing with High Dynamic Range",
-        "abstract": "The development of genetically encoded Zn2+ probes (GEZPs) has been hindered by the limited signal transduction efficiency of natural zinc-binding domains, but the encoded Ca2+ indicators utilize the cooperative conformational changes of calmodulin (CaM) to achieve superior dynamic ranges. Here, we rationally redesigned the calcium-binding protein CaM in Ca2+ indicators to develop a biosensor, mNG-ZnM1.0, which shows a high dynamic range and selectivity for Zn2+. Specifically, by utilizing Zn2+ coordination properties, key Ca2+-binding sites in the four EF-hand motifs of CaM were mutated to cysteine or histidine. This yielded the 20H variant (mNG-ZnM), which responded to Zn2+ but was insensitive to Ca2+. However, it lost the ability to generate a high dynamic range response. Considering the high conservation of the first coordinating residue (Asp1) in each EF-hand motif, saturation mutagenesis identified Asp1 as the critical residue for achieving high dynamic range Zn2+ sensing in mNG-ZnM. Subsequent directed evolution optimization produced mNG-ZnM1.0, which exhibited significantly enhanced Zn2+ response. The dynamic range of mNG-ZnM1.0 for Zn2+ detection reached up to 20-fold in vitro and 4-fold in live cells (Fmax/Fmin), performing comparably or superiorly to traditional GEZPs. Using zebrafish expressing mNG-ZnM1.0, we successfully visualized the Zn2+ dynamics during development in vivo. Altogether, this study expands the repertoire of sensing modules for GEZPs and provides a paradigm for reprogramming classical protein scaffolds to enable additional functionalities.",
+        "title": "Redesign of Calmodulin for Genetically Encoded Zn<sup>2+</sup> Sensing with High Dynamic Range.",
+        "journal": "Chemical & biomedical imaging",
+        "date": "2026",
         "doi": "https://doi.org/10.1021/cbmi.5c00154",
-        "journal": "Chemical &amp; Biomedical Imaging",
-        "date": "2025",
+        "abstract": "The development of genetically encoded Zn<sup>2+</sup> probes (GEZPs) has been hindered by the limited signal transduction efficiency of natural zinc-binding domains, but the encoded Ca<sup>2+</sup> indicators utilize the cooperative conformational changes of calmodulin (CaM) to achieve superior dynamic ranges. Here, we rationally redesigned the calcium-binding protein CaM in Ca<sup>2+</sup> indicators to develop a biosensor, mNG-ZnM1.0, which shows a high dynamic range and selectivity for Zn<sup>2+</sup>. Specifically, by utilizing Zn<sup>2+</sup> coordination properties, key Ca<sup>2+</sup>-binding sites in the four EF-hand motifs of CaM were mutated to cysteine or histidine. This yielded the 20H variant (mNG-ZnM), which responded to Zn<sup>2+</sup> but was insensitive to Ca<sup>2+</sup>. However, it lost the ability to generate a high dynamic range response. Considering the high conservation of the first coordinating residue (Asp1) in each EF-hand motif, saturation mutagenesis identified Asp1 as the critical residue for achieving high dynamic range Zn<sup>2+</sup> sensing in mNG-ZnM. Subsequent directed evolution optimization produced mNG-ZnM1.0, which exhibited significantly enhanced Zn<sup>2+</sup> response. The dynamic range of mNG-ZnM1.0 for Zn<sup>2+</sup> detection reached up to 20-fold in vitro and 4-fold in live cells (<i>F</i> <sub>max</sub>/<i>F</i> <sub>min</sub>), performing comparably or superiorly to traditional GEZPs. Using zebrafish expressing mNG-ZnM1.0, we successfully visualized the Zn<sup>2+</sup> dynamics during development in vivo. Altogether, this study expands the repertoire of sensing modules for GEZPs and provides a paradigm for reprogramming classical protein scaffolds to enable additional functionalities.",
         "is_new": true,
-        "reasoning": "Developed a new Zn2+ sensor mNG-ZnM1.0 via rational redesign.",
+        "reasoning": "Developed a new biosensor mNG-ZnM1.0 for Zn2+ sensing.",
         "probe_name": "mNG-ZnM1.0",
-        "target": "Zn2+",
+        "target": "Zinc",
         "color": "Green",
         "type": "Ion Sensor"
     },
