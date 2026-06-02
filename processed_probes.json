@@ -7263,5 +7263,18 @@
         "target": "Anti-dsDNA antibodies",
         "color": "Red",
         "type": "Antibody Sensor"
+    },
+    {
+        "title": "A cytosolic IF1 reporter enables real-time visualization of severe mitochondrial membrane damage.",
+        "journal": "The Journal of cell biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.1083/jcb.202511088",
+        "abstract": "Maintenance of mitochondrial integrity is fundamental for cellular survival, yet how cells recognize catastrophic mitochondrial membrane damage remains unknown. Here, we identify MAI-1 as the first genetically encoded reporter of severe mitochondrial membrane damage. MAI-1 is a Caenorhabditis elegans homolog of the ATP synthase inhibitor IF1 that lacks a mitochondrial targeting sequence, resides in the cytosol under basal conditions, but rapidly and irreversibly translocates to severely damaged mitochondria within milliseconds. We validate MAI-1 across diverse injury paradigms and demonstrate that cytosolic IF1 variants from other species exhibit conserved damage-induced recruitment. Mechanistically, MAI-1 recruitment requires the presence of an intact ATP synthase complex. Using MAI-1 as a sensor, we uncover that these severely damaged mitochondria are cleared through the LGG-1-mediated, PINK1/PARKIN-independent lysosomal pathway. Together, our findings establish a powerful tool for visualizing severe mitochondrial membrane damage and reveal a surveillance mechanism dedicated to structural integrity control.",
+        "is_new": true,
+        "reasoning": "Identified MAI-1 as the first genetically encoded reporter of severe mitochondrial membrane damage.",
+        "probe_name": "MAI-1",
+        "target": "Mitochondrial membrane damage",
+        "color": "Green",
+        "type": "Protein Translocation Sensor"
     }
 ]
