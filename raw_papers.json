@@ -30850,5 +30850,14 @@
         "abstract": "To facilitate the investigation of signaling by the luteinizing hormone receptor (LHR), we created a mouse line called Lhr-COIN. This line allows for the conditional replacement of the Lhr coding sequence with enhanced green fluorescent protein (eGFP), resulting in both a conditional knockout line and a reporter line. By breeding these mice with mice expressing Cre recombinase, we generated mice in which either one or both Lhr alleles were replaced with eGFP. Notably, mice in which one Lhr allele in the granulosa cells was replaced with eGFP exhibited normal LH responsiveness. This enabled live imaging of LH-induced migration of LH-receptor-expressing granulosa cells within preovulatory ovarian follicles. The Lhr-COIN mouse line holds significant potential for future research on LHR function and localization in the ovary and other tissues.",
         "ai_analyzed": true,
         "is_probe": false
+    },
+    {
+        "title": "Next-generation genetically encoded biosensors for spatiotemporal intracellular pH monitoring, mapping, and profiling.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.05.19.726343",
+        "abstract": "Bioluminescence resonance energy transfer (BRET) systems are widely used for live-cell spectroscopy and biosensor engineering, yet the intrinsic pH sensitivity of commonly used BRET components has not been systematically examined. Here, we show that major BRET luciferase donors, fluorescent acceptors, and donor-acceptor assay pairs exhibit pronounced pH-dependent spectroscopic behavior across physiologically relevant conditions, identifying environmental pH responsiveness as a fundamental property of widely used BRET systems and a potential source of previously underappreciated assay artifacts. Leveraging these principles, we engineered ORION (ratiOmetRIc prOton seNsor), a genetically encoded ratiometric BRET pH sensor based on the NanoLuc-mVenus fusion. ORION exhibited strong brightness, an approximately 9-fold dynamic range, and robust responsiveness across a substantially broader pH range than that of existing genetically encoded sensors. Compared to pHluorin2, ORION maintained substantially improved quantitative performance at acidic pH values below 6.0. To demonstrate its utility in a biological application, we applied ORION across diverse cancer cell models and identified heterogeneous acid imprinting states, suggesting that tumor cells can retain persistent physiological memory of adaptation to acidic microenvironments even after prolonged ex vivo culture. Together, these findings establish pH responsiveness as a fundamental property of BRET systems and position ORION as a best-in-class platform for interrogating and quantifying pH regulation of biology in living systems.",
+        "ai_analyzed": true,
+        "is_probe": true
     }
 ]

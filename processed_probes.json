@@ -7276,5 +7276,18 @@
         "target": "Mitochondrial membrane damage",
         "color": "Green",
         "type": "Protein Translocation Sensor"
+    },
+    {
+        "title": "Next-generation genetically encoded biosensors for spatiotemporal intracellular pH monitoring, mapping, and profiling.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.05.19.726343",
+        "abstract": "Bioluminescence resonance energy transfer (BRET) systems are widely used for live-cell spectroscopy and biosensor engineering, yet the intrinsic pH sensitivity of commonly used BRET components has not been systematically examined. Here, we show that major BRET luciferase donors, fluorescent acceptors, and donor-acceptor assay pairs exhibit pronounced pH-dependent spectroscopic behavior across physiologically relevant conditions, identifying environmental pH responsiveness as a fundamental property of widely used BRET systems and a potential source of previously underappreciated assay artifacts. Leveraging these principles, we engineered ORION (ratiOmetRIc prOton seNsor), a genetically encoded ratiometric BRET pH sensor based on the NanoLuc-mVenus fusion. ORION exhibited strong brightness, an approximately 9-fold dynamic range, and robust responsiveness across a substantially broader pH range than that of existing genetically encoded sensors. Compared to pHluorin2, ORION maintained substantially improved quantitative performance at acidic pH values below 6.0. To demonstrate its utility in a biological application, we applied ORION across diverse cancer cell models and identified heterogeneous acid imprinting states, suggesting that tumor cells can retain persistent physiological memory of adaptation to acidic microenvironments even after prolonged ex vivo culture. Together, these findings establish pH responsiveness as a fundamental property of BRET systems and position ORION as a best-in-class platform for interrogating and quantifying pH regulation of biology in living systems.",
+        "is_new": true,
+        "reasoning": "Engineered ORION, a genetically encoded ratiometric BRET pH sensor.",
+        "probe_name": "ORION",
+        "target": "pH",
+        "color": "Green",
+        "type": "Ion Sensor"
     }
 ]
