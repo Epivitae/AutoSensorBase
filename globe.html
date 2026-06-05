@@ -65,7 +65,7 @@
                 if (data.locations && data.locations.length > 0) {
                     markers = data.locations.map((loc) => ({
                         location: [loc.lat, loc.lng],
-                        size: 0.05,
+                        size: 0.08,
                     }));
                 }
                 counterEl.textContent =
@@ -76,7 +76,7 @@
                     "Err: " + (err.message || String(err)).slice(0, 30);
                 // Fallback marker
                 markers = [
-                    { location: [31.2304, 121.4737], size: 0.06 },
+                    { location: [31.2304, 121.4737], size: 0.09 },
                 ];
             }
 
