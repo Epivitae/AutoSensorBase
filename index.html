@@ -20,6 +20,52 @@
             --badge-target-text: #2C7A7B;
             --badge-type-bg: #EDF2F7;
             --badge-type-text: #4A5568;
+            --globe-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 16px rgba(0,0,0,0.04);
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #171923;
+            --sidebar-bg: #1A202C;
+            --text-main: #E2E8F0;
+            --text-sidebar: #E2E8F0;
+            --meta-color: #A0AEC0;
+            --border-color: #2D3748;
+            --card-bg: #1A202C;
+            --btn-border: #4A5568;
+            --badge-target-bg: #1C4532;
+            --badge-target-text: #81E6D9;
+            --badge-type-bg: #2D3748;
+            --badge-type-text: #CBD5E0;
+            --globe-shadow: 0 0 0 1px rgba(255,255,255,0.06), 0 4px 16px rgba(0,0,0,0.3);
+        }
+
+        /* ================= 1b. Theme Toggle Button ================= */
+        .theme-toggle {
+            width: 26px;
+            height: 26px;
+            border-radius: 50%;
+            border: 1px solid var(--btn-border);
+            background: var(--sidebar-bg);
+            color: var(--text-sidebar);
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.25s ease;
+            vertical-align: middle;
+            flex-shrink: 0;
+        }
+        .theme-toggle:hover {
+            border-color: #F59E0B;
+            background: rgba(245, 158, 11, 0.08);
+        }
+        .theme-toggle svg {
+            width: 14px;
+            height: 14px;
+            transition: transform 0.4s ease;
+        }
+        .theme-toggle:active svg {
+            transform: rotate(180deg);
         }
 
         body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background-color: var(--bg-color); color: var(--text-main); display: flex; min-height: 100vh; }
@@ -58,7 +104,8 @@
         /* 控件与指标 */
         .filter-group { margin-bottom: 12px; } /* 缩小组件间距，原为20px */
         .filter-group label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 4px; color: var(--text-sidebar); } /* 缩小文字与输入框间距 */
-        .filter-group select { width: 100%; padding: 8px 10px; border: 1px solid var(--btn-border); border-radius: 6px; background-color: var(--bg-color); color: var(--text-main); outline: none; }
+        .filter-group select,
+        .filter-group input { width: 100%; padding: 8px 10px; border: 1px solid var(--btn-border); border-radius: 6px; background-color: var(--bg-color); color: var(--text-main); outline: none; }
         
         .metric-card { margin-top: 15px; padding: 15px; background: rgba(0,0,0,0.02); border-radius: 12px; text-align: center; border: 1px solid var(--border-color); } /* 缩小外间距和内边距 */
         .metric-title { font-size: 0.8rem; color: var(--meta-color); letter-spacing: 1px; text-transform: uppercase; }
@@ -157,8 +204,8 @@
         summary { font-size: 0.9rem; font-weight: 600; cursor: pointer; color: var(--text-sidebar); outline: none; }
         details p { font-size: 0.9rem; line-height: 1.6; color: var(--text-main); opacity: 0.85; margin-top: 10px; margin-bottom: 0; }
 
-        .read-btn { align-self: flex-start; background-color: #fff; border: 1px solid var(--btn-border); color: var(--text-sidebar); padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 600; transition: all 0.2s; margin-top: 15px; text-align: center; }
-        .read-btn:hover { background-color: #F7FAFC; border-color: #A0AEC0; transform: translateY(-1px); }
+        .read-btn { align-self: flex-start; background-color: var(--card-bg); border: 1px solid var(--btn-border); color: var(--text-sidebar); padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 600; transition: all 0.2s; margin-top: 15px; text-align: center; }
+        .read-btn:hover { background-color: var(--bg-color); border-color: #A0AEC0; transform: translateY(-1px); }
 
         /* ================= 4. Globe Widget ================= */
         .globe-widget {
@@ -168,7 +215,7 @@
             margin: 16px auto 10px auto;
             border-radius: 50%;
             overflow: hidden;
-            box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 16px rgba(0,0,0,0.04);
+            box-shadow: var(--globe-shadow);
             background: transparent;
         }
         .globe-widget iframe {
@@ -216,8 +263,24 @@
         </h2>
         <p class="caption">AI-powered Biosensor Tracking System</p>
 
-        <p id="last-update" style="color: #a766ad; font-weight: 600; font-size: 0.8rem; margin-top: 0; margin-bottom: 15px; margin-left: 0;">
-            Last update: Fetching...
+        <p style="color: #a766ad; font-weight: 600; font-size: 0.8rem; margin-top: 0; margin-bottom: 15px; margin-left: 0;">
+            <span id="last-update">Last update: Fetching...</span>
+            <button class="theme-toggle" id="theme-toggle" title="Toggle dark/light mode" aria-label="Toggle dark mode" style="margin-left: 10px;">
+                <svg id="theme-icon-sun" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="display:none;">
+                    <circle cx="12" cy="12" r="5"></circle>
+                    <line x1="12" y1="1" x2="12" y2="3"></line>
+                    <line x1="12" y1="21" x2="12" y2="23"></line>
+                    <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                    <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                    <line x1="1" y1="12" x2="3" y2="12"></line>
+                    <line x1="21" y1="12" x2="23" y2="12"></line>
+                    <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                    <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                </svg>
+                <svg id="theme-icon-moon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                </svg>
+            </button>
         </p>
 
         <hr style="border: 0; border-top: 1px solid var(--border-color); margin: 15px 0;">
@@ -299,6 +362,36 @@
 </div>
 
 <script>
+    // ================= Theme Toggle =================
+    (function() {
+        const html = document.documentElement;
+        const toggle = document.getElementById('theme-toggle');
+        const iconSun = document.getElementById('theme-icon-sun');
+        const iconMoon = document.getElementById('theme-icon-moon');
+
+        function setTheme(theme) {
+            html.setAttribute('data-theme', theme);
+            iconSun.style.display = theme === 'dark' ? '' : 'none';
+            iconMoon.style.display = theme === 'dark' ? 'none' : '';
+            try { localStorage.setItem('asb-theme', theme); } catch(e) {}
+        }
+
+        // Init: prefer saved, then system, default light
+        let saved;
+        try { saved = localStorage.getItem('asb-theme'); } catch(e) {}
+        if (saved === 'dark' || saved === 'light') {
+            setTheme(saved);
+        } else if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            setTheme('dark');
+        }
+        // default is light (no data-theme attribute needed)
+
+        toggle.addEventListener('click', () => {
+            const next = html.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+            setTheme(next);
+        });
+    })();
+
     let globalData = [];
     let currentFilteredData = [];
     let currentPage = 1;
