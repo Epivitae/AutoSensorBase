@@ -1,0 +1,21 @@
+# AutoSensorBase — Cloudflare Worker config
+# Docs: https://developers.cloudflare.com/workers/wrangler/configuration/
+
+name = "asb-visitors"
+main = "worker.js"
+compatibility_date = "2025-06-01"
+
+# ── KV Namespace ──────────────────────────────────────
+# Create the namespace first:
+#   npx wrangler kv:namespace create VISITORS_KV
+#   npx wrangler kv:namespace create VISITORS_KV --preview
+# Then paste the returned `id` below:
+[[kv_namespaces]]
+binding = "VISITORS_KV"
+id = "YOUR_KV_NAMESPACE_ID_HERE"
+preview_id = "YOUR_PREVIEW_KV_ID_HERE"
+
+# ── Observability (optional) ──────────────────────────
+[observability]
+enabled = true
+head_sampling_rate = 1

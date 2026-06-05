@@ -160,14 +160,40 @@
         .read-btn { align-self: flex-start; background-color: #fff; border: 1px solid var(--btn-border); color: var(--text-sidebar); padding: 8px 16px; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 600; transition: all 0.2s; margin-top: 15px; text-align: center; }
         .read-btn:hover { background-color: #F7FAFC; border-color: #A0AEC0; transform: translateY(-1px); }
 
-        /* ================= 4. 移动端响应式优化 ================= */
+        /* ================= 4. Globe Widget ================= */
+        .globe-widget {
+            position: relative;
+            width: 250px;
+            height: 250px;
+            margin: 16px auto 10px auto;
+            border-radius: 50%;
+            overflow: hidden;
+            box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 16px rgba(0,0,0,0.04);
+            background: transparent;
+        }
+        .globe-widget iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            display: block;
+        }
+        .globe-widget .globe-overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+        }
+
+        /* ================= 5. 移动端响应式优化 ================= */
         @media (max-width: 1024px) {
             .app-container { flex-direction: column; }
-            .sidebar { 
-                width: 100%; 
-                border-right: none; 
-                border-bottom: 1px solid var(--border-color); 
-                padding: 20px; 
+            .sidebar {
+                width: 100%;
+                border-right: none;
+                border-bottom: 1px solid var(--border-color);
+                padding: 20px;
                 position: relative;
                 height: auto;
                 overflow: visible;
@@ -175,6 +201,7 @@
             .main-content { padding: 20px; }
             .main-content h1 { font-size: 1.5rem; }
             #feed-container { grid-template-columns: 1fr; }
+            .globe-widget { display: none; }
         }
     </style>
 </head>
@@ -245,6 +272,12 @@
             <div style="font-weight: 600;">Chimera Nano Sensor Team</div>
             <div style="opacity: 0.8;">Institute of Neuroscience, CAS</div>
             <div><a href="http://www.cns.ac.cn" target="_blank">www.cns.ac.cn</a></div>
+        </div>
+
+        <!-- Visitor Globe Widget -->
+        <div class="globe-widget">
+            <iframe src="globe.html" scrolling="no" title="Global Visitors" allow="webgl"></iframe>
+            <a class="globe-overlay" href="globe.html" target="_blank" title="View full globe"></a>
         </div>
     </div>
 
