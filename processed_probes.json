@@ -7289,5 +7289,18 @@
         "target": "pH",
         "color": "Green",
         "type": "Ion Sensor"
+    },
+    {
+        "title": "A Color-Tuning Bioluminescent Sensor (AmyLuc) for Real-Time Monitoring of Intracellular pH Dynamics in Cancer Cells.",
+        "journal": "Analytical chemistry",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acs.analchem.6c02204",
+        "abstract": "Cancer cells show increased glucose uptake and lactate secretion due to mitochondrial respiratory dysfunction and hypoxia, leading to extracellular acidification of the tumor microenvironment (TME) and intracellular alkalinization. This metabolic reprogramming promotes malignant phenotypes, including enhanced invasion, metastasis, multidrug resistance, and immune evasion. Therefore, real-time monitoring of intra- and extracellular pH dynamics is essential to understand tumor progression and to evaluate therapeutic strategies. Here, we report the use of a pH-sensitive bioluminescent color-tuning biosensor, derived from the firefly <i>Amydetes vivianii</i> luciferase (AmyLuc), to ratiometrically estimate intracellular and extracellular pH changes associated with metabolic alterations consistent with the Warburg effect in human colorectal adenocarcinoma cells (Caco-2). The ratio of bioluminescence emission intensities at 593 nm (pH 6.0) and 548 nm (pH 8.0) was used to establish a calibration curve for accurate pH determination. Analysis of the green/red emission ratios showed that the treatments with the mitochondrial uncoupler carbonyl cyanide-p-trifluoromethoxyphenylhydrazone (FCCP, 50 μM) and the respiratory chain inhibitor antimycin A (50 μM) induced a sustained intracellular acidification (pH ∼6.3), whereas the extracellular environment showed a gradual alkalinization toward near-physiological pH (∼7.1), consistent with buffering effects of the medium. This intracellular acidification is consistent with metabolic alterations and intracellular proton accumulation caused by the transition from mitochondrial respiration to cytoplasmic anaerobic glycolysis. The results highlight the suitability of AmyLuc as a sensitive color-tuning bioluminescent pH biosensor for real-time monitoring of pH dynamics in cancer cells under metabolic stress and therapeutic interventions.",
+        "is_new": true,
+        "reasoning": "Report the use of a pH-sensitive bioluminescent color-tuning biosensor AmyLuc.",
+        "probe_name": "AmyLuc",
+        "target": "pH",
+        "color": "Green/Red",
+        "type": "pH Sensor"
     }
 ]
