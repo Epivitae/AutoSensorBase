@@ -30904,5 +30904,23 @@
         "abstract": "Cancer cells show increased glucose uptake and lactate secretion due to mitochondrial respiratory dysfunction and hypoxia, leading to extracellular acidification of the tumor microenvironment (TME) and intracellular alkalinization. This metabolic reprogramming promotes malignant phenotypes, including enhanced invasion, metastasis, multidrug resistance, and immune evasion. Therefore, real-time monitoring of intra- and extracellular pH dynamics is essential to understand tumor progression and to evaluate therapeutic strategies. Here, we report the use of a pH-sensitive bioluminescent color-tuning biosensor, derived from the firefly <i>Amydetes vivianii</i> luciferase (AmyLuc), to ratiometrically estimate intracellular and extracellular pH changes associated with metabolic alterations consistent with the Warburg effect in human colorectal adenocarcinoma cells (Caco-2). The ratio of bioluminescence emission intensities at 593 nm (pH 6.0) and 548 nm (pH 8.0) was used to establish a calibration curve for accurate pH determination. Analysis of the green/red emission ratios showed that the treatments with the mitochondrial uncoupler carbonyl cyanide-p-trifluoromethoxyphenylhydrazone (FCCP, 50 μM) and the respiratory chain inhibitor antimycin A (50 μM) induced a sustained intracellular acidification (pH ∼6.3), whereas the extracellular environment showed a gradual alkalinization toward near-physiological pH (∼7.1), consistent with buffering effects of the medium. This intracellular acidification is consistent with metabolic alterations and intracellular proton accumulation caused by the transition from mitochondrial respiration to cytoplasmic anaerobic glycolysis. The results highlight the suitability of AmyLuc as a sensitive color-tuning bioluminescent pH biosensor for real-time monitoring of pH dynamics in cancer cells under metabolic stress and therapeutic interventions.",
         "ai_analyzed": true,
         "is_probe": true
+    },
+    {
+        "title": "Mapping the propagation of a salicylic acid wave during pathogen spread using a fluorescent sensor.",
+        "journal": "aBIOTECH",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.abiote.2026.100055",
+        "abstract": "Salicylic acid (SA) is a central signaling molecule in systemic acquired resistance (SAR) in plants, yet long-term monitoring of its real-time dynamics in living tissues has remained technically challenging. Using the recently developed genetically encoded fluorescent sensor SalicS1, high-resolution spatiotemporal imaging of SA was successfully performed in intact plants for the first time, revealing an SA wave that propagates ahead of the invading pathogen. This breakthrough tool directly captures the dynamic spread of plant defense signals. In addition, SalicS1 provides a technological foundation for dissecting the temporal relationships between SA and upstream early signals such as calcium ions and reactive oxygen species and for identifying novel immune signaling components through genetic screening. The development of this sensor marks a transition in plant immunity research from static measurements to real-time dynamic imaging.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Split GFP-based fluorescent biosensors detect ER-Golgi membrane contact dynamics.",
+        "journal": "Journal of cell science",
+        "date": "2026",
+        "doi": "https://doi.org/10.1242/jcs.264795",
+        "abstract": "In eukaryotic cells, organelles communicate through membrane contact sites-specialized regions where their membranes come into close apposition without fusing. Among these, contacts between the endoplasmic reticulum (ER) and the Golgi apparatus are critical for lipid trafficking and polarized sorting of protein cargoes, yet their regulation and physiological roles remain poorly understood due to limited research tools. Here, we developed genetically encoded biosensors that selectively label ER-Golgi contact sites by building upon split GFP/YFP systems. These fluorescent probes reliably detect ER-Golgi contacts whose formation depends on Golgi-enriched phosphatidylinositol 4-phosphate and the lipid transfer activity of Oxysterol-Binding Protein, and reveal the dynamic remodeling of these structures in live cells. Notably, the biosensors captured alterations in ER-Golgi contacts during cell division and ER stress, as well as their developmental loss in mammalian neurons. We propose these biosensors as powerful tools for investigating ER-Golgi interactions in response to physiological cues or pathological perturbations across diverse cell types.",
+        "ai_analyzed": true,
+        "is_probe": true
     }
 ]

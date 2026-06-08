@@ -7302,5 +7302,18 @@
         "target": "pH",
         "color": "Green/Red",
         "type": "pH Sensor"
+    },
+    {
+        "title": "Split GFP-based fluorescent biosensors detect ER-Golgi membrane contact dynamics.",
+        "journal": "Journal of cell science",
+        "date": "2026",
+        "doi": "https://doi.org/10.1242/jcs.264795",
+        "abstract": "In eukaryotic cells, organelles communicate through membrane contact sites-specialized regions where their membranes come into close apposition without fusing. Among these, contacts between the endoplasmic reticulum (ER) and the Golgi apparatus are critical for lipid trafficking and polarized sorting of protein cargoes, yet their regulation and physiological roles remain poorly understood due to limited research tools. Here, we developed genetically encoded biosensors that selectively label ER-Golgi contact sites by building upon split GFP/YFP systems. These fluorescent probes reliably detect ER-Golgi contacts whose formation depends on Golgi-enriched phosphatidylinositol 4-phosphate and the lipid transfer activity of Oxysterol-Binding Protein, and reveal the dynamic remodeling of these structures in live cells. Notably, the biosensors captured alterations in ER-Golgi contacts during cell division and ER stress, as well as their developmental loss in mammalian neurons. We propose these biosensors as powerful tools for investigating ER-Golgi interactions in response to physiological cues or pathological perturbations across diverse cell types.",
+        "is_new": true,
+        "reasoning": "Developed genetically encoded biosensors based on split GFP/YFP systems.",
+        "probe_name": "split GFP/YFP biosensors",
+        "target": "ER-Golgi contact sites",
+        "color": "Green",
+        "type": "Membrane Contact Sensor"
     }
 ]
