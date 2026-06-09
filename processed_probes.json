@@ -7315,5 +7315,18 @@
         "target": "ER-Golgi contact sites",
         "color": "Green",
         "type": "Membrane Contact Sensor"
+    },
+    {
+        "title": "Unknown Title",
+        "abstract": "Fluorescent genetically encoded calcium ion indicators (GECIs) enable Ca2+ dynamics to be monitored in a diverse array of cell types and tissues. One drawback of green fluorescent GECIs, such as the widely used GCaMP6, is that the blue wavelengths of light used to excite the GECI also activate optogenetic actuators such as channelrhodopsins. Accordingly, it is particularly challenging simultaneously to use both optogenetic actuators and GECIs to both control and image cell signaling. Bioluminescence is an alternative imaging modality that circumvents this problem by avoiding the need for illumination for fluorescence excitation. Here, we report the development of a bioluminescent GECI, designated LUCI-GECO1, based on efficient bioluminescent resonance energy transfer (BRET) between the NanoLuc luciferase and a topological variant of GCaMP6s. LUCI-GECO1 is a sensitive ratiometric GECI that retains the highly optimized properties of GCaMP6s, as we demonstrate by imaging of chemically and optogenetically induced Ca2+ concentration changes in cultured cells and neurons.",
+        "doi": "https://doi.org/10.1002/cbic.201800255Digital",
+        "journal": "Unknown Journal",
+        "date": "Unknown Year",
+        "is_new": true,
+        "reasoning": "Report the development of a bioluminescent GECI, LUCI-GECO1.",
+        "probe_name": "LUCI-GECO1",
+        "target": "Calcium",
+        "color": "Green",
+        "type": "Ion Sensor"
     }
 ]
