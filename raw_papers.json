@@ -30922,5 +30922,14 @@
         "abstract": "In eukaryotic cells, organelles communicate through membrane contact sites-specialized regions where their membranes come into close apposition without fusing. Among these, contacts between the endoplasmic reticulum (ER) and the Golgi apparatus are critical for lipid trafficking and polarized sorting of protein cargoes, yet their regulation and physiological roles remain poorly understood due to limited research tools. Here, we developed genetically encoded biosensors that selectively label ER-Golgi contact sites by building upon split GFP/YFP systems. These fluorescent probes reliably detect ER-Golgi contacts whose formation depends on Golgi-enriched phosphatidylinositol 4-phosphate and the lipid transfer activity of Oxysterol-Binding Protein, and reveal the dynamic remodeling of these structures in live cells. Notably, the biosensors captured alterations in ER-Golgi contacts during cell division and ER stress, as well as their developmental loss in mammalian neurons. We propose these biosensors as powerful tools for investigating ER-Golgi interactions in response to physiological cues or pathological perturbations across diverse cell types.",
         "ai_analyzed": true,
         "is_probe": true
+    },
+    {
+        "title": "Generation of WTC11 CLYBL-CAG_GCaMP8f cell line for fast and sensitive calcium tracking.",
+        "journal": "Stem cell research",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.scr.2026.104021",
+        "abstract": "Genetically encoded calcium indicators (GECIs), such as GFP-based GCaMP sensors, are powerful tools for monitoring electrical activity in excitable cells. Here, we engineered a WTC11 line by inserting the fast GCaMP8f sensor into the CLYBL safe-harbor locus under the control of the CAG promoter, together with an antibiotic selection cassette removable by Cre recombinase. Cardiomyocytes and neurons differentiated from this line express the reporter robustly, with GFP fluorescence dynamics closely tracking cellular calcium. This cell line provides a versatile and reliable platform for investigators requiring rapid calcium monitoring with preserved sensitivity and brightness.",
+        "ai_analyzed": true,
+        "is_probe": false
     }
 ]
