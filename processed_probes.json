@@ -7328,5 +7328,18 @@
         "target": "Calcium",
         "color": "Green",
         "type": "Ion Sensor"
+    },
+    {
+        "title": "A red-emitting, genetically encoded indicator for two-photon voltage recording in vivo.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.06.01.726307",
+        "abstract": "Genetically encoded voltage indicators (GEVIs) enable minimally invasive, cell‑type‑specific optical measurements of neuronal membrane potential with millisecond temporal resolution. Red‑shifted GEVIs are especially advantageous because they permit spectral multiplexing with complementary sensors and enable all‑optical circuit interrogation in combination with blue‑light‑activated opsins. Despite these advantages, existing red GEVIs remain poorly suited for in vivo use due to limited performance under two‑photon (2P) excitation, the predominant modality for deep‑tissue imaging. Here, we introduce VADER1, a red GEVI that overcomes this limitation and enables reliable spike detection in vivo under 2P illumination. Under 2P excitation, VADER1 supports extended voltage imaging with both random‑access and resonant‑scanning microscopy, enables recordings from neurons as deep as cortical layer 5, and allows dual-color imaging with calcium indicators. By filling a critical spectral gap, VADER1 enables integrated optical measurements of fast electrical activity alongside other neural signals and establishes a foundation for two‑photon all‑optical electrophysiology.",
+        "is_new": true,
+        "reasoning": "Introduce VADER1, a red GEVI for two-photon voltage recording.",
+        "probe_name": "VADER1",
+        "target": "Voltage",
+        "color": "Red",
+        "type": "Voltage Sensor"
     }
 ]
