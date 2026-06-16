@@ -7341,5 +7341,18 @@
         "target": "Voltage",
         "color": "Red",
         "type": "Voltage Sensor"
+    },
+    {
+        "title": "A Genetically Encoded Calcium Ion Biosensor with an Exceptionally Large Ratiometric Response.",
+        "journal": "ACS sensors",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acssensors.6c00112",
+        "abstract": "The objective of this work was to overcome some of the long-standing limitations of ratiometric fluorescent protein (FP)-based Ca<sup>2+</sup> biosensors, which typically rely on Förster resonance energy transfer (FRET) between two FPs and generally exhibit only relatively modest Ca<sup>2+</sup>-dependent changes in emission ratio. To develop biosensors with substantially greater ratiometric changes, we explored an alternative biosensor design strategy in which two independently optimized intensiometric single FP-based Ca<sup>2+</sup> biosensors were hybridized into a single protein construct such that they employed a shared calmodulin (CaM) and CaM-binding peptide (CBP). By hybridizing a direct-response red FP-based biosensor with an inverse-response green FP-based biosensor, we created SuiCa, a single-polypeptide Ca<sup>2+</sup> biosensor that exhibits exceptionally large red-to-green ratiometric fluorescence changes as purified protein (∼60-fold) and when expressed in immortalized cell cultures (∼80-fold) and primary neurons (∼37-fold). Relative to co-expression of two spectrally distinct FP-based Ca<sup>2+</sup> biosensors, SuiCa provides the advantages of a smaller gene size, a fixed fluorophore stoichiometry, and a ratiometric response that depends on Ca<sup>2+</sup> binding to a single, shared, CaM plus CBP domain. With these advantages, along with its bright fluorescence and large ratiometric change, SuiCa represents a new addition to the Ca<sup>2+</sup> imaging toolbox.",
+        "is_new": true,
+        "reasoning": "Created SuiCa, a hybrid red/green ratiometric Ca2+ biosensor.",
+        "probe_name": "SuiCa",
+        "target": "Calcium",
+        "color": "Green/Red",
+        "type": "Ion Sensor"
     }
 ]
