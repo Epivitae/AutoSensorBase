@@ -7354,5 +7354,18 @@
         "target": "Calcium",
         "color": "Green/Red",
         "type": "Ion Sensor"
+    },
+    {
+        "title": "Red-shifted GRAB acetylcholine sensors for multiplex imaging in vivo.",
+        "journal": "Nature neuroscience",
+        "date": "2026",
+        "doi": "https://doi.org/10.1038/s41593-026-02325-w",
+        "abstract": "The neurotransmitter acetylcholine (ACh) is essential in both the central and peripheral nervous systems. Recent studies highlight the significance of interactions between ACh and various neuromodulators in regulating complex behaviors. The ability to simultaneously image ACh and other neuromodulators can provide valuable information regarding the mechanisms underlying these behaviors. Here we developed a series of red fluorescent G-protein-coupled receptor activation-based ACh sensors, with a wide detection range and expanded spectral profile. The high-affinity sensor rACh1h reliably detects ACh release in various brain regions, including the nucleus accumbens, amygdala, hippocampus and cortex. Moreover, rACh1h can be coexpressed with green fluorescent sensors to record ACh release together with other neurochemicals in various behavioral contexts using fiber photometry, mesoscopic imaging and two-photon imaging with high spatiotemporal resolution.",
+        "is_new": true,
+        "reasoning": "Developed a series of red fluorescent ACh sensors.",
+        "probe_name": "rACh1h",
+        "target": "Acetylcholine",
+        "color": "Red",
+        "type": "Neurotransmitter Sensor"
     }
 ]
