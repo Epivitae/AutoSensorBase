@@ -7367,5 +7367,18 @@
         "target": "Acetylcholine",
         "color": "Red",
         "type": "Neurotransmitter Sensor"
+    },
+    {
+        "title": "A genetic reporter for visualizing nitroreductase activity using magnetic resonance imaging.",
+        "journal": "Chemistry methods : new approaches to solving problems in chemistry",
+        "date": "2026",
+        "doi": "https://doi.org/10.1002/cmtd.202500165",
+        "abstract": "The genetic expression of bacterial nitroreductase offers a potent approach for the targeted ablation of eukaryotic cells, holding significant potential for both fundamental research and gene-directed enzyme-prodrug therapy. The effectiveness of nitroreductase in these applications critically depends on robust transgene expression, driving a need for imaging probes to visualize nitroreductase expression and activity in gene-engineered cells. Current probes predominantly rely on optical methods, which are inherently limited by their poor penetration in deep, optically dense tissues. Here, we report the molecular engineering of a genetically encoded reporter capable of detecting nitroreductase activity using magnetic resonance imaging (MRI). This reporter comprises human aquaporin fused to a dihydrofolate reductase (DHFR)-destabilizing domain. The sensor remains in a degraded \"off-state\" until nitroreductase-mediated cleavage of a caged trimethoprim prodrug releases active trimethoprim, which binds to and stabilizes aquaporin, thereby restoring MRI signals. We optimized signal induction by screening N- and C-terminal fusions and incorporating an evolved DHFR variant. We validated a direct, dose-dependent correlation between nitroreductase expression and diffusion-weighted MRI contrast across diverse human cell types. These findings validate the use of destabilized aquaporins as switchable, metal-free MRI reporters for monitoring nitroreductase activity, facilitating the noninvasive evaluation of nitroreductase-based genetic tools in intact deep tissues.",
+        "is_new": true,
+        "reasoning": "Molecular engineering of a genetically encoded reporter for nitroreductase activity using MRI.",
+        "probe_name": null,
+        "target": "Nitroreductase",
+        "color": null,
+        "type": "Enzyme Activity Reporter"
     }
 ]
