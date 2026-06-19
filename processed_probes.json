@@ -7380,5 +7380,18 @@
         "target": "Nitroreductase",
         "color": null,
         "type": "Enzyme Activity Reporter"
+    },
+    {
+        "title": "A two-component relay-switch biosensor enables precise and quantitative detection of the B. subtilis quorum peptide PhrF: Implications in probing the microbiome.",
+        "journal": "Biosensors & bioelectronics",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.bios.2026.118919",
+        "abstract": "We engineered a biosensor for detection of the Bacillus subtilis quorum sensing peptide (QSP), PhrF, which is integral to the bacterial Rap-Phr system regulating competence, sporulation, biofilm formation, and antimicrobial peptide production. Quorum sensing is pivotal in host-microbiome interactions, modulating physiological processes such as immune function and metabolism, and influencing health maintenance or the onset of disease. Despite extensive mechanistic understanding of B. subtilis quorum sensing and prior ComA dependent reporter strains, quantitative, analytically validated whole-cell biosensor for measuring bioavailable PhrF in complex matrices remains limited. To address this gap, we designed a biosensor for PhrF using the native relay-switch architecture that couples the ComQXPA two-component system (TCS) with the Rap-Phr regulatory system. Unlike conventional engineering biosensor designs, the analyte does not directly control reporter expression; instead, PhrF binds RapF, releasing phosphorylated ComA to activate the luxCDABE operon under the surfactin promoter (P<sub>srfAA</sub>), producing a dose-dependent bioluminescent output. This TCS design decouples sensing from reporting, enabling precise signal transduction in multicomponent networks. The biosensor demonstrated high selectivity and sensitivity, with a detection limit of 0.40 nmol/L and a dynamic range of 4 × 10<sup>-10</sup> to 1 × 10<sup>-4</sup> mol/L. Validation using ultra-performance liquid chromatography-tandem mass spectrometry (UPLC-MS/MS) confirmed accuracy across bacterial cultures, soil, and human stool samples. PhrF was detected at concentrations ranging from 0.24 to 6.91 μmol/kg in stool and up to 84 nmol/kg in soil, indicating its presence across diverse environments. This cost-effective biosensor offers a robust approach for quantitative measurement of PhrF levels, thereby facilitating research into probing the functional role of B. subtilis in regulating host-microbiome interactions and homeostasis within the environment, human health, and industrial effluents.",
+        "is_new": true,
+        "reasoning": "Engineered a biosensor for PhrF using relay-switch architecture.",
+        "probe_name": null,
+        "target": "PhrF",
+        "color": null,
+        "type": "Quorum Sensing Peptide Sensor"
     }
 ]
