@@ -7393,5 +7393,31 @@
         "target": "PhrF",
         "color": null,
         "type": "Quorum Sensing Peptide Sensor"
+    },
+    {
+        "title": "Revealing the spatiotemporal dynamics of methionine metabolism with a genetically encoded single-fluorophore biosensor.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.06.05.730515",
+        "abstract": "Methionine is an essential amino acid, used for protein synthesis, redox homeostasis, and methylation reactions throughout the cell. However, the compartmentalized dynamics of methionine have remained elusive, due to a lack of available tools to measure methionine with high spatial and temporal resolution. To address this limitation, we have developed a single fluorescent protein-based methionine optical reporter (Meteor) which reports subcellular changes in methionine with high dynamic range. Using Meteor, we demonstrate the subcellular uptake of methionine in multiple cell lines into several locations, including the mitochondrial matrix. Furthermore, we use Meteor to illuminate the dynamics of the methionine cycle in the cytoplasm and nucleus, finding cancer cells can rapidly increase methionine from metabolic precursors in both locations. Finally, demonstrated that Meteor can be used to visualize methionine dynamics <i>in vivo</i> using <i>Caenorhabditis elegans</i> . Thus, we have developed a new tool to measure methionine dynamics across scales with high dynamic range and spatiotemporal resolution.",
+        "is_new": true,
+        "reasoning": "Developed a single fluorescent protein-based methionine optical reporter (Meteor).",
+        "probe_name": "Meteor",
+        "target": "Methionine",
+        "color": "Green",
+        "type": "Metabolite Sensor"
+    },
+    {
+        "title": "Live monitoring uncovers divergent epigenetic remodeling during osteogenic and adipogenic differentiation of mesenchymal stem cells.",
+        "journal": "Frontiers in cell and developmental biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.3389/fcell.2026.1823110",
+        "abstract": "Histone post-translational modifications represent a central mechanism of epigenetic regulation, upholding chromatin architecture and genomic function. Elucidating the dynamic relationship between epigenetic modifications and chromatin remodeling requires sensitive tools for live-cell analysis. To address this, we developed K9-MILo (K9-Methylated Inhibitory Locus), a genetically encoded fluorescent sensor for visualizing the heterochromatin mark H3K9me3 in living cells. K9-MILo incorporates the MPP8 chromodomain, the mTurquoise2 fluorescent protein, and a nuclear localization signal. Expression of K9-MILo in immortalized mesenchymal stem cells and its translocation in the nucleus did not compromise their ability to differentiate into adipogenic and osteogenic lineages. Using K9-MILo in conjunction with automatically mapped long-term live-cell imaging and machine learning-based analysis, we tracked heterochromatin dynamics during adipogenic and osteogenic differentiation. Comparative analysis revealed that the different dynamics of heterochromatin patterns in adipogenic and osteogenic differentiation are entirely distinct between lineages. Furthermore, we showed that the trajectory of epigenetic remodeling is unaltered by the PPARγ activator indomethacin. Despite enhancing lipid droplet formation, the PPARγ activator indomethacin did not alter the overall trajectory of heterochromatin remodeling during adipogenic differentiation. Our findings establish K9-MILo as a sensitive probe for epigenetic dynamics and demonstrate that the integration of reader domain-based sensors with quantitative image analysis provides a powerful platform for investigating chromatin function and screening for epigenetically active compounds.",
+        "is_new": true,
+        "reasoning": "Developed K9-MILo, a genetically encoded fluorescent sensor for H3K9me3.",
+        "probe_name": "K9-MILo",
+        "target": "H3K9me3",
+        "color": "Cyan",
+        "type": "Epigenetic Sensor"
     }
 ]
