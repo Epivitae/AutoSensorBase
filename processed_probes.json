@@ -7419,5 +7419,18 @@
         "target": "H3K9me3",
         "color": "Cyan",
         "type": "Epigenetic Sensor"
+    },
+    {
+        "title": "A sensitive orange fluorescent calcium ion indicator for imaging neural activity.",
+        "journal": "Nature communications",
+        "date": "2026",
+        "doi": "https://doi.org/10.1038/s41467-026-74553-4",
+        "abstract": "Genetically encoded calcium indicators (GECIs) are vital tools for fluorescence-based visualization of neuronal activity with high spatial and temporal resolution. However, current highest-performance GECIs are predominantly green or red fluorescent, limiting multiplexing options and efficient excitation with fixed-wavelength femtosecond lasers operating at 1030 nm. In an effort to overcome these limitations, we developed OCaMP, an orange fluorescent GECI engineered from O-GECO1 through targeted substitutions to improve calcium affinity while retaining the favorable photophysical properties of mOrange2. OCaMP exhibits improved two-photon cross-section, responsiveness, photostability, and calcium affinity relative to O-GECO1. In cultured neurons, zebrafish, and mouse cortex, OCaMP outperforms the red GECIs jRCaMP1a and jRGECO1a in sensitivity, photostability, and signal-to-noise ratio. Here we show that OCaMP, an orange fluorescent GECI, is a robust tool for high-fidelity neural imaging optimized for wavelengths above 1000 nm and a practical option within the spectral gap between existing green and red GECIs.",
+        "is_new": true,
+        "reasoning": "Developed OCaMP, an orange fluorescent GECI from O-GECO1.",
+        "probe_name": "OCaMP",
+        "target": "Calcium",
+        "color": "Orange",
+        "type": "Ion Sensor"
     }
 ]
