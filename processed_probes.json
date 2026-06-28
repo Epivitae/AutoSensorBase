@@ -7445,5 +7445,18 @@
         "target": "Glucocorticoid",
         "color": null,
         "type": "Metabolite Sensor"
+    },
+    {
+        "title": "Dual functional genomics reveals a broad and convergent landscape of asciminib resistance in BCR::ABL1.",
+        "journal": "Genome medicine",
+        "date": "2026",
+        "doi": "https://doi.org/10.1186/s13073-026-01679-x",
+        "abstract": "Drug resistance is a constantly evolving challenge. The allosteric inhibitor asciminib is a novel therapy for chronic myelogenous leukemia (CML) that targets the myristoyl pocket of the BCR::ABL1 kinase. While it can overcome resistance to active-site inhibitors like imatinib, new resistance mutations to asciminib are emerging. The complete landscape of these mutations, particularly those outside the kinase domain or those arising from epistatic interactions between mutations, are not well understood. This study employed a dual functional genomics approach in CML cell line models. A high-throughput adenosine base editing (ABE) screen was used to identify broad hotspots of asciminib resistance across the entire BCR::ABL1 protein. Deep mutational scanning (DMS) was then used to create a high-resolution map of all possible amino acid changes within these hotspots. An \"edit-on-edit\" screen was performed to investigate epistasis by introducing a library of mutations into a cell line that was pre-edited to incorporate the common imatinib-resistance mutation, Y253H. Finally, a novel Förster resonance energy transfer (FRET) biosensor was developed to measure the conformational state of BCR::ABL1 in live cells and link it to drug sensitivity. The screens identified 279 asciminib resistance mutations and revealed resistance hotspots distributed across the SH3, SH2, and kinase domains, in contrast to imatinib resistance, which is largely confined to the kinase domain. The study uncovered a potent epistatic interaction between a mutation in the SH3 domain (V73A) and a mutation in the kinase domain P-loop (Y253H), which synergistically conferred high-level resistance. The FRET biosensor demonstrated that asciminib resistance mutations tend to destabilize the \"closed\" inactive conformation of the ABL1 kinase. The landscape of asciminib resistance is broader and more complex than previously appreciated, involving mutations across multiple domains that disrupt ABL1 autoinhibition. Epistasis between mutations acquired during sequential therapies can create unexpected and potent resistance. However, these diverse genetic resistance mechanisms converge on a single biophysical measurement of the openness of the active ABL1 conformation. This provides a unified framework for understanding asciminib resistance and underscores the need for routine clinical resistance monitoring to include the SH3 and SH2 domains in first line and later line therapy.",
+        "is_new": true,
+        "reasoning": "Developed a novel FRET biosensor to measure BCR::ABL1 conformation.",
+        "probe_name": null,
+        "target": "BCR::ABL1",
+        "color": null,
+        "type": "Biosensor"
     }
 ]
