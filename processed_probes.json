@@ -7458,5 +7458,31 @@
         "target": "BCR::ABL1",
         "color": null,
         "type": "Biosensor"
+    },
+    {
+        "title": "A Genetically Encoded Fluorescent Sensor for Protein Arginine Phosphorylation.",
+        "journal": "ACS sensors",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acssensors.6c00652",
+        "abstract": "Protein arginine phosphorylation (pArg) is an important but underexplored post-translational modification (PTM). In Gram-positive bacteria, pArg serves as a \"degron\" to guide damaged proteins for degradation by the ClpCP protease. Accordingly, enzymes that regulate pArg have been investigated as potential therapeutic targets against drug-resistant bacteria. Despite its importance, monitoring pArg dynamics remains technically challenging due to the chemical instability of pArg, with no methods available for live-cell studies. To address this, we developed a genetically encoded fluorescent sensor, FLAP (FLuorescent Arg Phosphorylation sensor), based on FRET to monitor the activity of the arginine kinase McsB and the pArg phosphatase YwlE. FLAP exhibited reversible, real-time FRET changes upon arginine phosphorylation and dephosphorylation in vitro. In an orthogonal E. coli system, FLAP successfully detected McsB-dependent pArg formation upon expression of active McsB. These results establish FLAP as a genetically encoded platform for studying pArg-writing and pArg-erasing enzymes in vitro and provide a proof of concept for live-cell detection of Arg phosphorylation.",
+        "is_new": true,
+        "reasoning": "Developed a genetically encoded fluorescent sensor FLAP for pArg.",
+        "probe_name": "FLAP",
+        "target": "Protein arginine phosphorylation",
+        "color": "Green",
+        "type": "Post-translational modification sensor"
+    },
+    {
+        "title": "Engineering a light-controllable fluorescent protein for peroxynitrite detection <i>via</i> genetic code expansion.",
+        "journal": "RSC chemical biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.1039/d6cb00083e",
+        "abstract": "We report a noncanonical amino acid-containing photoconvertible fluorescent protein for selective peroxynitrite detection. Incorporation of <i>p</i>-borono-l-phenylalanine into circularly permuted mEos2 affords a peroxynitrite-responsive sensor that retains photoconversion capability, expanding chemical diversity in light-controllable fluorescent proteins.",
+        "is_new": true,
+        "reasoning": "Engineering a light-controllable fluorescent protein for peroxynitrite detection.",
+        "probe_name": null,
+        "target": "Peroxynitrite",
+        "color": "Green",
+        "type": "Reactive Species Sensor"
     }
 ]

@@ -31390,5 +31390,50 @@
         "abstract": "Ganoderma lingzhi, a well-known medicinal mushroom, is regarded as a promising cell factory for producing various high-value bioactive compounds. However, the lack of inducible genetic tools in Ganoderma has hindered metabolic and genetic engineering efforts in this species. In this study, the cellobiohydrolase gene promoter (Pcbh) from G. lingzhi was cloned for the first time. Using a codon-optimized yellow fluorescent protein gene as a reporter, G. lingzhi Pcbh showed the highest inducibility under Avicel induction, with greater mRNA accumulation and higher protein levels compared to induction by cellobiose or lactose. These findings were further confirmed using a codon-optimized Vitreoscilla hemoglobin gene as a reporter. Moreover, an induction regime containing 1.7% Avicel as the inducer and 1.8% glucose as an additional carbon source maintained high induction efficiency of G. lingzhi Pcbh without impairing cell growth. Furthermore, Pcbh was successfully applied to conditionally silence the lanosterol 14-α-demethylase gene (erg11), thereby enhancing the production of ganoderic acids (GAs) in G. lingzhi. In si-erg11 transformants, the maximum contents of GA-T, GA-S, GA-Me reached 43.78 ± 1.25, 71.7 ± 2.16, and 28.06 ± 1.30μg/100mg dry cell weight, respectively, representing 1.91-, 2.02-, and 1.91-fold increases over those of the control strain.",
         "ai_analyzed": true,
         "is_probe": false
+    },
+    {
+        "title": "A Genetically Encoded Fluorescent Sensor for Protein Arginine Phosphorylation.",
+        "journal": "ACS sensors",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acssensors.6c00652",
+        "abstract": "Protein arginine phosphorylation (pArg) is an important but underexplored post-translational modification (PTM). In Gram-positive bacteria, pArg serves as a \"degron\" to guide damaged proteins for degradation by the ClpCP protease. Accordingly, enzymes that regulate pArg have been investigated as potential therapeutic targets against drug-resistant bacteria. Despite its importance, monitoring pArg dynamics remains technically challenging due to the chemical instability of pArg, with no methods available for live-cell studies. To address this, we developed a genetically encoded fluorescent sensor, FLAP (FLuorescent Arg Phosphorylation sensor), based on FRET to monitor the activity of the arginine kinase McsB and the pArg phosphatase YwlE. FLAP exhibited reversible, real-time FRET changes upon arginine phosphorylation and dephosphorylation in vitro. In an orthogonal E. coli system, FLAP successfully detected McsB-dependent pArg formation upon expression of active McsB. These results establish FLAP as a genetically encoded platform for studying pArg-writing and pArg-erasing enzymes in vitro and provide a proof of concept for live-cell detection of Arg phosphorylation.",
+        "ai_analyzed": true,
+        "is_probe": true
+    },
+    {
+        "title": "Engineering a light-controllable fluorescent protein for peroxynitrite detection <i>via</i> genetic code expansion.",
+        "journal": "RSC chemical biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.1039/d6cb00083e",
+        "abstract": "We report a noncanonical amino acid-containing photoconvertible fluorescent protein for selective peroxynitrite detection. Incorporation of <i>p</i>-borono-l-phenylalanine into circularly permuted mEos2 affords a peroxynitrite-responsive sensor that retains photoconversion capability, expanding chemical diversity in light-controllable fluorescent proteins.",
+        "ai_analyzed": true,
+        "is_probe": true
+    },
+    {
+        "title": "Nicotinamide Riboside Enhances Mitochondrial Bioenergetics and Dopaminergic Signaling Independent of Neuron Survival in a Double-Hit Parkinson's Model.",
+        "journal": "Research square",
+        "date": "2026",
+        "doi": "https://doi.org/10.21203/rs.3.rs-9970859/v1",
+        "abstract": "Parkinson's disease (PD) is characterized by progressive degeneration of <i>substantia nigra pars compacta</i> (SNc) dopaminergic (DA) neurons and the development of motor and non-motor impairments. Mitochondrial dysfunction, exacerbated by aging and environmental exposures, is a central contributor to PD pathogenesis. Nicotinamide riboside (NR), a dietary precursor of nicotinamide adenine dinucleotide (NAD⁺), enhances cellular bioenergetics and mitochondrial health, yet its translational potential for PD remains insufficiently defined. We used a \"double-hit\" PD mouse model combining A53T α-synuclein overexpression in SNc DA neurons with chronic dietary benomyl exposure. Mice received continuous NR supplementation in drinking water. Motor behavior was monitored longitudinally using open-field and rotarod assays. Striatal dopamine dynamics were quantified using genetically encoded fluorescent dopamine sensors to measure tonic and optogenetically evoked dopamine release. In vivo ATP/ADP ratios were measured in DA neurons and striatal spiny projection neurons (SPNs) using fiber photometry of the ratiometric sensor PercevalHR. Chronic NR supplementation markedly improved motor performance in double-hit PD mice, despite failing to prevent SNc DA neuron degeneration. NR robustly increased both tonic and stimulus-evoked striatal dopamine release in control and PD mice. Additionally, NR elevated ATP/ADP ratios across multiple neuronal populations, indicating enhanced mitochondrial energetic capacity. NR supplementation enhances DA neurotransmission and mitochondrial bioenergetics in vivo, conferring functional benefits that occur independently of DA neuron survival. These findings identify metabolic augmentation via NR as a promising adjunctive strategy for mitigating PD-related functional deficits.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Flexible, multimodal, electrical-sensing-optical-transmission μfiber-sensors via an on-fiber printed electronics strategy.",
+        "journal": "National science review",
+        "date": "2026",
+        "doi": "https://doi.org/10.1093/nsr/nwag250",
+        "abstract": "Optical fiber sensing offers inherent advantages in long-distance and interference-free transmission. However, it faces a major challenge in achieving self-decoupling and multimodal detection. Here, inspired by the firefly's bioluminescent mechanism, we propose a flexible, distributed, multimodal electrical-sensing-optical-transmission fiber sensor (ESOT FiSensor) that can convert diverse electrical sensing signals into optical signals through on-fiber hybrid circuits. The ESOT FiSensor realizes distributed and simultaneous monitoring of four physical parameters, including vibration, pressure, temperature, and strain, through only a single optical fiber, and it can maintain long-distance transmission and strong electromagnetic interference immunity within 0-1000 Hz, far superior to purely electrical sensors. The on-fiber electro-optical circuits were fabricated by combining conformal additive printing and flexible hybrid electronics integration, and the printing technique achieves a resolution of 260 nm directly on submillimeter fibers as fine as human hair (∼60 μm). The performance of the ESOT FiSensor has been validated in three representative scenarios: multimodal sensing under complex environmental conditions, distributed sensing on aircraft skins, and wearable sensing for human-machine interaction. The ESOT FiSensor establishes a powerful and scalable platform for long-distance, multimodal signal perception in complex and dynamic environments. It provides a pathway toward transforming optical fibers from passive communication media into active multimodal distributed sensing networks in the near future.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Sequence-encoded autoinhibition couples mRNA decapping activity to phase separation.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.06.16.732745",
+        "abstract": "Removal of the 5' m⁷G cap by the Dcp1/Dcp2 complex commits mRNAs to degradation, yet the mechanisms regulating decapping remain incompletely understood. Here, we identify residue-level determinants within the extended C-terminus of fission yeast Dcp2 that repress activity. Mutations in conserved inhibitory motifs relieve autoinhibition, enhance RNA binding, and bypass the requirement for the activator Edc3. Strikingly, this activation persists within phase-separated condensates, demonstrating that conformational relief in solution is propagated to the dense phase. We further show that long-range interactions between the intrinsically disordered region of Dcp2 and the catalytic core restrict RNA engagement, providing a mechanistic basis for negative regulation. Together, these findings establish that sequence-encoded elements within the Dcp2 C-terminus control catalytic activity and functional output within biomolecular condensates. More broadly, our results reveal that competing interactions encoded within intrinsically disordered regions of proteins are balanced to allosterically tune enzyme activity, providing a general mechanism by which proteins modulate distinct enzymatic functions within biological condensates.",
+        "ai_analyzed": true,
+        "is_probe": false
     }
 ]
