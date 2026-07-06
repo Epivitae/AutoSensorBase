@@ -7484,5 +7484,44 @@
         "target": "Peroxynitrite",
         "color": "Green",
         "type": "Reactive Species Sensor"
+    },
+    {
+        "title": "DARibo-Q: RNA Allosteric Transduction for Fluorescence Imaging of Dopamine Modulation in Living Systems.",
+        "journal": "Analytical chemistry",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acs.analchem.6c02054",
+        "abstract": "Precise regulation of dopamine signaling underlies diverse neuronal processes, yet methods that directly report intracellular dopamine-associated dynamics in living systems remain limited. Here, we present DARibo-Q, a genetically encoded RNA fluorescent biosensor that enables fluorescence imaging of intracellular dopamine-associated modulation through a rationally engineered RNA allosteric transduction architecture. By coupling dopamine recognition to graded shifts in RNA conformational equilibria, DARibo-Q converts ligand-associated changes into a continuous and interpretable optical output under physiological conditions rather than a threshold-based or amplification-dependent response. In neuronal cells, DARibo-Q reports relative dopamine-associated fluorescence changes and resolves mechanistically distinct modes of dopaminergic regulation, enabling mechanism-informed analysis of dopaminergic compounds. The sensor further supports <i>in vivo</i> visualization of drug-modulated dopamine dynamics in zebrafish. Together, this work demonstrates that RNA allostery can be engineered to achieve direct, relatively quantitative signal transduction of small-molecule neurotransmitters in living systems.",
+        "is_new": true,
+        "reasoning": "Present DARibo-Q, a genetically encoded RNA fluorescent biosensor.",
+        "probe_name": "DARibo-Q",
+        "target": "Dopamine",
+        "color": "Green",
+        "type": "Neurotransmitter Sensor"
+    },
+    {
+        "title": "Genetic Biosensor for Optimizing Double-Stranded RNA Production by Bacteria.",
+        "journal": "ACS synthetic biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acssynbio.6c00080",
+        "abstract": "Bacteria can be engineered to produce double-stranded RNA (dsRNA) molecules that induce a targeted RNA interference (RNAi) response in plants and animals for applications ranging from pest control to functional genomics. We developed a genetically encoded sensor that uses bimolecular fluorescence complementation to report relative dsRNA levels within bacterial cells. We tested sensor designs consisting of fusions of different dsRNA-binding domains derived from viruses to fragments of a split fluorescent protein in <i>Escherichia coli.</i> Then, we used the optimized dsRNA sensor design to demonstrate enhanced dsRNA accumulation in engineered strains of the aphid symbiont <i>Serratia symbiotica</i>, including a new RNase III deletion mutant. Our biosensor provides a convenient fluorescent readout that can be used to accelerate the design-build-test cycle for maximizing dsRNA yields in bacteria, including species native to plant and animal microbiomes that can be used to implement symbiont-mediated RNAi.",
+        "is_new": true,
+        "reasoning": "Developed a genetically encoded sensor using bimolecular fluorescence complementation.",
+        "probe_name": null,
+        "target": "Double-stranded RNA",
+        "color": "Green",
+        "type": "RNA Sensor"
+    },
+    {
+        "title": "Directed evolution of a cytochrome P450 monooxygenase for improved perillyl alcohol biosynthesis <i>via</i> a tailored genetically encoded biosensor.",
+        "journal": "RSC advances",
+        "date": "2026",
+        "doi": "https://doi.org/10.1039/d6ra03129c",
+        "abstract": "Perillyl alcohol is a naturally occurring terpene with promising anticancer properties. However, like other oxidized terpenes, its limited biosynthetic availability hinders its development as a therapeutic lead. Cytochrome P450 monooxygenase CYP153A6 catalyzes the key hydroxylation of limonene to yield perillyl alcohol in <i>Escherichia coli</i>, yet the enzyme is the rate-limiting step in this pathway and has not previously been improved by directed evolution. Here, we report the development of a genetically encoded biosensor based on the cymene repressor CymR from <i>Pseudomonas putida</i> F1, engineered to selectively detect perillyl alcohol over its non-hydroxylated precursor limonene, and its application to the directed evolution of CYP153A6. A single substitution (S77L) in the CymR effector-binding pocket dramatically increased biosensor sensitivity and dynamic range toward perillyl alcohol while maintaining discrimination against limonene. The tailored CymR-S77L biosensor was coupled to a CYP153A6 random mutant library to enable high-throughput fluorescence-based screening of variants. Ultimately, seven CYP153A6 variants, some with multiple mutations, were identified to have improved perillyl alcohol titers. Deconvolution of beneficial mutations revealed that a single substitution, A287T, located near the predicted CYP153A6:ferredoxin reductase interface, was sufficient to increase perillyl alcohol productivity 4.2-fold relative to wild-type without compromising regio- or chemoselectivity. These results demonstrate that biosensor-guided directed evolution is an effective and selective strategy for engineering P450-dependent terpene hydroxylation pathways and establish a generalizable platform for developing monoterpene-responsive biosensors and applying them to the directed evolution of terpene-modifying enzymes.",
+        "is_new": true,
+        "reasoning": "Developed a genetically encoded biosensor based on CymR for perillyl alcohol.",
+        "probe_name": "CymR-S77L",
+        "target": "Perillyl alcohol",
+        "color": "Green",
+        "type": "Metabolite Sensor"
     }
 ]
