@@ -31597,5 +31597,32 @@
         "abstract": "Introduction Fishhooks are designed to grab tissue. The goal of this study was to determine which head and neck locations were most involved in pediatric fishing-related injuries. Methods The National Electronic Injury Surveillance System (NEISS) was queried for fishing-related head and neck injuries between 2013 and 2022 in patients <19 years old. Demographics, including age, gender, and race, were collected. Cause of injury, head and neck location, and disposition were analyzed. Rashes (N=57) and non-fishing injuries (N=30) were excluded. Results A total of 697 children, 546 (78.3%) male and 151 (21.7%) female, were included. Mean age was 9.5 (95% CI 9.1-9.8) years. Causes of injury included fishhooks (N=590, 84.6%), falls (N=52, 7.5%), fishing poles or nets (N=31, 4.4%), sinkers (N=13, 1.9%), fish (N=2, 0.3%), and other causes (N=9, 1.25%). The national estimate for pediatric head and neck fishing-related injuries was 37,467 for this 10-year period. There was a significant difference in the anatomical distribution of hook vs. non-hook injuries (p<0.001). Fishhook injuries mostly occurred in the face (N=237/590, 40.2% of fishhook injuries); non-hook injuries were most common on the head (N=48/107, 44.9% of non-hook injuries). Fishhook injuries were more common than non-hook-related injuries in the ear (N=80/590, 13.6% vs. N=1/107, 0.9%) and the eyelids (N=47/590, 8.0% vs. N=4/107, 3.7%). Children with pole-related injuries (N=31) were significantly younger (mean 6.5 vs. 9.6 years; p<0.001); these were most common in the face (N=15/31, 48.4%) and mouth (N=10/31, 32.3%). Conclusion Pediatric fishhook impalements in the face and ear are common, requiring otolaryngologists to be adept in their management.",
         "ai_analyzed": true,
         "is_probe": false
+    },
+    {
+        "title": "Simulation of Neurotransmitter Release and Its Imaging by Fluorescent Sensors.",
+        "journal": "ACS chemical neuroscience",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acschemneuro.6c00227",
+        "abstract": "Cells release signaling molecules such as neurotransmitters that diffuse through the extracellular space and bind to receptors. These signaling molecules can be detected by fluorescent sensors and probes to provide images of the signaling process. Such images are not equivalent to a concentration because diffusion and sensor kinetics affect (convolute) them. Therefore, computational approaches are necessary to disentangle these contributions and allow the interpretation of fluorescent sensor-based images. Here, we present a kinetic Monte Carlo framework (fluorescent sensor imaging kinetic simulation, FLIKS) that simulates signaling molecules undergoing cellular release, stochastic diffusion, and reversible binding to sensors in realistic cellular (2D or 3D) geometries. We apply it to model neurotransmitter (dopamine) release in synaptic clefts and for paracrine signaling by immune cells. We also show how sensor location, sensor kinetics, and release location affect fluorescence images. For example, we show how sensor sensitivity depends on the distance from the synaptic cleft and changes when dopamine transporters (DATs) clear dopamine. The approach also allows us to compare the performance of membrane-bound (genetically encoded) sensors versus artificial sensors such as nanosensors placed outside under or around the cells. As an example, we also demonstrate how the images of catecholamine release by immune cells can be modeled and compared with experimental data to better understand the release pattern. This framework provides a quantitative basis for analyzing and interpreting the fluorescent sensor imaging data.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Temperature signals drive grass secondary cell wall thickening.",
+        "journal": "Current biology : CB",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.cub.2026.06.034",
+        "abstract": "Secondary cell wall thickening is essential for plant structural development, providing the mechanical strength and rigidity required for upright growth. However, direct observation of this process in its endogenous developmental context within living plants has remained limited. Cellulose, the predominant component of secondary walls and the most abundant biopolymer on Earth, is synthesized at the plasma membrane by complexes containing CELLULOSE SYNTHASE A (CESA) proteins. Despite its central role, the precise timing and regulation of cellulose deposition during plant development remain unclear. To address this gap, we developed a real-time bioluminescence imaging system in the model grass Brachypodium distachyon using a luciferase transcriptional reporter driven by the CESA8 cis-regulatory region. Bioluminescence imaging revealed a consistent spatial pattern of CESA8 expression within elongating internodes, coinciding with regions undergoing secondary wall deposition and progressive increases in cellulose crystallinity. Time-lapse imaging showed that expression follows a robust daily rhythm driven by temperature cycles, independent of light or endogenous circadian signals. Temperature-pulse experiments uncovered rapid, transient inverse responses that were accurately predicted by a mathematical model based on an incoherent feedforward loop. CESA8 expression correlated strongly with stem elongation, linking structural reinforcement with temperature-driven shoot growth in grasses.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "<b>Reidentification of historical specimens assigned to <i>Cupiennius oculifer</i> (Karsch, 1879) (Araneae: Trechaleidae)</b>.",
+        "journal": "Zootaxa",
+        "date": "2025",
+        "doi": "https://doi.org/10.11646/zootaxa.5723.1.8",
+        "abstract": "[No Abstract Available Yet]",
+        "ai_analyzed": true,
+        "is_probe": false
     }
 ]
