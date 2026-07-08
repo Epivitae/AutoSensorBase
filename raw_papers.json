@@ -31624,5 +31624,14 @@
         "abstract": "[No Abstract Available Yet]",
         "ai_analyzed": true,
         "is_probe": false
+    },
+    {
+        "title": "Influence of semidiurnal tidal dynamics on the multi-characteristic potential ecological risk of microplastics in the Bang Pakong River Estuary, Thailand.",
+        "journal": "Marine pollution bulletin",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.marpolbul.2026.120092",
+        "abstract": "This study assesses the influence of tidal fluctuations on microplastic (MP) dynamics in the Bang Pakong River Estuary, a major source of runoff pollution on the eastern coast of the Inner Gulf of Thailand. Sampling was conducted across 16 tidal phases over two complete 48-hour semidiurnal spring-tide cycles. A grab sampling approach was employed using stainless-steel buckets for surface water (0-1 m), while the remaining water column was sampled using Van Dorn samplers. MP concentrations ranged from 1.10 to 15.32 particles/L (mean: 6.05 ± 3.48 particles/L), values notably higher than those reported for representative global estuaries. MP concentration was significantly negatively associated with salinity (r = -0.41, p = 0.012). Particle characteristics, determined by stereomicroscopy and μFTIR, were dominated by fragments and fibers in the 16-100 μm size range and transparent particles. Compositional diversity, assessed via the Simpson Index, remained relatively stable for shape and color, while polymer diversity exhibited high temporal variability (D = 0.30-0.71). Although polypropylene and polyethylene were the most abundant polymers, peak ecological risks occurred during flood tides due to the presence of hazardous polymers, including polyurethane, epoxy resin, and polycarbonate. By applying a multi-characteristic potential ecological risk index, this study demonstrates that incorporating particle morphology categorizes certain sites as \"High Risk\" rather than the \"Dangerous\" level indicated by conventional risk assessment framework. Ultimately, this study recommends that ecological risk indices be determined by both chemical and physical properties to provide the realistic assessment necessary for effective, source-oriented estuarine management.",
+        "ai_analyzed": true,
+        "is_probe": false
     }
 ]
