@@ -31633,5 +31633,59 @@
         "abstract": "This study assesses the influence of tidal fluctuations on microplastic (MP) dynamics in the Bang Pakong River Estuary, a major source of runoff pollution on the eastern coast of the Inner Gulf of Thailand. Sampling was conducted across 16 tidal phases over two complete 48-hour semidiurnal spring-tide cycles. A grab sampling approach was employed using stainless-steel buckets for surface water (0-1 m), while the remaining water column was sampled using Van Dorn samplers. MP concentrations ranged from 1.10 to 15.32 particles/L (mean: 6.05 ± 3.48 particles/L), values notably higher than those reported for representative global estuaries. MP concentration was significantly negatively associated with salinity (r = -0.41, p = 0.012). Particle characteristics, determined by stereomicroscopy and μFTIR, were dominated by fragments and fibers in the 16-100 μm size range and transparent particles. Compositional diversity, assessed via the Simpson Index, remained relatively stable for shape and color, while polymer diversity exhibited high temporal variability (D = 0.30-0.71). Although polypropylene and polyethylene were the most abundant polymers, peak ecological risks occurred during flood tides due to the presence of hazardous polymers, including polyurethane, epoxy resin, and polycarbonate. By applying a multi-characteristic potential ecological risk index, this study demonstrates that incorporating particle morphology categorizes certain sites as \"High Risk\" rather than the \"Dangerous\" level indicated by conventional risk assessment framework. Ultimately, this study recommends that ecological risk indices be determined by both chemical and physical properties to provide the realistic assessment necessary for effective, source-oriented estuarine management.",
         "ai_analyzed": true,
         "is_probe": false
+    },
+    {
+        "title": "Structure and mechanism of the HSV-1 origin-binding protein UL9.",
+        "journal": "Journal of virology",
+        "date": "2026",
+        "doi": "https://doi.org/10.1128/jvi.00271-26",
+        "abstract": "The herpesvirus DNA replication machinery comprises a battery of viral enzymes that orchestrate viral genome synthesis. In herpes simplex virus type 1 (HSV-1), the machinery consists of seven essential components, including the origin-binding protein UL9, the single-stranded DNA (ssDNA)-binding protein ICP8, the heterodimeric DNA polymerase complex UL30-UL42, and the heterotrimeric helicase-primase complex UL5-UL8-UL52. UL9, a superfamily 2 (SF2) helicase, functions as a dimer that specifically recognizes replication origins and unwinds duplex DNA to initiate replication. Furthermore, UL9 recruits the replication machinery through interactions with viral components and engages cellular proteins that regulate its function. However, the molecular mechanisms underlying the multifunctionality of UL9 remain incompletely understood due to the lack of structural information. Here, we present cryo-electron microscopy structures of UL9 in both apo and DNA-bound states. Together with biochemical and enzymatic assays, we elucidate the molecular basis of UL9 dimerization, origin recognition and allosteric regulation by ICP8.IMPORTANCEHerpes simplex virus 1 (HSV-1) is a widespread virus that causes lifelong infections, leading to periodic outbreaks ranging from common cold sores to life-threatening encephalitis, and no current treatment can eradicate the dormant virus. To multiply, HSV-1 relies on a protein-based molecular machine to replicate its genome, where the unwinding of double-stranded DNA at specific replication origins is coordinated by the viral origin-binding protein UL9. Here, we present the high-resolution structures of UL9, both alone and bound to DNA, revealing how it forms a stable homodimer to grab onto the origin. Combined with precise biochemical experiments, we further show how UL9 collaborates with another viral helper protein, ICP8, to unwind DNA efficiently. These discoveries solve a long-standing puzzle in herpesvirus biology and offer a vital structural blueprint for designing new antiviral drugs that can block viral replication at its very earliest stage.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Alternative Breakfast Service Models Are Associated With Greater Student School Breakfast Participation. Evidence From Middle and High School Students Across 8 States.",
+        "journal": "The Journal of school health",
+        "date": "2026",
+        "doi": "https://doi.org/10.1111/josh.70192",
+        "abstract": "Eating school breakfast has benefits for students, yet participation remains lower than that of school lunch. This study examined associations between school breakfast service models, self-reported participation, and perceived participation barriers, and whether these associations differed by school level (middle vs. high) and universal school meals policy (with vs. without). One thousand ninety-seven middle and high school students were surveyed. Data were analyzed using multilevel logistic regression. Most students (67%) reported access only to traditional before-school breakfast. Higher odds of participation and lower odds of time-related barriers were found for breakfast in the classroom (OR 3.88; 95% CI 2.49, 6.03) and \"second chance\" breakfast (OR 2.07; 95% CI 1.43, 3.00) compared to traditional before-school breakfast only. Grab-and-go options were associated with modestly higher odds of participation (OR 1.29; 95% CI 1.01, 1.67) and fewer barriers among high school students. Breakfast after the bell approaches is associated with higher participation and fewer barriers. These strategies can help ensure more students have reliable access to school breakfast. Alternative school breakfast service models, particularly breakfast in the classroom and \"second chance\" breakfast, may increase participation and support student nutrition, health, and academic performance.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Genetically Encoded Melanin as a Photostable Scattering Contrast for Whole-Brain Tomography.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.06.28.735089",
+        "abstract": "Large-scale brain imaging has traditionally depended on fluorescent reporters, but challenges like photobleaching and inconsistent signals hinder quantitative analysis in intact tissues. In response, we present MelaCAST (melanin-based scattering CAST imaging), a novel genetically encoded scattering method for whole-brain visualization. Using AAV to deliver tyrosinase allows for cell-type-specific melanin synthesis, providing a stable intracellular scattering contrast across the mouse brain. Combining tissue clearing with scattering tomography, MelaCAST offers non-photobleaching, high-throughput volumetric imaging of genetically targeted cell populations in intact brains. This technique establishes melanin as a genetically encoded scattering reporter and broadens whole-organ imaging capabilities beyond traditional fluorescence methods.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "CAGE-TRX expands the scope of time-resolved crystallography through genetically encoded active-site photocaging.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.06.26.734858",
+        "abstract": "We present CAGE-TRX, a broadly applicable time-resolved strategy for <i>release-quench-probe</i> cryocrystallography and <i>release-probe</i> room temperature serial crystallography. These workflows enable light-triggered control of enzyme activity via genetically encoded photocaged amino acids. By decoupling reaction initiation from substrate design, this approach allows synchronized catalysis <i>in crystallo</i> and the capture of transient intermediates. Using β-lactamases as model systems, we demonstrate efficient decaging, restoration of activity, and structural visualization of reaction intermediates.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Nutrient-dependent hippocampus dopamine signaling enhances meal-related episodic memory and reduces food intake.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.06.26.734911",
+        "abstract": "Dopamine (DA) is a neurotransmitter critically involved in food-related reinforcement learning. While mesolimbic DA reward-associated signaling in the nucleus accumbens has been widely investigated, far less is known about DA function in the hippocampus (HPC), a brain region traditionally known for its role in episodic and spatial memory processes that has recently been associated with appetite and food intake control. Here we investigated dorsal HPC DA signaling dynamics in rats using fiber photometry to detect changes in DA binding (via GRAB-DA sensors) before, during, and after a meal consumption in food-restricted rats. Pharmacological studies targeting HPC dopamine 2 receptors (D2R) assessed the functional role of HPC DA signaling in food intake and meal-related memory processes. HPC DA binding was significantly elevated in the post-meal relative to the pre-meal state following standard chow consumption. This effect was replicated after consuming a high fat diet or liquid sucrose, but not a low-calorie sweetener. These post-meal DA signaling elevations are dependent on nutrient consumption, as HPC DA binding levels were unaffected by intraperitoneal administration of glucose or the satiation hormone, cholecystokinin, in otherwise fasted rats. Direct HPC D2R agonists administration reduced food intake, whereas HPC D2R blockade after a meal reduced the latency to the next meal and impaired spatial memory for meal location without affecting spatial memory for object location. Collective results identify HPC DA-D2R signaling as a candidate neurobiological mechanism through which nutrient consumption promotes meal-related episodic memory formation, and by extension, reduces subsequent food intake.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Activity-dependent lipid droplet biogenesis and turnover regulate synaptic integrity.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.06.25.734633",
+        "abstract": "Lipid droplets (LDs) are conserved organelles that buffer lipid storage and stress, yet their dynamics and functions in neurons remain largely unknown. Here, we report activity-dependent dynamics of neuronal LDs, visualized by a novel, genetically encoded LD reporter (termed LipiDew), in both cultured neurons and mouse motor cortex. Using LipiDew, we found that various paradigms of neuronal activation induced predominant and transient formation of LDs in neurites. Disruption of autophagic LD degradation (lipophagy) resulted in abnormal lipid accumulation in dendritic spines and shafts, promoted recruitment of synaptic scaffolding proteins to LDs, and altered intracellular calcium kinetics in neurons. In addition, mice with neuron-specific genetic impairment of lipophagy showed motor function defects. Together, these findings identify activity-dependent LD formation and lipophagic clearance in neuronal compartments as a crucial regulatory mechanism of synaptic integrity and neuronal function.",
+        "ai_analyzed": true,
+        "is_probe": true
     }
 ]

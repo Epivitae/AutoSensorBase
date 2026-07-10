@@ -7523,5 +7523,18 @@
         "target": "Perillyl alcohol",
         "color": "Green",
         "type": "Metabolite Sensor"
+    },
+    {
+        "title": "Activity-dependent lipid droplet biogenesis and turnover regulate synaptic integrity.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.06.25.734633",
+        "abstract": "Lipid droplets (LDs) are conserved organelles that buffer lipid storage and stress, yet their dynamics and functions in neurons remain largely unknown. Here, we report activity-dependent dynamics of neuronal LDs, visualized by a novel, genetically encoded LD reporter (termed LipiDew), in both cultured neurons and mouse motor cortex. Using LipiDew, we found that various paradigms of neuronal activation induced predominant and transient formation of LDs in neurites. Disruption of autophagic LD degradation (lipophagy) resulted in abnormal lipid accumulation in dendritic spines and shafts, promoted recruitment of synaptic scaffolding proteins to LDs, and altered intracellular calcium kinetics in neurons. In addition, mice with neuron-specific genetic impairment of lipophagy showed motor function defects. Together, these findings identify activity-dependent LD formation and lipophagic clearance in neuronal compartments as a crucial regulatory mechanism of synaptic integrity and neuronal function.",
+        "is_new": true,
+        "reasoning": "Developed a novel genetically encoded LD reporter LipiDew.",
+        "probe_name": "LipiDew",
+        "target": "Lipid droplets",
+        "color": "Green",
+        "type": "Organelle Sensor"
     }
 ]
