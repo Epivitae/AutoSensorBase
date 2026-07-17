@@ -7562,5 +7562,18 @@
         "target": "Pss exopolysaccharide",
         "color": "Green",
         "type": "Metabolite Sensor"
+    },
+    {
+        "title": "ELDR-Glo, a biosensor for cell age and quiescence depth.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.07.04.736063",
+        "abstract": "Fluorescent reporters are powerful tools to reveal intercellular heterogeneity among proliferating cells. However, there are few tools to analyze differences among quiescent (G0) cells, though such differences are relevant for development, tissue maintenance, and cancer cell behavior. Quiescence heterogeneity, also known as quiescence depth, typically correlates with time after cell cycle arrest, yet directly measuring cell age is not feasible for all cell types or most tissues. Here, we describe ELDR-Glo, a genetically-encoded fluorescent biosensor that estimates relative cell age, i.e., time since the last cell cycle. The biosensor integrates replication-coupled degradation in S phase with a slow-maturing mCherry and a normalization module. We demonstrate that ELDR-Glo signal correlates with true cell age by both live-cell imaging and in fixed cells. ELDR-Glo distinguishes early and late G0 cells and functions as a relative quiescence depth reporter in situ. The biosensor is compatible with multiplexed immunofluorescence and flow cytometry. ELDR-Glo provides a unique and scalable tool to investigate cell proliferation control.",
+        "is_new": true,
+        "reasoning": "Describes ELDR-Glo, a genetically-encoded fluorescent biosensor for cell age.",
+        "probe_name": "ELDR-Glo",
+        "target": "Cell age",
+        "color": "Red",
+        "type": "Metabolite Sensor"
     }
 ]
