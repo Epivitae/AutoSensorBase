@@ -7575,5 +7575,18 @@
         "target": "Cell age",
         "color": "Red",
         "type": "Metabolite Sensor"
+    },
+    {
+        "title": "Root developmental zonation is independent of cell wall pH.",
+        "journal": "Nature plants",
+        "date": "2026",
+        "doi": "https://doi.org/10.1038/s41477-026-02339-z",
+        "abstract": "Plant development and morphogenesis rely on tight spatiotemporal regulation of cell growth, which in turn depends on the acidity of the cell wall<sup>1,2</sup>. According to the widely accepted acid growth theory, auxin promotes shoot cell expansion by acidifying the apoplast via activation of AHA proton pumps<sup>3</sup>. Nonetheless, how exactly auxin signalling and cell wall acidity feed into the developmental zonation of cell expansion in the roots remains unresolved. Here we show that while on the organ level apoplast acidification promotes root growth, the cellular surface pH and strain rate profiles are largely independent of each other. We introduce WALLΦ, a genetically encoded fluorescent sensor for non-invasive cell wall pH measurements. Using WALLΦ, we examined the cell wall pH gradients in Arabidopsis on the organ and cellular scale and found, contrary to the acid growth theory, a lack of a clear correlation of local growth rate with cell wall acidity. Globally, cell wall pH gates growth and allows for quick adaptations of growth rate and directionality.",
+        "is_new": true,
+        "reasoning": "Introduced WALLΦ, a genetically encoded fluorescent sensor for cell wall pH.",
+        "probe_name": "WALLΦ",
+        "target": "pH",
+        "color": "Green",
+        "type": "Ion Sensor"
     }
 ]
