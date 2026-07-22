@@ -7588,5 +7588,18 @@
         "target": "pH",
         "color": "Green",
         "type": "Ion Sensor"
+    },
+    {
+        "title": "Biotin Ligase-Based Reporter for Detecting Protease Activity.",
+        "journal": "ACS chemical biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acschembio.6c00334",
+        "abstract": "Protease cleavage is a crucial process, associated with cellular signaling and viral infection. Here, we present a novel sensing motif based on a proximity-dependent biotin ligase, TurboID. The sensor, Biotin Annotating Genetically Encoded Ligase-based Sensor (BAGELS), was created by engineering TurboID such that it is only active following protease activity, linking cleavage events to the biotinylation of proximal proteins. BAGELS produces a signal-to-background ratio of approximately 48 when tested with and without protease. This reporter represents the first protease activity sensor with biotin ligase readout in neurons and HEK293T cells. We demonstrate the reporter's use for characterization of protease inhibitors and multiplexed imaging with fluorogenic sensors. Overall, this sensor offers a versatile, enzymatically amplified biotin-based readout compatible with biotin-based detection techniques.",
+        "is_new": true,
+        "reasoning": "Presents a novel sensing motif BAGELS, a biotin ligase-based protease sensor.",
+        "probe_name": "BAGELS",
+        "target": "Protease",
+        "color": null,
+        "type": "Protease Sensor"
     }
 ]
