@@ -7601,5 +7601,18 @@
         "target": "Protease",
         "color": null,
         "type": "Protease Sensor"
+    },
+    {
+        "title": "Subtype-resolved norepinephrine imaging with an engineered α<sub>1</sub>D-adrenergic receptor indicator.",
+        "journal": "Cell reports methods",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.crmeth.2026.101536",
+        "abstract": "Genetically encoded fluorescent indicators enable optical measurement of neuromodulator dynamics, but available norepinephrine (NE) sensors draw from a limited subset of adrenergic receptor scaffolds. Here, we developed Alpha1DLight, an NE indicator engineered from the human α<sub>1</sub>D-adrenergic receptor. In HEK293T cells, it showed large NE-evoked fluorescence responses (ΔF/F<sub>0</sub> up to 612%), nanomolar apparent affinity for NE (EC<sub>50</sub> = 76 nM), rapid activation (τ<sub>ON</sub> = 193 ms), slow deactivation (τ<sub>OFF</sub> = 6.75 s), and no coupling to downstream signaling. Pharmacological benchmarking against published α<sub>1</sub>D-AR reference data indicated preservation of key α<sub>1</sub>D-like ligand-response properties, supporting receptor-informed optical pharmacology. Alpha1DLight also reported reversible NE signals in cultured neurons, cerebellar slices, and behaving mice during fiber photometry, including endogenous release associated with arousal-related behavior and optogenetic activation of locus coeruleus projections. Together, these results establish an α<sub>1</sub>D-derived, subtype-informed approach to NE imaging that complements existing sensors and is well suited for probing sustained noradrenergic engagement.",
+        "is_new": true,
+        "reasoning": "Developed Alpha1DLight, an NE indicator engineered from human α1D-adrenergic receptor.",
+        "probe_name": "Alpha1DLight",
+        "target": "Norepinephrine",
+        "color": "Green",
+        "type": "Neurotransmitter Sensor"
     }
 ]
