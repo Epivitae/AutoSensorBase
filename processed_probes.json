@@ -7614,5 +7614,18 @@
         "target": "Norepinephrine",
         "color": "Green",
         "type": "Neurotransmitter Sensor"
+    },
+    {
+        "title": "iG6PSnFR: A genetically encoded fluorescent sensor for observing glucose-6-phosphate dynamics in living preparations.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.07.22.740099",
+        "abstract": "Glucose-6-phosphate (G6P) is a key intermediate in multiple energetic and anabolic pathways, and quantifying its dynamics is essential for understanding cellular physiology. We have previously developed a syndicate of intensity-based, genetically encoded sensors based on the insertion of circularly permuted GFP into a Venus-flytrap-like analyte-binding protein. Here we use the same approach to develop an intensity-based G6P Sensing Fluorescent Reporter (iG6PSnFR). We present two variants: a G6P-activated sensor that increases fluorescence and a G6P-inactivated sensor that decreases fluorescence. We validate performance across progressively more complex preparations, including purified protein in vitro, immortalized and primary neuronal cultures, isolated pancreatic islets, in an intravital liver model, and finally in vivo in <i>C. elegans</i> neurons. In each context, iG6PSnFR reports G6P changes consistent with expected responses to physiological perturbations.",
+        "is_new": true,
+        "reasoning": "Developed iG6PSnFR, a new G6P sensor based on cpGFP insertion.",
+        "probe_name": "iG6PSnFR",
+        "target": "Glucose-6-phosphate",
+        "color": "Green",
+        "type": "Metabolite Sensor"
     }
 ]
