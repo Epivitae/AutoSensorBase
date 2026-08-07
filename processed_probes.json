@@ -7627,5 +7627,31 @@
         "target": "Glucose-6-phosphate",
         "color": "Green",
         "type": "Metabolite Sensor"
+    },
+    {
+        "title": "Illuminating spatial dynamics of glutamine metabolism with a sensitive genetically encoded biosensor.",
+        "journal": "RSC chemical biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.1039/d6cb00164e",
+        "abstract": "Glutamine is the most abundant amino acid in serum, used as a key nutrient by cells for protein synthesis, energy production, carbon and nitrogen metabolism, and cellular redox balance. The use of glutamine in the cell is highly compartmentalized, but the dynamics of glutamine metabolism across organelles and individual cells are not fully understood. To illuminate subcellular glutamine dynamics, we developed a green fluorescent protein-based intracellular glutamine optical reporter, iGlo. We find iGlo is sensitive and specific for glutamine and can be used to measure glutamine uptake, production, and consumption with high spatiotemporal resolution in multiple cell types. Furthermore, multiplexed imaging of iGlo with a lactate biosensor in single cells reveals the temporal crosstalk between glucose and glutamine metabolism to maintain energy homeostasis. Thus, iGlo enables the sensitive and precise study of compartmentalized glutamine dynamics and represents a new and enhanced tool for studying the spatiotemporal dynamics and regulation of metabolism.",
+        "is_new": true,
+        "reasoning": "Developed a green fluorescent protein-based glutamine reporter iGlo.",
+        "probe_name": "iGlo",
+        "target": "Glutamine",
+        "color": "Green",
+        "type": "Metabolite Sensor"
+    },
+    {
+        "title": "A Modular APEX Biosensor Enables Sensitive and Visualized Monitoring of Viral Protease Activity.",
+        "journal": "Virologica Sinica",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.virs.2026.08.001",
+        "abstract": "Viral proteases are key targets for the development of broad-spectrum antiviral drugs development. However, screening platform capable of accurately assessing inhibitor activity within physiologically relevant cellular environments remain urgently needed. Traditional methods, such as fluorescent protein assays and Förster resonance energy transfer (FRET), suffer from significant limitations, including susceptibility to non-specific conformational interference by test compounds and an inability to faithfully reflect intracellular inhibitory effects. To address these challenges, we constructed two modular biosensors (TS3AR and C3SIR) based on engineered ascorbate peroxidase (APEX). Their detection mechanism relies on specific cleavage of the substrate recognition sequence by the target protease, which triggers the reassembly of split APEX fragments, restores enzymatic activity, and generates fluorescent signals generated via cascade amplification reaction. Validation using the coronavirus main protease (Mpro) as a model showed that the TS3AR sensor achieved the signal-to-noise ratio up to 1500-fold for enzyme activity detection, while the C3SIR sensor effectively avoided the false positives caused by conformational interference seen in traditional methods and accurately identified high-potency Mpro inhibitors, including Enstrelvir, PF-00835231, and Nirmatrelvir. Moreover, by replacing the protease recognition sequence, these modular biosensors can be flexibly adapted for activity analysis and drug evaluation of Mpro from various coronaviruses (e.g., SARS-CoV-2, MERS-CoV) as well as other viral proteases (e.g., Enterovirus 71, Epstein-Barr virus and Hepatitis A virus). Overall, this platform provides a reliable, highly specific intracellular screening tool to accelerate the development of broad-spectrum therapeutics against both emerging and existing viral threats.",
+        "is_new": true,
+        "reasoning": "Constructed two modular biosensors TS3AR and C3SIR based on engineered APEX.",
+        "probe_name": "TS3AR",
+        "target": "Viral protease",
+        "color": null,
+        "type": "Protease Sensor"
     }
 ]
