@@ -7653,5 +7653,18 @@
         "target": "Viral protease",
         "color": null,
         "type": "Protease Sensor"
+    },
+    {
+        "title": "Polyamines buffer labile iron to suppress ferroptosis.",
+        "journal": "Cell",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.cell.2026.07.040",
+        "abstract": "Polyamines are essential and evolutionarily conserved metabolites present at millimolar concentrations in mammalian cells. Cells tightly regulate polyamine homeostasis through complex feedback mechanisms, yet the precise role necessitating this regulation remains unclear. Here, we show that polyamines contribute to endogenous buffering of redox-active iron, providing a molecular link between polyamine metabolism and ferroptosis. Using a genome-wide CRISPR screen, we identified a synthetic lethal dependency between polyamine depletion and the key ferroptosis suppressor, glutathione peroxidase 4 (GPX4). Mechanistically, we show that polyamine deficiency triggers a redistribution of cellular iron, increasing the labile iron pool and upregulating ferritin. To directly visualize this iron buffering in living cells, we developed a genetically encoded fluorescent reporter for redox-active iron. Live-cell analysis revealed a striking inverse correlation between intracellular polyamine levels and redox-active iron at single-cell resolution. These findings reposition polyamines as key regulators of iron homeostasis, with implications for ferroptosis-linked disease states and cellular redox balance.",
+        "is_new": true,
+        "reasoning": "Developed a genetically encoded fluorescent reporter for redox-active iron.",
+        "probe_name": null,
+        "target": "Iron",
+        "color": null,
+        "type": "Ion Sensor"
     }
 ]
