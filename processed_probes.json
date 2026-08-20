@@ -7679,5 +7679,18 @@
         "target": "Voltage",
         "color": "Red",
         "type": "Voltage Sensor"
+    },
+    {
+        "title": "Coupling Luciferase Activation and BRET Enables High-Contrast Red-Window Calcium Imaging.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.07.26.740815",
+        "abstract": "Genetically encoded bioluminescent calcium indicators enable excitation-free imaging of Ca <sup>2+</sup> dynamics with low background, no photobleaching, and improved tissue penetration. However, many exhibit lower dynamic ranges than their fluorescent counterparts, motivating the development of new sensor configurations, particularly for imaging in the red optical window, where tissue absorption and scattering are reduced. Here, we developed HyBRIC and HyBRIC2, two hybrid indicators that integrate Ca <sup>2+</sup> -dependent luciferase activation and bioluminescence resonance energy transfer (BRET) within a single molecular architecture. When paired with pyCTZ luciferin, they exhibited an approximately 55-fold Ca <sup>2+</sup> -dependent signal increase in the red optical window <i>in vitro</i> . Compared with HyBRIC, HyBRIC2 showed improved brightness and responsiveness in mammalian cells. It robustly resolved induced Ca <sup>2+</sup> dynamics in HEK293T and HeLa cells, with particularly strong red-window responses. Together, these findings expand the limited repertoire of responsive red-window bioluminescent calcium indicators and establish hybrid multiplicative sensing as a modular strategy for improving biosensor contrast.",
+        "is_new": true,
+        "reasoning": "Developed HyBRIC and HyBRIC2, new bioluminescent calcium indicators.",
+        "probe_name": "HyBRIC2",
+        "target": "Calcium",
+        "color": "Red",
+        "type": "Ion Sensor"
     }
 ]
