@@ -7692,5 +7692,18 @@
         "target": "Calcium",
         "color": "Red",
         "type": "Ion Sensor"
+    },
+    {
+        "title": "Engineered multicolor \"Fluorescent Lantern\" TEC-Fusion protein with tunable spectra enables multiplexed fluorescent labeling and biological imaging.",
+        "journal": "Spectrochimica acta. Part A, Molecular and biomolecular spectroscopy",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.saa.2026.128636",
+        "abstract": "Traditional single-color fluorescent labeling techniques face several limitations in multiparameter imaging, including spectral overlap, constraints in combinatorial labeling, variations in fluorescence intensity, stability, and photobleaching resistance under different experimental conditions, as well as insufficient contrast in high-background environments. These challenges hinder their ability to meet the demands of high-precision imaging in complex biological systems. To address these issues, a novel tricolor fluorescent fusion protein, TEC-Fusion, composed of mTagBFP2, EGFP, and mCherry, was designed and characterized. Bioinformatics predictions and experimental characterization revealed that TEC-Fusion has uniform particle size, good hydrophilicity, and structural stability, with a potential lantern-like architecture suggested by the computational model. Spectral analysis demonstrated that the three fluorescent domains retain independent optical functions upon fusion, and TEC-Fusion's multispectral excitation capabilities allow fluorescence imaging across seven visible spectra-blue, cyan, green, yellow, red, white, and magenta-with white and magenta being previously unreported. In terms of stability, TEC-Fusion exhibited excellent pH tolerance, thermal stability, and oxidative tolerance, along with good photostability. Furthermore, TEC-Fusion demonstrated favorable biocompatibility and imaging capability at the cellular level, in composite material systems, and in animal models. Collectively, as a novel multicolor fluorescent probe, TEC-Fusion offers significant advantages in spectral diversity, stability, and biocompatibility, providing a new tool for applications in multiparameter imaging, biosensor development, and drug delivery tracing.",
+        "is_new": true,
+        "reasoning": "Designed and characterized a novel tricolor fluorescent fusion protein TEC-Fusion.",
+        "probe_name": "TEC-Fusion",
+        "target": null,
+        "color": "Green/Red/Blue",
+        "type": "Fluorescent Protein"
     }
 ]
