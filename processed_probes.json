@@ -7705,5 +7705,31 @@
         "target": null,
         "color": "Green/Red/Blue",
         "type": "Fluorescent Protein"
+    },
+    {
+        "title": "Development of a Photostable pH Biosensor Based on mStayGold.",
+        "journal": "Chembiochem : a European journal of chemical biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.1002/cbic.70512",
+        "abstract": "Fluorescent proteins (FPs) that are pH-sensitive play a crucial role in investigating pH-related cellular processes, such as endocytosis and exocytosis. Existing pH-sensitive FPs generated from Aequorea victoria green fluorescent protein (GFP), such as superecliptic pHluorin (SEP) and Lime, have been widely employed to study these processes, but suffer from low photostability. Here, we report the development and characteristics of serapH, a genetically encodable pH biosensor with improved photostability compared to GFP analogues, which we generated using mStayGold as a scaffold. To aid in the development of serapH, we developed a method for screening pH-sensitive FP variants by directly evaluating both brightness and pH sensitivity in bacterial colonies on agar. This significantly increased the number of colonies that could be screened per round and reduced the time needed per round. The photostability of serapH should improve spatiotemporal resolution by increasing tolerance to higher excitation intensities and longer imaging durations, thereby expanding the range of applications of pH-sensitive FPs.",
+        "is_new": true,
+        "reasoning": "Report the development of serapH, a pH biosensor with improved photostability.",
+        "probe_name": "serapH",
+        "target": "pH",
+        "color": "Green",
+        "type": "Ion Sensor"
+    },
+    {
+        "title": "Compact red-shifted near-infrared fluorescent proteins enable deep-tissue SWIR imaging with in vivo optical clearing.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.07.25.740731",
+        "abstract": "Compact near-infrared (NIR) fluorescent proteins (FPs) with red-shifted emission are needed for deep-tissue short-wavelength infrared (SWIR) imaging. We engineered a GAF domain from the JSC1 cyanobacteriochrome of thermophilic <i>Leptolyngbya sp.</i> into three monomeric, biliverdin-binding NIR FPs of 19.1 kDa: miRFP729nano, miRFP732nano and miRFP735nano, with excitation/emission maxima of 714/729, 716/732 and 719/735 nm, respectively. Their off-peak fluorescence beyond 1000 nm was several-fold higher than that of miRFP718nano previously used for SWIR imaging. miRFP732nano functioned as a fusion tag, a component of target-stabilized nanobodies, and a reporter of NF-kappaB and AP-1 transcriptional activities. It enabled single-laser, dual-color three-photon imaging with EGFP to depths of ~950 micrometers in cortex and ~300 micrometers in spinal cord. In mice, miRFP732nano supported SWIR imaging of skeletal muscle, inflammatory signaling and intracellular targets. Combining SWIR detection with biocompatible 4-aminoantipyrine-based in vivo tissue clearing enhanced signal and image sharpness. These red-shifted NIR FPs expand the genetically encoded toolkit for deep-tissue imaging.",
+        "is_new": true,
+        "reasoning": "Engineered three new NIR FPs: miRFP729nano, miRFP732nano, miRFP735nano.",
+        "probe_name": "miRFP732nano",
+        "target": null,
+        "color": "NIR",
+        "type": "Fluorescent Protein"
     }
 ]
