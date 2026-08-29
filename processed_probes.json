@@ -7731,5 +7731,18 @@
         "target": null,
         "color": "NIR",
         "type": "Fluorescent Protein"
+    },
+    {
+        "title": "A bifunctional optical reporter for tracking estrogen response dynamics in neurons.",
+        "journal": "Neuron",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.neuron.2026.07.031",
+        "abstract": "Methods for tracking the dynamics of estrogen action are limited and not tissue specific; these features make it difficult to directly relate hormonal changes to physiological, behavioral, and neural variables. To address this, we developed the fluorescent bifunctional reporter neuro-seeER (\"see estrogen response\") that can be used to track changes in estrogen dynamics in vitro and in vivo, including longitudinally in behaving animals. We show that activity requires estrogen receptor expression, is specific to estradiol, and responds dynamically to exogenous estrogen in vivo. Using \"snapshot\" photometry to track dynamics longitudinally, we detected coordinated exogenous estrogen responses across multiple hypothalamic sites. Finally, we demonstrate that this tool captures endogenous estrogen response dynamics in vivo across the timescale of the estrous cycle, thereby uncovering individual differences in response timing. Together, these findings reveal unexpected cellular and temporal heterogeneity of estrogen responsivity and demonstrate the feasibility of tracking hormonal response alongside neural or behavioral measures.",
+        "is_new": true,
+        "reasoning": "Developed the fluorescent bifunctional reporter neuro-seeER.",
+        "probe_name": "neuro-seeER",
+        "target": "Estrogen",
+        "color": "Green",
+        "type": "Hormone Sensor"
     }
 ]
