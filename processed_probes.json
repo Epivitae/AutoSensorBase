@@ -7744,5 +7744,31 @@
         "target": "Estrogen",
         "color": "Green",
         "type": "Hormone Sensor"
+    },
+    {
+        "title": "A Chemigenetic Ca2+ Indicator Based on a Red Fluorescent Protein and a Synthetic Chelator.",
+        "journal": "ACS chemical biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acschembio.6c00209",
+        "abstract": "Fluorescent indicators are indispensable imaging tools for visualizing the spatiotemporal dynamics of biological processes. Red fluorescent indicators are in particularly high demand because they offer compatibility with existing green fluorescent indicators or optogenetic tools, and longer wavelength fluorescence has inherent advantages for biological applications. We previously described a chemigenetic indicator design that combines a green fluorescent protein and a synthetic chelator in an effort to combine the advantages of conventional protein-based biosensors and synthetic chemosensors. We now demonstrate that this chemigenetic design can be extended to red fluorescent proteins. Through screening of variants with a range of chromophore-chelator orientations, followed by directed evolution, we developed a red fluorescent calcium ion (Ca2+) indicator with 5.4-fold fluorescence intensity change when going from 0 to 39 μM Ca2+ with purified proteins. Although the functionality of the current version is lost when expressed in mammalian cells and the selectivity is low, these results establish this chemigenetic design as a strategy that can be extended to other fluorescent protein color variants.",
+        "is_new": true,
+        "reasoning": "Developed a red fluorescent Ca2+ indicator via directed evolution.",
+        "probe_name": null,
+        "target": "Calcium",
+        "color": "Red",
+        "type": "Ion Sensor"
+    },
+    {
+        "title": "A Fluorescent RNA-Based Genetically Encoded Mg2+ Sensor Allows Robust Detection of Mg2+ in Live Cells.",
+        "journal": "ACS sensors",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acssensors.6c00673",
+        "abstract": "Magnesium plays crucial roles in many biological processes and the stabilization of biomolecules, including DNA, RNA, and proteins. Despite significant progress, however, our understanding of how cells regulate Mg2+ homeostasis and transport remains incomplete. One of the goals is to develop approaches for detecting Mg2+ dynamics with high spatial and temporal resolution. Herein, we describe the development of MagFR, a ratiometric Mg2+ sensor based on Pepper and Clivia fluorescent RNAs. In this sensor, Pepper fluorescence is highly Mg2+ dependent, and Clivia fluorescence acts as the normalizer. MagFR has favourable properties, including a large dynamic range, pH insensitivity, and high selectivity, allowing robust detection of Mg2+ in both live bacterial and mammalian cells. By targeting MagFR to distinct subcellular compartments in mammalian cells, we observed that the free cytoplasmic Mg2+ concentration is slightly higher than that in the nucleoplasm. We demonstrated that mammalian cells maintain Mg2+ homeostasis even under conditions of elevated extracellular Mg2+, revealing the robustness of intracellular regulatory mechanisms governing Mg2+ balance. MagFR also enabled real-time detection of cellular Mg2+ dynamics following ATP depletion. Overall, this study offers a robust and versatile tool for imaging Mg2+ dynamics in cells, which will be useful for elucidating the functionality and mechanism of Mg2+ homeostasis underlying diverse cellular processes.",
+        "is_new": true,
+        "reasoning": "Describes development of MagFR, a ratiometric Mg2+ sensor based on fluorescent RNAs.",
+        "probe_name": "MagFR",
+        "target": "Magnesium",
+        "color": "Green",
+        "type": "Ion Sensor"
     }
 ]
