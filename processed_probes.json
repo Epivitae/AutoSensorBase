@@ -7770,5 +7770,18 @@
         "target": "Magnesium",
         "color": "Green",
         "type": "Ion Sensor"
+    },
+    {
+        "title": "NEKfla: A Genetically Encoded Förster Resonance Energy Transfer Biosensor for Live-Cell Monitoring of Early NIMA-Related Kinase 7-NLR Family Pyrin Domain Containing 3 Inflammasome Signaling.",
+        "journal": "Biomaterials research",
+        "date": "2026",
+        "doi": "https://doi.org/10.34133/bmr.0403",
+        "abstract": "The NLRP3 inflammasome is a key regulator of inflammatory responses and is increasingly recognized as an important mediator of pathological reactions to diverse chemical, biological, and microenvironmental stimuli. However, most currently available approaches primarily detect downstream or end-stage events, limiting real-time analysis of the early molecular processes that precede inflammasome assembly. Here, we report NEKfla, a genetically encoded Förster resonance energy transfer (FRET)-based biosensor designed to monitor early NEK7-NLRP3-associated signaling in living cells with single-cell spatiotemporal resolution. NEKfla was engineered using full-length NEK7 and NLRP3 linked to a ECFP-YPet FRET pair, and a ΔLRR control sensor was generated to assess interaction-dependent responses. In live-cell and in vitro analyses, NEKfla detected stimulus-dependent increases in FRET in response to lipopolysaccharide and nigericin, responded to pharmacological inhibition by MCC950 and licochalcone B, and visualized dynamic changes associated with NLRP3 oligomerization. The biosensor also functioned in multiple cellular contexts, including macrophage-like cells, and detected signaling changes earlier than a caspase-1 reporter. Together, these findings establish NEKfla as a live-cell platform for tracking proximal inflammasome activation events and support its potential utility in mechanistic studies and cell-based screening of materials or compounds that modulate early NLRP3 inflammasome signaling.",
+        "is_new": true,
+        "reasoning": "Report NEKfla, a genetically encoded FRET-based biosensor for monitoring NEK7-NLRP3 signaling.",
+        "probe_name": "NEKfla",
+        "target": "NEK7-NLRP3 interaction",
+        "color": "Cyan/Yellow",
+        "type": "FRET Biosensor"
     }
 ]
