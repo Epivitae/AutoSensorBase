@@ -33001,5 +33001,23 @@
         "abstract": "Retinoid X Receptor (RXR) is a central nuclear receptor (NR) that functions as an obligate heterodimeric partner for multiple NRs, including Pregnane X Receptor (PXR), to regulate diverse target gene expression. While subcellular localization of NRs is critical for cellular function, select NRs have been reported to associate with mitotic chromatin, a phenomenon linked to transcriptional memory. Although RXR heterodimers are structurally characterized, the intramolecular determinants within RXR that couple heterodimerization to nuclear import and receptor-chromatin interactions remain unclear. We employed fluorescent protein-tagged receptor constructs, live-cell imaging, site-directed mutagenesis, co-immunoprecipitation assays, promoter-reporter assay and mitotic chromatin fractionation to examine RXR-PXR heterodimerization, subcellular localisation and receptor association with mitotic chromatin. We identified a stretch of critical 40 amino acid residues (389-428), previously reported as 'Interaction Box' in the LBD region of RXR, that is essential for RXR-PXR heterodimerization-dependent nuclear import and partner-mediated association of RXR with mitotic chromatin. A single amino acid mutation in RXR (L420D) disrupted heterodimerization-mediated nuclear co-import, whereas a combination of triple mutations (Y397D, L420D and R421E) abolished the PXR-dependent mitotic chromatin interaction exhibited by RXR. Our study reveals critical molecular determinants within the RXR I-box that are crucial for inter- and intra- molecular interactions of RXR-PXR heterodimers. The insights obtained from this study advance our understanding of how structural determinants within RXR govern partner-mediated receptor-receptor and receptor-chromatin interactions. The identified heterodimerization interface may represent a potential target for therapeutic intervation in diverse disease conditions.",
         "ai_analyzed": true,
         "is_probe": false
+    },
+    {
+        "title": "High-throughput heart rate sensing in freely moving zebrafish using a multi-well plate-based fluorescence microscope.",
+        "journal": "Optics letters",
+        "date": "2026",
+        "doi": "https://doi.org/10.1364/OL.597720",
+        "abstract": "The measurement of zebrafish heart rates is important for studying cardiovascular diseases and advancing drug discovery. However, current imaging methods either allow tracking of freely moving zebrafish at insufficient resolution for heart segmentation or require mounting and anesthesia to confine the specimen. Here, we introduce a high-throughput method to simultaneously track and segment dozens of freely moving zebrafish from embryonic to juvenile stages. We use a 48-camera microscope to capture multi-well fluorescence zebrafish videos from a macroscopically large field-of-view with co-designed machine learning software performing semi-automatic tracking and fluorescence analysis. To demonstrate the effectiveness of our method, we tracked the heart rates of <i>Tg(myl7:GCaMP)s878</i> transgenic zebrafish across different experimental conditions of temperature changes and drug trials with distinct results. Our robust tracking capabilities of freely swimming fish enable novel, to the best of our knowledge, long-term <i>in vivo</i> fluorescence imaging experiments, allowing for new developmental questions to be analyzed.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Forty New Faunistic Records of Spiders (Araneae: Araneomorphae) for the Republic of Kosovo.",
+        "journal": "Animals : an open access journal from MDPI",
+        "date": "2026",
+        "doi": "https://doi.org/10.3390/ani16172748",
+        "abstract": "This study presents new faunistic records of spiders (Araneae) from Kosovo. A total of 40 species are reported for the first time from the country, simultaneously being the first country records for 14 genera, two of which also being newly recorded families. All newly recorded taxa are documented with photographs of the genital organs to facilitate identification and verification. These findings significantly increase knowledge of the distribution and diversity of spiders in Kosovo, highlighting how unexplored the arachnofauna of Kosovo is in comparison to neighbouring countries in the Balkans. Our results emphasise the importance of continued faunistic surveys and taxonomic studies in the region in order to improve our understanding of species diversity and biogeographic patterns.",
+        "ai_analyzed": true,
+        "is_probe": false
     }
 ]
