@@ -7783,5 +7783,18 @@
         "target": "NEK7-NLRP3 interaction",
         "color": "Cyan/Yellow",
         "type": "FRET Biosensor"
+    },
+    {
+        "title": "Optimizing the Hinge Length of Chimeric Antigen Receptor with a DdFP-Based Immunological Synapse Biosensor.",
+        "journal": "ACS sensors",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acssensors.5c04490",
+        "abstract": "Chimeric antigen receptor (CAR)-T cell therapy has emerged as a transformative cancer immunotherapy, employing genetic engineering to express CARs in patient T cells. CARs are composed of a single-chain variable fragment (scFv), hinge, transmembrane, and intracellular signaling domains. While scFv directly recognizes tumor-associated antigens, the hinge domain connects the scFv to intracellular signaling domains, determining the formation of immunological synapse (IS). Because IS is critical for CAR activation, optimizing hinge length is crucial for successful CAR-T cell therapy. Here, we developed a novel dimerization-dependent fluorescent protein (ddFP)-based IS biosensor, named CAR-D, to investigate hinge length effects on CAR activation. CAR-D consists of a CAR fused to ddFP-A and a ZAP70-tSH2 domain fused to ddFP-B. Upon CAR engagement with the target antigen, CAR phosphorylation recruits ZAP70-tSH2, triggering ddFP-A/ddFP-B dimerization and generating a fluorescent signal that reports CAR activation at the IS in real time. Using the CAR-D system, we assessed CARs with different hinge lengths targeting distinct epitopes of two tumor-associated antigens, mesothelin (MSLN) and HER2, and determined threshold hinge lengths for CAR activation. Our results revealed a strong correlation between threshold hinge length and the distance from scFv to the target epitope, implying that hinge length optimization is crucial for effective CAR-T cell therapy. Furthermore, the CAR-D system provides a valuable tool for predicting CAR efficacy and guiding future CAR engineering strategies.",
+        "is_new": true,
+        "reasoning": "Developed a novel ddFP-based IS biosensor, named CAR-D.",
+        "probe_name": "CAR-D",
+        "target": "CAR activation",
+        "color": "Green",
+        "type": "Biosensor"
     }
 ]
