@@ -7796,5 +7796,31 @@
         "target": "CAR activation",
         "color": "Green",
         "type": "Biosensor"
+    },
+    {
+        "title": "Apollo-IRE1: A Genetically Encoded Sensor for Live Cell and Multiplexed Imaging of Endoplasmic Reticulum Stress.",
+        "journal": "ACS sensors",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acssensors.6c01159",
+        "abstract": "Pancreatic beta cells face exceptional protein folding demands from high insulin production requirements, placing extraordinary stress on the endoplasmic reticulum (ER) and contributing to dysfunction in diabetes pathogenesis. Monitoring ER stress dynamics in living cells remains challenging due to the destructive nature of traditional biochemical methods and the limitations of existing fluorescent sensors. Here, we present Apollo-IRE1, a genetically encoded sensor that reports on stress-induced IRE1 oligomerization and associated change in homoFRET via changes in fluorescence anisotropy. Apollo-IRE1 provides a ratiometric, intensity-independent readout, resulting in low day-to-day variability and a minimal spectral bandwidth, enabling multiplexed imaging alongside other cellular parameters. Photobleaching and enhancement curve analysis show that Apollo-IRE1 exists in apparent monomeric, dimer-range, and higher-order oligomeric states corresponding to baseline, moderate, and terminal ER stress conditions. The sensor also responds rapidly to chemical and physiological ER stressors in both immortalized beta-cell lines and primary mouse islet cells. These data establish Apollo-IRE1 as a practical tool for investigating ER stress dynamics in beta cells and other contexts where longitudinal single-cell measurements are essential.",
+        "is_new": true,
+        "reasoning": "Present Apollo-IRE1, a genetically encoded sensor for ER stress.",
+        "probe_name": "Apollo-IRE1",
+        "target": "ER stress",
+        "color": null,
+        "type": "Protein Conformation Sensor"
+    },
+    {
+        "title": "Enhanced Ratiometric Indicators for (Sub)cellular Detection of Magnesium(II) Ions by Flow Cytometry.",
+        "journal": "ACS sensors",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acssensors.6c01904",
+        "abstract": "Magnesium(II) plays essential roles in cellular physiology, yet the inner workings of its cellular distribution and transport remain challenging to study due to the scarcity of tools for Mg2+-selective detection with high spatiotemporal resolution and compatible with high-throughput analysis. We report herein MagZet2, a next-generation ratiometric fluorescent sensor featuring a quinoline dicarboxylate motif with an expanded dynamic range for Mg2+ detection by fluorescence microscopy and flow cytometry. MagZet2 displays excellent Mg2+/Ca2+ selectivity and an apparent dissociation constant, K'd = 0.4 mM, well matched to physiological free Mg2+ concentrations in mammalian cells. By conjugation to HaloTag, we further engineer MagZet2 into chemigenetic indicators that retain desirable photophysical properties of the small molecule counterpart while enabling genetically encoded control of subcellular localization. Using a hybrid sensor, MagZet2(L2)Halo, we demonstrate the first organelle-resolved Mg2+ detection by flow cytometry, a technique that does not inherently offer spatial resolution. Finally, we apply MagZet2(L2)Halo to monitor Mg2+ uptake kinetics in live Caco-2 cells, revealing transport dynamics that parallel those measured using destructive 25Mg transport assays while offering improved temporal resolution and compatibility with live-cell analysis. Together, these results establish MagZet2 and its chemigenetic derivatives as powerful tools for organelle-resolved, high-throughput interrogation of free Mg2+ in living cells.",
+        "is_new": true,
+        "reasoning": "Report MagZet2, a next-generation ratiometric fluorescent sensor for Mg2+.",
+        "probe_name": "MagZet2",
+        "target": "Magnesium",
+        "color": null,
+        "type": "Ion Sensor"
     }
 ]
