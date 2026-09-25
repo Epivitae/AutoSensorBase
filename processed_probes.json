@@ -7822,5 +7822,18 @@
         "target": "Magnesium",
         "color": null,
         "type": "Ion Sensor"
+    },
+    {
+        "title": "An All-Optical Approach to Probe Chloride Transport with a Bright ChlorON.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.03.09.710669",
+        "abstract": "Chloride transport across cellular membranes is fundamental to physiology. Yet, this dynamic process remains difficult to capture with existing methods that rely on electrophysiology or indirect iodide-quenching assays, leaving real-time imaging of chloride transport a largely unexplored frontier. To address this gap, we upgrade our first-generation fluorescent protein indicator ChlorON-1 into ChlorON-1-PRO through targeted mutagenesis of an evolutionarily conserved gatepost residue. A single mutation (C139N) preserves the turn-on sensing mechanism (13.9-fold response) while boosting affinity ( <i>K</i> <sub>d</sub> = 47.4 mM) and bound-state brightness (13.6). Molecular dynamics simulations provide atomic-level insights for these enhancements, supporting a model in which the mutation globally rigidifies the β-barrel and locally prearranges the binding pocket while stabilizing the chromophore. Finally, we showcase the utility of ChlorON-1-PRO for real-time monitoring of endogenous chloride transport under basal and pharmacologically modulated conditions in the U-2 OS cell model.",
+        "is_new": true,
+        "reasoning": "Upgrade first-generation ChlorON-1 into ChlorON-1-PRO through targeted mutagenesis.",
+        "probe_name": "ChlorON-1-PRO",
+        "target": "Chloride",
+        "color": "Green",
+        "type": "Ion Sensor"
     }
 ]
