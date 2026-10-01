@@ -7835,5 +7835,18 @@
         "target": "Chloride",
         "color": "Green",
         "type": "Ion Sensor"
+    },
+    {
+        "title": "SurpHer: A genetically encoded ratiometric biosensor for dynamic extracellular pH imaging.",
+        "journal": "Cell reports methods",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.crmeth.2026.101613",
+        "abstract": "Extracellular pH is a critical regulator of cell function in health and disease, yet tools for dynamic monitoring of pericellular pH at single-cell resolution remain limited. We report SurpHer, a genetically encoded, ratiometric extracellular pH biosensor identified through screening of a modular library of membrane-targeted designs. SurpHer combines the pH-sensitive fluorophore SEpHluorin with the reference fluorophore mKate2 and a CD59-derived GPI anchor, enabling robust plasma membrane localization, quantitative ratiometric imaging, and stable long-term expression. Unlike non-ratiometric membrane-targeted reporters, SurpHer corrects for variation in sensor abundance and imaging conditions, while avoiding the complexity and confounding sensitivities of FRET-based designs. SurpHer responds rapidly and reversibly across the physiologically relevant extracellular pH range of 6.0-7.8 and performs consistently in several human cell lines. Stable genomic integration enabled longitudinal imaging of extracellular pH gradients in a microfluidic tumor microenvironment model. SurpHer provides a versatile platform for investigating extracellular pH dynamics in complex biological systems.",
+        "is_new": true,
+        "reasoning": "We report SurpHer, a genetically encoded, ratiometric extracellular pH biosensor identified through screening.",
+        "probe_name": "SurpHer",
+        "target": "pH",
+        "color": "Green/Red",
+        "type": "Ion Sensor"
     }
 ]
