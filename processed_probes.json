@@ -7848,5 +7848,18 @@
         "target": "pH",
         "color": "Green/Red",
         "type": "Ion Sensor"
+    },
+    {
+        "title": "A Chemigenetic Fluorescence Lifetime Biosensor for Dopamine Sensing.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.09.19.752778",
+        "abstract": "Measuring the precise dynamics of specific neuromodulators in neurons is key to understanding how information is transmitted and processed in the brain. Despite the growing use of intensity-based neural activity sensors such as dLight in recent years, it remains challenging to monitor the dynamics of multiple neurochemicals simultaneously in live neurons. Unlike intensiometric sensors that are susceptible to artifacts caused by fluctuations in excitation power and rapid photobleaching, fluorescence lifetime-based sensors are less affected by these factors and can provide more stable measurements. Here we introduce dHaloLife <sub>635</sub> , a novel genetically encoded fluorescence-lifetime-based dopamine (DA) sensor that exhibits a fluorescence lifetime change up to -0.20 ns upon dopamine binding. dHaloLife <sub>635</sub> consists of a G protein-coupled dopamine receptor (DRD1), a circularly permuted HaloTag (cpHaloTag), and a cell-permeable dye JF <sub>635</sub> functionalized with a HaloTag ligand, a reactive chloroalkane linker (JF <sub>635</sub> -HTL). When dopamine binds to the dHaloLife <sub>635</sub> sensor, it induces a conformational change in the cpHaloTag that alters the local environment of the conjugated dye, thereby changing its fluorescence lifetime. In live HEK293T cells and primary neurons, dHaloLife <sub>635</sub> responds selectively to dopamine but not to serotonin, L-DOPA, or GABA, demonstrating excellent specificity. This dHaloLife <sub>635</sub> sensor represents an initial step toward the establishment of a broader family of chemigenetic lifetime sensors that exhibit distinct fluorescence lifetime signatures upon binding their respective targets, thereby enabling highly specific and sensitive, real-time monitoring of multiple neurochemical dynamics <i>in vivo</i> .",
+        "is_new": true,
+        "reasoning": "Introduce dHaloLife635, a novel genetically encoded fluorescence-lifetime-based dopamine sensor.",
+        "probe_name": "dHaloLife635",
+        "target": "Dopamine",
+        "color": "NIR",
+        "type": "Neurotransmitter Sensor"
     }
 ]
