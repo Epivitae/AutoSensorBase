@@ -7861,5 +7861,18 @@
         "target": "Dopamine",
         "color": "NIR",
         "type": "Neurotransmitter Sensor"
+    },
+    {
+        "title": "When plants light up: fungal bioluminescence pathway-based sentinel systems for autonomous virus diagnostics.",
+        "journal": "aBIOTECH",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.abiote.2026.100088",
+        "abstract": "Sensor-based systems for detecting plant pathogens may provide field-ready alternatives to conventional, destructive, laboratory-based methods. This highlight examines a recent study that engineered a sensor system for detecting potyviruses via a bioluminescent color shift in <i>Nicotiana benthamiana</i>. This system incorporates a viral protease-responsive fusion between a fluorescent protein and the luciferase Luz, which does not require an exogenous substrate and served as the energy donor for bioluminescence resonance energy transfer (BRET). The authors combined this sensor with components of the fungal bioluminescence pathway. Together, these components produced a yellow signal in healthy plants; upon infection and cleavage of the fusion protein, this signal shifted to green, a change that is detectable with standard consumer cameras. Moreover, when sentinel <i>N. benthamiana</i> plants were intercropped with tomato plants and inoculated with tobacco etch virus (TEV), this system detected infection days before symptoms became visible in the tomato plants and distinguished TEV from other tested viruses. This work introduces a field-deployable diagnostic platform for viral diseases and expands the biosensing repertoire of the fungal bioluminescence pathway in precision agriculture.",
+        "is_new": true,
+        "reasoning": "Engineered a sensor system for detecting potyviruses via bioluminescent color shift.",
+        "probe_name": null,
+        "target": "Potyviruses",
+        "color": "Yellow/Green",
+        "type": "Viral Protease Sensor"
     }
 ]
