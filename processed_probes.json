@@ -7874,5 +7874,18 @@
         "target": "Potyviruses",
         "color": "Yellow/Green",
         "type": "Viral Protease Sensor"
+    },
+    {
+        "title": "Non-Invasive Visualization of Cells Expressing Unmodified Target mRNA Using a Programmable RNA-Mediated BiFC Platform.",
+        "journal": "Genes to cells : devoted to molecular & cellular mechanisms",
+        "date": "2026",
+        "doi": "https://doi.org/10.1111/gtc.70151",
+        "abstract": "Real-time visualization of specific mRNA expression in living cells is essential for understanding diverse biological processes; however, many existing approaches require modifications to target genes. In this study, we developed a programmable RNA-mediated bimolecular fluorescence complementation (RmBiFC) system by fusing split Venus fluorescent protein fragments with the Pumilio homology domain as a modular RNA-binding domain. Using murine leukemia virus mRNA as a model target, we systematically optimized the orientation of the probes and demonstrated robust detection of cells expressing target mRNA. This system enables live-cell imaging of target mRNA-expressing cells without modifying the target gene. This provides a valuable means of tracking cells expressing wild-type genes, which is challenging to achieve using conventional reporter-based approaches. The RmBiFC system represents a versatile and non-invasive platform with broad potential for identifying specific cell populations based on their transcriptomic profiles at the cellular level.",
+        "is_new": true,
+        "reasoning": "Developed a programmable RNA-mediated BiFC system using split Venus.",
+        "probe_name": "RmBiFC",
+        "target": "mRNA",
+        "color": "Yellow",
+        "type": "RNA Sensor"
     }
 ]
