@@ -7887,5 +7887,18 @@
         "target": "mRNA",
         "color": "Yellow",
         "type": "RNA Sensor"
+    },
+    {
+        "title": "Biosensor-guided evolution of chalcone synthase enhances biosynthesis of natural and non-natural flavanones.",
+        "journal": "Metabolic engineering",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.ymben.2026.102564",
+        "abstract": "Flavonoids constitute a large class of natural products widely investigated for their bioactive properties, with microbial production offering a potentially scalable alternative to plant extraction. However, achieving structural diversification of these compounds in microbial systems remains challenging, as modification of the flavonoid B-ring typically relies on downstream tailoring enzymes. An alternative strategy is to exploit the intrinsic promiscuity of the canonical flavanone biosynthesis pathway to introduce structural variation at an early stage. Here, we sought to improve microbial production of diverse flavanones by systematically leveraging pathway promiscuity. By constructing a combinatorial library of pathways comprising 4-coumarate-CoA ligase, chalcone synthase, and chalcone isomerase, we enabled the conversion of a panel of ring-substituted cinnamic acid precursors into ten natural and non-natural flavanones. In parallel, we established a genetically encoded biosensor based on the transcriptional regulator FdeR and demonstrated its responsiveness across all ten flavanones. Leveraging this biosensor for high-throughput screening, we performed directed evolution of chalcone synthases from Hordeum vulgare and Arabidopsis thaliana, identifying enzyme variants that led to improved production of O-methylated flavanones, including isosakuranetin, hesperetin, and homoeriodictyol, as well as fluoro-substituted flavanones. In addition, we demonstrated that specific variants of H. vulgare chalcone synthase promoted the formation of putative isoferuloyl-derived derailment products. Collectively, this work establishes the FdeR-based biosensor as a versatile platform for pathway and enzyme engineering, enabling efficient early-stage diversification of flavanones in microbial systems and providing insight into the mutational landscape of chalcone synthases.",
+        "is_new": true,
+        "reasoning": "Established a genetically encoded biosensor based on FdeR.",
+        "probe_name": "FdeR-based biosensor",
+        "target": "Flavanones",
+        "color": null,
+        "type": "Metabolite Sensor"
     }
 ]
