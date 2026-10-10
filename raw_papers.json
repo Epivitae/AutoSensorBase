@@ -33469,5 +33469,41 @@
         "abstract": "Hyperpolarized 129Xe NMR provides a non-optical platform for molecular, multiplexed detection. Genetically encoded protein reporters are attractive for biological sensing, but creating new 129Xe NMR sensors remains challenging because productive xenon binding is difficult to engineer into protein scaffolds. Here, we use glucose/galactose-binding protein (GGBP) as a ligand-responsive model protein to examine how molecular dynamics (MD)-derived cavity descriptors can guide the design of a xenon-binding protein sensor. Direct transfer of cavity-forming mutation from a related periplasmic binding protein (PBP) did not produce a well-resolved 129Xe response, motivating a broader analysis of candidate cavities by MD simulations. Among the GGBP variants examined, I24F/F90A combined an appropriate cavity volume, high pocket persistence, solvent exclusion, and high hydrophobicity density within the mutant series. The resulting glucosensor, GS, bound glucose with low-micromolar affinity and produced a distinct glucose-dependent 129Xe@GS hyper-CEST resonance shifted 30 ppm upfield from the aqueous xenon signal. This upfield resonance expands the chemical-shift window for genetically encoded protein-based 129Xe sensors to 125 ppm, highlighting an additional cavity-engineering route for modulating 129Xe NMR chemical shifts. GS enabled quantification of micromolar glucose concentrations in E. coli lysate, with results comparable to an enzymatic glucose assay. The upfield-shifted 129Xe NMR signal also allowed 129Xe@GS to be spectrally resolved from other PBP-based 129Xe sensors, enabling simultaneous detection of glucose-, ribose-, and maltose-responsive signals in a single hyper-CEST experiment. Finally, fusion of GS to the \"always-on\" 129Xe NMR contrast agent TEM-1 β-lactamase generated a ratiometric sensor. These results establish GGBP as a new scaffold for ligand-responsive 129Xe biosensing and introduce an MD-informed strategy for developing multiplexed and self-referenced genetically encoded 129Xe NMR sensors.",
         "ai_analyzed": true,
         "is_probe": false
+    },
+    {
+        "title": "Search for Electroweakinos in Compressed-Spectrum Scenarios with Low-Momentum Isolated Tracks in Proton-Proton Collisions at sqrt[s]=13  TeV.",
+        "journal": "Physical review letters",
+        "date": "2026",
+        "doi": "https://doi.org/10.1103/g4ym-rzkt",
+        "abstract": "A search for supersymmetric electroweakinos is performed using events with a low-momentum (soft) isolated track and large missing transverse momentum, targeting nearly mass-degenerate higgsinolike charginos and neutralinos. For mass splittings of 0.3-1 GeV, the chargino decays to the lightest neutralino and a low-momentum pion, which can produce a soft, potentially displaced track. A parametrized neural network separates signal from background using kinematic and impact parameter information. The analysis uses 138  fb^{-1} of proton-proton collision data at a center-of-mass energy of 13 TeV recorded with the CMS detector. No significant excess above the standard model expectation is observed. At 95% confidence level, the considered higgsino model is excluded for mass splittings in the range 0.28-1.15 GeV and for chargino masses up to 185 GeV, setting stringent constraints on natural supersymmetry scenarios.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Search for the Nonresonant Production of a Pair of Additional Higgs Bosons in the Type-X Two-Higgs-Doublet Model in Proton-Proton Collisions at sqrt[s]=13  TeV.",
+        "journal": "Physical review letters",
+        "date": "2026",
+        "doi": "https://doi.org/10.1103/qydl-rlp7",
+        "abstract": "A search is presented for the production of two additional Higgs bosons from an off-shell Z boson, where both additional particles decay to τ lepton pairs. The search is performed with a data sample collected with the CMS detector from proton-proton collisions at the LHC at sqrt[s]=13  TeV, corresponding to an integrated luminosity of 138  fb^{-1}. No deviation from the standard model background is observed. Exclusion limits are set on the type-X two-Higgs-doublet model alignment scenario. These results exclude previously unexplored regions of parameter space and provide constraints complementary to those from earlier searches.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Combination of ATLAS and CMS Searches for Higgs Boson Pair Production at sqrt[s]=13  TeV.",
+        "journal": "Physical review letters",
+        "date": "2026",
+        "doi": "https://doi.org/10.1103/27s7-2frt",
+        "abstract": "This Letter presents a combination of searches for Higgs boson pair (HH) production performed by the ATLAS and CMS Collaborations using proton-proton collision datasets recorded at sqrt[s]=13  TeV during the Large Hadron Collider Run 2, corresponding to integrated luminosities ranging between 126 and 140  fb^{-1}. The upper limit at the 95% confidence level on the total HH signal strength, defined as the ratio of the measured cross section to the standard model (SM) prediction, corresponds to 2.5, with an expected value of 1.7 (2.8) assuming the absence (presence) of the SM HH signal. The strength of the HH signal is measured to be 0.8_{-0.7}^{+0.9} relative to the SM prediction. The observed significance is found to be 1.1 standard deviations whereas 1.3 are expected for the SM HH signal. Constraints are set on the Higgs boson trilinear self-coupling and on the couplings of two Higgs bosons to two vector bosons, both normalized to the SM predictions and denoted as κ_{λ} and κ_{2V}, respectively. The observed individual constraints at the 95% confidence level are -0.71<κ_{λ}<6.1 and 0.73<κ_{2V}<1.3, while the expected constraints assuming the presence of the SM HH signal are -1.3<κ_{λ}<6.7 and 0.66<κ_{2V}<1.4.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "RUBY expression alters development and metabolism in Arabidopsis.",
+        "journal": "Plant molecular biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.1007/s11103-026-01764-0",
+        "abstract": "Genetically encoded reporters are indispensable tools for monitoring gene expression, transformation efficiency, and diverse cellular processes in plants. The betalain-based RUBY reporter has recently emerged as a convenient visual marker requiring no substrates or specialized equipment, and it has been widely used for a variety of applications. However, the developmental and metabolic consequences of its expression remain unexplored. Here, we show that independent transgenic lines of Arabidopsis thaliana expressing RUBY exhibit profound alterations in growth and reproductive development. RUBY-expressing plants were significantly smaller, produced fewer leaves, flowered later, and frequently developed malformed siliques with reduced seed yield. In addition, root architecture was severely impaired, with a marked reduction in the number of lateral roots. This phenotype was not rescued by indole-3-acetic acid (IAA). Targeted metabolomic profiling revealed widespread alterations in amino acid and hormone pools, including reduced indole-3-acetic acid and gibberellin, alongside accumulation of auxin precursors. Disruption of RUBY expression by suppressing the third enzyme (glucosyltransferase) restored the RUBY-associated phenotypes to wild-type. Together, our findings show that RUBY expression in Arabidopsis thaliana is not metabolically neutral; rather, it perturbs both development and metabolism by disrupting hormone and amino acid homeostasis. These results highlight reporter-associated trade-offs and underscore the necessity of regulated expression systems, such as inducible or tissue-specific expression, to expand the utility of RUBY in plant research and biotechnology.",
+        "ai_analyzed": true,
+        "is_probe": false
     }
 ]
