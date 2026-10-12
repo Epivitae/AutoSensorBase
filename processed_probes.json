@@ -7900,5 +7900,57 @@
         "target": "Flavanones",
         "color": null,
         "type": "Metabolite Sensor"
+    },
+    {
+        "title": "Live-Cell Detection of Relative Intracellular Tension Dynamics Using Non-FRET α-Actinin and α-Catenin Tension Indicators.",
+        "journal": "Bio-protocol",
+        "date": "2026",
+        "doi": "https://doi.org/10.21769/BioProtoc.5826",
+        "abstract": "Molecular tension sensors enable the visualization of forces acting on specific intracellular proteins in living cells. Most established genetically encoded sensors rely on Förster resonance energy transfer (FRET), requiring donor-acceptor imaging and correction for spectral bleed-through, which can complicate their application in heterogeneous tissues. We developed non-FRET α-actinin and α-catenin tension indicators containing a force-responsive tension sensor (TS) module composed of an optimized circularly permuted enhanced green fluorescent protein (cpEGFP) scaffold and an elastic (GPGGA)<sub>8</sub> linker. The TS module is incorporated into α-actinin or α-catenin, while a C-terminal mCherry serves as a force-insensitive reference for indicator abundance. This protocol describes indicator expression in cultured cells, validation using the myosin II inhibitor blebbistatin, two-color time-lapse imaging and live-cell super-resolution imaging using SRRF-Stream reconstruction based on super-resolution radial fluctuations (SRRF), and calculation of the green/red fluorescence ratio and normalized relaxation ratio. The protocol also specifies essential quality-control procedures, including imaging under nonsaturating conditions with fixed channel-specific acquisition settings across comparisons, registration of the green and red channels, and the use of appropriate vehicle and negative controls. For SRRF-Stream analysis, the green and red channels are reconstructed separately using identical reconstruction settings before ratio calculation. Representative reconstructed images should be compared with the corresponding conventional images to check for reconstruction artifacts. Optional procedures describe imaging of isolated cardiomyocytes and freshly isolated organs from tension-indicator mice. Because molecular loading is inferred from changes in TS fluorescence normalized to mCherry rather than from energy transfer between two fluorophores, the method avoids FRET-specific bleed-through correction; nevertheless, controlled acquisition and channel registration remain necessary. The indicators report relative changes in molecular loading and are particularly useful for resolving protein-specific and subcellular heterogeneity in tension dynamics. Key features • Genetically encoded, FRET-free tension sensor module reports relative changes in forces acting on α-actinin or α-catenin. • C-terminal mCherry provides an internal reference for indicator abundance and motion-related intensity changes. • Quantitative ratios are calculated from conventional 16-bit images (0-65,535) using ROIs with signals above local background in both channels and no saturated pixels. • Validated in MDCKII and NIH3T3 cells and cardiomyocytes from genetically targeted mice, the protocol supports routine confocal time-lapse imaging and optional SRRF-Stream reconstruction.",
+        "is_new": true,
+        "reasoning": "Developed non-FRET tension indicators with cpEGFP scaffold and mCherry reference.",
+        "probe_name": "α-actinin tension indicator",
+        "target": "Mechanical tension",
+        "color": "Green/Red",
+        "type": "Tension Sensor"
+    },
+    {
+        "title": "NuPath, a higher-sensitivity TRUPATH-derived biosensor, expands detection of basal and agonist-induced GPCR activation.",
+        "journal": "Biochemical pharmacology",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.bcp.2026.118525",
+        "abstract": "Bioluminescence resonance energy transfer (BRET) biosensors allow direct quantification of heterotrimeric G protein activation downstream of G protein-coupled receptors (GPCRs), although restricted dynamic range can limit the detection of subtle, subunit-specific, or constitutively active signalling. We engineered NuPath, a TRUPATH-based biosensor in which Renilla luciferase 8 (RLuc8) within Gα was substituted with NanoLuc luciferase (nLuc) and enhanced yellow fluorescent protein (eYFP) replaced green fluorescent protein 2 (GFP2) fused to Gγ, while preserving the original sensor insertion architecture. NuPath is adapted for use in conventional 96-well plate format and supports direct, no-transfer readouts after receptor expression, whether receptors are introduced transiently or via stable cell lines, thereby simplifying experimental procedures. Side-by-side comparisons of matched NuPath and TRUPATH systems were performed across six GPCRs, Gα<sub>i2</sub>, Gα<sub>OA</sub>, Gα<sub>sL</sub>, and Gα<sub>11</sub>, and a range of Gβγ dimers. NuPath produced approximately 3- to 14-fold greater maximal agonist responses with Gα<sub>i2</sub>, Gα<sub>sL</sub>, and Gα<sub>11</sub>, whereas Gα<sub>OA</sub> sensors produced responses of broadly comparable magnitude with lower variability. The broadened dynamic range uncovered receptor-dependent variations in Gβγ pairing that were largely undetectable in TRUPATH measurements. NuPath further enabled detection of inverse agonist-mediated suppression of constitutive signalling at the growth hormone secretagogue receptor (GHSR) by liver-expressed antimicrobial peptide 2 (LEAP2), an effect not discernible using TRUPATH. AlphaFold 3 structural models suggested reduced donor-acceptor separation and diminished displacement of the Gα α-helical domain in NuPath compared with equivalent TRUPATH complexes. Collectively, these results position NuPath as a robust, modular enhancement of TRUPATH for resolving agonist-driven, Gβγ-specific, and constitutive GPCR signalling.",
+        "is_new": true,
+        "reasoning": "Engineered NuPath, a TRUPATH-based biosensor with nLuc and eYFP.",
+        "probe_name": "NuPath",
+        "target": "G protein activation",
+        "color": "Yellow",
+        "type": "GPCR signaling sensor"
+    },
+    {
+        "title": "Illuminating NAD<sup>+</sup> Metabolism in Live Cells and In Vivo Using a Genetically Encoded Fluorescent Sensor.",
+        "journal": "Developmental cell",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.devcel.2026.09.013",
+        "abstract": "[No Abstract Available Yet]",
+        "is_new": true,
+        "reasoning": "Title states 'genetically encoded fluorescent sensor' for NAD+; development implied.",
+        "probe_name": null,
+        "target": "NAD+",
+        "color": null,
+        "type": "Metabolite Sensor"
+    },
+    {
+        "title": "Fluorescent Ubiquitination-based Trbl Turnover Indicator ( FUTTI): A tool to detect activity of the Tribbles pseudokinase in vivo.",
+        "journal": "bioRxiv : the preprint server for biology",
+        "date": "2026",
+        "doi": "https://doi.org/10.64898/2026.09.25.753906",
+        "abstract": "A fluorescent sensor detects protein turnover mediated by the Trbl pseudokinase in transgenic flies Abstract (168 words) Targeted protein turnover of the transcription factor C/EBP is enhanced by the Tribbles (Trib) pseudokinase family of adaptor proteins, which bind to a conserved degron motif in C/EBP substrate and recruit a cognate COP1 E3 ligase to ubiquitinate C/EBP for degradation. We identified a conserved degron in the Drosophila C/EBP ortholog Slbo and fused this motif to a fluorescent protein (GFP or RFP) under the control of a constitutive promoter. Transgenic flies expressing this fluorescent protein (FP)::degron transgene, which we call the Fluorescent Ubiquitination-based Trbl Turnover Indicator (or FUTTI) sensor, showed reduced levels of fluorescence in response to increased levels of Drosophila Tribbles (Trbl) and conversely, increased levels when Trbl activity was reduced. Mutations in the Trbl conserved pseudokinase substrate binding pocket and in a divergent PEST-like motif in the C-terminal tail region disrupted Trbl activity in the FUTTI assay. These data indicate that FUTTI will be a valuable tool to identify sites of Trbl activity in vivo and the critical features of the protein required for function.",
+        "is_new": true,
+        "reasoning": "Developed FUTTI sensor by fusing degron to fluorescent protein.",
+        "probe_name": "FUTTI",
+        "target": "Tribbles pseudokinase activity",
+        "color": "Green/Red",
+        "type": "Protein Turnover Sensor"
     }
 ]
