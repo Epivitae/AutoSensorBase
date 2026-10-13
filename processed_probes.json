@@ -7952,5 +7952,18 @@
         "target": "Tribbles pseudokinase activity",
         "color": "Green/Red",
         "type": "Protein Turnover Sensor"
+    },
+    {
+        "title": "Tracking CDK1 Dynamics With a Novel Biosensor Mouse and Clinical Cohorts to Predict CDK4/6 Inhibitor Sensitivity in ER+ Breast Cancer.",
+        "journal": "Advanced science (Weinheim, Baden-Wurttemberg, Germany)",
+        "date": "2026",
+        "doi": "https://doi.org/10.1002/advs.77920",
+        "abstract": "High-risk estrogen receptor positive (ER+) early breast cancer (EBC) is managed with endocrine therapies and cyclin-dependent kinase (CDK) 4/6 inhibitors, although no standard molecular markers clinically identify these tumors. CDK1 lies immediately downstream of CDK4/6 but has not been investigated as a prognostic marker for ER+ disease. Here, we integrate real-time imaging of a novel Cdk1 activity biosensor mouse with clinical cohorts to establish CDK1 as a candidate biomarker of progression and therapeutic sensitivity. Using the MMTV-PyMT;MMTV-Cre;Cdk1-FRET biosensor mouse, we visualized Cdk1 upregulation in situ during the transition to invasive ductal carcinoma (IDC). Clinically, we identified that pCDK1<sup>T161</sup> is specifically upregulated in IDC, and that pCDK1<sup>Y15</sup> is prognostic of poor relapse-free survival in stage 1 disease. We further characterized CDK1 activity as part of a dynamic adaptive response to CDK4/6 inhibition: the CDK1/cyclin B1 complex was suppressed, then rebounded within 3 days. In the NeoPalAna trial, non-responders incompletely suppressed CDK1. Palbociclib-resistant cells recovered basal CDK1 in vitro, non-responsive tumors exhibited elevated Cdk1 activity in vivo, and CDK1 was elevated in CDK4/6 inhibitor-resistant patient tumors. Together, our findings position CDK1 as a candidate biomarker for poor prognosis in early disease, and an indicator of adaptive responses and resistance to CDK4/6 inhibition.",
+        "is_new": true,
+        "reasoning": "Developed a novel Cdk1 activity biosensor mouse (Cdk1-FRET).",
+        "probe_name": "Cdk1-FRET",
+        "target": "CDK1",
+        "color": null,
+        "type": "Kinase Activity Sensor"
     }
 ]
