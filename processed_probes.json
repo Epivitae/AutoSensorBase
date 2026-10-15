@@ -7965,5 +7965,31 @@
         "target": "CDK1",
         "color": null,
         "type": "Kinase Activity Sensor"
+    },
+    {
+        "title": "Coupling Luciferase Activation and Bioluminescence Resonance Energy Transfer Enables High-Contrast Red-Window Calcium Imaging.",
+        "journal": "ACS sensors",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acssensors.6c03486",
+        "abstract": "Genetically encoded bioluminescent calcium indicators enable excitation-free imaging of Ca2+ dynamics with low background and without excitation-associated photobleaching. However, many exhibit lower dynamic ranges than their fluorescent counterparts, motivating the development of new sensor configurations, particularly for imaging in the red optical window, where tissue absorption and scattering are reduced. Here, we developed HyBRIC and HyBRIC2, two hybrid indicators that integrate Ca2+-dependent luciferase activation and bioluminescence resonance energy transfer (BRET) within a single molecular architecture. When paired with pyCTZ luciferin, they exhibited an approximately 55-fold Ca2+-dependent signal increase in red-window emission in vitro. Compared with HyBRIC, HyBRIC2 showed improved brightness and responsiveness in mammalian cells. It robustly resolved induced Ca2+ dynamics in HEK293T and HeLa cells, with particularly strong red-window responses. Together, these findings expand the limited repertoire of responsive red-window bioluminescent calcium indicators and establish hybrid sensing as a modular strategy for improving biosensor contrast.",
+        "is_new": true,
+        "reasoning": "Developed HyBRIC and HyBRIC2, hybrid bioluminescent calcium indicators.",
+        "probe_name": "HyBRIC2",
+        "target": "Calcium",
+        "color": "Red",
+        "type": "Ion Sensor"
+    },
+    {
+        "title": "Near-infrared photochromic miniprotein enables photoacoustic molecular imaging of acute inflammation and intracellular antigens.",
+        "journal": "Nature methods",
+        "date": "2026",
+        "doi": "https://doi.org/10.1038/s41592-026-03255-y",
+        "abstract": "Using near-infrared photoswitchable photochromic genetically encoded probes, differential photoacoustic tomography (PAT) enables deep-tissue imaging with high resolution and sensitivity; however, current bacteriophytochrome-based probes are bulky multidomain proteins exceeding 55 kDa, which constrains their use for designing PAT molecular reporters. Here we engineer rsmiRFPnano, a compact cyanobacteriochrome-derived photoswitchable PAT probe. With a molecular weight below 19 kDa, rsmiRFPnano efficiently incorporates biliverdin, exhibits high extinction coefficients in both photochromic states and demonstrates robust performance in live cells. We established rsmiRFPnano-based reporters for NF-κB and AP-1 pathways, which display low basal activity and strong activation-dependent responses. These reporters effectively visualized acute inflammation using noninvasive PAT in vivo, further validated through cellular-level spatial omics mapping. We then created photoswitchable nanobody probes, rsNIR-Fbs, stabilized upon antigen binding and rapidly degraded otherwise, enabling selective photoacoustic immuno-imaging of intracellular antigens in vivo. Together, these results establish rsmiRFPnano as an ultracompact and versatile platform for molecular PAT.",
+        "is_new": true,
+        "reasoning": "Engineered rsmiRFPnano, a compact photoswitchable PAT probe.",
+        "probe_name": "rsmiRFPnano",
+        "target": null,
+        "color": "NIR",
+        "type": "Photoswitchable Probe"
     }
 ]
