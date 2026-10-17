@@ -33667,5 +33667,59 @@
         "abstract": "Dexmedetomidine is a sedative anesthetic with a unique ability to produce an arousable state of sedation. However, the neural mechanisms underlying this arousable sedation remain incompletely understood. Previous studies have implicated dopaminergic neurons in the ventral tegmental area (VTA) in mediating this effect, but the upstream neural circuit mechanisms remain unclear. Furthermore, although VTA GABAergic neurons exert robust inhibitory effects on dopaminergic neurons, their specific role in dexmedetomidine-induced arousable sedation remains unclear. Vgat-Cre transgenic mice were used to investigate the role of VTA GABAergic neurons in dexmedetomidine-induced arousable sedation. Electroencephalography (EEG), fiber photometry, calcium imaging, GABA neurotransmitter sensing, chemogenetic manipulation, and immunohistochemistry were used to assess neuronal activity, GABAergic signaling, and behavioral responses to dexmedetomidine. Fiber photometry using the calcium indicator GCaMP6m revealed that dexmedetomidine inhibited VTA GABAergic neurons. Fiber photometry with the GABA neurotransmitter sensor iGABASnFR demonstrated that dexmedetomidine increased GABAergic input to VTA GABAergic neurons. Chemogenetic manipulation combined with EEG demonstrated that activating VTA GABAergic neurons deepened dexmedetomidine-induced sedation, whereas inhibiting these neurons attenuated sedation. These findings suggest that dexmedetomidine increases GABAergic input to VTA GABAergic neurons and suppresses their activity, potentially contributing to its arousable sedative effects. Further studies are needed to establish the causal role of this neural circuit mechanism.",
         "ai_analyzed": true,
         "is_probe": false
+    },
+    {
+        "title": "Structure-informed characterization of a nanobody-based tandem-NanoBiT probe for homogeneous immunoassay to detect parathion in food.",
+        "journal": "Biosensors & bioelectronics",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.bios.2026.119342",
+        "abstract": "Functionalizing nanobodies (Nbs) is a crucial step in developing Nbs-based immunoassays. However, this process often requires empirical optimization of numerous parameters through iterative experiments. Herein, we show that combining structural modeling of AlphaFold2 with molecular dynamics (MD) simulations is capable of predicting the conformational changes in NanoBiT-fused anti-parathion Nbs (VHH9) before and after antigen binding. Using this approach, the effects of linker lengths and fragment orientation were explored, and the tandem-NanoBiT Nb that responds to antigen-driven luminescence enhancement can be rapidly screened, with the best one exhibiting a moderate luminescence signal and a high signal-to-noise (S/N) ratio. Subsequently, a homogeneous and bioluminescent tandem-NanoBiT immunoassay was developed for parathion detection. The assay achieved a limit of detection of 0.19 ng/mL in 10 min, demonstrating over 57-fold higher sensitivity than previously reported competitive Nbs-NanoBiT immunoassay and 7-fold reduction in detection time compared to ic-ELISA. The method also showed satisfactory results in practical applications, with average recoveries ranging from 91.3% to 107% in vegetable samples. Overall, this research proposed an intelligent strategy for preparing functionalized Nb reagents from a new perspective, highlighting its great potential for applications in food safety and environmental monitoring.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Observation of Nuclear Suppression in Coherent ϒ(1S) Photoproduction off Heavy Nuclei at the LHC.",
+        "journal": "Physical review letters",
+        "date": "2026",
+        "doi": "https://doi.org/10.1103/ll3f-l5xv",
+        "abstract": "The first measurement of coherent ϒ(1S) meson photoproduction off heavy nuclei is performed using ultraperipheral lead-lead collisions collected by the CMS experiment at a nucleon-nucleon center-of-mass energy of 5.02 TeV. The nuclear gluonic structure is probed at a nucleon momentum fraction of order x∼10^{-3}, determined by the kinematics of the process. Owing to the large ϒ(1S) mass, the measurement reaches the highest scale accessible so far through coherent vector-meson photoproduction, μ^{2}=22.4  GeV^{2}, where nonlinear quantum chromodynamics effects are expected to be minimal. In the ϒ(1S) rapidity range |y|<1, the ratio of the measured photoproduction cross section to a baseline model prediction that neglects nuclear effects is S_{ϒ(1S)}=0.25±0.06(stat)±0.02(syst), thereby demonstrating nuclear suppression in this process. Expressed in terms of a nuclear gluon suppression factor, the result yields R_{g}^{Pb}(x≈10^{-3},μ^{2}=22.4  GeV^{2})=0.55±0.12(stat)±0.02(syst). The measured S_{ϒ(1S)} is only slightly larger than the values previously reported for coherent ϕ photoproduction, despite the probed μ^{2} differing by approximately 2 orders of magnitude.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Observation of ϒ(1S)+Z Associated Production and Measurement of the Effective Double-Parton Scattering Cross Section in Proton-Proton Collisions at sqrt[s]=13  TeV.",
+        "journal": "Physical review letters",
+        "date": "2026",
+        "doi": "https://doi.org/10.1103/hgvs-jplv",
+        "abstract": "The observation of the associated production of an ϒ(1S) meson with a Z boson and a measurement of the ratio of its fiducial cross section to the fiducial cross section of the Z boson are presented. Both the ϒ(1S) meson and the Z boson are identified via decays into a pair of opposite-sign muons. The analysis is based on proton-proton (pp) collision data at sqrt[s]=13  TeV collected with the CMS detector in 2016-2018 and corresponding to an integrated luminosity of 138  fb^{-1}. Using the production of the Z boson decaying into four muons as a normalization channel, the ratio of the fiducial cross sections σ[pp→Z+ϒ(1S)]B(Z→μ^{+}μ^{-})B[ϒ(1S)→μ^{+}μ^{-}] to σ(pp→Z)B(Z→4μ) is measured to be R_{Z+ϒ(1S)}=[21.1±5.5(stat)±0.6(syst)]×10^{-3}, where stat and syst denote the statistical and systematic uncertainties, respectively. The result is used to extract the effective double-parton scattering cross section σ_{eff}=13.0_{-3.4}^{+7.7}  mb. In addition, for the first time, σ_{eff} is measured in bins of the transverse momentum of the ϒ(1S) meson or of the Z boson.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Matrix Effects on the Quantification of NanoLuc Bioluminescence in Ex Vivo Organ Homogenates.",
+        "journal": "Sensors (Basel, Switzerland)",
+        "date": "2026",
+        "doi": "https://doi.org/10.3390/s26196135",
+        "abstract": "Bioluminescent reporters and biosensors are widely used to quantify gene expression, evaluate delivery systems and assess biodistribution because they provide low-background readouts over a broad dynamic range. The NanoLuc-furimazine system is particularly attractive owing to its high brightness and stability. Ex vivo analysis of organ homogenates offers a controlled approach for measuring tissue-associated reporter activity, yet matrix-dependent effects are often overlooked in quantitative interpretation. Here, we systematically evaluated how mouse organ homogenates affect NanoLuc-furimazine measurements by spiking defined amounts of purified NanoLuc into different organ matrices. Across matrices, optical profiles, blank signals, calibration slopes, and estimated limits of detection and quantification varied, resulting in substantial differences in the measured NanoLuc signal. Further analysis showed that NanoLuc-independent furimazine luminescence arises from lysis-buffer components and protein-containing environments. Matrix-matched blank subtraction reduced background-related bias, whereas matrix-specific calibration demonstrated differences in analytical response, particularly for weak signals and optically dense samples. These findings highlight the extent of matrix-dependent variability in ex vivo NanoLuc measurements and support more accurate interpretation of reporter signals in delivery, biodistribution, biosensing, and gene-expression studies.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Development and Application of a Dual-Fluorescent Reporter Assay for Feline Infectious Peritonitis Virus RNA-Dependent RNA Polymerase Inhibitor Screening.",
+        "journal": "International journal of molecular sciences",
+        "date": "2026",
+        "doi": "https://doi.org/10.3390/ijms27198682",
+        "abstract": "Feline infectious peritonitis virus (FIPV) causes a fatal disease in cats that remains challenging to treat due to the absence of effective vaccines and limited antiviral therapies. Given its central role in viral replication and transcription, RNA-dependent RNA polymerase (RdRp) represents a highly promising and strategic target for antiviral drug development. To enable live-cell monitoring of RdRp activity without external substrates or cell disruption, we developed a biologically validated, cell-based dual-fluorescent reporter assay using green fluorescent protein and red fluorescent protein to evaluate RdRp-dependent reporter activity. Following validation with the well-characterized RdRp inhibitor ribavirin, the dual-reporter platform achieved a Z-factor of 0.54 and a Z'-factor of 0.61. The system was further utilized to assess the antiviral potential of fifteen alkaloid compounds. Among compounds evaluated, lycorine and lycorine hydrochloride exhibited potent inhibition of RdRp-dependent reporter activity and yielded IC<sub>50</sub> values of 2.83 ± 0.45 μM and 1.58 ± 0.20 μM, respectively. Further evaluation revealed that both compounds significantly reduced FIPV replication in infected cell. These findings identify lycorine and lycorine hydrochloride as promising anti-FIPV candidates and support further investigation of lycorine-class alkaloids as anti-coronaviral scaffolds. Together, the validated cell-based screening platform and whole-virus antiviral activity provide a foundation for advancing RdRp-targeted antiviral discovery against FIPV.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Wakefulness enhances somatic Ca²⁺ activity of microglia and astrocytes in the auditory cortex via distinct neuronal dependencies.",
+        "journal": "Cell calcium",
+        "date": "2026",
+        "doi": "https://doi.org/10.1016/j.ceca.2026.103204",
+        "abstract": "Astrocytes and microglia maintain cortical homeostasis via dynamic intracellular calcium (Ca<sup>2+</sup>) signaling, but their state-dependent activity and neuronal dependencies in the auditory cortex remain poorly understood. Here, using in vivo two-photon imaging, combined with cell-type-specific viral expression of GCaMP sensors, we monitored somatic Ca<sup>2+</sup> transients in awake and anesthetized mice. Wakefulness significantly enhanced the active cell fraction, frequency, and amplitude of somatic Ca<sup>2+</sup> events in both glial populations compared to the anesthetized state. Local application of tetrodotoxin (TTX) completely abolished microglial Ca<sup>2+</sup> activity, revealing an obligatory dependence on neuronal firing. In contrast, astrocytic Ca<sup>2+</sup> events persisted at similar frequencies but exhibited significantly reduced peak amplitudes, indicating partial autonomy coupled with neuronal modulation. Together, our findings demonstrate that wakefulness coordinately boosts glial Ca<sup>2+</sup> activity, while microglia and astrocytes rely on fundamentally distinct relationships with local neuronal networks.",
+        "ai_analyzed": true,
+        "is_probe": false
     }
 ]
