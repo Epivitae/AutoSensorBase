@@ -7991,5 +7991,18 @@
         "target": null,
         "color": "NIR",
         "type": "Photoswitchable Probe"
+    },
+    {
+        "title": "mechanoLight: A genetically encoded fluorescent biosensor for visualizing 5-HT2AR mechanotransduction in live cells.",
+        "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+        "date": "2026",
+        "doi": "https://doi.org/10.1073/pnas.2610816123",
+        "abstract": "G protein-coupled receptors (GPCRs) are pivotal sensors of the mechanical environment, yet how they sense and transduce physical stimuli into biochemical signals within live cells remains largely elusive. Here we introduce mechanoLight, a genetically encoded red fluorescent biosensor designed to report the mechanical activation of the 5-hydroxytryptamine 2A receptor (5-HT2AR). By incorporating a circularly permuted mApple (cp-mApple) into the third intracellular loop of 5-HT2AR with the optimized linker (m-linker), mechanoLight selectively detects conformational changes of 5-HT2AR in response to fluid shear stress while exhibiting minimal sensitivity to 5-HT. In sharp contrast, psychLight2, the previously developed green 5-HT2AR biosensor, primarily detects ligand-induced 5-HT2AR activation, suggesting that mechanoLight and psychLight2 capture distinct conformational modes of 5-HT2AR activation. Integrated analysis of linker-swapping experiments, structural modeling, and molecular dynamics simulations revealed that the flexibility of the m-linker underlies the mechanosensitivity of mechanoLight. We further extend this strategy to other mechanosensitive GPCRs, enabling visualization of their mechanoreactivity in live cells. The mechanoLight signal reflects the mechanosensitivity of 5-HT2AR, as shear stress-induced 5-HT2AR activation triggers Gα<sub>q</sub>-dependent signaling pathways, including phospholipase C (PLC) activation, intracellular Ca<sup>2+</sup> mobilization, and ERK phosphorylation. Mutational analysis further identifies N-terminal glycosylation and helix 8 as structural determinants of 5-HT2AR mechanotransduction. Together, our findings establish 5-HT2AR as a mechanotransducer and introduce mechanoLight as a powerful tool for deciphering the molecular principles of GPCR mechanotransduction in live cells.",
+        "is_new": true,
+        "reasoning": "Introduce mechanoLight, a genetically encoded red fluorescent biosensor for 5-HT2AR mechanotransduction.",
+        "probe_name": "mechanoLight",
+        "target": "5-HT2AR mechanotransduction",
+        "color": "Red",
+        "type": "GPCR Conformational Sensor"
     }
 ]
