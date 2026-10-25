@@ -8017,5 +8017,18 @@
         "target": null,
         "color": "Red",
         "type": "Reporter"
+    },
+    {
+        "title": "Ultrasonic Reporter of Kinase Activity.",
+        "journal": "ACS nano",
+        "date": "2026",
+        "doi": "https://doi.org/10.1021/acsnano.6c14484",
+        "abstract": "Protein kinases are an essential class of enzymes that regulate cellular signaling pathways, with their dysregulation implicated in pathologies such as cancer and neurodegenerative diseases. Despite the existence of high-performance fluorescent biosensors of kinase activity, it remains challenging to study the function and regulatory pathways of kinases in opaque tissues due to the limited tissue penetration of light. To address this limitation, we report an ultrasonic reporter of kinase activity (UReKA) designed to detect protein kinase A (PKA) activity by altering the ultrasound scattering of gas vesicles (GVs), a unique class of air-filled protein nanostructures. We engineer a GV shell protein to respond to PKA, demonstrate the functionality of UReKA both in purified protein format and expressed in mammalian cells, and showcase its capacity to monitor PKA signaling in response to pharmacological stimulation or genetic mutations. This approach provides a means to visualize cellular functional activity in opaque media, with broad potential for future applications in cancer biology, cellular development, and drug discovery.",
+        "is_new": true,
+        "reasoning": "Engineered UReKA, an ultrasonic reporter of kinase activity using gas vesicles.",
+        "probe_name": "UReKA",
+        "target": "Protein Kinase A",
+        "color": null,
+        "type": "Kinase Activity Sensor"
     }
 ]
