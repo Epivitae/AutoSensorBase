@@ -34108,5 +34108,23 @@
         "abstract": "Feeding horses excess crude protein (CP) leads to increased nitrogen excretion in urine and feces. However, evidence is lacking in how CP partitioning in the diet impacts nitrogen profiles in equine feces for potential fertilizer use. Thus, our retrospective pilot study objective was to determine if daily CP and neutral detergent soluble CP (NDSCP) intakes affected equine fecal nitrogen profiles. Three Quarter Horse geldings were fed 15 g dry matter (DM)/kg body weight (BW)/d of coastal Bermudagrass hay for 14 d (GRASS) then 15 g DM/kg BW/d of a 50:50 mixture of coastal Bermudagrass and alfalfa hay for 14 d (MIXED). A concentrate with 158 g CP/kg DM was fed daily (0.5 kg DM/d). Fresh feces were collected on Day 14 of each phase and frozen at -80°C, then analyzed by Dairy One (Ithaca, NY, USA). Intake data (g/kg BW/d) and fecal analyses (g/kg DM) were analyzed using a paired t-test and ANCOVA using CP intake as a covariate. The MIXED diet provided more NDSCP (2.04 g NDSCP/kg BW/d) than GRASS (1.50 g NDSCP/kg BW/d; P<0.001). Fecal ammonia concentration tended greater and fecal carbon concentration was less in MIXED versus GRASS (P=0.082; P=0.015). From the ANCOVA, MIXED had greater fecal ammonia (P=0.047) but less fecal-N (P=0.018) and organic-N (P=0.007) than GRASS. Increases in dietary NDSCP from greater CP intake increase excretion of nitrogen as fecal ammonia in a single hand-grab sample, which indicates that dietary protein fractionation may impact equine fecal nitrogen profiles and therefore, manure management.",
         "ai_analyzed": true,
         "is_probe": false
+    },
+    {
+        "title": "Metabolic Imaging of Optic Nerve Oligodendrocytes Following AAV-Mediated Sensor Delivery.",
+        "journal": "Methods in molecular biology (Clifton, N.J.)",
+        "date": "2027",
+        "doi": "https://doi.org/10.1007/978-1-0716-5671-6_11",
+        "abstract": "Oligodendrocytes are key regulators of white matter integrity, supporting rapid nerve conduction and sustaining axonal health. They engage in metabolic interactions with axons, yet their metabolic dynamics and specializations remain difficult to study in intact tissue. The optic nerve provides an accessible and well-structured white matter tract in which oligodendrocytes maintain their native association with axons and surrounding glia. Here, we present a protocol for targeted biosensor expression in oligodendrocytes of the optic nerve using intracerebroventricular injection of adeno-associated viruses (AAVs) at postnatal day 10 (P10). This approach enables imaging of oligodendrocyte metabolism in an intact 3D environment. As a use case, we demonstrate expression and application of a genetically encoded glucose sensor, allowing metabolic imaging to be combined with functional assays such as optic nerve electrophysiology. This method provides a flexible platform for studying oligodendrocyte physiology and metabolic adaptation in health and disease.",
+        "ai_analyzed": true,
+        "is_probe": false
+    },
+    {
+        "title": "Single- and Dual-Colour In Vivo Ca<sup>2+</sup> Imaging in Oligodendrocyte Precursor Cells and Neurons in Zebrafish.",
+        "journal": "Methods in molecular biology (Clifton, N.J.)",
+        "date": "2027",
+        "doi": "https://doi.org/10.1007/978-1-0716-5671-6_10",
+        "abstract": "In vivo time-lapse microscopy of genetically encoded biosensors allows for the optical interrogation of cell physiology. Here, we describe a protocol for single- and multi-channel imaging and analysis of Ca<sup>2+</sup> signalling dynamics in oligodendrocyte precursor cells and surrounding neurones using cell type-specific expression of genetically encoded Ca<sup>2+</sup> indicators. With this method, we can simultaneously investigate the spatiotemporal signalling activity in up to two cell types.",
+        "ai_analyzed": true,
+        "is_probe": false
     }
 ]
