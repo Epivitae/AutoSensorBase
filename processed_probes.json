@@ -8030,5 +8030,18 @@
         "target": "Protein Kinase A",
         "color": null,
         "type": "Kinase Activity Sensor"
+    },
+    {
+        "title": "Live-cell imaging of inter-organelle contacts using an integrated dimerization-dependent fluorescent protein reporter.",
+        "journal": "Journal of cell science",
+        "date": "2026",
+        "doi": "https://doi.org/10.1242/jcs.264858",
+        "abstract": "Organelles communicate with each other by building membrane contact sites (MCSs) via specialized protein-protein and/or protein-membrane interactions. Conventional light microscopy cannot distinguish organelles connected by MCSs from those merely juxtaposed. In addition, organelle contacts are dynamic, yet only a limited number of tools are available to monitor MCSs in living cells. In this study, we developed a series of reporters based on dimerization-dependent fluorescent proteins (ddFP) to visualize, quantify and follow inter-organelle contacts. We first generated an integrated system specifically designed to study contacts between late endocytic compartments (late endosomes and lysosomes) and the endoplasmic reticulum (ER). This system utilizes a single plasmid coding for the two complementary ddFP components: green A (GA) and green B (GB) targeted to the ER and late endosomes and lysosomes (LE/Lys), respectively. This construct enabled the generation of a stable reporter cell line suitable for semi-quantitative imaging. The ddFP reporter, which we called ddFP LELYS-ER, did not perturb endogenous LE/Lys-ER contacts in stable cells, and detected changes in the number of LE/Lys-ER contacts, for example, upon downregulation of the ER-resident VAP tether protein family, or under conditions of lysosomal damage. Moreover, live-cell imaging revealed that LE/Lys-ER contacts have distinct shapes, mobilities and lifetimes. Finally, using the same vector design, we generated two additional integrated reporter systems adapted to the study of contacts between the ER and the plasma membrane, and between the ER and mitochondria.",
+        "is_new": true,
+        "reasoning": "Developed a series of ddFP-based reporters to visualize inter-organelle contacts.",
+        "probe_name": "ddFP LELYS-ER",
+        "target": "Inter-organelle contacts",
+        "color": "Green",
+        "type": "Contact Site Sensor"
     }
 ]
